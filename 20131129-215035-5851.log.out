@@ -1,0 +1,436 @@
+[4hAWSWeb:~# /usr/bin/faillog -r username
+bash: /usr/bin/faillog: command not found
+AWSWeb:~# su  username
+[4l[4hAWSWeb:~# su [1D[1P[1D[1P[1D[1Psu - username
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# newusr
+bash: newusr: command not found
+AWSWeb:~# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# add user [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Puser kismet
+[4lAdding user `kismet' ...
+Adding new group `kismet' (1001) ...
+Adding new user `kismet' (1001) with group `kismet' ...
+Creating home directory `/home/kismet' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for kismet
+Enter the new value, or press ENTER for the default
+        Username []: kismet
+        Full Name []: kismet
+        Room Number []: 1
+        Work Phone []: swag[1D[1P[1D[1P[1D[1P[1D[1Pr00t
+        Home Phone []: r00t
+        Mobile Phone []: r00t
+        Country []: r00t
+        City []: r00t
+        Language []: en
+        Favorite movie []: r[1D[1Ps[1D[1Phackers
+        Other []: r00t
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kismet' ...
+Deleting group `kismet' (1001) ...
+Deleting home directory `/home/kismet' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# add[1D[1P[1D[1P[1D[1Psudo adduser <username> sudo[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pkismet 
+bash: sudo: command not found
+AWSWeb:~# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# adduser kismet
+[4lAdding user `kismet' ...
+Adding new group `kismet' (1001) ...
+Adding new user `kismet' (1001) with group `kismet' ...
+Creating home directory `/home/kismet' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for kismet
+Enter the new value, or press ENTER for the default
+        Username []: kismet
+        Full Name []: kismet
+        Room Number []: 1
+        Work Phone []: 666-666-6661
+        Home Phone []: 666-666-6662
+        Mobile Phone []: 666-666-6663
+        Country []: us[1D[1P[1D[1PSUS
+        City []: s[1D[1PV[1D[1P^C
+[4hAWSWeb:~# [Kadduser kismet
+[4lAdding user `kismet' ...
+Adding new group `kismet' (1001) ...
+Adding new user `kismet' (1001) with group `kismet' ...
+Creating home directory `/home/kismet' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for kismet
+Enter the new value, or press ENTER for the default
+        Username []: kismet
+        Full Name []: kismet
+        Room Number []: 1
+        Work Phone []: 6666666661
+        Home Phone []: 6666666662
+        Mobile Phone []: 6666666663
+        Country []: US
+        City []: Ashburn
+        Language []: US[1D[1P[1D[1PEnglish
+        Favorite movie []: Hackers
+        Other []: Hackers
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kismet' ...
+Deleting group `kismet' (1001) ...
+Deleting home directory `/home/kismet' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# passwd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppassw[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# s[1D[1Papt-get install dstat
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  dstat 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 724.2kB of archives.
+After this operation, 1592.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main dstat 0.37-5 [724.2kB]
+Fetched 724.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking dstat (from .../archives/dstat_0.37-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up dstat (0.37-5) ...
+[4hAWSWeb:/# dstat
+[4ldstat: Segmentation fault
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd richard
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# cd r[1D[1Pusr
+[4l[4hAWSWeb:/usr# ls
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/usr# cd bine
+[4lbash: cd: bine: No such file or directory
+[4hAWSWeb:/usr# [Kcd bine[1D[1P
+[4l[4hAWSWeb:/usr/bin# ;s
+bash: s: command not found
+AWSWeb:/usr/bin# ls
+[4lid                     omshell                nawk                   
+cksum                  vi                     snice                  
+python2.5              which                  mkbimage               
+pg                     tput                   gpg                    
+traceroute-nanog.db    debconf                top                    
+ptx                    lft.db                 wc                     
+setarch                whiptail               captoinfo              
+pr                     printf                 diff3                  
+sdiff                  savelog                reset                  
+fdformat               ssh-agent              edit                   
+rsh                    vimtutor               nohup                  
+passwd                 rgrep                  vim.tiny               
+rview                  vim.basic              ipcrm                  
+helpztags              skill                  gpgv                   
+tsort                  logname                ddate                  
+test                   run-mailcap            rpcinfo                
+od                     watch                  setsid                 
+diff                   lastlog                dpkg-split             
+ipcs                   head                   rvim                   
+ionice                 pdb2.5                 setterm                
+lastb                  env                    wget                   
+cmp                    lzma                   zdump                  
+xauth                  find                   apt-config             
+last                   rename.ul              du                     
+ex                     whereis                locale                 
+vim                    mbchk                  ssh                    
+traceroute.db          pydoc2.5               awk                    
+ssh-vulnkey            debconf-communicate    perl5.10.0             
+apt-mark               linux64                mawk                   
+script                 dpkg                   pygettext2.5           
+ssh-argv0              free                   debconf-show           
+shred                  pkill                  chage                  
+editor                 cut                    debconf-apt-progress   
+fold                   infotocap              sg                     
+expand                 infocmp                traceroute-nanog       
+users                  groups                 gpg-convert-from-106   
+touch                  rev                    pgrep                  
+flock                  traceproto.db          chcon                  
+w                      dpkg-trigger           sort                   
+traceproto             unexpand               seq                    
+sensible-editor        sha1sum                oldfind                
+tail                   nice                   unlzma                 
+tic                    view                   md5sum                 
+udevinfo               lspgpot                yes                    
+renice                 pwdx                   sum                    
+chkdupexe              expiry                 python                 
+[                      tracert.db             stat                   
+uptime                 chfn                   line                   
+chattr                 apt-get                install                
+tcptraceroute          mkfifo                 sha224sum              
+basename               tr                     pygettext              
+addpart                taskset                logger                 
+debconf-escape         lzcat                  ssh-keyscan            
+newgrp                 pydoc                  tracert                
+lft                    apt-cdrom              sensible-browser       
+catchsegv              tabs                   mesg                   
+sha256sum              namei                  xargs                  
+dircolors              rlogin                 gpasswd                
+tset                   paste                  faillog                
+pinky                  i386                   rcp                    
+see                    ldd                    clear                  
+pdb                    mcookie                vmstat                 
+gpg-zip                getopt                 scriptreplay           
+traceroute6            dirname                linux32                
+lsattr                 apt-key                base64                 
+compose                tload                  sftp                   
+pyversions             w.procps               scp                    
+delpart                pmap                   ssh-keygen             
+tee                    whoami                 runcon                 
+wall                   dpkg-query             split                  
+slogin                 factor                 sha384sum              
+ncursesw5-config       fmt                    sha512sum              
+clear_console          debconf-copydb         dpkg-deb               
+traceroute             hostid                 sensible-pager         
+print                  ssh-add                tty                    
+join                   gvimtutor              ncurses5-config        
+tcptraceroute.db       unlink                 link                   
+chsh                   iconv                  who                    
+pager                  printenv               partx                  
+shuf                   pathchk                X11                    
+debconf-set-selections file                   nl                     
+toe                    localedef              gpgsplit               
+bashbug                getconf                tzselect               
+csplit                 md5sum.textutils       expr                   
+chrt                   comm                   uniq                   
+vimdiff                ssh-copy-id            xxd                    
+traceroute6.db         apt-cache              slabtop                
+tac                    perl                   getent                 
+dstat                  
+[4hAWSWeb:/usr/bin# dstat
+[4ldstat: Segmentation fault
+[4hAWSWeb:/usr/bin# pwdx
+bash: pwdx: command not found
+AWSWeb:/usr/bin# gpasswd
+bash: gpasswd: command not found
+AWSWeb:/usr/bin# cd t[1D[1Pruncon
+[4l-bash: cd: /usr/bin/runcon: Not a directory
+[4hAWSWeb:/usr/bin# clear
+[4lc[4hAWSWeb:/usr/bin# cd ..
+[4l[4hAWSWeb:/usr# ls
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/usr# cd local
+[4l[4hAWSWeb:/usr/local# ls
+[4lbin     src     include sbin    etc     lib     man     share   games   
+[4hAWSWeb:/usr/local# cd etc
+[4l[4hAWSWeb:/usr/local/etc# ls
+[4l[4hAWSWeb:/usr/local/etc# cd [1D[1P[1D[1P[1D[1Pls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 22:02 .
+drwxr-xr-x 1 root root 4096 2013-11-29 22:02 ..
+[4hAWSWeb:/usr/local/etc# cd ..
+[4l[4hAWSWeb:/usr/local# clear
+[4lc[4hAWSWeb:/usr/local# l[1D[1Pc[1D[1Pcd .././/.[1D[1P[1D[1P[1D[1P./
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# cd selinux
+[4l[4hAWSWeb:/selinux# ls
+[4l[4hAWSWeb:/selinux# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 22:02 .
+drwxr-xr-x 1 root root 4096 2013-11-29 22:02 ..
+[4hAWSWeb:/selinux# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# d proc
+bash: d: command not found
+AWSWeb:/# cd proc
+[4l[4hAWSWeb:/proc# ls
+[4lasound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          
+acpi          fb            mtrr          irq           cgroups       sys           bus           tty           driver        fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    
+kcore         modules       diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    stat          partitions    cpuinfo       devices       locks         
+kmsg          mounts        execdomains   cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             2             3             4             5             
+6             7             39            41            42            170           207           208           209           210           740           741           929           1015          1087          
+1554          1958          1967          1989          2006          2008          2010          2012          2014          2015          2030          2032          2041          
+[4hAWSWeb:/proc# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# cd sys
+[4l[4hAWSWeb:/sys# ls
+[4lfs       devices  bus      class    firmware kernel   power    module   block    
+[4hAWSWeb:/sys# cd power
+[4l[4hAWSWeb:/sys/power# ls
+[4lstate      disk       resume     image_size 
+[4hAWSWeb:/sys/power# cd ..
+[4l[4hAWSWeb:/sys# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# cd boot
+[4l[4hAWSWeb:/boot# ls
+[4linitrd.img-2.6.26-2-686.bak grub                        System.map-2.6.26-2-686     initrd.img-2.6.26-2-686     vmlinuz-2.6.26-2-686        config-2.6.26-2-686         
+[4hAWSWeb:/boot# cd ../dev
+[4l[4hAWSWeb:/dev# ls
+[4lvcsa6              vcs6               vcsa5              vcs5               vcsa4              vcs4               vcsa2              vcs2               vcsa3              vcs3               vcsa1              
+vcs1               log                xconsole           loop7              loop6              loop5              loop4              loop3              loop2              loop1              snd                
+sndstat            agpgart            root               MAKEDEV            net                loop0              ppp                shm                pts                core               stderr             
+stdout             stdin              fd                 initctl            sda5               sda2               sda1               sda                cdrom              disk               hda                
+bsg                fd0                vcsa               vcs                ttyS3              ttyS2              ttyS1              ttyS0              tty9               tty8               tty7               
+tty63              tty62              tty61              tty60              tty6               tty59              tty58              tty57              tty56              tty55              tty54              
+tty53              tty52              tty51              tty50              tty5               tty49              tty48              tty47              tty46              tty45              tty44              
+tty43              tty42              tty41              tty40              tty4               tty39              tty38              tty37              tty36              tty35              tty34              
+tty33              tty32              tty31              tty30              tty3               tty29              tty28              tty27              tty26              tty25              tty24              
+tty23              tty22              tty21              tty20              tty2               tty19              tty18              tty17              tty16              tty15              tty14              
+tty13              tty12              tty11              tty10              tty1               tty0               tty                ptmx               rtc                rtc0               snapshot           
+psaux              network_throughput network_latency    hpet               cpu_dma_latency    zero               urandom            random             port               mem                kmsg               
+kmem               full               char               input              ram9               ram8               ram7               ram6               ram5               ram4               ram3               
+ram2               ram15              ram14              ram13              ram12              ram11              ram10              ram1               block              ram0               null               
+console            
+[4hAWSWeb:/dev# cd[1D[1P[1D[1Pcd /[1D[1P../bin
+[4l[4hAWSWeb:/bin# s[1D[1Pls -al
+[4ldrwxr-xr-x 1 root root   4096 2013-11-29 22:03 .
+drwxr-xr-x 1 root root   4096 2013-11-29 22:03 ..
+-rwxr-xr-x 1 root root    946 2009-11-06 11:09 which
+-rwxr-xr-x 1 root root  69284 2009-11-06 11:09 cp
+-rwxr-xr-x 1 root root  23504 2009-11-06 11:09 sleep
+-rwxr-xr-x 1 root root  26860 2009-11-06 11:09 cat
+-rwxr-xr-x 1 root root  23992 2009-11-06 11:09 uname
+-rwxr-xr-x 1 root root  53420 2009-11-06 11:09 gzip
+-rwxr-xr-x 1 root root  26800 2009-11-06 11:09 pwd
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 dir
+-rwxr-xr-x 1 root root  13148 2009-11-06 11:09 kill
+-rwxr-xr-x 1 root root   1731 2009-11-06 11:09 zless
+-rwxr-xr-x 1 root root   4880 2009-11-06 11:09 tailf
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 true
+-rwxr-xr-x 1 root root  40468 2009-11-06 11:09 sed
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zcat
+-rwxr-xr-x 1 root root  29344 2009-11-06 11:09 mkdir
+-rwxr-xr-x 1 root root   4164 2009-11-06 11:09 lsmod
+-rwxr-xr-x 1 root root  28148 2009-11-06 11:09 mknod
+-rwxr-xr-x 1 root root   4950 2009-11-06 11:09 znew
+-rwxr-xr-x 1 root root 100468 2009-11-06 11:09 grep
+-rwxr-xr-x 1 root root  76276 2009-11-06 11:09 mv
+-rwxr-xr-x 1 root root   4428 2009-11-06 11:09 dmesg
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 gunzip
+-rwxr-xr-x 1 root root  45016 2009-11-06 11:09 df
+-rwxr-xr-x 1 root root   4516 2009-11-06 11:09 mountpoint
+-rwxr-xr-x 1 root root 700492 2009-11-06 11:09 bash
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 rbash -> /bin/bash
+-rwxr-xr-x 1 root root  55344 2009-11-06 11:09 fgrep
+-rwxr-xr-x 1 root root  35236 2009-11-06 11:09 login
+lrwxrwxrwx 1 root root     16 2009-11-06 11:09 pidof -> /sbin/killall5
+-rwxr-xr-x 1 root root   4422 2009-11-06 11:09 zdiff
+-rwxr-xr-x 1 root root  42744 2009-11-06 11:09 chmod
+-rwxr-xr-x 1 root root  24228 2009-11-06 11:09 echo
+-rwxr-xr-x 1 root root     67 2009-11-06 11:09 zcmp
+-rwxr-xr-x 1 root root 103048 2009-11-06 11:09 netstat
+-rwxr-xr-x 1 root root  11380 2009-11-06 11:09 run-parts
+-rwxr-xr-x 1 root root  42772 2009-11-06 11:09 touch
+-rwxr-xr-x 1 root root  33172 2009-11-06 11:09 readlink
+-rwxr-xr-x 1 root root  45344 2009-11-06 11:09 chgrp
+-rwxr-xr-x 1 root root  75724 2009-11-06 11:09 ps
+-rwxr-xr-x 1 root root  47356 2009-11-06 11:09 chown
+-rwxr-xr-x 1 root root  23480 2009-11-06 11:09 rmdir
+-rwxr-xr-x 1 root root  92276 2009-11-06 11:09 egrep
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 vdir
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 sh -> /bin/bash
+-rwxr-xr-x 1 root root  64112 2009-11-06 11:09 mount
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zegrep
+-rwxr-xr-x 1 root root  27424 2009-11-06 11:09 more
+-rwxr-xr-x 1 root root   4896 2009-11-06 11:09 zgrep
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 false
+-rwxr-xr-x 1 root root   2414 2009-11-06 11:09 zmore
+-rwxr-xr-x 1 root root   5864 2009-11-06 11:09 gzexe
+lrwxrwxrwx 1 root root     20 2009-11-06 11:10 mt -> /bin/mt-gnu
+-rwxr-xr-x 1 root root   5668 2009-11-06 11:09 tempfile
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 ls
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 hostname
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zfgrep
+-rwxr-xr-x 1 root root  27108 2009-11-06 11:09 su
+-rwxr-xr-x 1 root root  38652 2009-11-06 11:09 ln
+-rwxr-xr-x 1 root root 109260 2009-11-06 11:09 cpio
+-rwxr-xr-x 1 root root  46832 2009-11-06 11:09 rm
+-rwxr-xr-x 1 root root   2013 2009-11-06 11:09 zforce
+-rwxr-xr-x 1 root root  30788 2009-11-06 11:09 ping
+-rwxr-xr-x 1 root root  44088 2009-11-06 11:09 umount
+-rwxr-xr-x 1 root root  47892 2009-11-06 11:09 dd
+-rwxr-xr-x 1 root root  28236 2009-11-06 11:09 mt-gnu
+-rwxr-xr-x 1 root root 236884 2009-11-06 11:09 tar
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 dnsdomainname
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 uncompress
+-rwxr-xr-x 1 root root  55052 2009-11-06 11:09 date
+-rwxr-xr-x 1 root root  26616 2009-11-06 11:09 ping6
+-rwxr-xr-x 1 root root  48864 2009-11-06 11:09 stty
+-rwxr-xr-x 1 root root  22128 2009-11-06 11:09 sync
+-rwxr-xr-x 1 root root   6672 2009-11-06 11:09 mktemp
+[4hAWSWeb:/bin# netstat
+bash: netstat: command not found
+AWSWeb:/bin# netstat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/netstat
+bash: /bin/netstat: command not found
+AWSWeb:/bin# cd ..
+[4l[4hAWSWeb:/# cd ..[1D[1P[1D[1P[1D[1P root
+[4l[4hAWSWeb:~# /s[1D[1Pbin/netstat -al
+bash: /bin/netstat: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# su
+[4l[4hAWSWeb:~# su adduser kismet
+[4l[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# reboot
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Fri Nov 29 22:05:52 2013):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# ks
+bash: ks: command not found
+localhost:~# ls
+[4l[4hlocalhost:~# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 22:06 .
+drwxr-xr-x 1 root root 4096 2013-11-29 22:06 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# cd ..
+[4l[4hlocalhost:/# cd ..
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hlocalhost:/# cd var
+[4l[4hlocalhost:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+[4hlocalhost:/var# cd tmp
+[4l[4hlocalhost:/var/tmp# ls
+[4l[4hlocalhost:/var/tmp# sudo
+bash: sudo: command not found
+localhost:/var/tmp# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Fri Nov 29 22:06:26 2013):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# 

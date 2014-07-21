@@ -1,0 +1,100 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# make
+bash: make: command not found
+AWSWeb:/# apt
+bash: apt: command not found
+AWSWeb:/# pat-get
+bash: pat-get: command not found
+AWSWeb:/# apt-*get
+bash: apt-*get: command not found
+AWSWeb:/# [Kapt-*get[1D[1D[1D[1D[1P
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# apt-get upgrade
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# [Kapt-get upgrade[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pinstall perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 100.2kB of archives.
+After this operation, 220.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.20-2 [100.2kB]
+Fetched 100.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_0.20-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.20-2) ...
+[4hAWSWeb:/# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:/# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# ssh
+[4lusage: ssh [-1246AaCfgKkMNnqsTtVvXxY] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-e escape_char] [-F configfile]
+           [-i identity_file] [-L [bind_address:]port:host:hostport]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-R [bind_address:]port:host:hostport] [-S ctl_path]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+[4hAWSWeb:/# ssh ssh root@95.170.83.164
+[4lThe authenticity of host 'ssh (23.135.215.100)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ssh' (RSA) to the list of known hosts.
+root@ssh's password: ^C
+[4hAWSWeb:/# 
+[4lThe authenticity of host '95.170.83.164ssh (48.147.192.175)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? 
+Warning: Permanently added '95.170.83.164ssh' (RSA) to the list of known hosts.
+root@95.170.83.164ssh's password: ^C
+[4hAWSWeb:/# 
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+[4lThe authenticity of host '95.170.83.164 (95.170.83.164)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? 
+Warning: Permanently added '95.170.83.164' (RSA) to the list of known hosts.
+root@95.170.83.164's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Mon Dec 16 06:49:18 2013 from 192.168.9.4
+[4hlocalhost:~# top
+bash: top: command not found
+localhost:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# a
+bash: a: command not found
+localhost:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

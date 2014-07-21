@@ -1,0 +1,849 @@
+[4hAWSWeb:~# passwd 
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 14:41:13 up 18 days, 16:45,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# w
+[4l 14:41:57 up 18 days, 16:45,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# uptime
+[4l 14:44:41 up 18 days, 16:48,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# 
+AWSWeb:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hAWSWeb:~# ps au [1D[1Px | less
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Jan28   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Jan28   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan28   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Jan28   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Jan28   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Jan28   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Jan28   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Jan28   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Jan28   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Jan28   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Jan28   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Jan28   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Jan28   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Jan28   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Jan28   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Jan28   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Jan28   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Jan28   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Jan28   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan30   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:40   0:00 -bash
+root      5510  0.0  0.1   2341   937 pts/0    R+   14:40   0:00 ps aux | less
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# ps -[1D[1Paux | less
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Jan28   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Jan28   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan28   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Jan28   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Jan28   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Jan28   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Jan28   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Jan28   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Jan28   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Jan28   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Jan28   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Jan28   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Jan28   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Jan28   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Jan28   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Jan28   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Jan28   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Jan28   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Jan28   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan30   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:40   0:00 -bash
+root      5510  0.0  0.1   2341   937 pts/0    R+   14:40   0:00 ps aux | less
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# ps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Jan28   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Jan28   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan28   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Jan28   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Jan28   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Jan28   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Jan28   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Jan28   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Jan28   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Jan28   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Jan28   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Jan28   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Jan28   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Jan28   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Jan28   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Jan28   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Jan28   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Jan28   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Jan28   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan30   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:40   0:00 -bash
+root      5510  0.0  0.1   2341   937 pts/0    R+   14:40   0:00 ps aux
+[4hAWSWeb:~# w
+[4l 14:51:53 up 18 days, 16:55,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hAWSWeb:~# traceroute 59.53.94.9
+bash: traceroute: command not found
+AWSWeb:~# w
+[4l 14:54:20 up 18 days, 16:58,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# cat etc[1D[1P[1D[1P[1D[1P/etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# passwd 
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 14:57:28 up 18 days, 17:1,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# ls -ltra
+[4ldrwxr-xr-x 1 root root 4096 2013-02-12 14:58 .
+drwxr-xr-x 1 root root 4096 2013-02-12 14:58 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# vi .bashrc
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:~# vim .bashrc
+bash: vim: command not found
+AWSWeb:~# set [1D[1P[1D[1P[1D[1P[1D[1Pexport TERM=XTERM[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pxterm
+[4l[4hAWSWeb:~# vi .bashrc
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:~# w
+[4l 14:59:21 up 18 days, 17:3,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# w
+[4l 15:00:40 up 18 days, 17:4,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# kk[2D[Kw[1D[Kw[1D[Kvi .bashrc[10D[Kexport TERM=xterm[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P=[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pjoe .bashrc
+bash: joe: command not found
+AWSWeb:~# w
+[4l 15:01:44 up 18 days, 17:5,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# set -g default-terminal xterm
+[4l[4hAWSWeb:~# [Kset -g default-terminal xterm[29D[Kw[1D[Kjoe .bashrc[11D[Kkk[2D[Kw[1D[Kw[1D[Kvi .bashrc
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:~# cat .bashrc
+[4lcat: /root/.bashrc: No such file or directory
+[4hAWSWeb:~# ls -ltra
+[4ldrwxr-xr-x 1 root root 4096 2013-02-12 15:02 .
+drwxr-xr-x 1 root root 4096 2013-02-12 15:02 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# ls -l /root/.bashrc
+[4ldrwxr-xr-x 1 root root 4096 2013-02-12 15:02 .
+drwxr-xr-x 1 root root 4096 2013-02-12 15:02 ..
+[4hAWSWeb:~# w
+[4l 15:04:20 up 18 days, 17:8,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# cat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:~# w
+[4l 15:05:11 up 18 days, 17:9,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hAWSWeb:~# date
+[4lTue Feb 12 15:05:22 UTC 2013
+[4hAWSWeb:~# crontab -l
+bash: crontab: command not found
+AWSWeb:~# echo $SHELL
+[4l$SHELL
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# su - root
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# ls -ltra
+[4ldrwxr-xr-x 1 root root 4096 2013-02-12 15:05 .
+drwxr-xr-x 1 root root 4096 2013-02-12 15:05 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cat .bashrc
+[4lcat: /root/.bashrc: No such file or directory
+[4hAWSWeb:~# useradd
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# w
+[4l 15:07:00 up 18 days, 17:10,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hAWSWeb:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hAWSWeb:~# ls -l /
+[4ldrwxr-xr-x 1 root root  4096 2013-02-12 15:07 .
+drwxr-xr-x 1 root root  4096 2013-02-12 15:07 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# df -k
+bash: df: command not found
+AWSWeb:~# df -h
+bash: df: command not found
+AWSWeb:~# cd bin[1D[1P[1D[1P[1D[1Pbin[1D[1P[1D[1P[1D[1P/bin
+[4l[4hAWSWeb:/bin# ls -l
+[4ldrwxr-xr-x 1 root root   4096 2013-02-12 15:07 .
+drwxr-xr-x 1 root root   4096 2013-02-12 15:07 ..
+-rwxr-xr-x 1 root root    946 2009-11-06 11:09 which
+-rwxr-xr-x 1 root root  69284 2009-11-06 11:09 cp
+-rwxr-xr-x 1 root root  23504 2009-11-06 11:09 sleep
+-rwxr-xr-x 1 root root  26860 2009-11-06 11:09 cat
+-rwxr-xr-x 1 root root  23992 2009-11-06 11:09 uname
+-rwxr-xr-x 1 root root  53420 2009-11-06 11:09 gzip
+-rwxr-xr-x 1 root root  26800 2009-11-06 11:09 pwd
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 dir
+-rwxr-xr-x 1 root root  13148 2009-11-06 11:09 kill
+-rwxr-xr-x 1 root root   1731 2009-11-06 11:09 zless
+-rwxr-xr-x 1 root root   4880 2009-11-06 11:09 tailf
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 true
+-rwxr-xr-x 1 root root  40468 2009-11-06 11:09 sed
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zcat
+-rwxr-xr-x 1 root root  29344 2009-11-06 11:09 mkdir
+-rwxr-xr-x 1 root root   4164 2009-11-06 11:09 lsmod
+-rwxr-xr-x 1 root root  28148 2009-11-06 11:09 mknod
+-rwxr-xr-x 1 root root   4950 2009-11-06 11:09 znew
+-rwxr-xr-x 1 root root 100468 2009-11-06 11:09 grep
+-rwxr-xr-x 1 root root  76276 2009-11-06 11:09 mv
+-rwxr-xr-x 1 root root   4428 2009-11-06 11:09 dmesg
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 gunzip
+-rwxr-xr-x 1 root root  45016 2009-11-06 11:09 df
+-rwxr-xr-x 1 root root   4516 2009-11-06 11:09 mountpoint
+-rwxr-xr-x 1 root root 700492 2009-11-06 11:09 bash
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 rbash -> /bin/bash
+-rwxr-xr-x 1 root root  55344 2009-11-06 11:09 fgrep
+-rwxr-xr-x 1 root root  35236 2009-11-06 11:09 login
+lrwxrwxrwx 1 root root     16 2009-11-06 11:09 pidof -> /sbin/killall5
+-rwxr-xr-x 1 root root   4422 2009-11-06 11:09 zdiff
+-rwxr-xr-x 1 root root  42744 2009-11-06 11:09 chmod
+-rwxr-xr-x 1 root root  24228 2009-11-06 11:09 echo
+-rwxr-xr-x 1 root root     67 2009-11-06 11:09 zcmp
+-rwxr-xr-x 1 root root 103048 2009-11-06 11:09 netstat
+-rwxr-xr-x 1 root root  11380 2009-11-06 11:09 run-parts
+-rwxr-xr-x 1 root root  42772 2009-11-06 11:09 touch
+-rwxr-xr-x 1 root root  33172 2009-11-06 11:09 readlink
+-rwxr-xr-x 1 root root  45344 2009-11-06 11:09 chgrp
+-rwxr-xr-x 1 root root  75724 2009-11-06 11:09 ps
+-rwxr-xr-x 1 root root  47356 2009-11-06 11:09 chown
+-rwxr-xr-x 1 root root  23480 2009-11-06 11:09 rmdir
+-rwxr-xr-x 1 root root  92276 2009-11-06 11:09 egrep
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 vdir
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 sh -> /bin/bash
+-rwxr-xr-x 1 root root  64112 2009-11-06 11:09 mount
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zegrep
+-rwxr-xr-x 1 root root  27424 2009-11-06 11:09 more
+-rwxr-xr-x 1 root root   4896 2009-11-06 11:09 zgrep
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 false
+-rwxr-xr-x 1 root root   2414 2009-11-06 11:09 zmore
+-rwxr-xr-x 1 root root   5864 2009-11-06 11:09 gzexe
+lrwxrwxrwx 1 root root     20 2009-11-06 11:10 mt -> /bin/mt-gnu
+-rwxr-xr-x 1 root root   5668 2009-11-06 11:09 tempfile
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 ls
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 hostname
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zfgrep
+-rwxr-xr-x 1 root root  27108 2009-11-06 11:09 su
+-rwxr-xr-x 1 root root  38652 2009-11-06 11:09 ln
+-rwxr-xr-x 1 root root 109260 2009-11-06 11:09 cpio
+-rwxr-xr-x 1 root root  46832 2009-11-06 11:09 rm
+-rwxr-xr-x 1 root root   2013 2009-11-06 11:09 zforce
+-rwxr-xr-x 1 root root  30788 2009-11-06 11:09 ping
+-rwxr-xr-x 1 root root  44088 2009-11-06 11:09 umount
+-rwxr-xr-x 1 root root  47892 2009-11-06 11:09 dd
+-rwxr-xr-x 1 root root  28236 2009-11-06 11:09 mt-gnu
+-rwxr-xr-x 1 root root 236884 2009-11-06 11:09 tar
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 dnsdomainname
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 uncompress
+-rwxr-xr-x 1 root root  55052 2009-11-06 11:09 date
+-rwxr-xr-x 1 root root  26616 2009-11-06 11:09 ping6
+-rwxr-xr-x 1 root root  48864 2009-11-06 11:09 stty
+-rwxr-xr-x 1 root root  22128 2009-11-06 11:09 sync
+-rwxr-xr-x 1 root root   6672 2009-11-06 11:09 mktemp
+[4hAWSWeb:/bin# sh
+[4l[4hAWSWeb:/bin# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/bin# env
+bash: env: command not found
+AWSWeb:/bin# cd /etc
+[4l[4hAWSWeb:/etc# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-12 15:08 .
+drwxr-xr-x 1 root root  4096 2013-02-12 15:08 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+[4hAWSWeb:/etc# it[1D[1Pptables -L
+bash: iptables: command not found
+AWSWeb:/etc# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/etc# netstat -t
+bash: netstat: command not found
+AWSWeb:/etc# ps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Jan28   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Jan28   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan28   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Jan28   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Jan28   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Jan28   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Jan28   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Jan28   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Jan28   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Jan28   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Jan28   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Jan28   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Jan28   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Jan28   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Jan28   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Jan28   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Jan28   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Jan28   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Jan28   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan30   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:40   0:00 -bash
+root      5510  0.0  0.1   2341   937 pts/0    R+   14:40   0:00 ps aux
+[4hAWSWeb:/etc# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hAWSWeb:/etc# ssh root@59.53.94.9
+[4lThe authenticity of host '59.53.94.9 (59.53.94.9)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '59.53.94.9' (RSA) to the list of known hosts.
+root@59.53.94.9's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Mon Feb 11 04:57:03 2013 from 192.168.9.4
+[4hlocalhost:~# w
+[4l 15:09:12 up 18 days, 17:13,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hlocalhost:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hlocalhost:~# w
+[4l 15:09:35 up 18 days, 17:13,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hlocalhost:~# ssh root@115.236.23.145
+[4lThe authenticity of host '115.236.23.145 (115.236.23.145)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '115.236.23.145' (RSA) to the list of known hosts.
+root@115.236.23.145's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Mon Feb 11 04:57:48 2013 from 192.168.9.4
+[4hlocalhost:~# k[1D[Kssh root@115.236.23.145
+localhost:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:~# nmap
+bash: nmap: command not found
+localhost:~# w
+[4l 15:10:52 up 18 days, 17:14,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# clear
+[4lc[4hlocalhost:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# ec[1D[1Pxit
+[4lcConnection to server closed.
+[4hlocalhost:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# [Klogout
+[4lcConnection to server closed.
+[4hlocalhost:~# [Klogout
+[4lcConnection to server closed.
+[4hlocalhost:~# w
+[4l 15:11:46 up 18 days, 17:15,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   14:40    0.09   0.05   0.05 w
+[4hlocalhost:~# last
+[4lroot	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:12 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:12 - 05:13 (00:03)
+root	pts/0	59.53.94.9	Tue Feb 12 05:13 - 05:13 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:09)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:39 (00:03)
+root	pts/0	115.236.23.145	Tue Feb 12 05:39 - 05:40 (00:10)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:06)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:09 (00:07)
+root	pts/0	218.26.89.179	Tue Feb 12 12:09 - 12:10 (00:05)
+root	pts/0	218.26.89.179	Tue Feb 12 12:10 - 12:10 (00:07)
+
+[4hlocalhost:~# 

@@ -1,0 +1,459 @@
+[4hAWSWeb:~# ls 
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# sudo -a
+bash: sudo: command not found
+AWSWeb:~# d[1D[1Psudo
+bash: sudo: command not found
+AWSWeb:~# ps -x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -x
+[4hAWSWeb:~# mkdir bin lib tmp
+[4l[4hAWSWeb:~# chmod 777 tmp
+[4l[4hAWSWeb:~# chmod 775 bin lib
+[4l[4hAWSWeb:~# export TMPDIR=$HOME/tmp
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   bin       
+lib       tmp       
+[4hAWSWeb:~# export PATH=$HOME/bin:$PATH
+[4l[4hAWSWeb:~# export LD_LIBRARY_PATH=$HOME/lib:/usr/local/lib:$LD_LIBRARY_PATH
+[4l[4hAWSWeb:~# export CPATH=$HOME/include:/usr/local/include:$CPATH
+[4l[4hAWSWeb:~# export LIBRARY_PATH=$HOME/lib:/usr/local/lib:$LIBRARY_PATH
+[4l[4hAWSWeb:~# mkdir src
+[4l[4hAWSWeb:~# cd src
+[4l[4hAWSWeb:~/src# wget http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+[4l--2014-01-03 14:25:23--  http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+Connecting to ftp.gnu.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1927468 (1M) [application/x-gzip]
+Saving to: `autoconf-2.69.tar.gz
+
+ 0% [>                                      ] 1,165        13K/s  eta 2m 21s32% [============>                          ] 618,013      1043K/s  eta 1s  74% [============================>          ] 1,427,445    1284K/s  eta 0s100%[======================================>] 1,927,468    1284K/s
+
+2014-01-03 14:25:24 (1284 KB/s) - `autoconf-2.69.tar.gz' saved [1927468/1927468]
+[4hAWSWeb:~/src# tar -xvzf autoconf-2.69.tar.gz
+[4lautoconf-2.69
+autoconf-2.69/THANKS
+autoconf-2.69/NEWS
+autoconf-2.69/bin
+autoconf-2.69/bin/ifnames.in
+autoconf-2.69/bin/Makefile.am
+autoconf-2.69/bin/autoheader.in
+autoconf-2.69/bin/Makefile.in
+autoconf-2.69/bin/autoreconf.in
+autoconf-2.69/bin/autom4te.in
+autoconf-2.69/bin/autoconf.as
+autoconf-2.69/bin/autoscan.in
+autoconf-2.69/bin/autoupdate.in
+autoconf-2.69/man
+autoconf-2.69/man/autoheader.1
+autoconf-2.69/man/autoupdate.x
+autoconf-2.69/man/Makefile.am
+autoconf-2.69/man/autom4te.1
+autoconf-2.69/man/ifnames.x
+autoconf-2.69/man/Makefile.in
+autoconf-2.69/man/autoheader.x
+autoconf-2.69/man/autom4te.x
+autoconf-2.69/man/autoreconf.x
+autoconf-2.69/man/autoscan.x
+autoconf-2.69/man/config.sub.x
+autoconf-2.69/man/config.sub.1
+autoconf-2.69/man/common.x
+autoconf-2.69/man/autoscan.1
+autoconf-2.69/man/config.guess.1
+autoconf-2.69/man/autoupdate.1
+autoconf-2.69/man/autoconf.1
+autoconf-2.69/man/ifnames.1
+autoconf-2.69/man/autoconf.x
+autoconf-2.69/man/autoreconf.1
+autoconf-2.69/man/config.guess.x
+autoconf-2.69/Makefile.am
+autoconf-2.69/cfg.mk
+autoconf-2.69/.version
+autoconf-2.69/.tarball-version
+autoconf-2.69/lib
+autoconf-2.69/lib/freeze.mk
+autoconf-2.69/lib/Makefile.am
+autoconf-2.69/lib/emacs
+autoconf-2.69/lib/emacs/Makefile.am
+autoconf-2.69/lib/emacs/autotest-mode.el
+autoconf-2.69/lib/emacs/Makefile.in
+autoconf-2.69/lib/emacs/autoconf-mode.el
+autoconf-2.69/lib/Makefile.in
+autoconf-2.69/lib/autotest
+autoconf-2.69/lib/autotest/Makefile.am
+autoconf-2.69/lib/autotest/Makefile.in
+autoconf-2.69/lib/autotest/specific.m4
+autoconf-2.69/lib/autotest/autotest.m4
+autoconf-2.69/lib/autotest/general.m4
+autoconf-2.69/lib/m4sugar
+autoconf-2.69/lib/m4sugar/Makefile.am
+autoconf-2.69/lib/m4sugar/Makefile.in
+autoconf-2.69/lib/m4sugar/foreach.m4
+autoconf-2.69/lib/m4sugar/m4sh.m4
+autoconf-2.69/lib/m4sugar/m4sugar.m4
+autoconf-2.69/lib/autoscan
+autoconf-2.69/lib/autoscan/Makefile.am
+autoconf-2.69/lib/autoscan/autoscan.pre
+autoconf-2.69/lib/autoscan/Makefile.in
+autoconf-2.69/lib/autom4te.in
+autoconf-2.69/lib/autoconf
+autoconf-2.69/lib/autoconf/oldnames.m4
+autoconf-2.69/lib/autoconf/go.m4
+autoconf-2.69/lib/autoconf/Makefile.am
+autoconf-2.69/lib/autoconf/status.m4
+autoconf-2.69/lib/autoconf/headers.m4
+autoconf-2.69/lib/autoconf/Makefile.in
+autoconf-2.69/lib/autoconf/fortran.m4
+autoconf-2.69/lib/autoconf/erlang.m4
+autoconf-2.69/lib/autoconf/programs.m4
+autoconf-2.69/lib/autoconf/autoheader.m4
+autoconf-2.69/lib/autoconf/lang.m4
+autoconf-2.69/lib/autoconf/functions.m4
+autoconf-2.69/lib/autoconf/autoconf.m4
+autoconf-2.69/lib/autoconf/specific.m4
+autoconf-2.69/lib/autoconf/libs.m4
+autoconf-2.69/lib/autoconf/autoscan.m4
+autoconf-2.69/lib/autoconf/autotest.m4
+autoconf-2.69/lib/autoconf/autoupdate.m4
+autoconf-2.69/lib/autoconf/general.m4
+autoconf-2.69/lib/autoconf/c.m4
+autoconf-2.69/lib/autoconf/types.m4
+autoconf-2.69/lib/Autom4te
+autoconf-2.69/lib/Autom4te/ChannelDefs.pm
+autoconf-2.69/lib/Autom4te/Makefile.am
+autoconf-2.69/lib/Autom4te/Makefile.in
+autoconf-2.69/lib/Autom4te/XFile.pm
+autoconf-2.69/lib/Autom4te/Getopt.pm
+autoconf-2.69/lib/Autom4te/General.pm
+autoconf-2.69/lib/Autom4te/Configure_ac.pm
+autoconf-2.69/lib/Autom4te/Request.pm
+autoconf-2.69/lib/Autom4te/FileUtils.pm
+autoconf-2.69/lib/Autom4te/Channels.pm
+autoconf-2.69/lib/Autom4te/C4che.pm
+autoconf-2.69/Makefile.in
+autoconf-2.69/ChangeLog.2
+autoconf-2.69/ChangeLog
+autoconf-2.69/configure
+autoconf-2.69/maint.mk
+autoconf-2.69/doc
+autoconf-2.69/doc/autoconf.texi
+autoconf-2.69/doc/install.texi
+autoconf-2.69/doc/Makefile.am
+autoconf-2.69/doc/Makefile.in
+autoconf-2.69/doc/autoconf.info
+autoconf-2.69/doc/stamp-vti
+autoconf-2.69/doc/gendocs_template
+autoconf-2.69/doc/make-stds.texi
+autoconf-2.69/doc/standards.info
+autoconf-2.69/doc/gnu-oids.texi
+autoconf-2.69/doc/fdl.texi
+autoconf-2.69/doc/standards.texi
+autoconf-2.69/doc/version.texi
+autoconf-2.69/.prev-version
+autoconf-2.69/COPYING
+autoconf-2.69/ChangeLog.3
+autoconf-2.69/tests
+autoconf-2.69/tests/m4sh.at
+autoconf-2.69/tests/wrapper.as
+autoconf-2.69/tests/acgo.at
+autoconf-2.69/tests/Makefile.am
+autoconf-2.69/tests/autotest.at
+autoconf-2.69/tests/aclang.at
+autoconf-2.69/tests/go.at
+autoconf-2.69/tests/acstatus.at
+autoconf-2.69/tests/mktests.sh
+autoconf-2.69/tests/acc.at
+autoconf-2.69/tests/autoscan.at
+autoconf-2.69/tests/aclibs.at
+autoconf-2.69/tests/Makefile.in
+autoconf-2.69/tests/actypes.at
+autoconf-2.69/tests/compile.at
+autoconf-2.69/tests/statesave.m4
+autoconf-2.69/tests/c.at
+autoconf-2.69/tests/acfortran.at
+autoconf-2.69/tests/local.at
+autoconf-2.69/tests/erlang.at
+autoconf-2.69/tests/m4sugar.at
+autoconf-2.69/tests/acautoupdate.at
+autoconf-2.69/tests/torture.at
+autoconf-2.69/tests/foreign.at
+autoconf-2.69/tests/acautoheader.at
+autoconf-2.69/tests/acheaders.at
+autoconf-2.69/tests/base.at
+autoconf-2.69/tests/acfunctions.at
+autoconf-2.69/tests/fortran.at
+autoconf-2.69/tests/acprograms.at
+autoconf-2.69/tests/acspecific.at
+autoconf-2.69/tests/semantics.at
+autoconf-2.69/tests/atlocal.in
+autoconf-2.69/tests/mktests.stamp
+autoconf-2.69/tests/tools.at
+autoconf-2.69/tests/suite.at
+autoconf-2.69/tests/acgeneral.at
+autoconf-2.69/README
+autoconf-2.69/AUTHORS
+autoconf-2.69/COPYINGv3
+autoconf-2.69/BUGS
+autoconf-2.69/ChangeLog.0
+autoconf-2.69/ChangeLog.1
+autoconf-2.69/configure.ac
+autoconf-2.69/TODO
+autoconf-2.69/m4
+autoconf-2.69/m4/m4.m4
+autoconf-2.69/m4/make-case.m4
+autoconf-2.69/m4/autobuild.m4
+autoconf-2.69/COPYING.EXCEPTION
+autoconf-2.69/INSTALL
+autoconf-2.69/GNUmakefile
+autoconf-2.69/aclocal.m4
+autoconf-2.69/build-aux
+autoconf-2.69/build-aux/texinfo.tex
+autoconf-2.69/build-aux/install-sh
+autoconf-2.69/build-aux/config.sub
+autoconf-2.69/build-aux/elisp-comp
+autoconf-2.69/build-aux/gendocs.sh
+autoconf-2.69/build-aux/git-version-gen
+autoconf-2.69/build-aux/config.guess
+autoconf-2.69/build-aux/gitlog-to-changelog
+autoconf-2.69/build-aux/gnupload
+autoconf-2.69/build-aux/missing
+autoconf-2.69/build-aux/mdate-sh
+autoconf-2.69/build-aux/announce-gen
+[4hAWSWeb:~/src# cd autoconf-2.69
+[4l[4hAWSWeb:~/src/autoconf-2.69# ./configure --prefix=$HOME
+[4lunable to open display ":0"
+[4hAWSWeb:~/src/autoconf-2.69# cd
+[4l[4hAWSWeb:~# [Kcd[2D[Kls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   bin       
+lib       tmp       src       
+[4hAWSWeb:~# [Kls -a[5D[Kcd[2D[K./configure --prefix=$HOME[26D[Kcd autoconf-2.69[16D[Ktar -xvzf autoconf-2.69.tar.gz[30D[Kwget http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz[57D[Kcd src[6D[Kmkdir src[1D[1P[1D[1P[1D[1PHO[1D[1Pome
+[4l[4hAWSWeb:~# wget http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+[4l--2014-01-03 14:26:44--  http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+Connecting to ftp.gnu.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1927468 (1M) [application/x-gzip]
+Saving to: `autoconf-2.69.tar.gz
+
+ 0% [>                                      ] 1,165        41K/s  eta 46s30% [===========>                           ] 590,501      1112K/s  eta 1s75% [=============================>         ] 1,446,269    1390K/s  eta 0s100%[======================================>] 1,927,468    1390K/s
+
+2014-01-03 14:26:45 (1390 KB/s) - `autoconf-2.69.tar.gz' saved [1927468/1927468]
+[4hAWSWeb:~# tar -xvzf autoconf-2.69.tar.gz
+[4lautoconf-2.69
+autoconf-2.69/THANKS
+autoconf-2.69/NEWS
+autoconf-2.69/bin
+autoconf-2.69/bin/ifnames.in
+autoconf-2.69/bin/Makefile.am
+autoconf-2.69/bin/autoheader.in
+autoconf-2.69/bin/Makefile.in
+autoconf-2.69/bin/autoreconf.in
+autoconf-2.69/bin/autom4te.in
+autoconf-2.69/bin/autoconf.as
+autoconf-2.69/bin/autoscan.in
+autoconf-2.69/bin/autoupdate.in
+autoconf-2.69/man
+autoconf-2.69/man/autoheader.1
+autoconf-2.69/man/autoupdate.x
+autoconf-2.69/man/Makefile.am
+autoconf-2.69/man/autom4te.1
+autoconf-2.69/man/ifnames.x
+autoconf-2.69/man/Makefile.in
+autoconf-2.69/man/autoheader.x
+autoconf-2.69/man/autom4te.x
+autoconf-2.69/man/autoreconf.x
+autoconf-2.69/man/autoscan.x
+autoconf-2.69/man/config.sub.x
+autoconf-2.69/man/config.sub.1
+autoconf-2.69/man/common.x
+autoconf-2.69/man/autoscan.1
+autoconf-2.69/man/config.guess.1
+autoconf-2.69/man/autoupdate.1
+autoconf-2.69/man/autoconf.1
+autoconf-2.69/man/ifnames.1
+autoconf-2.69/man/autoconf.x
+autoconf-2.69/man/autoreconf.1
+autoconf-2.69/man/config.guess.x
+autoconf-2.69/Makefile.am
+autoconf-2.69/cfg.mk
+autoconf-2.69/.version
+autoconf-2.69/.tarball-version
+autoconf-2.69/lib
+autoconf-2.69/lib/freeze.mk
+autoconf-2.69/lib/Makefile.am
+autoconf-2.69/lib/emacs
+autoconf-2.69/lib/emacs/Makefile.am
+autoconf-2.69/lib/emacs/autotest-mode.el
+autoconf-2.69/lib/emacs/Makefile.in
+autoconf-2.69/lib/emacs/autoconf-mode.el
+autoconf-2.69/lib/Makefile.in
+autoconf-2.69/lib/autotest
+autoconf-2.69/lib/autotest/Makefile.am
+autoconf-2.69/lib/autotest/Makefile.in
+autoconf-2.69/lib/autotest/specific.m4
+autoconf-2.69/lib/autotest/autotest.m4
+autoconf-2.69/lib/autotest/general.m4
+autoconf-2.69/lib/m4sugar
+autoconf-2.69/lib/m4sugar/Makefile.am
+autoconf-2.69/lib/m4sugar/Makefile.in
+autoconf-2.69/lib/m4sugar/foreach.m4
+autoconf-2.69/lib/m4sugar/m4sh.m4
+autoconf-2.69/lib/m4sugar/m4sugar.m4
+autoconf-2.69/lib/autoscan
+autoconf-2.69/lib/autoscan/Makefile.am
+autoconf-2.69/lib/autoscan/autoscan.pre
+autoconf-2.69/lib/autoscan/Makefile.in
+autoconf-2.69/lib/autom4te.in
+autoconf-2.69/lib/autoconf
+autoconf-2.69/lib/autoconf/oldnames.m4
+autoconf-2.69/lib/autoconf/go.m4
+autoconf-2.69/lib/autoconf/Makefile.am
+autoconf-2.69/lib/autoconf/status.m4
+autoconf-2.69/lib/autoconf/headers.m4
+autoconf-2.69/lib/autoconf/Makefile.in
+autoconf-2.69/lib/autoconf/fortran.m4
+autoconf-2.69/lib/autoconf/erlang.m4
+autoconf-2.69/lib/autoconf/programs.m4
+autoconf-2.69/lib/autoconf/autoheader.m4
+autoconf-2.69/lib/autoconf/lang.m4
+autoconf-2.69/lib/autoconf/functions.m4
+autoconf-2.69/lib/autoconf/autoconf.m4
+autoconf-2.69/lib/autoconf/specific.m4
+autoconf-2.69/lib/autoconf/libs.m4
+autoconf-2.69/lib/autoconf/autoscan.m4
+autoconf-2.69/lib/autoconf/autotest.m4
+autoconf-2.69/lib/autoconf/autoupdate.m4
+autoconf-2.69/lib/autoconf/general.m4
+autoconf-2.69/lib/autoconf/c.m4
+autoconf-2.69/lib/autoconf/types.m4
+autoconf-2.69/lib/Autom4te
+autoconf-2.69/lib/Autom4te/ChannelDefs.pm
+autoconf-2.69/lib/Autom4te/Makefile.am
+autoconf-2.69/lib/Autom4te/Makefile.in
+autoconf-2.69/lib/Autom4te/XFile.pm
+autoconf-2.69/lib/Autom4te/Getopt.pm
+autoconf-2.69/lib/Autom4te/General.pm
+autoconf-2.69/lib/Autom4te/Configure_ac.pm
+autoconf-2.69/lib/Autom4te/Request.pm
+autoconf-2.69/lib/Autom4te/FileUtils.pm
+autoconf-2.69/lib/Autom4te/Channels.pm
+autoconf-2.69/lib/Autom4te/C4che.pm
+autoconf-2.69/Makefile.in
+autoconf-2.69/ChangeLog.2
+autoconf-2.69/ChangeLog
+autoconf-2.69/configure
+autoconf-2.69/maint.mk
+autoconf-2.69/doc
+autoconf-2.69/doc/autoconf.texi
+autoconf-2.69/doc/install.texi
+autoconf-2.69/doc/Makefile.am
+autoconf-2.69/doc/Makefile.in
+autoconf-2.69/doc/autoconf.info
+autoconf-2.69/doc/stamp-vti
+autoconf-2.69/doc/gendocs_template
+autoconf-2.69/doc/make-stds.texi
+autoconf-2.69/doc/standards.info
+autoconf-2.69/doc/gnu-oids.texi
+autoconf-2.69/doc/fdl.texi
+autoconf-2.69/doc/standards.texi
+autoconf-2.69/doc/version.texi
+autoconf-2.69/.prev-version
+autoconf-2.69/COPYING
+autoconf-2.69/ChangeLog.3
+autoconf-2.69/tests
+autoconf-2.69/tests/m4sh.at
+autoconf-2.69/tests/wrapper.as
+autoconf-2.69/tests/acgo.at
+autoconf-2.69/tests/Makefile.am
+autoconf-2.69/tests/autotest.at
+autoconf-2.69/tests/aclang.at
+autoconf-2.69/tests/go.at
+autoconf-2.69/tests/acstatus.at
+autoconf-2.69/tests/mktests.sh
+autoconf-2.69/tests/acc.at
+autoconf-2.69/tests/autoscan.at
+autoconf-2.69/tests/aclibs.at
+autoconf-2.69/tests/Makefile.in
+autoconf-2.69/tests/actypes.at
+autoconf-2.69/tests/compile.at
+autoconf-2.69/tests/statesave.m4
+autoconf-2.69/tests/c.at
+autoconf-2.69/tests/acfortran.at
+autoconf-2.69/tests/local.at
+autoconf-2.69/tests/erlang.at
+autoconf-2.69/tests/m4sugar.at
+autoconf-2.69/tests/acautoupdate.at
+autoconf-2.69/tests/torture.at
+autoconf-2.69/tests/foreign.at
+autoconf-2.69/tests/acautoheader.at
+autoconf-2.69/tests/acheaders.at
+autoconf-2.69/tests/base.at
+autoconf-2.69/tests/acfunctions.at
+autoconf-2.69/tests/fortran.at
+autoconf-2.69/tests/acprograms.at
+autoconf-2.69/tests/acspecific.at
+autoconf-2.69/tests/semantics.at
+autoconf-2.69/tests/atlocal.in
+autoconf-2.69/tests/mktests.stamp
+autoconf-2.69/tests/tools.at
+autoconf-2.69/tests/suite.at
+autoconf-2.69/tests/acgeneral.at
+autoconf-2.69/README
+autoconf-2.69/AUTHORS
+autoconf-2.69/COPYINGv3
+autoconf-2.69/BUGS
+autoconf-2.69/ChangeLog.0
+autoconf-2.69/ChangeLog.1
+autoconf-2.69/configure.ac
+autoconf-2.69/TODO
+autoconf-2.69/m4
+autoconf-2.69/m4/m4.m4
+autoconf-2.69/m4/make-case.m4
+autoconf-2.69/m4/autobuild.m4
+autoconf-2.69/COPYING.EXCEPTION
+autoconf-2.69/INSTALL
+autoconf-2.69/GNUmakefile
+autoconf-2.69/aclocal.m4
+autoconf-2.69/build-aux
+autoconf-2.69/build-aux/texinfo.tex
+autoconf-2.69/build-aux/install-sh
+autoconf-2.69/build-aux/config.sub
+autoconf-2.69/build-aux/elisp-comp
+autoconf-2.69/build-aux/gendocs.sh
+autoconf-2.69/build-aux/git-version-gen
+autoconf-2.69/build-aux/config.guess
+autoconf-2.69/build-aux/gitlog-to-changelog
+autoconf-2.69/build-aux/gnupload
+autoconf-2.69/build-aux/missing
+autoconf-2.69/build-aux/mdate-sh
+autoconf-2.69/build-aux/announce-gen
+[4hAWSWeb:~# cd autoconf-2.69
+[4l[4hAWSWeb:~/autoconf-2.69# ./configure --prefix=$HOME
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? yes
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/autoconf-2.69# [K./configure --prefix=$HOME[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? no
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? yes
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/autoconf-2.69# 

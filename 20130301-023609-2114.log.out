@@ -1,0 +1,123 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# pawd[1D[1P[1D[1P[1D[1Pwd
+[4l/root
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls -a
+[4l.          ..         sys        bin        mnt        media      vmlinuz    
+opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        
+boot       root       lost+found 
+[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# cd[1D[1P[1D[1Pls
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# c[1D[1Pls
+[4l[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd [1D[1P[1D[1P[1D[1Pnano log
+bash: nano: command not found
+AWSWeb:/var# clear
+[4lc[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# ls [1D[1P[1D[1P[1D[1Pcd var[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd var/
+[4l[4hAWSWeb:/var# ls -a
+[4l.       ..      backups run     mail    cache   log     opt     tmp     local   
+lib     lock    spool   
+[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# d[1D[1Pls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd usr
+[4l[4hAWSWeb:/usr# ls
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/usr# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# sl[1D[1P[1D[1Pls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# dir
+bash: dir: command not found
+AWSWeb:/# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd r[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# ls -a
+[4l.            ..           .bash_logout .profile     .bashrc      
+[4hAWSWeb:/home/richard# nam[1D[1Pno .pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano .profile [1D[1P
+bash: nano: command not found
+AWSWeb:/home/richard# wgedt .pr[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwgedt .profile [1D[1P -o /root/desktop
+bash: wgedt: command not found
+AWSWeb:/home/richard# [Kwgedt .profile -o /root/desktop[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1D[1P
+[4l--2013-03-01 02:40:20--  http:///home/richard/.profile
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# ls -a
+[4l.            ..           .bash_logout .profile     .bashrc      
+[4hAWSWeb:/home/richard# ge[1D[1P[1D[1Pgedit .pr[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgedit .profile [1D[1P
+bash: gedit: command not found
+AWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# d[1D[1P
+AWSWeb:/home/richard# 
+AWSWeb:/home/richard# lo[1D[1P[1D[1Pbyd[1D[1Pe
+bash: bye: command not found
+AWSWeb:/home/richard# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

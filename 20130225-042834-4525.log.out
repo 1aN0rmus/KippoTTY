@@ -1,0 +1,429 @@
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-25 04:29 .
+drwxr-xr-x 1 root root 4096 2013-02-25 04:29 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-25 04:29 .
+drwxr-xr-x 1 root root 4096 2013-02-25 04:29 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-installer.run
+[4l--2013-02-25 04:33:42--  http://downloads.metasploit.com/data/releases/metasploit-latest-linux-installer.run
+Connecting to downloads.metasploit.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208374041 (198M) [text/plain]
+Saving to: `metasploit-latest-linux-installer.run
+
+ 0% [>                                      ] 5,527        13K/s  eta 4h 18m 4s 3% [=>                                     ] 6,959,781    7639K/s  eta 26s     5% [=>                                     ] 10,487,208   7366K/s  eta 26s 8% [===>                                   ] 16,796,040   8664K/s  eta 22s11% [====>                                  ] 23,902,859   9800K/s  eta 18s14% [=====>                                 ] 29,378,952   9525K/s  eta 18s17% [======>                                ] 36,770,812   10255K/s  eta 16s20% [=======>                               ] 41,950,280   10197K/s  eta 16s23% [=========>                             ] 48,234,496   10449K/s  eta 15s25% [=========>                             ] 52,494,336   9925K/s  eta 15s 28% [===========>                           ] 60,391,859   10426K/s  eta 14s31% [============>                          ] 65,029,088   10174K/s  eta 14s34% [=============>                         ] 71,828,971   10420K/s  eta 13s37% [==============>                        ] 78,170,050   10572K/s  eta 12s41% [================>                      ] 85,996,264   10816K/s  eta 11s45% [=================>                     ] 94,387,768   11114K/s  eta 10s47% [==================>                    ] 98,585,930   10624K/s  eta 10s49% [===================>                   ] 103,187,434  10550K/s  eta 9s 52% [====================>                  ] 109,036,362  10604K/s  eta 9s55% [=====================>                 ] 115,362,184  10667K/s  eta 8s58% [======================>                ] 121,640,608  10603K/s  eta 8s61% [========================>              ] 129,115,265  10784K/s  eta 7s63% [========================>              ] 132,137,952  10564K/s  eta 7s65% [=========================>             ] 136,327,912  10473K/s  eta 6s67% [==========================>            ] 140,523,664  10068K/s  eta 6s71% [===========================>           ] 148,910,824  10258K/s  eta 5s74% [============================>          ] 154,523,962  10290K/s  eta 5s77% [==============================>        ] 161,489,392  10395K/s  eta 4s79% [===============================>       ] 166,224,154  10366K/s  eta 4s81% [===============================>       ] 170,560,978  10314K/s  eta 3s84% [================================>      ] 176,180,554  10293K/s  eta 3s87% [==================================>    ] 182,466,704  10342K/s  eta 2s89% [===================================>   ] 187,387,602  10328K/s  eta 2s91% [===================================>   ] 190,850,968  10196K/s  eta 1s94% [====================================>  ] 197,152,074  10211K/s  eta 1s97% [======================================>] 203,443,529  10270K/s  eta 0s100%[======================================>] 208,374,041  10270K/s
+
+2013-02-25 04:34:02 (10270 KB/s) - `metasploit-latest-linux-installer.run' saved [208374041/208374041]
+[4hAWSWeb:~# sh metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# ./metasploit-latest-linux-installer.run
+bash: ./metasploit-latest-linux-installer.run: command not found
+AWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root      4096 2013-02-25 04:34 .
+drwxr-xr-x 1 root root      4096 2013-02-25 04:34 ..
+drwxr-xr-x 1 root root      4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root      5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root      4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root       140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root       412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 208374041 2013-02-25 04:34 metasploit-latest-linux-installer.run
+[4hAWSWeb:~# sh metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# sh
+[4l[4hAWSWeb:~# run metasploit-latest-linux-installer.run
+bash: run: command not found
+AWSWeb:~# ./metasploit-latest-linux-installer.run
+bash: ./metasploit-latest-linux-installer.run: command not found
+AWSWeb:~# metasploit-latest-linux-installer.run
+bash: metasploit-latest-linux-installer.run: command not found
+AWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root      4096 2013-02-25 04:35 .
+drwxr-xr-x 1 root root      4096 2013-02-25 04:35 ..
+drwxr-xr-x 1 root root      4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root      5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root      4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root       140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root       412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 208374041 2013-02-25 04:34 metasploit-latest-linux-installer.run
+[4hAWSWeb:~# chmod 777 metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# sh metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
+[4l--2013-02-25 04:36:03--  http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
+Connecting to downloads.metasploit.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208792036 (199M) [text/plain]
+Saving to: `metasploit-latest-linux-x64-installer.run
+
+ 0% [>                                      ] 5,274        34K/s  eta 1h 40m 58s 2% [>                                      ] 4,817,558    7374K/s  eta 27s      3% [=>                                     ] 6,303,965    5123K/s  eta 39s 5% [==>                                    ] 10,886,500   6285K/s  eta 31s 6% [==>                                    ] 12,920,499   5784K/s  eta 33s 7% [==>                                    ] 14,686,778   5367K/s  eta 36s 8% [===>                                   ] 17,462,995   5395K/s  eta 35s10% [===>                                   ] 20,975,339   5463K/s  eta 34s11% [====>                                  ] 23,069,594   5211K/s  eta 35s12% [====>                                  ] 25,684,380   5161K/s  eta 35s14% [=====>                                 ] 29,339,116   5355K/s  eta 33s15% [=====>                                 ] 31,459,651   5059K/s  eta 35s16% [======>                                ] 33,564,043   4983K/s  eta 35s18% [=======>                               ] 39,609,732   5474K/s  eta 30s20% [========>                              ] 43,063,708   5563K/s  eta 29s23% [=========>                             ] 48,238,840   5834K/s  eta 27s24% [=========>                             ] 52,159,036   5948K/s  eta 26s26% [==========>                            ] 55,552,060   5992K/s  eta 25s29% [===========>                           ] 60,658,220   6207K/s  eta 23s30% [============>                          ] 64,583,500   6286K/s  eta 22s33% [============>                          ] 69,209,835   6413K/s  eta 21s35% [=============>                         ] 73,411,904   6429K/s  eta 21s36% [==============>                        ] 75,498,395   6332K/s  eta 21s38% [==============>                        ] 79,708,160   6410K/s  eta 20s40% [===============>                       ] 83,887,003   6445K/s  eta 19s41% [================>                      ] 86,763,572   6414K/s  eta 19s43% [================>                      ] 89,833,660   6403K/s  eta 18s44% [=================>                     ] 92,262,363   6323K/s  eta 18s45% [=================>                     ] 94,896,188   6277K/s  eta 18s46% [==================>                    ] 96,386,900   6171K/s  eta 18s48% [==================>                    ] 100,672,905  6242K/s  eta 17s50% [===================>                   ] 105,136,178  6323K/s  eta 16s52% [====================>                  ] 109,209,769  6376K/s  eta 15s55% [=====================>                 ] 115,357,312  6452K/s  eta 14s56% [=====================>                 ] 117,767,138  6406K/s  eta 14s58% [======================>                ] 121,109,146  6413K/s  eta 13s59% [=======================>               ] 124,854,082  6441K/s  eta 13s61% [========================>              ] 128,497,218  6461K/s  eta 12s63% [========================>              ] 133,025,970  6521K/s  eta 11s66% [=========================>             ] 138,424,536  6608K/s  eta 10s69% [===========================>           ] 144,710,728  6730K/s  eta 9s 70% [===========================>           ] 146,801,561  6627K/s  eta 9s72% [============================>          ] 150,997,312  6639K/s  eta 8s74% [=============================>         ] 155,267,289  6647K/s  eta 8s77% [==============================>        ] 160,930,330  6745K/s  eta 7s78% [==============================>        ] 164,503,610  6753K/s  eta 6s80% [===============================>       ] 167,783,744  6704K/s  eta 6s81% [===============================>       ] 169,877,472  6608K/s  eta 5s82% [================================>      ] 172,194,186  6569K/s  eta 5s85% [=================================>     ] 177,627,554  6649K/s  eta 4s87% [==================================>    ] 182,308,962  6698K/s  eta 3s88% [==================================>    ] 183,884,082  6634K/s  eta 3s90% [===================================>   ] 188,759,080  6673K/s  eta 3s92% [===================================>   ] 192,659,530  6691K/s  eta 2s93% [====================================>  ] 195,880,898  6685K/s  eta 1s96% [=====================================> ] 201,326,592  6755K/s  eta 1s96% [=====================================> ] 202,311,978  6676K/s  eta 0s99% [======================================>] 207,195,626  6726K/s  eta 0s99% [======================================>] 208,636,913  6647K/s  eta 0s100%[======================================>] 208,792,036  6647K/s
+
+2013-02-25 04:36:34 (6647 KB/s) - `metasploit-latest-linux-x64-installer.run' saved [208792036/208792036]
+[4hAWSWeb:~# sh metasploit-latest-linux-x64-installer.run
+[4l[4hAWSWeb:~# sh[1D[1P[1D[1Pchmod +x framework-4.*-linux-full.run[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Px metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# sudo ./metasploit-latest-linux-installer.ru
+bash: sudo: command not found
+AWSWeb:~# sudo ./metasploit-latest-linux-installer.run
+bash: sudo: command not found
+AWSWeb:~# sh metasploit-latest-linux-installer.run
+[4l[4hAWSWeb:~# sudo apt-get install ruby libopenssl-ruby libyaml-ruby libdl-ruby
+bash: sudo: command not found
+AWSWeb:~# libiconv-ruby libreadline-ruby irb ri rubygems[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psudo apt-get install ruby libopenssl-ruby libyaml-ruby libdl-rubylibiconv-ruby libreadline-ruby irb ri rubygems
+bash: sudo: command not found
+AWSWeb:~# sudo [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppackets [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pinstall rpm sh
+bash: install: command not found
+AWSWeb:~# rpm -ivh sh
+bash: rpm: command not found
+AWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# rpmbuild -ts httpd-2.4.x.tar.bz2
+bash: rpmbuild: command not found
+AWSWeb:~# wget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo
+[4l--2013-02-25 04:58:51--  http:///etc/yum.repos.d/epel-erlang.repo
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:~# yum install erlang
+bash: yum: command not found
+AWSWeb:~# rpm --import http://www.rabbitmq.com/rabbitmq-signing-key-public.asc
+bash: rpm: command not found
+AWSWeb:~# yum install rabbitmq-server-3.0.2-1.noarch.rpm
+bash: yum: command not found
+AWSWeb:~# sudo apt-get install alien
+bash: sudo: command not found
+AWSWeb:~# sudo apt-get install alien dpkg-dev debhelper build-essential
+bash: sudo: command not found
+AWSWeb:~# sudo apt-get install alien dpkg-dev debhelper build-essential[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1D[1P[1D[1P[1D[1P[1C[1D[1Pyum
+bash: yum: command not found
+AWSWeb:~# yum install sudo
+bash: yum: command not found
+AWSWeb:~# wget http://linux.duke.edu/projects/yum/download/2.0/yum-2.0.7.tar.gz
+[4l--2013-02-25 05:10:07--  http://linux.duke.edu/projects/yum/download/2.0/yum-2.0.7.tar.gz
+Connecting to linux.duke.edu:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 174080 (170K) [application/x-gzip]
+Saving to: `yum-2.0.7.tar.gz
+
+ 0% [>                                      ] 1,186        2K/s  eta 1m 14s46% [==================>                    ] 80,826       76K/s  eta 1s   100%[======================================>] 174,080      76K/s
+
+2013-02-25 05:10:09 (76 KB/s) - `yum-2.0.7.tar.gz' saved [174080/174080]
+[4hAWSWeb:~# tar -xvzf yum-2.0.7.tar.gz
+[4lyum-2.0.7
+yum-2.0.7/callback.py
+yum-2.0.7/nevral.py
+yum-2.0.7/configure
+yum-2.0.7/translate.py
+yum-2.0.7/py-compile
+yum-2.0.7/COPYING
+yum-2.0.7/etc
+yum-2.0.7/etc/yum.cron
+yum-2.0.7/etc/yum.logrotate
+yum-2.0.7/etc/Makefile.in
+yum-2.0.7/etc/yum.conf
+yum-2.0.7/etc/yum.init
+yum-2.0.7/pkgaction.py
+yum-2.0.7/archwork.py
+yum-2.0.7/mkinstalldirs
+yum-2.0.7/failover.py
+yum-2.0.7/lilo.py
+yum-2.0.7/logger.py
+yum-2.0.7/i18n.py
+yum-2.0.7/progress_meter.py
+yum-2.0.7/configure.in
+yum-2.0.7/yum.spec
+yum-2.0.7/docs
+yum-2.0.7/docs/yum.conf.5
+yum-2.0.7/docs/Makefile.in
+yum-2.0.7/docs/yum.8
+yum-2.0.7/docs/yum-arch.8
+yum-2.0.7/checkbootloader.py
+yum-2.0.7/yumlock.py
+yum-2.0.7/bin
+yum-2.0.7/bin/yum-arch
+yum-2.0.7/bin/Makefile.in
+yum-2.0.7/bin/yum
+yum-2.0.7/up2datetheft.py
+yum-2.0.7/urlgrabber.py
+yum-2.0.7/install-sh
+yum-2.0.7/bootloadercfg.py
+yum-2.0.7/grubcfg.py
+yum-2.0.7/Makefile.in
+yum-2.0.7/INSTALL
+yum-2.0.7/serverStuff.py
+yum-2.0.7/po
+yum-2.0.7/po/uk.po
+yum-2.0.7/po/pygettext.py
+yum-2.0.7/po/cs.po
+yum-2.0.7/po/ru.po
+yum-2.0.7/po/es.po
+yum-2.0.7/po/Makefile.in
+yum-2.0.7/po/yum.pot
+yum-2.0.7/rpmUtils.py
+yum-2.0.7/pullheaders.py
+yum-2.0.7/README
+yum-2.0.7/keepalive.py
+yum-2.0.7/ChangeLog
+yum-2.0.7/yummain.py
+yum-2.0.7/comps.py
+yum-2.0.7/iutil.py
+yum-2.0.7/clientStuff.py
+yum-2.0.7/yumcomps.py
+yum-2.0.7/config.py
+yum-2.0.7/AUTHORS
+yum-2.0.7/lilocfg.py
+yum-2.0.7/TODO
+[4hAWSWeb:~# cd yum-2.0.7
+[4l[4hAWSWeb:~/yum-2.0.7# ./configure
+[4lShall we play a game? yes
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7# ./cinfig[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./configure
+[4lShall we play a game? no
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7# ./configure
+[4lShall we play a game? 
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7# make
+bash: make: command not found
+AWSWeb:~/yum-2.0.7# make install
+bash: make: command not found
+AWSWeb:~/yum-2.0.7# do[1D[1Pir
+bash: dir: command not found
+AWSWeb:~/yum-2.0.7# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-25 05:11 .
+drwxr-xr-x 1 root root  4096 2013-02-25 05:11 ..
+-rw-rw-r-- 1 root root  3527 2004-05-07 04:58 callback.py
+-rw-rw-r-- 1 root root 22517 2004-05-07 04:58 nevral.py
+-rwxrwxr-x 1 root root 69467 2004-05-07 04:58 configure
+-rw-rw-r-- 1 root root  8309 2004-05-07 04:58 translate.py
+-rwxrwxr-x 1 root root  1478 2004-05-07 04:58 py-compile
+-rw-rw-r-- 1 root root 17976 2004-05-07 04:58 COPYING
+drwxrwxr-x 1 root root  4096 2004-05-07 04:58 etc
+-rw-rw-r-- 1 root root 25478 2004-05-07 04:58 pkgaction.py
+-rw-rw-r-- 1 root root  3045 2004-05-07 04:58 archwork.py
+-rwxrwxr-x 1 root root   729 2004-05-07 04:58 mkinstalldirs
+-rw-rw-r-- 1 root root  3588 2004-05-07 04:58 failover.py
+-rw-rw-r-- 1 root root  9784 2004-05-07 04:58 lilo.py
+-rw-rw-r-- 1 root root 15812 2004-05-07 04:58 logger.py
+-rw-r--r-- 1 root root   690 2004-05-07 04:58 i18n.py
+-rw-rw-r-- 1 root root  5528 2004-05-07 04:58 progress_meter.py
+-rw-rw-r-- 1 root root   636 2004-05-07 04:58 configure.in
+-rw-rw-r-- 1 root root  3636 2004-05-07 04:58 yum.spec
+drwxrwxr-x 1 root root  4096 2004-05-07 04:58 docs
+-rw-rw-r-- 1 root root  4607 2004-05-07 04:58 checkbootloader.py
+-rw-rw-r-- 1 root root   541 2004-05-07 04:58 yumlock.py
+drwxrwxr-x 1 root root  4096 2004-05-07 04:58 bin
+-rw-rw-r-- 1 root root  1206 2004-05-07 04:58 up2datetheft.py
+-rw-rw-r-- 1 root root 19254 2004-05-07 04:58 urlgrabber.py
+-rwxrwxr-x 1 root root  5598 2004-05-07 04:58 install-sh
+-rw-rw-r-- 1 root root  1331 2004-05-07 04:58 bootloadercfg.py
+-rw-rw-r-- 1 root root  2188 2004-05-07 04:58 grubcfg.py
+-rw-rw-r-- 1 root root  4611 2004-05-07 04:58 Makefile.in
+-rw-rw-r-- 1 root root   320 2004-05-07 04:58 INSTALL
+-rw-rw-r-- 1 root root  3723 2004-05-07 04:58 serverStuff.py
+drwxrwxr-x 1 root root  4096 2004-05-07 04:58 po
+-rw-r--r-- 1 root root 12223 2004-05-07 04:58 rpmUtils.py
+-rw-rw-r-- 1 root root 11884 2004-05-07 04:58 pullheaders.py
+-rw-rw-r-- 1 root root  1655 2004-05-07 04:58 README
+-rw-rw-r-- 1 root root 14083 2004-05-07 04:58 keepalive.py
+-rw-rw-r-- 1 root root 39484 2004-05-07 04:58 ChangeLog
+-rwxr-xr-x 1 root root 14959 2004-05-07 04:58 yummain.py
+-rwxrwxr-x 1 root root 11923 2004-05-07 04:58 comps.py
+-rw-rw-r-- 1 root root  7709 2004-05-07 04:58 iutil.py
+-rwxr-xr-x 1 root root 54626 2004-05-07 04:58 clientStuff.py
+-rwxrwxr-x 1 root root 13876 2004-05-07 04:58 yumcomps.py
+-rw-rw-r-- 1 root root 15758 2004-05-07 04:58 config.py
+-rw-rw-r-- 1 root root   888 2004-05-07 04:58 AUTHORS
+-rw-rw-r-- 1 root root 13304 2004-05-07 04:58 lilocfg.py
+-rw-rw-r-- 1 root root    76 2004-05-07 04:58 TODO
+[4hAWSWeb:~/yum-2.0.7# ./INSTALL
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? 
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? yes
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/yum-2.0.7# INSTALL
+bash: INSTALL: command not found
+AWSWeb:~/yum-2.0.7# ./INSTALL
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? y
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/yum-2.0.7# INSTALL[1D[1D[1D[1D[1D[1D[1D./
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? n
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? n
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? ./configure
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? 
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? y
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/yum-2.0.7# INSTALL[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./com[1D[1Pnfigure
+[4lShall we play a game? y
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7# ./mkinstalldirs
+[4lShall we play a game? 
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7# mkdir setups
+[4l[4hAWSWeb:~/yum-2.0.7# cd setups
+[4l[4hAWSWeb:~/yum-2.0.7/setups# wget http://linux.duke.edu/projects/yum/download/2.0/yum-2.0.7.tar.gz
+[4l--2013-02-25 05:15:07--  http://linux.duke.edu/projects/yum/download/2.0/yum-2.0.7.tar.gz
+Connecting to linux.duke.edu:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 174080 (170K) [application/x-gzip]
+Saving to: `yum-2.0.7.tar.gz
+
+ 0% [>                                      ] 1,186        2K/s  eta 1m 0s50% [===================>                   ] 88,066       91K/s  eta 0s  100%[======================================>] 174,080      91K/s
+
+2013-02-25 05:15:09 (91 KB/s) - `yum-2.0.7.tar.gz' saved [174080/174080]
+[4hAWSWeb:~/yum-2.0.7/setups# tar -xvzf yum-2.0.7.tar.gz
+[4lyum-2.0.7
+yum-2.0.7/callback.py
+yum-2.0.7/nevral.py
+yum-2.0.7/configure
+yum-2.0.7/translate.py
+yum-2.0.7/py-compile
+yum-2.0.7/COPYING
+yum-2.0.7/etc
+yum-2.0.7/etc/yum.cron
+yum-2.0.7/etc/yum.logrotate
+yum-2.0.7/etc/Makefile.in
+yum-2.0.7/etc/yum.conf
+yum-2.0.7/etc/yum.init
+yum-2.0.7/pkgaction.py
+yum-2.0.7/archwork.py
+yum-2.0.7/mkinstalldirs
+yum-2.0.7/failover.py
+yum-2.0.7/lilo.py
+yum-2.0.7/logger.py
+yum-2.0.7/i18n.py
+yum-2.0.7/progress_meter.py
+yum-2.0.7/configure.in
+yum-2.0.7/yum.spec
+yum-2.0.7/docs
+yum-2.0.7/docs/yum.conf.5
+yum-2.0.7/docs/Makefile.in
+yum-2.0.7/docs/yum.8
+yum-2.0.7/docs/yum-arch.8
+yum-2.0.7/checkbootloader.py
+yum-2.0.7/yumlock.py
+yum-2.0.7/bin
+yum-2.0.7/bin/yum-arch
+yum-2.0.7/bin/Makefile.in
+yum-2.0.7/bin/yum
+yum-2.0.7/up2datetheft.py
+yum-2.0.7/urlgrabber.py
+yum-2.0.7/install-sh
+yum-2.0.7/bootloadercfg.py
+yum-2.0.7/grubcfg.py
+yum-2.0.7/Makefile.in
+yum-2.0.7/INSTALL
+yum-2.0.7/serverStuff.py
+yum-2.0.7/po
+yum-2.0.7/po/uk.po
+yum-2.0.7/po/pygettext.py
+yum-2.0.7/po/cs.po
+yum-2.0.7/po/ru.po
+yum-2.0.7/po/es.po
+yum-2.0.7/po/Makefile.in
+yum-2.0.7/po/yum.pot
+yum-2.0.7/rpmUtils.py
+yum-2.0.7/pullheaders.py
+yum-2.0.7/README
+yum-2.0.7/keepalive.py
+yum-2.0.7/ChangeLog
+yum-2.0.7/yummain.py
+yum-2.0.7/comps.py
+yum-2.0.7/iutil.py
+yum-2.0.7/clientStuff.py
+yum-2.0.7/yumcomps.py
+yum-2.0.7/config.py
+yum-2.0.7/AUTHORS
+yum-2.0.7/lilocfg.py
+yum-2.0.7/TODO
+[4hAWSWeb:~/yum-2.0.7/setups# cd yum-2.0.7
+[4l[4hAWSWeb:~/yum-2.0.7/setups/yum-2.0.7# ./configure
+[4lShall we play a game? y
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/yum-2.0.7/setups/yum-2.0.7# make
+bash: make: command not found
+AWSWeb:~/yum-2.0.7/setups/yum-2.0.7# make install
+bash: make: command not found
+AWSWeb:~/yum-2.0.7/setups/yum-2.0.7# yum update
+bash: yum: command not found
+AWSWeb:~/yum-2.0.7/setups/yum-2.0.7# cd ..
+[4l[4hAWSWeb:~/yum-2.0.7/setups# cd..
+bash: cd..: command not found
+AWSWeb:~/yum-2.0.7/setups# cd ..
+[4l[4hAWSWeb:~/yum-2.0.7# cd ..
+[4l[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root      4096 2013-02-25 05:16 .
+drwxr-xr-x 1 root root      4096 2013-02-25 05:16 ..
+drwxr-xr-x 1 root root      4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root      5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root      4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root       140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root       412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 208374041 2013-02-25 04:34 metasploit-latest-linux-installer.run
+-rw-r--r-- 1 root root 208792036 2013-02-25 04:36 metasploit-latest-linux-x64-installer.run
+-rw-r--r-- 1 root root    174080 2013-02-25 05:10 yum-2.0.7.tar.gz
+drwxrwxr-x 1 root root      4096 2004-05-07 04:58 yum-2.0.7
+[4hAWSWeb:~# rpm -e yum
+bash: rpm: command not found
+AWSWeb:~# wget ftp://rpmfind.net/linux/fedora/core/4/i386/os/Fedora/RPMS/yum-2.3.2-7.noarch.rpm
+[4lftp://rpmfind.net/linux/fedora/core/4/i386/os/Fedora/RPMS/yum-2.3.2-7.noarch.rpm: Unsupported scheme.
+[4hAWSWeb:~# 

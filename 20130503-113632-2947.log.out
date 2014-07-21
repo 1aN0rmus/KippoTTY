@@ -1,0 +1,79 @@
+[4hAWSWeb:~# cd ../
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# dir
+bash: dir: command not found
+AWSWeb:/# cd var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd ../
+[4l[4hAWSWeb:/# a[1D[1Puan[1D[1P[1D[1Pname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/# help
+bash: help: command not found
+AWSWeb:/# apt-get install apache2
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  apache2 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 100.2kB of archives.
+After this operation, 220.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main apache2 1.8-3 [100.2kB]
+Fetched 100.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking apache2 (from .../archives/apache2_1.8-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up apache2 (1.8-3) ...
+[4hAWSWeb:/# cd /etc/
+[4l[4hAWSWeb:/etc# cd sysconfig
+[4lbash: cd: sysconfig: No such file or directory
+[4hAWSWeb:/etc# dir
+bash: dir: command not found
+AWSWeb:/etc# ls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# cd shells
+[4l-bash: cd: /etc/shells: Not a directory
+[4hAWSWeb:/etc# cd /sysconfig/
+[4lbash: cd: /sysconfig/: No such file or directory
+[4hAWSWeb:/etc# 

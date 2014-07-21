@@ -1,0 +1,444 @@
+[4hAWSWeb:~# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2014-02-19 07:26 .
+drwxr-xr-x 1 root root 4096 2014-02-19 07:26 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# wget http://www.psybnc.at/download/beta/psyBNC-2.3.2-7.tar.gz
+[4l--2014-02-19 07:27:21--  http://www.psybnc.at/download/beta/psyBNC-2.3.2-7.tar.gz
+Connecting to www.psybnc.at:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 312177 (304K) [application/x-gzip]
+Saving to: `psyBNC-2.3.2-7.tar.gz
+
+ 0% [>                                      ] 1,178        2K/s  eta 1m 50s25% [=========>                             ] 79,370       86K/s  eta 2s   100%[======================================>] 312,177      86K/s
+
+2014-02-19 07:27:23 (86 KB/s) - `psyBNC-2.3.2-7.tar.gz' saved [312177/312177]
+[4hAWSWeb:~# tar -zxvf psyBNC-2.3.2-7.tar.gz
+[4lpsybnc
+psybnc/src
+psybnc/src/p_memory.c
+psybnc/src/p_version.h
+psybnc/src/match.c
+psybnc/src/p_client.c
+psybnc/src/ssl.cnf
+psybnc/src/p_coredns.c
+psybnc/src/p_dcc.c
+psybnc/src/bsd-setenv.c
+psybnc/src/p_blowfish.c
+psybnc/src/p_crypt.c
+psybnc/src/p_data.h
+psybnc/src/p_global.h
+psybnc/src/p_hash.c
+psybnc/src/p_idea.c
+psybnc/src/p_inifunc.c
+psybnc/src/p_intnet.c
+psybnc/src/p_link.c
+psybnc/src/p_log.c
+psybnc/src/p_network.c
+psybnc/src/p_parse.c
+psybnc/src/p_peer.c
+psybnc/src/p_script.c
+psybnc/src/p_server.c
+psybnc/src/p_socket.c
+psybnc/src/p_string.c
+psybnc/src/p_sysmsg.c
+psybnc/src/p_topology.c
+psybnc/src/p_translate.c
+psybnc/src/p_uchannel.c
+psybnc/src/p_userfile.c
+psybnc/src/psybnc.c
+psybnc/src/snprintf.c
+psybnc/menuconf
+psybnc/menuconf/help
+psybnc/menuconf/help/h101.txt
+psybnc/menuconf/help/h102.txt
+psybnc/menuconf/help/h103.txt
+psybnc/menuconf/help/h104.txt
+psybnc/menuconf/help/h105.txt
+psybnc/menuconf/help/h106.txt
+psybnc/menuconf/help/h107.txt
+psybnc/menuconf/help/h201.txt
+psybnc/menuconf/help/h202.txt
+psybnc/menuconf/help/h203.txt
+psybnc/menuconf/help/h204.txt
+psybnc/menuconf/help/h205.txt
+psybnc/menuconf/help/h206.txt
+psybnc/menuconf/help/h207.txt
+psybnc/menuconf/help/h208.txt
+psybnc/menuconf/help/h209.txt
+psybnc/menuconf/help/h210.txt
+psybnc/menuconf/help/h211.txt
+psybnc/menuconf/help/h212.txt
+psybnc/menuconf/help/h213.txt
+psybnc/menuconf/help/h214.txt
+psybnc/menuconf/help/h215.txt
+psybnc/menuconf/help/h216.txt
+psybnc/menuconf/help/h217.txt
+psybnc/menuconf/help/h218.txt
+psybnc/menuconf/help/h219.txt
+psybnc/menuconf/help/h220.txt
+psybnc/menuconf/help/h221.txt
+psybnc/menuconf/help/h301.txt
+psybnc/menuconf/help/h302.txt
+psybnc/menuconf/help/h303.txt
+psybnc/menuconf/help/h304.txt
+psybnc/menuconf/help/h305.txt
+psybnc/menuconf/help/h306.txt
+psybnc/menuconf/help/h501.txt
+psybnc/menuconf/help/h502.txt
+psybnc/menuconf/help/h503.txt
+psybnc/menuconf/help/h504.txt
+psybnc/menuconf/help/h505.txt
+psybnc/menuconf/help/h601.txt
+psybnc/menuconf/help/h701.txt
+psybnc/menuconf/help/h702.txt
+psybnc/menuconf/help/h703.txt
+psybnc/menuconf/help/h704.txt
+psybnc/menuconf/help/h705.txt
+psybnc/menuconf/help/h706.txt
+psybnc/menuconf/help/h707.txt
+psybnc/menuconf/help/h708.txt
+psybnc/menuconf/help/h709.txt
+psybnc/menuconf/help/h710.txt
+psybnc/menuconf/help/h711.txt
+psybnc/menuconf/help/h712.txt
+psybnc/menuconf/help/h713.txt
+psybnc/menuconf/help/h714.txt
+psybnc/menuconf/help/h715.txt
+psybnc/menuconf/help/h716.txt
+psybnc/menuconf/dialog.h
+psybnc/menuconf/inifunc.c
+psybnc/menuconf/inputbox.c
+psybnc/menuconf/menubox.c
+psybnc/menuconf/menuconf.c
+psybnc/menuconf/textbox.c
+psybnc/menuconf/util.c
+psybnc/menuconf/checklist.c
+psybnc/menuconf/colors.h
+psybnc/help
+psybnc/help/DELNETWORK.ITA
+psybnc/help/ADDALLOW.DEU
+psybnc/help/ADDALLOW.ITA
+psybnc/help/ADDALLOW.TXT
+psybnc/help/ADDASK.DEU
+psybnc/help/ADDASK.ITA
+psybnc/help/ADDASK.TXT
+psybnc/help/ADDAUTOOP.DEU
+psybnc/help/ADDAUTOOP.ITA
+psybnc/help/ADDAUTOOP.TXT
+psybnc/help/ADDBAN.DEU
+psybnc/help/ADDBAN.ITA
+psybnc/help/ADDBAN.TXT
+psybnc/help/ADDDCC.DEU
+psybnc/help/ADDDCC.ITA
+psybnc/help/ADDDCC.TXT
+psybnc/help/ADDIGNORE.DEU
+psybnc/help/ADDIGNORE.ITA
+psybnc/help/ADDIGNORE.TXT
+psybnc/help/ADDLOG.DEU
+psybnc/help/ADDLOG.ITA
+psybnc/help/ADDLOG.TXT
+psybnc/help/ADDNETWORK.DEU
+psybnc/help/ADDNETWORK.ITA
+psybnc/help/ADDNETWORK.TXT
+psybnc/help/ADDOP.DEU
+psybnc/help/ADDOP.ITA
+psybnc/help/ADDOP.TXT
+psybnc/help/ADDSERVER.DEU
+psybnc/help/ADDSERVER.ITA
+psybnc/help/ADDSERVER.TXT
+psybnc/help/ADDUSER.DEU
+psybnc/help/ADDUSER.ITA
+psybnc/help/ADDUSER.TXT
+psybnc/help/AIDLE.DEU
+psybnc/help/AIDLE.ITA
+psybnc/help/AIDLE.TXT
+psybnc/help/AUTOGETDCC.DEU
+psybnc/help/AUTOGETDCC.ITA
+psybnc/help/AUTOGETDCC.TXT
+psybnc/help/AUTOREJOIN.DEU
+psybnc/help/AUTOREJOIN.ITA
+psybnc/help/AUTOREJOIN.TXT
+psybnc/help/BCONNECT.DEU
+psybnc/help/BCONNECT.ITA
+psybnc/help/BCONNECT.TXT
+psybnc/help/BHELP.DEU
+psybnc/help/BHELP.ITA
+psybnc/help/BHELP.TXT
+psybnc/help/BKILL.DEU
+psybnc/help/BKILL.ITA
+psybnc/help/BKILL.TXT
+psybnc/help/BQUIT.DEU
+psybnc/help/BQUIT.ITA
+psybnc/help/BQUIT.TXT
+psybnc/help/BREHASH.DEU
+psybnc/help/BREHASH.ITA
+psybnc/help/BREHASH.TXT
+psybnc/help/BVHOST.DEU
+psybnc/help/BVHOST.ITA
+psybnc/help/BVHOST.TXT
+psybnc/help/BWHO.DEU
+psybnc/help/BWHO.ITA
+psybnc/help/BWHO.TXT
+psybnc/help/DCCANSWER.DEU
+psybnc/help/DCCANSWER.ITA
+psybnc/help/DCCANSWER.TXT
+psybnc/help/DCCCANCEL.DEU
+psybnc/help/DCCCANCEL.ITA
+psybnc/help/DCCCANCEL.TXT
+psybnc/help/DCCCHAT.DEU
+psybnc/help/DCCCHAT.ITA
+psybnc/help/DCCCHAT.TXT
+psybnc/help/DCCENABLE.DEU
+psybnc/help/DCCENABLE.ITA
+psybnc/help/DCCENABLE.TXT
+psybnc/help/DCCGET.DEU
+psybnc/help/DCCGET.ITA
+psybnc/help/DCCGET.TXT
+psybnc/help/DCCSEND.DEU
+psybnc/help/DCCSEND.ITA
+psybnc/help/DCCSEND.TXT
+psybnc/help/DCCSENDME.DEU
+psybnc/help/DCCSENDME.ITA
+psybnc/help/DCCSENDME.TXT
+psybnc/help/DELALLOW.DEU
+psybnc/help/DELALLOW.ITA
+psybnc/help/DELALLOW.TXT
+psybnc/help/DELASK.DEU
+psybnc/help/DELASK.ITA
+psybnc/help/DELASK.TXT
+psybnc/help/DELAUTOOP.DEU
+psybnc/help/DELAUTOOP.ITA
+psybnc/help/DELAUTOOP.TXT
+psybnc/help/DELBAN.DEU
+psybnc/help/DELBAN.ITA
+psybnc/help/DELBAN.TXT
+psybnc/help/DELDCC.DEU
+psybnc/help/DELDCC.ITA
+psybnc/help/DELDCC.TXT
+psybnc/help/DELENCRYPT.DEU
+psybnc/help/DELENCRYPT.ITA
+psybnc/help/DELENCRYPT.TXT
+psybnc/help/DELIGNORE.DEU
+psybnc/help/DELIGNORE.ITA
+psybnc/help/DELIGNORE.TXT
+psybnc/help/DELLINK.DEU
+psybnc/help/DELLINK.ITA
+psybnc/help/DELLINK.TXT
+psybnc/help/DELLOG.DEU
+psybnc/help/DELLOG.ITA
+psybnc/help/DELLOG.TXT
+psybnc/help/DELNETWORK.DEU
+psybnc/help/LISTASK.TXT
+psybnc/help/DELNETWORK.TXT
+psybnc/help/DELOP.DEU
+psybnc/help/DELOP.ITA
+psybnc/help/DELOP.TXT
+psybnc/help/DELSERVER.DEU
+psybnc/help/DELSERVER.ITA
+psybnc/help/DELSERVER.TXT
+psybnc/help/DELTRANSLATE.DEU
+psybnc/help/DELTRANSLATE.ITA
+psybnc/help/DELTRANSLATE.TXT
+psybnc/help/DELUSER.DEU
+psybnc/help/DELUSER.ITA
+psybnc/help/DELUSER.TXT
+psybnc/help/ENCRYPT.DEU
+psybnc/help/ENCRYPT.ITA
+psybnc/help/ENCRYPT.TXT
+psybnc/help/ERASEMAINLOG.DEU
+psybnc/help/ERASEMAINLOG.ITA
+psybnc/help/ERASEMAINLOG.TXT
+psybnc/help/ERASEPRIVATELOG.DEU
+psybnc/help/ERASEPRIVATELOG.ITA
+psybnc/help/ERASEPRIVATELOG.TXT
+psybnc/help/ERASETRAFFICLOG.DEU
+psybnc/help/ERASETRAFFICLOG.ITA
+psybnc/help/ERASETRAFFICLOG.TXT
+psybnc/help/JUMP.DEU
+psybnc/help/JUMP.ITA
+psybnc/help/JUMP.TXT
+psybnc/help/LEAVEQUIT.DEU
+psybnc/help/LEAVEQUIT.ITA
+psybnc/help/LEAVEQUIT.TXT
+psybnc/help/LINKFROM.DEU
+psybnc/help/LINKFROM.ITA
+psybnc/help/LINKFROM.TXT
+psybnc/help/LINKTO.DEU
+psybnc/help/LINKTO.ITA
+psybnc/help/LINKTO.TXT
+psybnc/help/LISTALLOW.DEU
+psybnc/help/LISTALLOW.ITA
+psybnc/help/LISTALLOW.TXT
+psybnc/help/LISTASK.DEU
+psybnc/help/LISTASK.ITA
+psybnc/help/LISTAUTOOPS.DEU
+psybnc/help/LISTAUTOOPS.ITA
+psybnc/help/LISTAUTOOPS.TXT
+psybnc/help/LISTBANS.DEU
+psybnc/help/LISTBANS.ITA
+psybnc/help/LISTBANS.TXT
+psybnc/help/LISTDCC.DEU
+psybnc/help/LISTDCC.ITA
+psybnc/help/LISTDCC.TXT
+psybnc/help/LISTENCRYPT.DEU
+psybnc/help/LISTENCRYPT.ITA
+psybnc/help/LISTENCRYPT.TXT
+psybnc/help/LISTIGNORES.DEU
+psybnc/help/LISTIGNORES.ITA
+psybnc/help/LISTIGNORES.TXT
+psybnc/help/LISTLINKS.DEU
+psybnc/help/LISTLINKS.ITA
+psybnc/help/LISTLINKS.TXT
+psybnc/help/LISTLOGS.DEU
+psybnc/help/LISTLOGS.ITA
+psybnc/help/LISTLOGS.TXT
+psybnc/help/LISTOPS.DEU
+psybnc/help/LISTOPS.ITA
+psybnc/help/LISTOPS.TXT
+psybnc/help/LISTSERVERS.DEU
+psybnc/help/LISTSERVERS.ITA
+psybnc/help/LISTSERVERS.TXT
+psybnc/help/LISTTASKS.DEU
+psybnc/help/LISTTASKS.ITA
+psybnc/help/LISTTASKS.TXT
+psybnc/help/MADMIN.DEU
+psybnc/help/MADMIN.ITA
+psybnc/help/MADMIN.TXT
+psybnc/help/NAMEBOUNCER.DEU
+psybnc/help/NAMEBOUNCER.ITA
+psybnc/help/NAMEBOUNCER.TXT
+psybnc/help/PASSWORD.DEU
+psybnc/help/PASSWORD.ITA
+psybnc/help/PASSWORD.TXT
+psybnc/help/PLAYMAINLOG.DEU
+psybnc/help/PLAYMAINLOG.ITA
+psybnc/help/PLAYMAINLOG.TXT
+psybnc/help/PLAYPRIVATELOG.DEU
+psybnc/help/PROXY.DEU
+psybnc/help/PROXY.ITA
+psybnc/help/PLAYPRIVATELOG.ITA
+psybnc/help/PLAYPRIVATELOG.TXT
+psybnc/help/PLAYTRAFFICLOG.DEU
+psybnc/help/PLAYTRAFFICLOG.ITA
+psybnc/help/PLAYTRAFFICLOG.TXT
+psybnc/help/PROXY.TXT
+psybnc/help/RELAYLINK.DEU
+psybnc/help/RELAYLINK.ITA
+psybnc/help/RELAYLINK.TXT
+psybnc/help/RELINK.DEU
+psybnc/help/RELINK.ITA
+psybnc/help/RELINK.TXT
+psybnc/help/SETAWAY.DEU
+psybnc/help/SETAWAY.ITA
+psybnc/help/SETAWAY.TXT
+psybnc/help/SETAWAYNICK.DEU
+psybnc/help/SETAWAYNICK.ITA
+psybnc/help/SETAWAYNICK.TXT
+psybnc/help/SETLANG.DEU
+psybnc/help/SETLANG.ITA
+psybnc/help/SETLANG.TXT
+psybnc/help/SETLEAVEMSG.DEU
+psybnc/help/SETLEAVEMSG.ITA
+psybnc/help/SETLEAVEMSG.TXT
+psybnc/help/SETUSERNAME.DEU
+psybnc/help/SETUSERNAME.ITA
+psybnc/help/SETUSERNAME.TXT
+psybnc/help/SOCKSTAT.DEU
+psybnc/help/SOCKSTAT.ITA
+psybnc/help/SOCKSTAT.TXT
+psybnc/help/SRELOAD.DEU
+psybnc/help/SRELOAD.ITA
+psybnc/help/SRELOAD.TXT
+psybnc/help/SWITCHNET.DEU
+psybnc/help/SWITCHNET.ITA
+psybnc/help/SWITCHNET.TXT
+psybnc/help/TRANSLATE.DEU
+psybnc/help/TRANSLATE.ITA
+psybnc/help/TRANSLATE.TXT
+psybnc/help/UNADMIN.DEU
+psybnc/help/UNADMIN.ITA
+psybnc/help/UNADMIN.TXT
+psybnc/scripts
+psybnc/scripts/example
+psybnc/scripts/example/DEFAULT.SCRIPT
+psybnc/scripts/INFO
+psybnc/log
+psybnc/log/INFO
+psybnc/tools
+psybnc/tools/autoconf.c
+psybnc/tools/chkbind.c
+psybnc/tools/chkenv.c
+psybnc/tools/chkipv6.c
+psybnc/tools/chkresolv.c
+psybnc/tools/chksock.c
+psybnc/tools/chkssl.c
+psybnc/tools/chktime.c
+psybnc/tools/convconf.c
+psybnc/tools/makesalt.c
+psybnc/lang
+psybnc/lang/english.lng
+psybnc/lang/INFO
+psybnc/lang/german.lng
+psybnc/lang/italiano.lng
+psybnc/motd
+psybnc/motd/INFO
+psybnc/TODO
+psybnc/config.h
+psybnc/psybncchk
+psybnc/targets.mak
+psybnc/CHANGES
+psybnc/COPYING
+psybnc/FAQ
+psybnc/Makefile
+psybnc/README
+psybnc/SCRIPTING
+[4hAWSWeb:~# cd psybnc
+[4l[4hAWSWeb:~/psybnc# make menuconfig
+bash: make: command not found
+AWSWeb:~/psybnc# make
+bash: make: command not found
+AWSWeb:~/psybnc# cd psybnc
+[4lbash: cd: psybnc: No such file or directory
+[4hAWSWeb:~/psybnc# ls -al
+[4ldrwxr-xr-x 1 root root  4096 2014-02-19 07:27 .
+drwxr-xr-x 1 root root  4096 2014-02-19 07:27 ..
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 src
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 menuconf
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 help
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 scripts
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 log
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 tools
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 lang
+drwxr-xr-x 1 root root  4096 2005-06-04 18:23 motd
+-rw-r--r-- 1 root root  1618 2005-06-04 18:22 TODO
+-rw-r--r-- 1 root root   986 2005-06-04 18:22 config.h
+-rwxr-xr-x 1 root root   369 2005-06-04 18:22 psybncchk
+-rw-r--r-- 1 root root  3901 2005-06-04 18:22 targets.mak
+-rw-r--r-- 1 root root 35943 2005-06-04 18:22 CHANGES
+-rw-r--r-- 1 root root 17982 2005-06-04 18:22 COPYING
+-rw-r--r-- 1 root root  3560 2005-06-04 18:22 FAQ
+-rw-r--r-- 1 root root  2137 2005-06-04 18:22 Makefile
+-rw-r--r-- 1 root root 35722 2005-08-19 13:52 README
+-rw-r--r-- 1 root root 15738 2005-06-04 18:22 SCRIPTING
+[4hAWSWeb:~/psybnc# make config
+bash: make: command not found
+AWSWeb:~/psybnc# pico psybnc.conf
+bash: pico: command not found
+AWSWeb:~/psybnc# ss pico.conf[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1C[1D[1P[1D[1P[1D[1Ppsybnc
+bash: sspsybnc.conf: command not found
+AWSWeb:~/psybnc# ./psybnc
+bash: ./psybnc: command not found
+AWSWeb:~/psybnc# 

@@ -1,0 +1,209 @@
+[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# df -f[1D[1Ph
+bash: df: command not found
+AWSWeb:~# ssh
+[4lusage: ssh [-1246AaCfgKkMNnqsTtVvXxY] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-e escape_char] [-F configfile]
+           [-i identity_file] [-L [bind_address:]port:host:hostport]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-R [bind_address:]port:host:hostport] [-S ctl_path]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+[4hAWSWeb:~# ssh 178.79.134.171 -l 178.79.134.171 [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Proot
+[4lThe authenticity of host '178.79.134.171 (178.79.134.171)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '178.79.134.171' (RSA) to the list of known hosts.
+root@178.79.134.171's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Sun Apr 14 01:38:30 2013 from 192.168.9.4
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hlocalhost:~# df -h
+bash: df: command not found
+localhost:~# df
+bash: df: command not found
+localhost:~# ls /home
+[4lrichard 
+[4hlocalhost:~# ls /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /home/ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /home/richard/
+[4l[4hlocalhost:~# cd /etc
+[4l[4hlocalhost:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             
+rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              fstab                  
+login.defs             shells                 terminfo               
+[4hlocalhost:/etc# cat pass[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hlocalhost:/etc# cat [1D[1P[1D[1P[1D[1P[1D[1Pifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:/etc# ping 94.242.221.162
+[4lPING 94.242.221.162 (94.242.221.162) 56(84) bytes of data.
+64 bytes from 94.242.221.162 (94.242.221.162): icmp_seq=1 ttl=50 time=42.7 ms
+64 bytes from 94.242.221.162 (94.242.221.162): icmp_seq=2 ttl=50 time=44.7 ms
+--- 94.242.221.162 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hlocalhost:/etc# gcc
+bash: gcc: command not found
+localhost:/etc# cd /ets[1D[1Pc
+[4l[4hlocalhost:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             
+rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              fstab                  
+login.defs             shells                 terminfo               
+[4hlocalhost:/etc# cat [1D[1P[1D[1Pt hos[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat host.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat host.conf 
+[4lcat: /etc/host.conf: No such file or directory
+[4hlocalhost:/etc# cat hos[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat host[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+hosts       hosts.deny  hosts.allow hostname    host.conf   
+localhost:/etc# cat host[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+hosts       hosts.deny  hosts.allow hostname    host.conf   
+localhost:/etc# cat host.co[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat host.conf [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+services               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               .pwd.lock              
+environment            inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         
+rc6.d                  ld.so.cache            rc5.d                  apt                    networks               opt                    group                  
+inittab                issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              
+mke2fs.conf            rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  
+adduser.conf           init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               
+passwd-                rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              
+bash_completion.d      host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 terminfo               
+localhost:/etc# cat host.conf 
+[4lcat: /etc/host.conf: No such file or directory
+[4hlocalhost:/etc# cat add[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat adduser.conf 
+[4lcat: /etc/adduser.conf: No such file or directory
+[4hlocalhost:/etc# more add[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmore adduser.conf 
+bash: more: command not found
+localhost:/etc# ping 206.173.28.32
+[4lPING 206.173.28.32 (206.173.28.32) 56(84) bytes of data.
+64 bytes from 206.173.28.32 (206.173.28.32): icmp_seq=1 ttl=50 time=47.1 ms
+64 bytes from 206.173.28.32 (206.173.28.32): icmp_seq=2 ttl=50 time=46.0 ms
+64 bytes from 206.173.28.32 (206.173.28.32): icmp_seq=3 ttl=50 time=48.5 ms
+--- 206.173.28.32 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hlocalhost:/etc# bash
+[4l[4hlocalhost:/etc# make
+bash: make: command not found
+localhost:/etc# cd /
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hlocalhost:/# cd op[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd opt/
+[4l[4hlocalhost:/opt# ls
+[4l[4hlocalhost:/opt# cd ..
+[4l[4hlocalhost:/# ls /sr[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /srv/
+[4l[4hlocalhost:/# [Kls /srv/[1D[1P[1D[1P[1D[1P[1D[1Ptm[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /tmp/
+[4l[4hlocalhost:/# ssh 213.2.69.12 -l admin
+[4lThe authenticity of host '213.2.69.12 (213.2.69.12)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '213.2.69.12' (RSA) to the list of known hosts.
+root@213.2.69.12's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Sun Apr 14 01:48:15 2013 from 192.168.9.4
+[4hlocalhost:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 

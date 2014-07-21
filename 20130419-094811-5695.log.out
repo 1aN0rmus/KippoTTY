@@ -1,0 +1,138 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# host
+bash: host: command not found
+AWSWeb:~# h[1D[Khostn
+bash: hostn: command not found
+AWSWeb:~# [Khostname
+[4lAWSWeb
+[4hAWSWeb:~# /s [1D[1P[1D[1P[1D[1Pls /a[1D[1Pbin
+[4lwhich         cp            sleep         cat           uname         gzip          
+pwd           dir           kill          zless         tailf         true          
+sed           zcat          mkdir         lsmod         mknod         znew          
+grep          mv            dmesg         gunzip        df            mountpoint    
+bash          rbash         fgrep         login         pidof         zdiff         
+chmod         echo          zcmp          netstat       run-parts     touch         
+readlink      chgrp         ps            chown         rmdir         egrep         
+vdir          sh            mount         zegrep        more          zgrep         
+false         zmore         gzexe         mt            tempfile      ls            
+hostname      zfgrep        su            ln            cpio          rm            
+zforce        ping          umount        dd            mt-gnu        tar           
+dnsdomainname uncompress    date          ping6         stty          sync          
+mktemp        
+[4hAWSWeb:~# lsb[3D[Kls /bin/
+AWSWeb:~# netstat -la
+bash: netstat: command not found
+AWSWeb:~# [Knetstat -la[11D[Kls /sbin
+[4lswapon            rarp              fsck.ext2         mkfs.bfs          startpar          
+telinit           mkfs.ext4         ipmaddr           nameif            ifup              
+installkernel     isosize           update-modules    getty             lsmod             
+cfdisk            hwclock           debugfs           mke2fs            badblocks         
+e2undo            bootlogd          killall5          modinfo           dhclient          
+plipconfig        raw               e2fsck            fsck              dumpe2fs          
+pivot_root        slattach          iptunnel          mii-tool          depmod            
+unix_chkpwd       mkfs.minix        udevsettle        grub-install      udevadm           
+losetup           logsave           mkfs.ext3         blkid             fsck.minix        
+poweroff          fsck.nfs          mkfs.ext2         fsck.ext4         halt              
+shutdown          fsck.ext3         modprobe          route             start-stop-daemon 
+swapoff           rmmod             insmod            tune2fs           dhclient3         
+mkfs              ctrlaltdel        reboot            fsck.ext4dev      resize2fs         
+sfdisk            sysctl            update-grub       dhclient-script   e2image           
+sulogin           pam_tally         ifconfig          mkfs.ext4dev      unix_update       
+fdisk             ifdown            runlevel          blockdev          ldconfig          
+init              findfs            mkswap            mkfs.cramfs       fsck.cramfs       
+e2label           vol_id            udevd             shadowconfig      
+[4hAWSWeb:~# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hAWSWeb:~# ls /sr[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /srv/
+[4l[4hAWSWeb:~# ls /h[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /home/
+[4lrichard 
+[4hAWSWeb:~# [Kls /home/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /home/richard/
+[4l[4hAWSWeb:~# top
+bash: top: command not found
+AWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# [Kps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:48   0:00 -bash
+root      5507  0.0  0.1   2341   937 pts/0    R+   09:48   0:00 ps aux
+[4hAWSWeb:~# frre [1D[1P[1D[1P[1D[1P[1D[1Pee[1D[1P[1D[1Pree -m
+bash: free: command not found
+AWSWeb:~# hist
+bash: hist: command not found
+AWSWeb:~# or[2D[Khistry[1D[1P[1D[1Pory
+[4l    1  ls
+    2  pwd
+    3  host
+    4  ['h']
+    5  hostn
+    6  hostname
+    7  ls /bin
+    8  ['l', 's', 'b']
+    9  netstat -la
+   10  ls /sbin
+   11  ls /
+   12  ls /srv/
+   13  ls /home/
+   14  ls /home/richard/
+   15  top
+   16  ps
+   17  ps aux
+   18  free -m
+   19  hist
+   20  ['o', 'r']
+   21  history
+[4hAWSWeb:~# [4lcConnection to server closed.
+[4hlocalhost:~# dc
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hlocalhost:~# 

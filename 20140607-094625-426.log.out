@@ -1,0 +1,112 @@
+[4hAWSWeb:~# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# [Kadduser parth
+[4lAdding user `parth' ...
+Adding new group `parth' (1001) ...
+Adding new user `parth' (1001) with group `parth' ...
+Creating home directory `/home/parth' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for parth
+Enter the new value, or press ENTER for the default
+        Username []: parth
+        Full Name []: Parth Malhotra
+        Room Number []: 1
+        Work Phone []: 
+Must enter a value!
+        Work Phone []: 0
+        Home Phone []: 0
+        Mobile Phone []: 0
+        Country []: IN
+        City []: Hisar
+        Language []: English
+        Favorite movie []: 
+Must enter a value!
+        Favorite movie []: :D[1D[1P[1D[1Pidk
+        Other []: idk
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `parth' ...
+Deleting group `parth' (1001) ...
+Deleting home directory `/home/parth' ...
+Try again? [Y/n] y
+
+Changing the user information for parth
+Enter the new value, or press ENTER for the default
+        Username []: parth
+        Full Name []: Parth Malhotra
+        Room Number []: 1
+        Work Phone []: 9899987111
+        Home Phone []: 
+Must enter a value!
+        Home Phone []: 9899987111
+        Mobile Phone []: 9899987111
+        Country []: India
+        City []: Hisar
+        Language []: English
+        Favorite movie []: Hackers
+        Other []: Harry Potter
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `parth' ...
+Deleting group `parth' (1001) ...
+Deleting home directory `/home/parth' ...
+Try again? [Y/n] us[1D[1P[1D[1Pn
+[4hAWSWeb:~# useradd parth
+[4lAdding user `parth' ...
+Adding new group `parth' (1001) ...
+Adding new user `parth' (1001) with group `parth' ...
+Creating home directory `/home/parth' ...
+Copying files from `/etc/skel' ...
+Password: [1D[1P[1D[1P^C
+[4hAWSWeb:~# 
+bash: bdhadduser: command not found
+AWSWeb:~# 
+[4lAdding user `parth' ...
+Adding new group `parth' (1001) ...
+Adding new user `parth' (1001) with group `parth' ...
+Creating home directory `/home/parth' ...
+Copying files from `/etc/skel' ...
+Password: ^C
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# [1D[1P[1D[1P[1D[1P[1D[1P
+AWSWeb:~# 
+[4lAdding user `parth' ...
+Adding new group `parth' (1001) ...
+Adding new user `parth' (1001) with group `parth' ...
+Creating home directory `/home/parth' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for parth
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: parth
+        Full Name []: Parth Malhotra
+        Room Number []: ERROR: Some of the information you entered is invalid
+        Work Phone []: 1
+        Home Phone []: 1
+        Mobile Phone []: 2
+3        Country []: 
+4
+32        Language []: 
+        Favorite movie []:         Favorite movie []: 2
+        Other []: 2
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `parth' ...
+Deleting group `parth' (1001) ...
+Deleting home directory `/home/parth' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# 

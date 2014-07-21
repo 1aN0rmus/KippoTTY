@@ -1,0 +1,140 @@
+[4hAWSWeb:~# just saw your vie[1D[1Pdo[1D[1Peo!
+bash: just: command not found
+AWSWeb:~# unma[1D[1P[1D[1Pame -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# netstat -an | grep -i listen
+bash: netstat: command not found
+AWSWeb:~# /sbin/netstat -an | grep -i listen
+bash: /sbin/netstat: command not found
+AWSWeb:~# ls r-ltah /[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P-lrhta /sbin/
+[4ldrwxr-xr-x 1 root root   4096 2013-02-25 14:13 .
+drwxr-xr-x 1 root root   4096 2013-02-25 14:13 ..
+-rwxr-xr-x 1 root root  17012 2009-11-06 11:09 swapon
+-rwxr-xr-x 1 root root  23828 2009-11-06 11:09 rarp
+-rwxr-xr-x 1 root root 168912 2009-11-06 11:09 fsck.ext2
+-rwxr-xr-x 1 root root   8152 2009-11-06 11:09 mkfs.bfs
+-rwxr-xr-x 1 root root  19844 2009-11-06 11:09 startpar
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 telinit -> /sbin/init
+-rwxr-xr-x 1 root root  48624 2009-11-06 11:09 mkfs.ext4
+-rwxr-xr-x 1 root root  11040 2009-11-06 11:09 ipmaddr
+-rwxr-xr-x 1 root root   7636 2009-11-06 11:09 nameif
+-rwxr-xr-x 1 root root  26568 2009-11-06 11:09 ifup
+-rwxr-xr-x 1 root root   2331 2009-11-06 11:09 installkernel
+-rwxr-xr-x 1 root root   5804 2009-11-06 11:09 isosize
+-rwxr-xr-x 1 root root    300 2009-11-06 11:09 update-modules
+-rwxr-xr-x 1 root root  14780 2009-11-06 11:09 getty
+lrwxrwxrwx 1 root root     10 2009-11-06 11:09 lsmod -> /bin/lsmod
+-rwxr-xr-x 1 root root  53220 2009-11-06 11:09 cfdisk
+-rwxr-xr-x 1 root root  31132 2009-11-06 11:09 hwclock
+-rwxr-xr-x 1 root root  70272 2009-11-06 11:09 debugfs
+-rwxr-xr-x 1 root root  48624 2009-11-06 11:09 mke2fs
+-rwxr-xr-x 1 root root  19180 2009-11-06 11:09 badblocks
+-rwxr-xr-x 1 root root   6716 2009-11-06 11:09 e2undo
+-rwxr-xr-x 1 root root  11476 2009-11-06 11:09 bootlogd
+-rwxr-xr-x 1 root root  10604 2009-11-06 11:09 killall5
+-rwxr-xr-x 1 root root  10452 2009-11-06 11:09 modinfo
+lrwxrwxrwx 1 root root      9 2009-11-06 11:15 dhclient -> /sbin/dhclient3
+-rwxr-xr-x 1 root root   4816 2009-11-06 11:09 plipconfig
+-rwxr-xr-x 1 root root   5640 2009-11-06 11:09 raw
+-rwxr-xr-x 1 root root 168912 2009-11-06 11:09 e2fsck
+-rwxr-xr-x 1 root root  20116 2009-11-06 11:09 fsck
+-rwxr-xr-x 1 root root  12872 2009-11-06 11:09 dumpe2fs
+-rwxr-xr-x 1 root root   2916 2009-11-06 11:09 pivot_root
+-rwxr-xr-x 1 root root  27860 2009-11-06 11:09 slattach
+-rwxr-xr-x 1 root root  14652 2009-11-06 11:09 iptunnel
+-rwxr-xr-x 1 root root  12004 2009-11-06 11:09 mii-tool
+-rwxr-xr-x 1 root root  44188 2009-11-06 11:09 depmod
+-rwxr-xr-x 1 root 42  26372 2009-11-06 11:15 unix_chkpwd
+-rwxr-xr-x 1 root root  14552 2009-11-06 11:09 mkfs.minix
+lrwxrwxrwx 1 root root      7 2009-11-06 11:15 udevsettle -> /sbin/udevadm
+-rwxr-xr-x 1 root root    375 2009-11-06 11:22 grub-install
+-rwxr-xr-x 1 root root  71604 2009-11-06 11:15 udevadm
+-rwxr-xr-x 1 root root  25556 2009-11-06 11:09 losetup
+-rwxr-xr-x 1 root root   6452 2009-11-06 11:09 logsave
+-rwxr-xr-x 1 root root  48624 2009-11-06 11:09 mkfs.ext3
+-rwxr-xr-x 1 root root  10044 2009-11-06 11:09 blkid
+-rwxr-xr-x 1 root root  22112 2009-11-06 11:09 fsck.minix
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 poweroff -> /sbin/halt
+-rwxr-xr-x 1 root root    333 2009-11-06 11:09 fsck.nfs
+-rwxr-xr-x 1 root root  48624 2009-11-06 11:09 mkfs.ext2
+-rwxr-xr-x 1 root root 168912 2009-11-06 11:09 fsck.ext4
+-rwxr-xr-x 1 root root  11448 2009-11-06 11:09 halt
+-rwxr-xr-x 1 root root  18196 2009-11-06 11:09 shutdown
+-rwxr-xr-x 1 root root 168912 2009-11-06 11:09 fsck.ext3
+-rwxr-xr-x 1 root root  25124 2009-11-06 11:09 modprobe
+-rwxr-xr-x 1 root root  49360 2009-11-06 11:09 route
+-rwxr-xr-x 1 root root  18868 2009-11-06 11:22 start-stop-daemon
+lrwxrwxrwx 1 root root      6 2009-11-06 11:09 swapoff -> /sbin/swapon
+-rwxr-xr-x 1 root root   7540 2009-11-06 11:09 rmmod
+-rwxr-xr-x 1 root root   5672 2009-11-06 11:09 insmod
+-rwxr-xr-x 1 root root  30652 2009-11-06 11:09 tune2fs
+-rwxr-xr-x 1 root root 363232 2009-11-06 11:15 dhclient3
+-rwxr-xr-x 1 root root   4836 2009-11-06 11:09 mkfs
+-rwxr-xr-x 1 root root   3528 2009-11-06 11:09 ctrlaltdel
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 reboot -> /sbin/halt
+-rwxr-xr-x 1 root root 168912 2009-11-06 11:09 fsck.ext4dev
+-rwxr-xr-x 1 root root  32664 2009-11-06 11:09 resize2fs
+-rwxr-xr-x 1 root root  51908 2009-11-06 11:09 sfdisk
+-rwxr-xr-x 1 root root  10192 2009-11-06 11:09 sysctl
+-rwxr-xr-x 1 root root    466 2009-11-06 11:22 update-grub
+-rwxr-xr-x 1 root root   7838 2009-11-06 11:15 dhclient-script
+-rwxr-xr-x 1 root root  14044 2009-11-06 11:09 e2image
+-rwxr-xr-x 1 root root  10496 2009-11-06 11:09 sulogin
+-rwxr-xr-x 1 root root   7656 2009-11-06 11:15 pam_tally
+-rwxr-xr-x 1 root root  61736 2009-11-06 11:09 ifconfig
+-rwxr-xr-x 1 root root  48624 2009-11-06 11:09 mkfs.ext4dev
+-rwxr-xr-x 1 root root  26364 2009-11-06 11:15 unix_update
+-rwxr-xr-x 1 root root  84996 2009-11-06 11:09 fdisk
+-rwxr-xr-x 1 root root  26568 2009-11-06 11:09 ifdown
+-rwxr-xr-x 1 root root   3192 2009-11-06 11:09 runlevel
+-rwxr-xr-x 1 root root   9276 2009-11-06 11:09 blockdev
+-rwxr-xr-x 1 root root 636036 2009-11-06 11:09 ldconfig
+-rwxr-xr-x 1 root root  31296 2009-11-06 11:09 init
+-rwxr-xr-x 1 root root  30652 2009-11-06 11:09 findfs
+-rwxr-xr-x 1 root root  13504 2009-11-06 11:09 mkswap
+-rwxr-xr-x 1 root root  14972 2009-11-06 11:09 mkfs.cramfs
+-rwxr-xr-x 1 root root   6956 2009-11-06 11:09 fsck.cramfs
+-rwxr-xr-x 1 root root  30652 2009-11-06 11:09 e2label
+lrwxrwxrwx 1 root root     16 2009-11-06 11:15 vol_id -> /lib/udev/vol_id
+-rwxr-xr-x 1 root root  63424 2009-11-06 11:15 udevd
+-rwxr-xr-x 1 root root    875 2009-11-06 11:09 shadowconfig
+[4hAWSWeb:~# which netstat
+bash: which: command not found
+AWSWeb:~# ok, see u next time
+bash: ok,: command not found
+AWSWeb:~# bye
+bash: bye: command not found
+AWSWeb:~# [4lcConnection to server closed.
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# nestat [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptstt[1D[1Pat -an | grep -i listen
+bash: netstat: command not found
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# ~.[1D[1P[1D[1Pexit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

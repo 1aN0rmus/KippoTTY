@@ -1,0 +1,71 @@
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/# [Kcat /etc/passwd|cut -d: -f1
+[4lcat: /etc/passwd|cut: No such file or directory
+cat: -d:: No such file or directory
+cat: -f1: No such file or directory
+[4hAWSWeb:/# [Kcat /etc/passwd|cut -d: -f1[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pbash
+[4l[4hAWSWeb:/# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# cd /etc'
+-bash: syntax error: unexpected end of file
+AWSWeb:/# [Kcd /etc'[1D[1P
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 terminfo               
+[4hAWSWeb:/etc# cat shado[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat shadow
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:/etc# 
+AWSWeb:/etc# 
+AWSWeb:/etc# 
+AWSWeb:/etc# 
+AWSWeb:/etc# 
+AWSWeb:/etc# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

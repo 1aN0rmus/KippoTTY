@@ -1,0 +1,90 @@
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# history
+[4l    1  id
+    2  history
+[4hAWSWeb:~# w
+[4l 14:47:48 up 95 days, 16:51,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    195.245.194.6     14:47    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-30 14:47 .
+drwxr-xr-x 1 root root 4096 2013-04-30 14:47 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+backups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+AWSWeb:~# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+backups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+AWSWeb:~# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-04-30 14:48 .
+drwxr-xr-x 1 root root  4096 2013-04-30 14:48 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# df
+bash: df: command not found
+AWSWeb:/# du
+bash: du: command not found
+AWSWeb:/# cd drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+[4lbash: cd: drwxr-xr-x: No such file or directory
+[4hAWSWeb:/# cd ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd home/[1D[1P
+[4l[4hAWSWeb:/home# l -la
+bash: l: command not found
+AWSWeb:/home# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-30 14:48 .
+drwxr-xr-x 1 root root 4096 2013-04-30 14:48 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:/home# cd richard
+[4l[4hAWSWeb:/home/richard# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-30 14:49 .
+drwxr-xr-x 1 root root 4096 2013-04-30 14:49 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:/home/richard# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-30 14:49 .
+drwxr-xr-x 1 root root 4096 2013-04-30 14:49 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit\
+-bash: syntax error: unexpected end of file
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

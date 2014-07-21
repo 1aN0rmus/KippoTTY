@@ -1,0 +1,112 @@
+[4hAWSWeb:~# cd /etc
+[4l[4hAWSWeb:/etc# ls -al
+[4ldrwxr-xr-x 1 root root  4096 2013-04-15 10:31 .
+drwxr-xr-x 1 root root  4096 2013-04-15 10:31 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+[4hAWSWeb:/etc# l[1D[1Pvi ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi host.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi host.conf 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc# cd htt[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnetstat -ant
+bash: netstat: command not found
+AWSWeb:/etc# uname -r
+[4lLinux
+[4hAWSWeb:/etc# [Kuname -r[1D[1Pa
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/etc# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

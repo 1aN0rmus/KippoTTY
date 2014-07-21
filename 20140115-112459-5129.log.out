@@ -1,0 +1,522 @@
+[4hAWSWeb:~# w
+[4l 11:25:02 up 83 days, 16:46,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 11:25:27 up 83 days, 16:46,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hAWSWeb:~# last
+[4lroot	pts/0	72.51.42.100	Wed Jan 15 09:06 - 09:07 (00:07)
+root	pts/0	211.160.32.186	Wed Jan 15 09:14 - 09:14 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:14 - 09:14 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:22 - 09:22 (00:07)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:42 - 09:42 (00:09)
+root	pts/0	211.160.32.186	Wed Jan 15 09:50 - 09:50 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:50 - 09:50 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:57 - 09:57 (00:02)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:10)
+root	pts/0	72.51.42.100	Wed Jan 15 11:03 - 11:03 (00:00)
+
+[4hAWSWeb:~# top
+bash: top: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# ap[1D[1P[1D[1Py[1D[1Papy
+bash: apy: command not found
+AWSWeb:~# apt
+bash: apt: command not found
+AWSWeb:~# yum
+bash: yum: command not found
+AWSWeb:~# dpkg
+bash: dpkg: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get install
+[4l0 upgraded, 0 newly installed, 0 to remove and 232 not upgraded.
+[4hAWSWeb:~# [Kapt-get install[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pyu[1D[1P[1D[1Pupdate
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# reboot
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Wed Jan 15 11:26:18 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# w
+[4l 11:26:27 up 83 days, 16:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# w
+[4l 11:26:28 up 83 days, 16:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# top
+bash: top: command not found
+localhost:~# 
+localhost:~# 
+localhost:~# w
+[4l 11:26:33 up 83 days, 16:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# w
+[4l 11:26:34 up 83 days, 16:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# last
+[4lroot	pts/0	72.51.42.100	Wed Jan 15 09:06 - 09:07 (00:07)
+root	pts/0	211.160.32.186	Wed Jan 15 09:14 - 09:14 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:14 - 09:14 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:22 - 09:22 (00:07)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:28 - 09:28 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:03)
+root	pts/0	211.160.32.186	Wed Jan 15 09:35 - 09:35 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:42 - 09:42 (00:09)
+root	pts/0	211.160.32.186	Wed Jan 15 09:50 - 09:50 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 09:50 - 09:50 (00:10)
+root	pts/0	211.160.32.186	Wed Jan 15 09:57 - 09:57 (00:02)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:04 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:04 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:04)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:05)
+root	pts/0	211.160.32.186	Wed Jan 15 10:05 - 10:05 (00:10)
+root	pts/0	72.51.42.100	Wed Jan 15 11:03 - 11:03 (00:00)
+
+[4hlocalhost:~# w
+[4l 11:26:39 up 83 days, 16:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# su -
+[4l[4hlocalhost:~# ua[1D[1Psers
+bash: users: command not found
+localhost:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# whia[1D[1P[1D[1Poami
+[4lroot
+[4hlocalhost:~# mc
+bash: mc: command not found
+localhost:~# yum
+bash: yum: command not found
+localhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# hostname -a
+[4llocalhost
+[4hlocalhost:~# [Khostname -a[1D[1Pf
+[4llocalhost
+[4hlocalhost:~# [Khostname -f[1D[1Ps lolal
+[4llocalhost
+[4hlocalhost:~# [Khostname -s lolal[17D[Khostname -f
+[4llocalhost
+[4hlocalhost:~# [Khostname -f[11D[Kifcon
+bash: ifcon: command not found
+localhost:~# ifcfg
+bash: ifcfg: command not found
+localhost:~# if[1D[1P[1D[1Pip a
+bash: ip: command not found
+localhost:~# ip n
+bash: ip: command not found
+localhost:~# w
+[4l 11:27:47 up 83 days, 16:49,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# services
+bash: services: command not found
+localhost:~# chkconf
+bash: chkconf: command not found
+localhost:~# chkconfig
+bash: chkconfig: command not found
+localhost:~# yum install
+bash: yum: command not found
+localhost:~# cd /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/c[1D[1P[1D[1P
+[4l[4hlocalhost:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                
+mailcap                shadow-                modules                debian_version         ld.so.conf.d           
+passwd                 localtime              hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   mime.types             sysctl.d               
+environment            inputrc                initramfs-tools        modprobe.d             debconf.conf           
+security               vim                    ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    
+group                  inittab                issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               hosts.deny             rc.local               
+python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              
+mke2fs.conf            rc1.d                  sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           init.d                 hosts.allow            
+gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    magic                  kernel-img.conf        
+motd                   shadow                 protocols              bash_completion.d      host.conf              
+rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 terminfo               
+[4hlocalhost:/etc# apt-gfe[1D[1P[1D[1Pet
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/etc# cd /va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lio[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lib/ap[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lib/apt/li[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lib/apt/lists/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+security.debian.org_dists_lenny_updates_Release.gpg                                
+ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   
+ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           
+ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   
+ftp.us.debian.org_debian_dists_lenny_Release                                       
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages 
+security.debian.org_dists_lenny_updates_Release                                    
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               
+lock                                                                               
+partial                                                                            
+security.debian.org_dists_lenny_updates_main_source_Sources                        
+security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+localhost:/etc# cd /var/lib/apt/lists/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+security.debian.org_dists_lenny_updates_Release.gpg                                
+ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   
+ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           
+ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   
+ftp.us.debian.org_debian_dists_lenny_Release                                       
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages 
+security.debian.org_dists_lenny_updates_Release                                    
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               
+lock                                                                               
+partial                                                                            
+security.debian.org_dists_lenny_updates_main_source_Sources                        
+security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+localhost:/etc# cd /var/lib/apt/lists/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+security.debian.org_dists_lenny_updates_Release.gpg                                
+ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   
+ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           
+ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   
+ftp.us.debian.org_debian_dists_lenny_Release                                       
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages 
+security.debian.org_dists_lenny_updates_Release                                    
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               
+lock                                                                               
+partial                                                                            
+security.debian.org_dists_lenny_updates_main_source_Sources                        
+security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+localhost:/etc# cd /var/lib/apt/lists/
+[4l[4hlocalhost:/var/lib/apt/lists# ls
+[4lsecurity.debian.org_dists_lenny_updates_Release.gpg                                
+ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   
+ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           
+ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   
+ftp.us.debian.org_debian_dists_lenny_Release                                       
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages 
+security.debian.org_dists_lenny_updates_Release                                    
+volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               
+lock                                                                               
+partial                                                                            
+security.debian.org_dists_lenny_updates_main_source_Sources                        
+security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  
+volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+[4hlocalhost:/var/lib/apt/lists# ls -lha
+[4ldrwxr-xr-x 1 root root     4096 2014-01-15 11:28 .
+drwxr-xr-x 1 root root     4096 2014-01-15 11:28 ..
+-rw-r--r-- 1 root root      835 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release.gpg
+-rw-r--r-- 1 root root 24358983 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40723 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release
+-rw-r--r-- 1 root root 10371439 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_source_Sources
+-rw-r--r-- 1 root root     1032 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release.gpg
+-rw-r--r-- 1 root root    73630 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release
+-rw-r--r-- 1 root root    29035 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40771 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release
+-rw-r--r-- 1 root root      189 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg
+-rw-r----- 1 root root        0 2009-11-06 11:10 lock
+drwxr-xr-x 1 root root     4096 2009-11-08 15:44 partial
+-rw-r--r-- 1 root root   243506 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_source_Sources
+-rw-r--r-- 1 root root  1354996 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_binary-i386_Packages
+-rw-r--r-- 1 root root     5542 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources
+[4hlocalhost:/var/lib/apt/lists# rm lock[1D[1Pk
+[4l[4hlocalhost:/var/lib/apt/lists# [Krm lock[7D[Kls -lha[7D[Kls[2D[Kcd /var/lib/apt/lists/[22D[Kapt-get[7D[Kls[2D[Kcd /etc[7D[Kyum install[11D[Kcd /etc[7D[Kls[2D[Kapt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# [Kapt-get[7D[Krm lock[7D[Kls -lha
+[4ldrwxr-xr-x 1 root root     4096 2014-01-15 11:29 .
+drwxr-xr-x 1 root root     4096 2014-01-15 11:29 ..
+-rw-r--r-- 1 root root      835 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release.gpg
+-rw-r--r-- 1 root root 24358983 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40723 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release
+-rw-r--r-- 1 root root 10371439 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_source_Sources
+-rw-r--r-- 1 root root     1032 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release.gpg
+-rw-r--r-- 1 root root    73630 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release
+-rw-r--r-- 1 root root    29035 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40771 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release
+-rw-r--r-- 1 root root      189 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg
+drwxr-xr-x 1 root root     4096 2009-11-08 15:44 partial
+-rw-r--r-- 1 root root   243506 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_source_Sources
+-rw-r--r-- 1 root root  1354996 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_binary-i386_Packages
+-rw-r--r-- 1 root root     5542 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources
+[4hlocalhost:/var/lib/apt/lists# touch lock
+[4l[4hlocalhost:/var/lib/apt/lists# [Ktouch lock[10D[Kls -lha
+[4ldrwxr-xr-x 1 root root     4096 2014-01-15 11:29 .
+drwxr-xr-x 1 root root     4096 2014-01-15 11:29 ..
+-rw-r--r-- 1 root root      835 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release.gpg
+-rw-r--r-- 1 root root 24358983 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40723 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release
+-rw-r--r-- 1 root root 10371439 2009-11-06 11:13 ftp.us.debian.org_debian_dists_lenny_main_source_Sources
+-rw-r--r-- 1 root root     1032 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release.gpg
+-rw-r--r-- 1 root root    73630 2009-11-08 15:44 ftp.us.debian.org_debian_dists_lenny_Release
+-rw-r--r-- 1 root root    29035 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages
+-rw-r--r-- 1 root root    40771 2009-11-08 15:44 security.debian.org_dists_lenny_updates_Release
+-rw-r--r-- 1 root root      189 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg
+drwxr-xr-x 1 root root     4096 2009-11-08 15:44 partial
+-rw-r--r-- 1 root root   243506 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_source_Sources
+-rw-r--r-- 1 root root  1354996 2009-11-08 15:44 security.debian.org_dists_lenny_updates_main_binary-i386_Packages
+-rw-r--r-- 1 root root     5542 2009-11-08 15:44 volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources
+-rw-r--r-- 1 root root        0 2014-01-15 11:29 lock
+[4hlocalhost:/var/lib/apt/lists# [Kls -lha[7D[Ktouch lock[10D[Kls -lha[7D[Kapt-get[7D[Krm lock[7D[Kapt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# [Kapt-get[7D[Kls -lha[7D[Ktouch lock[10D[Kls -lha[7D[Kapt-get[7D[K[K[Kchmod 777 lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod 777 lock 
+[4l[4hlocalhost:/var/lib/apt/lists# [Kchmod 777 lock [15D[Kapt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# sudo apt-get -f install
+bash: sudo: command not found
+localhost:/var/lib/apt/lists# apt-get install sudo
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  sudo 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 560.2kB of archives.
+After this operation, 1232.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main sudo 0.17-10 [560.2kB]
+Fetched 560.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking sudo (from .../archives/sudo_0.17-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up sudo (0.17-10) ...
+[4hlocalhost:/var/lib/apt/lists# [Kapt-get install sudo[20D[Ksudo apt-get -f install
+[4lsudo: Segmentation fault
+[4hlocalhost:/var/lib/apt/lists# sudo apg[1D[1Pt-get updar[1D[1Pte
+[4lsudo: Segmentation fault
+[4hlocalhost:/var/lib/apt/lists# apt-get i[1D[1Pupdate
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# apt=get[1D[1P[1D[1P[1D[1P=-[1D[1P[1D[1P[1D[1P-get check
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# [Kapt-get check[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P-[1D[1P --help
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:/var/lib/apt/lists# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:34:41 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:34:53 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:34:59 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# halt
+bash: halt: command not found
+localhost:~# inig[1D[1Pt 5
+bash: init: command not found
+localhost:~# [Kinit 5[1D[1P6
+bash: init: command not found
+localhost:~# apt-get install init
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  init 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 322.2kB of archives.
+After this operation, 708.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main init 1.10-1 [322.2kB]
+Fetched 322.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking init (from .../archives/init_1.10-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up init (1.10-1) ...
+[4hlocalhost:~# init 5
+[4linit: Segmentation fault
+[4hlocalhost:~# [Kinit 5[1D[1P6
+[4linit: Segmentation fault
+[4hlocalhost:~# halt
+bash: halt: command not found
+localhost:~# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:35:37 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# services
+bash: services: command not found
+localhost:~# service
+bash: service: command not found
+localhost:~# top
+bash: top: command not found
+localhost:~# w
+[4l 11:35:49 up 83 days, 16:57,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# ps -ax
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Dec31   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Dec31   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Dec31   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Dec31   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Dec31   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Dec31   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Dec31   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Dec31   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Dec31   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Dec31   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Dec31   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Dec31   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Dec31   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Dec31   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Dec31   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Dec31   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Dec31   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Dec31   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Dec31   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Dec31   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Dec31   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Dec31   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Dec31   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan02   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   11:24   0:00 -bash
+root      5545  0.0  0.1   2341   937 pts/0    R+   11:24   0:00 ps -ax
+[4hlocalhost:~# sudo reboot
+[4lsudo: Segmentation fault
+[4hlocalhost:~# echo 1 > /proc/sys/kernel/sysrq
+[4l1 > /proc/sys/kernel/sysrq
+[4hlocalhost:~# echo b > /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pecho b > /proc/sysrq[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pecho b > /proc/sysrq-trigger -[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pecho b > /proc/sysrq-trigger 
+[4lb > /proc/sysrq-trigger
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# [Kecho b > /proc/sysrq-trigger [29D[Kecho 1 > /proc/sys/kernel/sysrq[31D[Kecho b > /proc/sysrq-trigger [29D[1C[1C[1C[1C[1C[1Po
+[4lo > /proc/sysrq-trigger
+[4hlocalhost:~# [Kecho o > /proc/sysrq-trigger [29D[1P[1P[1P[1P[1P[1P[1P[1Pcat
+[4lcat: /proc/sysrq-trigger: No such file or directory
+[4hlocalhost:~# [Kcat /proc/sysrq-trigger [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+.debtags  .viminfo  .aptitude .profile  .bashrc   
+localhost:~# cat /proc/sysrq-trigger [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+.debtags  .viminfo  .aptitude .profile  .bashrc   
+localhost:~# cat /proc/sysrq-trigger [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/sysrq-trigger 
+[4lcat: /proc/sysrq-trigger: No such file or directory
+[4hlocalhost:~# cd /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /proc/
+[4l[4hlocalhost:/proc# ls
+[4lasound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+[4hlocalhost:/proc# cat sysw[1D[1Prq[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat sysrq-trigger 
+[4lcat: /proc/sysrq-trigger: No such file or directory
+[4hlocalhost:/proc# cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/sys/kernel
+[4lcat: /proc/sys/kernel: No such file or directory
+[4hlocalhost:/proc# [Kcat /proc/sys/kernel[20D[Kcat sysrq-trigger [18D[Kls[2D[Kcd /proc/[9D[Kcat /proc/sysrq-trigger [24D[Kcat /proc/sysrq-trigger [24D[Kecho o > /proc/sysrq-trigger [29D[Kecho b > /proc/sysrq-trigger [29D[Kecho 1 > /proc/sys/kernel/sysrq[1D[1P[1D[1P[1D[1P[28D[Kecho b > /proc/sysrq-trigger [29D[Kecho o > /proc/sysrq-trigger [29D[Kcat /proc/sysrq-trigger [24D[Kcat /proc/sysrq-trigger [24D[Kcd /proc/[9D[Kls[2D[Kcat sysrq-trigger [18D[Kcat /proc/sys/kernelcd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd sys
+[4l[4hlocalhost:/proc/sys# cd kernel
+[4lbash: cd: kernel: No such file or directory
+[4hlocalhost:/proc/sys# mkdir kernel
+[4l[4hlocalhost:/proc/sys# cd ker[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd kernel/
+[4l[4hlocalhost:/proc/sys/kernel# touch sysrq
+[4l[4hlocalhost:/proc/sys/kernel# ls
+[4lsysrq 
+[4hlocalhost:/proc/sys/kernel# cat sys[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat sysrq [10D[1P[1P[1Pect[1D[1Pho 1 >
+[4l1 > /proc/sys/kernel/sysrq
+[4hlocalhost:/proc/sys/kernel# [Kecho 1 > sysrq [15D[Kls[2D[Ktouch sysrq[11D[Kcd kernel/[10D[Kmkdir kernel[12D[Kcd kernel[9D[Kcd sys[6D[Kcat /proc/sys/kernel[20D[Kcat sysrq-trigger [18D[Kls[2D[Kcd /proc/[9D[Kcat /proc/sysrq-trigger [24D[Kcat /proc/sysrq-trigger [24D[Kecho o > /proc/sysrq-trigger [29D[Kecho b > /proc/sysrq-trigger [29D[Kecho 1 > /proc/sys/kernel/sysrq[31D[Ksudo reboot[11D[Kecho 1 > /proc/sys/kernel/sysrq[31D[Kecho b > /proc/sysrq-trigger 
+[4lb > /proc/sysrq-trigger
+[4hlocalhost:/proc/sys/kernel# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:41:10 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# halt
+bash: halt: command not found
+localhost:~# w
+[4l 11:41:55 up 83 days, 17:3,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    213.158.0.25      11:24    0.09   0.05   0.05 w
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# vi /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/init[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+initramfs-tools inittab         init.d          
+localhost:~# vi /etc/initt[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/inittab 
+[4lE558: Terminal entry not found in terminfo
+[4hlocalhost:~# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Wed Jan 15 11:42:13 2014):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# 

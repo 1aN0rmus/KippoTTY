@@ -1,0 +1,60 @@
+[4hAWSWeb:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# wget https://dl.dropbox.com/u/6826053/Scripts/DOS.pl[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1P
+[4l--2013-02-26 01:39:27--  http://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+Connecting to dl.dropbox.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 736 (736bytes) [text/x-perl; charset=ascii]
+Saving to: `DOS.pl
+
+100% [=======================================>] 736          3K/s  eta 0s100%[======================================>] 736          3K/s
+
+2013-02-26 01:39:27 (3 KB/s) - `DOS.pl' saved [736/736]
+[4hAWSWeb:~# wget https://dl.dropbox.com/u/6826053/Scripts/DOS.sh
+[4lSorry, SSL not supported in this release
+[4hAWSWeb:~# [Kwget https://dl.dropbox.com/u/6826053/Scripts/DOS.sh[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P
+[4l--2013-02-26 01:39:44--  http://dl.dropbox.com/u/6826053/Scripts/DOS.sh
+Connecting to dl.dropbox.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 295 (295bytes) [text/x-sh; charset=ascii]
+Saving to: `DOS.sh
+
+100% [=======================================>] 295          1K/s  eta 0s100%[======================================>] 295          1K/s
+
+2013-02-26 01:39:44 (1 KB/s) - `DOS.sh' saved [295/295]
+[4hAWSWeb:~# chmod 755 DOS.pl
+[4l[4hAWSWeb:~# [Kchmod 755 DOS.pl[1D[1P[1D[1Psh
+[4l[4hAWSWeb:~# dos2unix DOS.pl
+bash: dos2unix: command not found
+AWSWeb:~# apt-get install dos2unix
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 226.2kB of archives.
+After this operation, 497.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main dos2unix 0.29-5 [226.2kB]
+Fetched 226.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking dos2unix (from .../archives/dos2unix_0.29-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up dos2unix (0.29-5) ...
+[4hAWSWeb:~# [Kapt-get install dos2unix[24D[Kdos2unix DOS.pl
+[4ldos2unix: Segmentation fault
+[4hAWSWeb:~# [Kdos2unix DOS.pl[15D[Kapt-get install dos2unix[24D[Kdos2unix DOS.pl[15D[K./DOS.p[1D[1Psh ./DOS.sh conepvp.net 25565 120[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./DOS.sh conepvp.net 25565 120
+bash: ./DOS.sh: command not found
+AWSWeb:~# ls
+[4lDOS.pl DOS.sh 
+[4hAWSWeb:~# chmod +x DOS.sh
+[4l[4hAWSWeb:~# [Kchmod +x DOS.sh[1D[1P[1D[1P[1D[1P.pl
+[4l[4hAWSWeb:~# [Kchmod +x DOS.pl[15D[Kchmod +x DOS.sh[15D[Kls[2D[K./DOS.sh conepvp.net 25565 120
+bash: ./DOS.sh: command not found
+AWSWeb:~# [K./DOS.sh conepvp.net 25565 120[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1P[1D[1Pbash 
+[4l[4hAWSWeb:~# [Kbash DOS.sh conepvp.net 25565 120[33D[K

@@ -1,0 +1,585 @@
+[4hAWSWeb:~# whoami 
+[4lroot
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd /var/
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cv [1D[1P[1D[1Pd /a,[1D[1Pm[1D[1P[1D[1Pma[1D[1P[1D[1Pmail./
+[4lbash: cd: /mail./: No such file or directory
+[4hAWSWeb:/var# [Kcd /mail./[1D[1P[1D[1P/
+[4lbash: cd: /mail/: No such file or directory
+[4hAWSWeb:/var# [Kcd /mail/[1D[1P
+[4lbash: cd: /mail: No such file or directory
+[4hAWSWeb:/var# c [1D[1Pd mail
+[4l[4hAWSWeb:/var/mail# ls
+[4l[4hAWSWeb:/var/mail# cd /
+[4l[4hAWSWeb:/# cd /var/www/
+[4lbash: cd: /var/www/: No such file or directory
+[4hAWSWeb:/# cd var[1D[1P[1D[1P[1D[1P[1D[1P/var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P /var/wwww
+[4lbash: cd: /var/wwww: No such file or directory
+[4hAWSWeb:/# cd /var
+[4l[4hAWSWeb:/var# cd /
+[4l[4hAWSWeb:/# sudo yum update -y
+bash: sudo: command not found
+AWSWeb:/# yum -y update
+bash: yum: command not found
+AWSWeb:/# .[1D[1Papt -get [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# cd /var/lib/apt
+[4l[4hAWSWeb:/var/lib/apt# cd [1D[1P[1D[1P[1D[1Pls
+[4lperiodic        cdroms.list     extended_states cdroms.list~    lists           
+[4hAWSWeb:/var/lib/apt# cd croms.list
+[4lbash: cd: croms.list: No such file or directory
+[4hAWSWeb:/var/lib/apt# [Kcd croms.list[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Dd[1C[1D[1P[1D[1Pcd
+[4l-bash: cd: /var/lib/apt/cdroms.list: Not a directory
+[4hAWSWeb:/var/lib/apt# nano c [1D[1Pdroms.list
+bash: nano: command not found
+AWSWeb:/var/lib/apt# ls [1D[1P[1D[1P[1D[1Pcd /
+[4l[4hAWSWeb:/# ls -ld /usr
+[4ldrwxr-xr-x 1 root root  4096 2014-06-04 15:28 .
+drwxr-xr-x 1 root root  4096 2014-06-04 15:28 ..
+drwxr-xr-x 1 root root 12288 2009-11-08 15:46 bin
+drwxrwxr-x 1 root 40  4096 2009-11-06 11:08 src
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 include
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11R6
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 sbin
+drwxrwxr-x 1 root 50  4096 2009-11-06 11:09 local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 share
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 games
+[4hAWSWeb:/# ls -ld /usr/bin
+[4ldrwxr-xr-x 1 root root    4096 2014-06-04 15:28 .
+drwxr-xr-x 1 root root    4096 2014-06-04 15:28 ..
+-rwxr-xr-x 1 root root   26572 2009-11-06 11:09 id
+-rwxr-xr-x 1 root root  338528 2009-11-06 11:15 omshell
+lrwxrwxrwx 1 root root      22 2009-11-06 11:09 nawk -> /usr/bin/mawk
+-rwxr-xr-x 1 root root   25036 2009-11-06 11:09 cksum
+lrwxrwxrwx 1 root root      20 2009-11-06 11:10 vi -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root       5 2009-11-06 11:09 snice -> /usr/bin/skill
+-rwxr-xr-x 1 root root 1175796 2009-11-08 15:45 python2.5
+lrwxrwxrwx 1 root root      10 2009-11-06 11:09 which -> /bin/which
+-rwxr-xr-x 1 root root     153 2009-11-06 11:22 mkbimage
+-rwxr-xr-x 1 root root   24364 2009-11-06 11:09 pg
+-rwxr-xr-x 1 root root    9356 2009-11-06 11:09 tput
+-rwxr-xr-x 1 root root  841476 2009-11-06 11:15 gpg
+-rwxr-xr-x 1 root root    1584 2009-11-06 11:09 traceroute-nanog.db
+-rwxr-xr-x 1 root root    2758 2009-11-06 11:09 debconf
+-rwxr-xr-x 1 root root   65656 2009-11-06 11:09 top
+-rwxr-xr-x 1 root root   40016 2009-11-06 11:09 ptx
+-rwxr-xr-x 1 root root    2470 2009-11-06 11:09 lft.db
+-rwxr-xr-x 1 root root   31300 2009-11-06 11:09 wc
+-rwxr-xr-x 1 root root    6252 2009-11-06 11:09 setarch
+-rwxr-xr-x 1 root root   20816 2009-11-06 11:15 whiptail
+lrwxrwxrwx 1 root root       3 2009-11-06 11:09 captoinfo -> /usr/bin/tic
+-rwxr-xr-x 1 root root   55124 2009-11-06 11:09 pr
+-rwxr-xr-x 1 root root   33096 2009-11-06 11:09 printf
+-rwxr-xr-x 1 root root   20112 2009-11-06 11:09 diff3
+-rwxr-xr-x 1 root root   18920 2009-11-06 11:09 sdiff
+-rwxr-xr-x 1 root root    9434 2009-11-06 11:09 savelog
+lrwxrwxrwx 1 root root       4 2009-11-06 11:09 reset -> /usr/bin/tset
+-rwxr-xr-x 1 root root    6192 2009-11-06 11:09 fdformat
+-rwxr-xr-x 1 root 103   84728 2009-11-08 15:46 ssh-agent
+lrwxrwxrwx 1 root root      11 2009-11-08 15:45 edit -> /usr/bin/run-mailcap
+lrwxrwxrwx 1 root root      21 2009-11-08 15:46 rsh -> /usr/bin/ssh
+-rwxr-xr-x 1 root root    2084 2009-11-08 15:29 vimtutor
+-rwxr-xr-x 1 root root   26264 2009-11-06 11:09 nohup
+-rwxr-xr-x 1 root root   31640 2009-11-06 11:09 passwd
+-rwxr-xr-x 1 root root      30 2009-11-06 11:09 rgrep
+-rwxr-xr-x 1 root root  630340 2009-11-06 11:09 vim.tiny
+lrwxrwxrwx 1 root root      23 2009-11-06 11:10 rview -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root 1489692 2009-11-08 15:30 vim.basic
+-rwxr-xr-x 1 root root    6980 2009-11-06 11:09 ipcrm
+-rwxr-xr-x 1 root root    2074 2009-11-06 11:09 helpztags
+-rwxr-xr-x 1 root root   13148 2009-11-06 11:09 skill
+-rwxr-xr-x 1 root root  237568 2009-11-06 11:15 gpgv
+-rwxr-xr-x 1 root root   30336 2009-11-06 11:09 tsort
+-rwxr-xr-x 1 root root   22132 2009-11-06 11:09 logname
+-rwxr-xr-x 1 root root    7540 2009-11-06 11:09 ddate
+-rwxr-xr-x 1 root root   22852 2009-11-06 11:09 test
+-rwxr-xr-x 1 root root   16292 2009-11-08 15:45 run-mailcap
+-rwxr-xr-x 1 root root   13740 2009-11-06 11:09 rpcinfo
+-rwxr-xr-x 1 root root   42716 2009-11-06 11:09 od
+-rwxr-xr-x 1 root root   11528 2009-11-06 11:09 watch
+-rwxr-xr-x 1 root root    3648 2009-11-06 11:09 setsid
+-rwxr-xr-x 1 root root   63080 2009-11-06 11:09 diff
+-rwxr-xr-x 1 root root    6968 2009-11-06 11:09 lastlog
+-rwxr-xr-x 1 root root   38648 2009-11-06 11:09 dpkg-split
+-rwxr-xr-x 1 root root   17156 2009-11-06 11:09 ipcs
+-rwxr-xr-x 1 root root   35060 2009-11-06 11:09 head
+lrwxrwxrwx 1 root root      22 2009-11-06 11:10 rvim -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root    4332 2009-11-06 11:09 ionice
+lrwxrwxrwx 1 root root      23 2009-11-08 15:45 pdb2.5 -> /usr/lib/python2.5/pdb.py
+-rwxr-xr-x 1 root root   18268 2009-11-06 11:09 setterm
+lrwxrwxrwx 1 root root       4 2009-11-06 11:09 lastb -> /usr/bin/last
+-rwxr-xr-x 1 root root   22652 2009-11-06 11:09 env
+-rwxr-xr-x 1 root root  226292 2009-11-06 11:15 wget
+-rwxr-xr-x 1 root root   18324 2009-11-06 11:09 cmp
+-rwxr-xr-x 1 root root   96160 2009-11-06 11:09 lzma
+-rwxr-xr-x 1 root root    9616 2009-11-06 11:09 zdump
+-rwxr-xr-x 1 root root   30912 2009-11-08 15:46 xauth
+-rwxr-xr-x 1 root root  134588 2009-11-06 11:09 find
+-rwxr-xr-x 1 root root    9112 2009-11-06 11:15 apt-config
+-rwxr-xr-x 1 root root   12100 2009-11-06 11:09 last
+-rwxr-xr-x 1 root root    4360 2009-11-06 11:09 rename.ul
+-rwxr-xr-x 1 root root   68244 2009-11-06 11:09 du
+lrwxrwxrwx 1 root root      20 2009-11-06 11:10 ex -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root    7420 2009-11-06 11:09 whereis
+-rwxr-xr-x 1 root root   31740 2009-11-06 11:09 locale
+lrwxrwxrwx 1 root root      21 2009-11-06 11:10 vim -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root    5716 2009-11-06 11:22 mbchk
+-rwxr-xr-x 1 root root  332928 2009-11-08 15:46 ssh
+-rwxr-xr-x 1 root root   41008 2009-11-06 11:09 traceroute.db
+-rwxr-xr-x 1 root root      79 2009-11-08 15:45 pydoc2.5
+lrwxrwxrwx 1 root root      21 2009-11-06 11:09 awk -> /usr/bin/mawk
+-rwxr-xr-x 1 root root   93548 2009-11-08 15:46 ssh-vulnkey
+-rwxr-xr-x 1 root root     608 2009-11-06 11:09 debconf-communicate
+-rwxr-xr-x 1 root root 1253828 2009-11-06 11:15 perl5.10.0
+-rwxr-xr-x 1 root root    2195 2009-11-06 11:15 apt-mark
+lrwxrwxrwx 1 root root       7 2009-11-06 11:09 linux64 -> /usr/bin/setarch
+-rwxr-xr-x 1 root root   93488 2009-11-06 11:09 mawk
+-rwxr-xr-x 1 root root    8748 2009-11-06 11:09 script
+-rwxr-xr-x 1 root root  365196 2009-11-06 11:09 dpkg
+-rwxr-xr-x 1 root root   22103 2009-11-08 15:45 pygettext2.5
+-rwxr-xr-x 1 root root    1452 2009-11-08 15:46 ssh-argv0
+-rwxr-xr-x 1 root root    7296 2009-11-06 11:09 free
+-rwxr-xr-x 1 root root    1827 2009-11-06 11:09 debconf-show
+-rwxr-xr-x 1 root root   47928 2009-11-06 11:09 shred
+lrwxrwxrwx 1 root root       5 2009-11-06 11:09 pkill -> /usr/bin/pgrep
+-rwxr-xr-x 1 root 42   47416 2009-11-06 11:09 chage
+lrwxrwxrwx 1 root root      24 2009-11-06 11:10 editor -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root   34452 2009-11-06 11:09 cut
+-rwxr-xr-x 1 root root   11022 2009-11-06 11:09 debconf-apt-progress
+-rwxr-xr-x 1 root root   25312 2009-11-06 11:09 fold
+lrwxrwxrwx 1 root root       3 2009-11-06 11:09 infotocap -> /usr/bin/tic
+lrwxrwxrwx 1 root root       6 2009-11-06 11:09 sg -> /usr/bin/newgrp
+-rwxr-xr-x 1 root root   26304 2009-11-06 11:09 expand
+-rwxr-xr-x 1 root root   47756 2009-11-06 11:09 infocmp
+lrwxrwxrwx 1 root root      34 2009-11-06 11:10 traceroute-nanog -> /usr/bin/traceroute-nanog.db
+-rwxr-xr-x 1 root root   23568 2009-11-06 11:09 users
+-rwxr-xr-x 1 root root    2248 2009-11-06 11:09 groups
+-rwxr-xr-x 1 root root    1512 2009-11-06 11:15 gpg-convert-from-106
+lrwxrwxrwx 1 root root      10 2009-11-06 11:09 touch -> /bin/touch
+-rwxr-xr-x 1 root root    5060 2009-11-06 11:09 rev
+-rwxr-xr-x 1 root root   12968 2009-11-06 11:09 pgrep
+-rwxr-xr-x 1 root root    7132 2009-11-06 11:09 flock
+-rwxr-xr-x 1 root root    2885 2009-11-06 11:09 traceproto.db
+-rwxr-xr-x 1 root root   48040 2009-11-06 11:09 chcon
+lrwxrwxrwx 1 root root      19 2009-11-06 11:09 w -> /usr/bin/w.procps
+-rwxr-xr-x 1 root root   79716 2009-11-06 11:09 dpkg-trigger
+-rwxr-xr-x 1 root root   67468 2009-11-06 11:09 sort
+lrwxrwxrwx 1 root root      28 2009-11-06 11:10 traceproto -> /usr/bin/traceproto.db
+-rwxr-xr-x 1 root root   26716 2009-11-06 11:09 unexpand
+-rwxr-xr-x 1 root root   26688 2009-11-06 11:09 seq
+-rwxr-xr-x 1 root root     616 2009-11-06 11:09 sensible-editor
+-rwxr-xr-x 1 root root   34820 2009-11-06 11:09 sha1sum
+-rwxr-xr-x 1 root root  134236 2009-11-06 11:09 oldfind
+-rwxr-xr-x 1 root root   45060 2009-11-06 11:09 tail
+-rwxr-xr-x 1 root root   24820 2009-11-06 11:09 nice
+lrwxrwxrwx 1 root root       4 2009-11-06 11:09 unlzma -> /usr/bin/lzma
+-rwxr-xr-x 1 root root   47708 2009-11-06 11:09 tic
+lrwxrwxrwx 1 root root      22 2009-11-06 11:10 view -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root   31776 2009-11-06 11:09 md5sum
+lrwxrwxrwx 1 root root      13 2009-11-06 11:15 udevinfo -> /sbin/udevadm
+-rwxr-xr-x 1 root root    1081 2009-11-06 11:15 lspgpot
+-rwxr-xr-x 1 root root   22128 2009-11-06 11:09 yes
+-rwxr-xr-x 1 root root    4568 2009-11-06 11:09 renice
+-rwxr-xr-x 1 root root    5284 2009-11-06 11:09 pwdx
+-rwxr-xr-x 1 root root   31108 2009-11-06 11:09 sum
+-rwxr-xr-x 1 root root    3676 2009-11-06 11:09 chkdupexe
+-rwxr-xr-x 1 root 42   18660 2009-11-06 11:09 expiry
+lrwxrwxrwx 1 root root       9 2009-11-08 15:45 python -> /usr/bin/python2.5
+-rwxr-xr-x 1 root root   34504 2009-11-06 11:09 [
+lrwxrwxrwx 1 root root      13 2009-11-06 11:09 tracert.db -> /usr/bin/traceroute.db
+-rwxr-xr-x 1 root root   43036 2009-11-06 11:09 stat
+-rwxr-xr-x 1 root root    3388 2009-11-06 11:09 uptime
+-rwxr-xr-x 1 root root   32184 2009-11-06 11:09 chfn
+-rwxr-xr-x 1 root root    2824 2009-11-06 11:09 line
+-rwxr-xr-x 1 root root    7324 2009-11-06 11:09 chattr
+-rwxr-xr-x 1 root root  108928 2009-11-06 11:15 apt-get
+-rwxr-xr-x 1 root root   72316 2009-11-06 11:09 install
+lrwxrwxrwx 1 root root      31 2009-11-06 11:09 tcptraceroute -> /usr/bin/tcptraceroute.db
+-rwxr-xr-x 1 root root   24484 2009-11-06 11:09 mkfifo
+-rwxr-xr-x 1 root root   43620 2009-11-06 11:09 sha224sum
+-rwxr-xr-x 1 root root   22884 2009-11-06 11:09 basename
+-rwxr-xr-x 1 root root   38604 2009-11-06 11:09 tr
+lrwxrwxrwx 1 root root      12 2009-11-08 15:45 pygettext -> /usr/bin/pygettext2.5
+-rwxr-xr-x 1 root root    3376 2009-11-06 11:09 addpart
+-rwxr-xr-x 1 root root    8936 2009-11-06 11:09 taskset
+-rwxr-xr-x 1 root root    7884 2009-11-06 11:09 logger
+-rwxr-xr-x 1 root root     647 2009-11-06 11:09 debconf-escape
+lrwxrwxrwx 1 root root       4 2009-11-06 11:09 lzcat -> /usr/bin/lzma
+-rwxr-xr-x 1 root root  181340 2009-11-08 15:46 ssh-keyscan
+-rwxr-xr-x 1 root root   22788 2009-11-06 11:09 newgrp
+lrwxrwxrwx 1 root root       8 2009-11-08 15:45 pydoc -> /usr/bin/pydoc2.5
+lrwxrwxrwx 1 root root      25 2009-11-06 11:09 tracert -> /usr/bin/traceroute.db
+lrwxrwxrwx 1 root root      21 2009-11-06 11:09 lft -> /usr/bin/lft.db
+-rwxr-xr-x 1 root root   15524 2009-11-06 11:15 apt-cdrom
+-rwxr-xr-x 1 root root    1388 2009-11-06 11:09 sensible-browser
+-rwxr-xr-x 1 root root    3375 2009-11-06 11:09 catchsegv
+-rwxr-xr-x 1 root root    8556 2009-11-06 11:09 tabs
+-rwxr-xr-x 1 root root    4372 2009-11-06 11:09 mesg
+-rwxr-xr-x 1 root root   43652 2009-11-06 11:09 sha256sum
+-rwxr-xr-x 1 root root    7064 2009-11-06 11:09 namei
+-rwxr-xr-x 1 root root   34516 2009-11-06 11:09 xargs
+-rwxr-xr-x 1 root root   30896 2009-11-06 11:09 dircolors
+lrwxrwxrwx 1 root root      24 2009-11-08 15:46 rlogin -> /usr/bin/ssh
+-rwxr-xr-x 1 root root   41528 2009-11-06 11:09 gpasswd
+-rwxr-xr-x 1 root root   14612 2009-11-06 11:09 tset
+-rwxr-xr-x 1 root root   25264 2009-11-06 11:09 paste
+-rwxr-xr-x 1 root root    8404 2009-11-06 11:09 faillog
+-rwxr-xr-x 1 root root   30472 2009-11-06 11:09 pinky
+lrwxrwxrwx 1 root root       7 2009-11-06 11:09 i386 -> /usr/bin/setarch
+lrwxrwxrwx 1 root root      21 2009-11-08 15:46 rcp -> /usr/bin/scp
+lrwxrwxrwx 1 root root      11 2009-11-08 15:45 see -> /usr/bin/run-mailcap
+-rwxr-xr-x 1 root root    5871 2009-11-06 11:09 ldd
+-rwxr-xr-x 1 root root    3340 2009-11-06 11:09 clear
+lrwxrwxrwx 1 root root       6 2009-11-08 15:45 pdb -> /usr/lib/python2.5/pdb.py
+-rwxr-xr-x 1 root root    7568 2009-11-06 11:09 mcookie
+-rwxr-xr-x 1 root root   18736 2009-11-06 11:09 vmstat
+-rwxr-xr-x 1 root root    3302 2009-11-06 11:15 gpg-zip
+-rwxr-xr-x 1 root root   10036 2009-11-06 11:09 getopt
+-rwxr-xr-x 1 root root    2137 2009-11-06 11:09 scriptreplay
+lrwxrwxrwx 1 root root      29 2009-11-06 11:09 traceroute6 -> /usr/bin/traceroute.db
+-rwxr-xr-x 1 root root   23112 2009-11-06 11:09 dirname
+lrwxrwxrwx 1 root root       7 2009-11-06 11:09 linux32 -> /usr/bin/setarch
+-rwxr-xr-x 1 root root    6116 2009-11-06 11:09 lsattr
+-rwxr-xr-x 1 root root    5249 2009-11-06 11:15 apt-key
+-rwxr-xr-x 1 root root   29196 2009-11-06 11:09 base64
+lrwxrwxrwx 1 root root      11 2009-11-08 15:45 compose -> /usr/bin/run-mailcap
+-rwxr-xr-x 1 root root    5704 2009-11-06 11:09 tload
+-rwxr-xr-x 1 root root   90284 2009-11-08 15:46 sftp
+lrwxrwxrwx 1 root root      29 2009-11-08 15:45 pyversions -> /usr/share/python/pyversions.py
+-rwxr-xr-x 1 root root   11108 2009-11-06 11:09 w.procps
+-rwxr-xr-x 1 root root   53388 2009-11-08 15:46 scp
+-rwxr-xr-x 1 root root    3300 2009-11-06 11:09 delpart
+-rwxr-xr-x 1 root root    8752 2009-11-06 11:09 pmap
+-rwxr-xr-x 1 root root  131916 2009-11-08 15:46 ssh-keygen
+-rwxr-xr-x 1 root root   23708 2009-11-06 11:09 tee
+-rwxr-xr-x 1 root root   22280 2009-11-06 11:09 whoami
+-rwxr-xr-x 1 root root   26440 2009-11-06 11:09 runcon
+-rwxr-xr-x 1 root 5    9888 2009-11-06 11:09 wall
+-rwxr-xr-x 1 root root   96300 2009-11-06 11:09 dpkg-query
+-rwxr-xr-x 1 root root   32292 2009-11-06 11:09 split
+lrwxrwxrwx 1 root root       3 2009-11-08 15:46 slogin -> /usr/bin/ssh
+-rwxr-xr-x 1 root root   27448 2009-11-06 11:09 factor
+-rwxr-xr-x 1 root root   84644 2009-11-06 11:09 sha384sum
+-rwxr-xr-x 1 root root    4983 2009-11-06 11:09 ncursesw5-config
+-rwxr-xr-x 1 root root   28672 2009-11-06 11:09 fmt
+-rwxr-xr-x 1 root root   84644 2009-11-06 11:09 sha512sum
+-rwxr-xr-x 1 root root    5992 2009-11-06 11:09 clear_console
+-rwxr-xr-x 1 root root    1719 2009-11-06 11:09 debconf-copydb
+-rwxr-xr-x 1 root root  225256 2009-11-06 11:09 dpkg-deb
+lrwxrwxrwx 1 root root      28 2009-11-06 11:09 traceroute -> /usr/bin/traceroute.db
+-rwxr-xr-x 1 root root   22128 2009-11-06 11:09 hostid
+-rwxr-xr-x 1 root root     288 2009-11-06 11:09 sensible-pager
+lrwxrwxrwx 1 root root      11 2009-11-08 15:45 print -> /usr/bin/run-mailcap
+-rwxr-xr-x 1 root root  105868 2009-11-08 15:46 ssh-add
+-rwxr-xr-x 1 root root   22136 2009-11-06 11:09 tty
+-rwxr-xr-x 1 root root   32988 2009-11-06 11:09 join
+-rwxr-xr-x 1 root root     143 2009-11-08 15:29 gvimtutor
+-rwxr-xr-x 1 root root    4982 2009-11-06 11:09 ncurses5-config
+-rwxr-xr-x 1 root root    1476 2009-11-06 11:09 tcptraceroute.db
+-rwxr-xr-x 1 root root   22240 2009-11-06 11:09 unlink
+-rwxr-xr-x 1 root root   22432 2009-11-06 11:09 link
+-rwxr-xr-x 1 root root   27736 2009-11-06 11:09 chsh
+-rwxr-xr-x 1 root root   50836 2009-11-06 11:09 iconv
+-rwxr-xr-x 1 root root   32608 2009-11-06 11:09 who
+lrwxrwxrwx 1 root root      23 2009-11-06 11:09 pager -> /bin/more
+-rwxr-xr-x 1 root root   22336 2009-11-06 11:09 printenv
+-rwxr-xr-x 1 root root   14940 2009-11-06 11:09 partx
+-rwxr-xr-x 1 root root   33180 2009-11-06 11:09 shuf
+-rwxr-xr-x 1 root root   24156 2009-11-06 11:09 pathchk
+lrwxrwxrwx 1 root root       1 2009-11-08 15:46 X11 -> /usr/bin
+-rwxr-xr-x 1 root root    2985 2009-11-06 11:09 debconf-set-selections
+-rwxr-xr-x 1 root root   12144 2009-11-08 15:45 file
+-rwxr-xr-x 1 root root   31460 2009-11-06 11:09 nl
+-rwxr-xr-x 1 root root    8916 2009-11-06 11:09 toe
+-rwxr-xr-x 1 root root  325488 2009-11-06 11:09 localedef
+-rwxr-xr-x 1 root root   33480 2009-11-06 11:15 gpgsplit
+-rwxr-xr-x 1 root root    6876 2009-11-06 11:09 bashbug
+-rwxr-xr-x 1 root root   17796 2009-11-06 11:09 getconf
+-rwxr-xr-x 1 root root    6894 2009-11-06 11:09 tzselect
+-rwxr-xr-x 1 root root   39684 2009-11-06 11:09 csplit
+lrwxrwxrwx 1 root root       6 2009-11-06 11:09 md5sum.textutils -> /usr/bin/md5sum
+-rwxr-xr-x 1 root root   32372 2009-11-06 11:09 expr
+-rwxr-xr-x 1 root root    7684 2009-11-06 11:09 chrt
+-rwxr-xr-x 1 root root   26256 2009-11-06 11:09 comm
+-rwxr-xr-x 1 root root   30804 2009-11-06 11:09 uniq
+lrwxrwxrwx 1 root root      25 2009-11-06 11:10 vimdiff -> /usr/bin/vim.basic
+-rwxr-xr-x 1 root root    1316 2009-11-08 15:46 ssh-copy-id
+-rwxr-xr-x 1 root root   14076 2009-11-06 11:09 xxd
+lrwxrwxrwx 1 root root      13 2009-11-06 11:09 traceroute6.db -> /usr/bin/traceroute.db
+-rwxr-xr-x 1 root root   56760 2009-11-06 11:15 apt-cache
+-rwxr-xr-x 1 root root   10200 2009-11-06 11:09 slabtop
+-rwxr-xr-x 1 root root   27652 2009-11-06 11:09 tac
+-rwxr-xr-x 1 root root 1253828 2009-11-06 11:15 perl
+-rwxr-xr-x 1 root root   18252 2009-11-06 11:09 getent
+[4hAWSWeb:/# cd omshell
+[4lbash: cd: omshell: No such file or directory
+[4hAWSWeb:/# su
+[4l[4hAWSWeb:/# sudo -s
+bash: sudo: command not found
+AWSWeb:/# su -s
+[4l[4hAWSWeb:/# drwxr-xr-x
+bash: drwxr-xr-x: command not found
+AWSWeb:/# su yum -y update
+[4l[4hAWSWeb:/# sudo yum update -y
+bash: sudo: command not found
+AWSWeb:/# user
+bash: user: command not found
+AWSWeb:/# cd /s[1D[1Pusr
+[4l[4hAWSWeb:/usr# ls
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/usr# cd games
+[4l[4hAWSWeb:/usr/games# ls
+[4l[4hAWSWeb:/usr/games# cd ./
+[4l[4hAWSWeb:/usr/games# cd /src
+[4lbash: cd: /src: No such file or directory
+[4hAWSWeb:/usr/games# [Kcd /srccd [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ps[1D[1P src
+[4lbash: cd: src: No such file or directory
+[4hAWSWeb:/usr/games# ls
+[4l[4hAWSWeb:/usr/games# cd /bin
+[4l[4hAWSWeb:/bin# cd .[1D[1P/
+[4l[4hAWSWeb:/# sudo su =[1D[1P0[1D[1P-
+bash: sudo: command not found
+AWSWeb:/# sud [1D[1Po su
+bash: sudo: command not found
+AWSWeb:/# sudo adduser sriam [1D[1P[1D[1P[1D[1Pram sudo
+bash: sudo: command not found
+AWSWeb:/# allow [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/
+[4l[4hAWSWeb:/etc# cd sudoers
+[4lbash: cd: sudoers: No such file or directory
+[4hAWSWeb:/etc# ls[1D[1P[1D[1Pls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# c [1D[1Pd ssh
+[4l[4hAWSWeb:/etc/ssh# cd[1D[1P[1D[1Pls
+[4lsshd_config          ssh_host_dsa_key     ssh_host_dsa_key.pub moduli               ssh_config           ssh_host_rsa_key     ssh_host_rsa_key.pub 
+[4hAWSWeb:/etc/ssh# cd ssh_config
+[4l-bash: cd: /etc/ssh/ssh_config: Not a directory
+[4hAWSWeb:/etc/ssh# cd[1D[1P[1D[1Pssh_config
+bash: ssh_config: command not found
+AWSWeb:/etc/ssh# nano
+bash: nano: command not found
+AWSWeb:/etc/ssh# sudo ge[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt-get updat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pinstall nano
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nano 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 202.2kB of archives.
+After this operation, 444.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nano 0.22-10 [202.2kB]
+Fetched 202.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nano (from .../archives/nano_0.22-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nano (0.22-10) ...
+[4hAWSWeb:/etc/ssh# c [1D[1Pd ssh[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnano sh[1D[1Pshd_config
+[4lnano: Segmentation fault
+[4hAWSWeb:/etc/ssh# c [1D[1Pd  /[1D[1P[1D[1P/
+[4l[4hAWSWeb:/# cd /etc/hosts
+[4l-bash: cd: /etc/hosts: Not a directory
+[4hAWSWeb:/# [Kcd /etc/hosts/
+[4l-bash: cd: /etc/hosts: Not a directory
+[4hAWSWeb:/# cd /etc
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                modules                debian_version         ld.so.conf.d           
+passwd                 localtime              hosts                  rc4.d                  rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               
+environment            inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  ld.so.cache            rc5.d                  apt                    networks               opt                    
+group                  inittab                issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             rc.local               
+python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            rc1.d                  sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                rpc                    magic                  kernel-img.conf        
+motd                   shadow                 protocols              bash_completion.d      host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 terminfo               
+[4hAWSWeb:/etc# sudo [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Phosost[1D[1P[1D[1P[1D[1Pts
+bash: hosts: command not found
+AWSWeb:/etc# cd hosts
+[4l-bash: cd: /etc/hosts: Not a directory
+[4hAWSWeb:/etc# ls[1D[1P[1D[1Pcd hostanmae[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pname
+[4l-bash: cd: /etc/hostname: Not a directory
+[4hAWSWeb:/etc# cd /hostname
+[4lbash: cd: /hostname: No such file or directory
+[4hAWSWeb:/etc# cd[1D[1P[1D[1Pcd /
+[4l[4hAWSWeb:/# cls[1D[1Pear
+[4lc[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# pwd
+[4l/
+[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd [1D[1P[1D[1P[1D[1Pcd[1D[1P[1D[1P.foo.sh
+bash: .foo.sh: command not found
+AWSWeb:~# ls 0l foo.sh[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1C[1D[1P -
+[4lls: cannot access /root/foo.sh: No such file or directory
+[4hAWSWeb:~# cd /rp[1D[1Poot
+[4l[4hAWSWeb:~# cd .[1D[1P/etc/
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# root [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd debian_version
+[4l-bash: cd: /etc/debian_version: Not a directory
+[4hAWSWeb:/etc# debian_version
+bash: debian_version: command not found
+AWSWeb:/etc# nano dev[1D[1Pbian_version
+[4lnano: Segmentation fault
+[4hAWSWeb:/etc# nano
+[4lnano: Segmentation fault
+[4hAWSWeb:/etc# cd shelle
+[4lbash: cd: shelle: No such file or directory
+[4hAWSWeb:/etc# [Kcd shelle[1D[1Ps
+[4l-bash: cd: /etc/shells: Not a directory
+[4hAWSWeb:/etc# cd shells[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/shells
+[4lbash: cd: /shells: No such file or directory
+[4hAWSWeb:/etc# cd /shells/
+[4lbash: cd: /shells/: No such file or directory
+[4hAWSWeb:/etc# e[1D[1Pcx[1D[1P[1D[1Pcd shadow
+[4l-bash: cd: /etc/shadow: Not a directory
+[4hAWSWeb:/etc# cd [1D[1P[1D[1P[1D[1Pcd /
+[4l[4hAWSWeb:/# cd cat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat
+[4l[4hAWSWeb:/# sudo cat
+bash: sudo: command not found
+AWSWeb:/# cd[1D[1P[1D[1Pcd /etc/sudoers
+[4lbash: cd: /etc/sudoers: No such file or directory
+[4hAWSWeb:/# ;s[1D[1P[1D[1Pls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       
+sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# wwho[1D[1P[1D[1P[1D[1Phoami
+[4lroot
+[4hAWSWeb:/# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       
+sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# cd cdrom
+[4l-bash: cd: /cdrom: Not a directory
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       
+sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# [Klsc[1D[1P[1D[1P[1D[1Pcd cdrom [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P /cdrom
+[4l-bash: cd: /cdrom: Not a directory
+[4hAWSWeb:/# cd[1D[1P[1D[1Pwhoami
+[4lroot
+[4hAWSWeb:/# s[1D[1Pls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       
+sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+[4hAWSWeb:/# ls -=[1D[1Pa
+[4l.          ..         sys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+[4hAWSWeb:/# ls [1D[1P[1D[1P[1D[1Pls dev
+[4lvcsa6              vcs6               vcsa5              vcs5               vcsa4              vcs4               
+vcsa2              vcs2               vcsa3              vcs3               vcsa1              vcs1               
+log                xconsole           loop7              loop6              loop5              loop4              
+loop3              loop2              loop1              snd                sndstat            agpgart            
+root               MAKEDEV            net                loop0              ppp                shm                
+pts                core               stderr             stdout             stdin              fd                 
+initctl            sda5               sda2               sda1               sda                cdrom              
+disk               hda                bsg                fd0                vcsa               vcs                
+ttyS3              ttyS2              ttyS1              ttyS0              tty9               tty8               
+tty7               tty63              tty62              tty61              tty60              tty6               
+tty59              tty58              tty57              tty56              tty55              tty54              
+tty53              tty52              tty51              tty50              tty5               tty49              
+tty48              tty47              tty46              tty45              tty44              tty43              
+tty42              tty41              tty40              tty4               tty39              tty38              
+tty37              tty36              tty35              tty34              tty33              tty32              
+tty31              tty30              tty3               tty29              tty28              tty27              
+tty26              tty25              tty24              tty23              tty22              tty21              
+tty20              tty2               tty19              tty18              tty17              tty16              
+tty15              tty14              tty13              tty12              tty11              tty10              
+tty1               tty0               tty                ptmx               rtc                rtc0               
+snapshot           psaux              network_throughput network_latency    hpet               cpu_dma_latency    
+zero               urandom            random             port               mem                kmsg               
+kmem               full               char               input              ram9               ram8               
+ram7               ram6               ram5               ram4               ram3               ram2               
+ram15              ram14              ram13              ram12              ram11              ram10              
+ram1               block              ram0               null               console            
+[4hAWSWeb:/# ls root
+[4l[4hAWSWeb:/# ls usr
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/# cd xconsole
+[4lbash: cd: xconsole: No such file or directory
+[4hAWSWeb:/# cd[1D[1P[1D[1Pexit
+[4lcConnection to server closed.
+[4hlocalhost:~# ./loca[1D[1P[1D[1Pgout
+bash: ./logout: command not found
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

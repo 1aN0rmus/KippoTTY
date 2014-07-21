@@ -1,0 +1,165 @@
+[4hAWSWeb:~# df
+bash: df: command not found
+AWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# cd /etc/l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvar
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd log
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# vi ace[1D[1P[1D[1Pccess.log
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/log# vim
+bash: vim: command not found
+AWSWeb:/var/log# apt-get install vi
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vi 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 470.2kB of archives.
+After this operation, 1034.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vi 0.32-4 [470.2kB]
+Fetched 470.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vi (from .../archives/vi_0.32-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vi (0.32-4) ...
+[4hAWSWeb:/var/log# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# vi messages
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/log# nano
+bash: nano: command not found
+AWSWeb:/var/log# ls p0-[1D[1P[1D[1P[1D[1P-l
+[4ldrwxr-xr-x 1 root root   4096 2013-05-13 19:27 .
+drwxr-xr-x 1 root root   4096 2013-05-13 19:27 ..
+-rw-r----- 1 root 4  51996 2009-11-08 11:25 kern.log.1
+-rw-rw-r-- 1 root 43      0 2009-11-06 11:09 btmp
+-rw-r----- 1 root 4  67178 2009-11-20 08:20 syslog
+-rw-r----- 1 root 4  60005 2009-11-08 11:25 syslog.1
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.info
+-rw-rw-r-- 1 root 43 292292 2009-11-20 09:07 lastlog
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.err
+drwxr-xr-x 1 root root   4096 2009-11-06 12:44 news
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg
+-rw-r----- 1 root 4  52524 2009-11-20 08:20 kern.log
+-rw-r----- 1 root 4   2579 2009-11-08 11:25 daemon.log.1
+drwxr-xr-x 1 root root   4096 2009-11-06 11:09 fsck
+-rw-r----- 1 root 4  37897 2009-11-20 08:20 messages
+drwxr-xr-x 1 root root   4096 2009-11-06 11:10 apt
+-rw-r----- 1 root 4  10942 2009-11-20 09:07 auth.log
+-rw-rw-r-- 1 root 43  29952 2009-11-20 09:07 wtmp
+-rw-r----- 1 root 4  37303 2009-11-08 11:25 messages.1
+-rw-r----- 1 root 4  13410 2009-11-20 08:19 daemon.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 lpr.log
+-rw-r--r-- 1 root root  24024 2009-11-08 15:47 faillog
+-rw-r----- 1 root 4     59 2009-11-20 08:19 dmesg.1.gz
+-rw-r----- 1 root 4 177814 2009-11-08 15:47 dpkg.log
+-rw-r----- 1 root 4  14703 2009-11-20 08:20 debug
+-rw-r----- 1 root 4     31 2009-11-06 11:09 boot
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg.0
+-rw-r----- 1 root 4  14552 2009-11-08 11:25 debug.1
+-rw-r----- 1 root 4     70 2009-11-20 08:19 user.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.warn
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.log
+-rw-r----- 1 root 4   8978 2009-11-08 11:25 auth.log.1
+[4hAWSWeb:/var/log# ls -l
+[4ldrwxr-xr-x 1 root root   4096 2013-05-13 19:27 .
+drwxr-xr-x 1 root root   4096 2013-05-13 19:27 ..
+-rw-r----- 1 root 4  51996 2009-11-08 11:25 kern.log.1
+-rw-rw-r-- 1 root 43      0 2009-11-06 11:09 btmp
+-rw-r----- 1 root 4  67178 2009-11-20 08:20 syslog
+-rw-r----- 1 root 4  60005 2009-11-08 11:25 syslog.1
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.info
+-rw-rw-r-- 1 root 43 292292 2009-11-20 09:07 lastlog
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.err
+drwxr-xr-x 1 root root   4096 2009-11-06 12:44 news
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg
+-rw-r----- 1 root 4  52524 2009-11-20 08:20 kern.log
+-rw-r----- 1 root 4   2579 2009-11-08 11:25 daemon.log.1
+drwxr-xr-x 1 root root   4096 2009-11-06 11:09 fsck
+-rw-r----- 1 root 4  37897 2009-11-20 08:20 messages
+drwxr-xr-x 1 root root   4096 2009-11-06 11:10 apt
+-rw-r----- 1 root 4  10942 2009-11-20 09:07 auth.log
+-rw-rw-r-- 1 root 43  29952 2009-11-20 09:07 wtmp
+-rw-r----- 1 root 4  37303 2009-11-08 11:25 messages.1
+-rw-r----- 1 root 4  13410 2009-11-20 08:19 daemon.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 lpr.log
+-rw-r--r-- 1 root root  24024 2009-11-08 15:47 faillog
+-rw-r----- 1 root 4     59 2009-11-20 08:19 dmesg.1.gz
+-rw-r----- 1 root 4 177814 2009-11-08 15:47 dpkg.log
+-rw-r----- 1 root 4  14703 2009-11-20 08:20 debug
+-rw-r----- 1 root 4     31 2009-11-06 11:09 boot
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg.0
+-rw-r----- 1 root 4  14552 2009-11-08 11:25 debug.1
+-rw-r----- 1 root 4     70 2009-11-20 08:19 user.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.warn
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.log
+-rw-r----- 1 root 4   8978 2009-11-08 11:25 auth.log.1
+[4hAWSWeb:/var/log# lpr
+bash: lpr: command not found
+AWSWeb:/var/log# help
+bash: help: command not found
+AWSWeb:/var/log# rm
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      mail.err     news         dmesg        kern.log     daemon.log.1 fsck         messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# rm messages
+[4l[4hAWSWeb:/var/log# rm secure
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      mail.err     news         dmesg        kern.log     daemon.log.1 fsck         apt          auth.log     wtmp         messages.1   daemon.log   lpr.log      
+faillog      dmesg.1.gz   dpkg.log     debug        boot         dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# cd /
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hlocalhost:/# cd /home
+[4l[4hlocalhost:/home# ls
+[4lrichard 
+[4hlocalhost:/home# cd richard
+[4l[4hlocalhost:/home/richard# ls
+[4l[4hlocalhost:/home/richard# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

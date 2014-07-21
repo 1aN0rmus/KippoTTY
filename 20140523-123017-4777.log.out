@@ -1,0 +1,69 @@
+[4hAWSWeb:~# ls[1D[1P[1D[1Pls
+[4l[4hAWSWeb:~# ls[1D[1P[1D[1Pcd /etc/re[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/ad[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+adjtime      adduser.conf 
+AWSWeb:~# cd /etc/adminse
+[4lbash: cd: /etc/adminse: No such file or directory
+[4hAWSWeb:~# cd /etc/adminsec
+[4lbash: cd: /etc/adminsec: No such file or directory
+[4hAWSWeb:~# [Kcd /etc/adminsec
+[4lbash: cd: /etc/adminsec: No such file or directory
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# [Kls[2D[Kcd /etc/adminsec
+[4lbash: cd: /etc/adminsec: No such file or directory
+[4hAWSWeb:~# rm [1D[1P[1D[1P[1D[1Pexit
+[4lcConnection to server closed.
+[4hlocalhost:~# rm -rf /
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# cd[1D[1P[1D[1Pls -l
+[4ldrwxr-xr-x 1 root root 4096 2014-05-23 12:32 .
+drwxr-xr-x 1 root root 4096 2014-05-23 12:32 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# [Kls -l[5D[Kls[2D[Kls -l
+[4ldrwxr-xr-x 1 root root 4096 2014-05-23 12:32 .
+drwxr-xr-x 1 root root 4096 2014-05-23 12:32 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# [Kls[1D[1P[1D[1Pifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:~# cd /
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       
+etc        dev        srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hlocalhost:/# [Kls[2D[Kcd /[4D[Kifconfig[8D[Kls[2D[Kls[1D[1P[1D[1Prm[1D[1Pm 0[1D[1P-r [1D[1Pf *
+[4l[4hlocalhost:/# ls
+bash: ls: command not found
+localhost:/# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# e[1D[1P
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 

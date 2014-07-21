@@ -1,0 +1,141 @@
+[4hAWSWeb:~# passw[1D[1P[1D[1P
+AWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-19 09:47 .
+drwxr-xr-x 1 root root 4096 2013-04-19 09:47 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# w
+[4l 09:47:40 up 84 days, 11:51,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    46.218.71.241     09:47    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# top
+bash: top: command not found
+AWSWeb:~# ps auxd
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:47   0:00 -bash
+root      5524  0.0  0.1   2341   937 pts/0    R+   09:47   0:00 ps auxd
+[4hAWSWeb:~# [Kps auxd[1D[1P
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:47   0:00 -bash
+root      5524  0.0  0.1   2341   937 pts/0    R+   09:47   0:00 ps aux
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# [4lcConnection to server closed.
+[4hlocalhost:~# [Kpasswd
+[4lEnter new UNIX password: ^C
+[4hlocalhost:~# [K[6D[K[6D[K[6D[K
+localhost:~# 
+localhost:~# 
+localhost:~# [K[3D[K[8D[K
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:47   0:00 -bash
+root      5524  0.0  0.1   2341   937 pts/0    R+   09:47   0:00 ps aux
+[4hlocalhost:~# 
+bash: ip: command not found
+localhost:~# 
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+[4lcConnection to server closed.
+[4hlocalhost:~# 

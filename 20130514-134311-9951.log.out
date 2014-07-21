@@ -1,0 +1,62 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        
+proc       sbin       etc        dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+[4hAWSWeb:/# who
+[4l 13:43:29 up 109 days, 15:47,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    177.96.189.86     13:42    0.09   0.05   0.05 w
+[4hAWSWeb:/# whoami
+[4lroot
+[4hAWSWeb:/# aptitude
+bash: aptitude: command not found
+AWSWeb:/# yum
+bash: yum: command not found
+AWSWeb:/# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        
+proc       sbin       etc        dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+[4hAWSWeb:/# cd /etc
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                python2.5              
+adjtime                mailcap                shadow-                modules                
+debian_version         ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  logrotate.d            
+securetty              mtab                   mime.types             sysctl.d               
+environment            inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   
+udev                   scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               opt                    
+group                  inittab                issue                  default                
+issue.net              mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 nsswitch.conf          
+rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           init.d                 
+hosts.allow            gshadow                cron.daily             alternatives           
+hostname               bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           lsb-base               
+passwd-                rpc                    magic                  kernel-img.conf        
+motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    
+bindresvport.blacklist rsyslog.d              fstab                  login.defs             
+shells                 terminfo               
+[4hAWSWeb:/etc# vi passwd
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:/etc# vi hostname
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc# vim
+bash: vim: command not found
+AWSWeb:/etc# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc# edit
+bash: edit: command not found
+AWSWeb:/etc# 

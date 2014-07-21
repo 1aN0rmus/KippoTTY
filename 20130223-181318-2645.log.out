@@ -1,0 +1,394 @@
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ls [1D[1P[1D[1P[1D[1Puname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ls -[1D[1P[1D[1P[1D[1P[1D[1Ppwd
+[4l/root
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:13 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:13 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-23 18:13 .
+drwxr-xr-x 1 root root  4096 2013-02-23 18:13 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd home
+[4l[4hAWSWeb:/home# lsa [1D[1P[1D[1P[1D[1Ps -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:14 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:14 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:/home# cd richard
+[4l[4hAWSWeb:/home/richard# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:14 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:14 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:/home/richard# nano .bash_logout
+bash: nano: command not found
+AWSWeb:/home/richard# pico .bash_logout
+bash: pico: command not found
+AWSWeb:/home/richard# cd /
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-23 18:14 .
+drwxr-xr-x 1 root root  4096 2013-02-23 18:14 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd bin
+[4l[4hAWSWeb:/bin# ls -la
+[4ldrwxr-xr-x 1 root root   4096 2013-02-23 18:14 .
+drwxr-xr-x 1 root root   4096 2013-02-23 18:14 ..
+-rwxr-xr-x 1 root root    946 2009-11-06 11:09 which
+-rwxr-xr-x 1 root root  69284 2009-11-06 11:09 cp
+-rwxr-xr-x 1 root root  23504 2009-11-06 11:09 sleep
+-rwxr-xr-x 1 root root  26860 2009-11-06 11:09 cat
+-rwxr-xr-x 1 root root  23992 2009-11-06 11:09 uname
+-rwxr-xr-x 1 root root  53420 2009-11-06 11:09 gzip
+-rwxr-xr-x 1 root root  26800 2009-11-06 11:09 pwd
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 dir
+-rwxr-xr-x 1 root root  13148 2009-11-06 11:09 kill
+-rwxr-xr-x 1 root root   1731 2009-11-06 11:09 zless
+-rwxr-xr-x 1 root root   4880 2009-11-06 11:09 tailf
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 true
+-rwxr-xr-x 1 root root  40468 2009-11-06 11:09 sed
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zcat
+-rwxr-xr-x 1 root root  29344 2009-11-06 11:09 mkdir
+-rwxr-xr-x 1 root root   4164 2009-11-06 11:09 lsmod
+-rwxr-xr-x 1 root root  28148 2009-11-06 11:09 mknod
+-rwxr-xr-x 1 root root   4950 2009-11-06 11:09 znew
+-rwxr-xr-x 1 root root 100468 2009-11-06 11:09 grep
+-rwxr-xr-x 1 root root  76276 2009-11-06 11:09 mv
+-rwxr-xr-x 1 root root   4428 2009-11-06 11:09 dmesg
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 gunzip
+-rwxr-xr-x 1 root root  45016 2009-11-06 11:09 df
+-rwxr-xr-x 1 root root   4516 2009-11-06 11:09 mountpoint
+-rwxr-xr-x 1 root root 700492 2009-11-06 11:09 bash
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 rbash -> /bin/bash
+-rwxr-xr-x 1 root root  55344 2009-11-06 11:09 fgrep
+-rwxr-xr-x 1 root root  35236 2009-11-06 11:09 login
+lrwxrwxrwx 1 root root     16 2009-11-06 11:09 pidof -> /sbin/killall5
+-rwxr-xr-x 1 root root   4422 2009-11-06 11:09 zdiff
+-rwxr-xr-x 1 root root  42744 2009-11-06 11:09 chmod
+-rwxr-xr-x 1 root root  24228 2009-11-06 11:09 echo
+-rwxr-xr-x 1 root root     67 2009-11-06 11:09 zcmp
+-rwxr-xr-x 1 root root 103048 2009-11-06 11:09 netstat
+-rwxr-xr-x 1 root root  11380 2009-11-06 11:09 run-parts
+-rwxr-xr-x 1 root root  42772 2009-11-06 11:09 touch
+-rwxr-xr-x 1 root root  33172 2009-11-06 11:09 readlink
+-rwxr-xr-x 1 root root  45344 2009-11-06 11:09 chgrp
+-rwxr-xr-x 1 root root  75724 2009-11-06 11:09 ps
+-rwxr-xr-x 1 root root  47356 2009-11-06 11:09 chown
+-rwxr-xr-x 1 root root  23480 2009-11-06 11:09 rmdir
+-rwxr-xr-x 1 root root  92276 2009-11-06 11:09 egrep
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 vdir
+lrwxrwxrwx 1 root root      4 2009-11-06 11:09 sh -> /bin/bash
+-rwxr-xr-x 1 root root  64112 2009-11-06 11:09 mount
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zegrep
+-rwxr-xr-x 1 root root  27424 2009-11-06 11:09 more
+-rwxr-xr-x 1 root root   4896 2009-11-06 11:09 zgrep
+-rwxr-xr-x 1 root root  22120 2009-11-06 11:09 false
+-rwxr-xr-x 1 root root   2414 2009-11-06 11:09 zmore
+-rwxr-xr-x 1 root root   5864 2009-11-06 11:09 gzexe
+lrwxrwxrwx 1 root root     20 2009-11-06 11:10 mt -> /bin/mt-gnu
+-rwxr-xr-x 1 root root   5668 2009-11-06 11:09 tempfile
+-rwxr-xr-x 1 root root  92312 2009-11-06 11:09 ls
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 hostname
+-rwxr-xr-x 1 root root     62 2009-11-06 11:09 zfgrep
+-rwxr-xr-x 1 root root  27108 2009-11-06 11:09 su
+-rwxr-xr-x 1 root root  38652 2009-11-06 11:09 ln
+-rwxr-xr-x 1 root root 109260 2009-11-06 11:09 cpio
+-rwxr-xr-x 1 root root  46832 2009-11-06 11:09 rm
+-rwxr-xr-x 1 root root   2013 2009-11-06 11:09 zforce
+-rwxr-xr-x 1 root root  30788 2009-11-06 11:09 ping
+-rwxr-xr-x 1 root root  44088 2009-11-06 11:09 umount
+-rwxr-xr-x 1 root root  47892 2009-11-06 11:09 dd
+-rwxr-xr-x 1 root root  28236 2009-11-06 11:09 mt-gnu
+-rwxr-xr-x 1 root root 236884 2009-11-06 11:09 tar
+-rwxr-xr-x 1 root root   8592 2009-11-06 11:09 dnsdomainname
+-rwxr-xr-x 1 root root     61 2009-11-06 11:09 uncompress
+-rwxr-xr-x 1 root root  55052 2009-11-06 11:09 date
+-rwxr-xr-x 1 root root  26616 2009-11-06 11:09 ping6
+-rwxr-xr-x 1 root root  48864 2009-11-06 11:09 stty
+-rwxr-xr-x 1 root root  22128 2009-11-06 11:09 sync
+-rwxr-xr-x 1 root root   6672 2009-11-06 11:09 mktemp
+[4hAWSWeb:/bin# cd /home/richard
+[4l[4hAWSWeb:/home/richard# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:15 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:15 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:/home/richard# cat .bash_logout
+[4lcat: /home/richard/.bash_logout: No such file or directory
+[4hAWSWeb:/home/richard# cat .profile
+[4lcat: /home/richard/.profile: No such file or directory
+[4hAWSWeb:/home/richard# cat .bashrc
+[4lcat: /home/richard/.bashrc: No such file or directory
+[4hAWSWeb:/home/richard# cd /b[1D[1P
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-23 18:17 .
+drwxr-xr-x 1 root root  4096 2013-02-23 18:17 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd mnt
+[4l[4hAWSWeb:/mnt# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:18 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:18 ..
+[4hAWSWeb:/mnt# cd /root
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:18 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:18 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cat .profile
+[4lcat: /root/.profile: No such file or directory
+[4hAWSWeb:~# cat .profile
+[4lcat: /root/.profile: No such file or directory
+[4hAWSWeb:~# cd /hom[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:~# cd /var/backups:
+[4lbash: cd: /var/backups:: No such file or directory
+[4hAWSWeb:~# [Kcd /var/backups:[1D[1P
+[4l[4hAWSWeb:/var/backups# ls -la
+[4ldrwxr-xr-x 1 root root    4096 2013-02-23 18:24 .
+drwxr-xr-x 1 root root    4096 2013-02-23 18:24 ..
+-rw-r--r-- 1 root root  115317 2009-11-07 11:25 dpkg.status.0
+-rw------- 1 root root     534 2009-11-07 11:25 group.bak
+-rw------- 1 root 42     452 2009-11-07 11:25 gshadow.bak
+-rw------- 1 root root     816 2009-11-07 11:25 passwd.bak
+-rw-r--r-- 1 root root    1524 2009-11-08 15:41 infodir.bak
+-rw-r--r-- 1 root root 1746352 2009-11-07 11:25 aptitude.pkgstates.0
+-rw------- 1 root 42     599 2009-11-07 11:25 shadow.bak
+[4hAWSWeb:/var/backups# cd /root
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:24 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:24 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-23 18:24 .
+drwxr-xr-x 1 root root  4096 2013-02-23 18:24 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# wget [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /root
+[4l[4hAWSWeb:~# wget http://download.fedoraproject.org/pub/fedora/linux/updates/18/SRPMS/wireshark-1.8.5-2.fc18.src.rpm
+[4l--2013-02-23 18:28:46--  http://download.fedoraproject.org/pub/fedora/linux/updates/18/SRPMS/wireshark-1.8.5-2.fc18.src.rpm
+Connecting to download.fedoraproject.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24208907 (23M) [application/x-rpm]
+Saving to: `wireshark-1.8.5-2.fc18.src.rpm
+
+ 0% [>                                      ] 12,766       15K/s  eta 25m 17s 0% [>                                      ] 161,910      119K/s  eta 3m 20s 2% [>                                      ] 497,846      260K/s  eta 1m 31s 4% [=>                                     ] 1,069,806    424K/s  eta 54s    6% [==>                                    ] 1,605,566    528K/s  eta 42s 8% [===>                                   ] 2,009,558    565K/s  eta 39s10% [===>                                   ] 2,439,614    600K/s  eta 36s11% [====>                                  ] 2,871,118    623K/s  eta 34s13% [=====>                                 ] 3,304,070    643K/s  eta 32s15% [=====>                                 ] 3,653,038    642K/s  eta 31s16% [======>                                ] 4,045,446    653K/s  eta 30s18% [=======>                               ] 4,410,342    659K/s  eta 30s20% [=======>                               ] 4,915,694    681K/s  eta 28s22% [========>                              ] 5,484,758    710K/s  eta 26s24% [=========>                             ] 6,033,550    727K/s  eta 24s27% [==========>                            ] 6,619,990    746K/s  eta 23s29% [===========>                           ] 7,177,470    759K/s  eta 22s31% [============>                          ] 7,705,990    767K/s  eta 21s33% [=============>                         ] 8,136,046    771K/s  eta 20s34% [=============>                         ] 8,464,742    763K/s  eta 20s36% [==============>                        ] 8,857,150    760K/s  eta 20s38% [==============>                        ] 9,288,654    761K/s  eta 19s40% [===============>                       ] 9,741,878    764K/s  eta 18s42% [================>                      ] 10,203,790   765K/s  eta 18s44% [=================>                     ] 10,688,870   769K/s  eta 17s46% [==================>                    ] 11,184,086   775K/s  eta 16s47% [==================>                    ] 11,528,710   770K/s  eta 16s49% [===================>                   ] 11,906,638   767K/s  eta 16s50% [===================>                   ] 12,319,318   768K/s  eta 15s52% [====================>                  ] 12,753,718   771K/s  eta 14s54% [=====================>                 ] 13,163,502   772K/s  eta 14s56% [=====================>                 ] 13,597,902   774K/s  eta 13s58% [======================>                ] 14,042,438   777K/s  eta 13s59% [=======================>               ] 14,423,638   776K/s  eta 12s61% [=======================>               ] 14,820,014   775K/s  eta 12s62% [========================>              ] 15,234,142   773K/s  eta 11s64% [=========================>             ] 15,675,782   773K/s  eta 11s66% [==========================>            ] 16,162,310   776K/s  eta 10s68% [==========================>            ] 16,606,846   778K/s  eta 9s 70% [===========================>           ] 16,963,054   775K/s  eta 9s71% [===========================>           ] 17,345,326   773K/s  eta 8s73% [============================>          ] 17,856,470   777K/s  eta 8s76% [=============================>         ] 18,451,598   786K/s  eta 7s78% [==============================>        ] 18,993,150   791K/s  eta 6s80% [===============================>       ] 19,534,702   796K/s  eta 5s82% [================================>      ] 19,990,822   797K/s  eta 5s84% [================================>      ] 20,435,358   797K/s  eta 4s85% [=================================>     ] 20,801,702   794K/s  eta 4s87% [==================================>    ] 21,168,046   792K/s  eta 3s89% [==================================>    ] 21,548,870   789K/s  eta 3s90% [===================================>   ] 21,881,910   786K/s  eta 2s91% [===================================>   ] 22,235,222   784K/s  eta 2s93% [====================================>  ] 22,582,742   782K/s  eta 2s94% [=====================================> ] 22,982,390   782K/s  eta 1s96% [=====================================> ] 23,421,510   782K/s  eta 1s98% [======================================>] 23,778,790   781K/s  eta 0s99% [======================================>] 24,172,646   779K/s  eta 0s100%[======================================>] 24,208,907   779K/s
+
+2013-02-23 18:29:17 (779 KB/s) - `wireshark-1.8.5-2.fc18.src.rpm' saved [24208907/24208907]
+[4hAWSWeb:~# rpm -ivh *.rpm
+bash: rpm: command not found
+AWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# 
+AWSWeb:~# aptitude install wireshark
+bash: aptitude: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt-get install wireshark.
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  wireshark 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 661.2kB of archives.
+After this operation, 1454.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main wireshark 1.18-4 [661.2kB]
+
+Fetched 661.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking wireshark (from .../archives/wireshark_1.18-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up wireshark (1.18-4) ...
+[4hAWSWeb:~# groupadd wireshark
+bash: groupadd: command not found
+AWSWeb:~# wireshark
+[4lwireshark: Segmentation fault
+[4hAWSWeb:~# ww
+bash: ww: command not found
+AWSWeb:~# wireshark --herl[1D[1P[1D[1Plp
+[4lwireshark: Segmentation fault
+[4hAWSWeb:~# apt-get install wireshark[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1C
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  wireshark 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 342.2kB of archives.
+After this operation, 752.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main wireshark 0.21-9 [342.2kB]
+Fetched 342.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking wireshark (from .../archives/wireshark_0.21-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up wireshark (0.21-9) ...
+[4hAWSWeb:~# wireshark
+[4lwireshark: Segmentation fault
+[4hAWSWeb:~# apt-get install Justniffer
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  Justniffer 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 401.2kB of archives.
+After this operation, 882.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main Justniffer 1.11-3 [401.2kB]
+Fetched 401.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking Justniffer (from .../archives/Justniffer_1.11-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up Justniffer (1.11-3) ...
+[4hAWSWeb:~# Justniffer
+[4lJustniffer: Segmentation fault
+[4hAWSWeb:~# 
+AWSWeb:~# las -[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la
+[4ldrwxr-xr-x 1 root root     4096 2013-02-23 18:39 .
+drwxr-xr-x 1 root root     4096 2013-02-23 18:39 ..
+drwxr-xr-x 1 root root     4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root     5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root     4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root      140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root      412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 24208907 2013-02-23 18:29 wireshark-1.8.5-2.fc18.src.rpm
+[4hAWSWeb:~# rm -rf *.rpm
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-23 18:40 .
+drwxr-xr-x 1 root root 4096 2013-02-23 18:40 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# logout
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

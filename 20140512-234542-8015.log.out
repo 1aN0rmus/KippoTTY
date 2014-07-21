@@ -1,0 +1,88 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# free
+bash: free: command not found
+AWSWeb:~# cat /proc/,e[1D[1P[1D[1Pmeminfo
+[4lcat: /proc/meminfo: No such file or directory
+[4hAWSWeb:~# [Kcat /proc/meminfo[17D[Kperl
+bash: perl: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l[4hAWSWeb:/tmp# ls -a
+[4l.         ..        .ICE-unix .X11-unix 
+[4hAWSWeb:/tmp# find
+bash: find: command not found
+AWSWeb:/tmp# netstat -n [1D[1P
+bash: netstat: command not found
+AWSWeb:/tmp# ss
+bash: ss: command not found
+AWSWeb:/tmp# cd /[1D[1P[1D[1P[1D[1P[1D[1Pls /s[1D[1Pusrb[1D[1P/bin
+[4lid                     omshell                nawk                   cksum                  vi                     
+snice                  python2.5              which                  mkbimage               pg                     
+tput                   gpg                    traceroute-nanog.db    debconf                top                    
+ptx                    lft.db                 wc                     setarch                whiptail               
+captoinfo              pr                     printf                 diff3                  sdiff                  
+savelog                reset                  fdformat               ssh-agent              edit                   
+rsh                    vimtutor               nohup                  passwd                 rgrep                  
+vim.tiny               rview                  vim.basic              ipcrm                  helpztags              
+skill                  gpgv                   tsort                  logname                ddate                  
+test                   run-mailcap            rpcinfo                od                     watch                  
+setsid                 diff                   lastlog                dpkg-split             ipcs                   
+head                   rvim                   ionice                 pdb2.5                 setterm                
+lastb                  env                    wget                   cmp                    lzma                   
+zdump                  xauth                  find                   apt-config             last                   
+rename.ul              du                     ex                     whereis                locale                 
+vim                    mbchk                  ssh                    traceroute.db          pydoc2.5               
+awk                    ssh-vulnkey            debconf-communicate    perl5.10.0             apt-mark               
+linux64                mawk                   script                 dpkg                   pygettext2.5           
+ssh-argv0              free                   debconf-show           shred                  pkill                  
+chage                  editor                 cut                    debconf-apt-progress   fold                   
+infotocap              sg                     expand                 infocmp                traceroute-nanog       
+users                  groups                 gpg-convert-from-106   touch                  rev                    
+pgrep                  flock                  traceproto.db          chcon                  w                      
+dpkg-trigger           sort                   traceproto             unexpand               seq                    
+sensible-editor        sha1sum                oldfind                tail                   nice                   
+unlzma                 tic                    view                   md5sum                 udevinfo               
+lspgpot                yes                    renice                 pwdx                   sum                    
+chkdupexe              expiry                 python                 [                      tracert.db             
+stat                   uptime                 chfn                   line                   chattr                 
+apt-get                install                tcptraceroute          mkfifo                 sha224sum              
+basename               tr                     pygettext              addpart                taskset                
+logger                 debconf-escape         lzcat                  ssh-keyscan            newgrp                 
+pydoc                  tracert                lft                    apt-cdrom              sensible-browser       
+catchsegv              tabs                   mesg                   sha256sum              namei                  
+xargs                  dircolors              rlogin                 gpasswd                tset                   
+paste                  faillog                pinky                  i386                   rcp                    
+see                    ldd                    clear                  pdb                    mcookie                
+vmstat                 gpg-zip                getopt                 scriptreplay           traceroute6            
+dirname                linux32                lsattr                 apt-key                base64                 
+compose                tload                  sftp                   pyversions             w.procps               
+scp                    delpart                pmap                   ssh-keygen             tee                    
+whoami                 runcon                 wall                   dpkg-query             split                  
+slogin                 factor                 sha384sum              ncursesw5-config       fmt                    
+sha512sum              clear_console          debconf-copydb         dpkg-deb               traceroute             
+hostid                 sensible-pager         print                  ssh-add                tty                    
+join                   gvimtutor              ncurses5-config        tcptraceroute.db       unlink                 
+link                   chsh                   iconv                  who                    pager                  
+printenv               partx                  shuf                   pathchk                X11                    
+debconf-set-selections file                   nl                     toe                    localedef              
+gpgsplit               bashbug                getconf                tzselect               csplit                 
+md5sum.textutils       expr                   chrt                   comm                   uniq                   
+vimdiff                ssh-copy-id            xxd                    traceroute6.db         apt-cache              
+slabtop                tac                    perl                   getent                 
+[4hAWSWeb:/tmp# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/tmp# w[1D[1Pexit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

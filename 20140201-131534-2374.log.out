@@ -1,0 +1,169 @@
+[4hAWSWeb:~# echo "export LC_ALL=en_US.UTF-8" >> /etc/profile
+[4lexport LC_ALL=en_US.UTF-8 >> /etc/profile
+[4hAWSWeb:~# export LC_ALL=en_US.UTF-8
+[4l[4hAWSWeb:~# yum install git automake gcc make curl-devel
+bash: yum: command not found
+AWSWeb:~# [Kyum install git automake gcc make curl-devel[1D[43D[1C[1C[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P
+bash: install: command not found
+AWSWeb:~# git clone https://github.com/pooler/cpuminer
+bash: git: command not found
+AWSWeb:~# wget www.suplementar.com.br/images/stories/goon/pooler-cpuminer-2.3.2.tar.gz
+[4l--2014-02-01 13:18:04--  http://www.suplementar.com.br/images/stories/goon/pooler-cpuminer-2.3.2.tar.gz
+Connecting to www.suplementar.com.br:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225137 (219K) [application/x-gzip]
+Saving to: `pooler-cpuminer-2.3.2.tar.gz
+
+ 0% [>                                      ] 1,123        1K/s  eta 2m 15s12% [====>                                  ] 27,264       20K/s  eta 9s   22% [========>                              ] 50,432       25K/s  eta 6s33% [=============>                         ] 75,048       29K/s  eta 5s45% [=================>                     ] 102,560      33K/s  eta 3s62% [========================>              ] 141,656      39K/s  eta 2s82% [================================>      ] 186,544      45K/s  eta 0s100%[======================================>] 225,137      45K/s
+
+2014-02-01 13:18:09 (45 KB/s) - `pooler-cpuminer-2.3.2.tar.gz' saved [225137/225137]
+[4hAWSWeb:~# tar xzf[1D[1P[1D[1P[1D[1P-xz[1D[1Pzf pooler-cpuminer-3[1D[1P2.3.2.tar.gz
+[4l[4hAWSWeb:~# cd[1D[1P[1D[1Pla [1D[1P[1D[1Ps -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-01 13:20 .
+drwxr-xr-x 1 root root   4096 2014-02-01 13:20 ..
+drwxr-xr-x 1 root root   4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root   5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root   4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root    140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root    412 2009-11-06 11:09 .bashrc
+-rw-r--r-- 1 root root 225137 2014-02-01 13:18 pooler-cpuminer-2.3.2.tar.gz
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 cpuminer-2.3.2
+[4hAWSWeb:~# cd cpuminer-2.3.2
+[4l[4hAWSWeb:~/cpuminer-2.3.2# ./autogen.sh
+bash: ./autogen.sh: command not found
+AWSWeb:~/cpuminer-2.3.2# uid
+bash: uid: command not found
+AWSWeb:~/cpuminer-2.3.2# pi[1D[1P[1D[1Puname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~/cpuminer-2.3.2# sudo apt-get install make automake build-essential git
+bash: sudo: command not found
+AWSWeb:~/cpuminer-2.3.2# ls pla
+[4lls: cannot access /root/cpuminer-2.3.2/pla: No such file or directory
+[4hAWSWeb:~/cpuminer-2.3.2# ls p[1D[1Pla
+[4lls: cannot access /root/cpuminer-2.3.2/la: No such file or directory
+[4hAWSWeb:~/cpuminer-2.3.2# ls -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-01 13:22 .
+drwxr-xr-x 1 root root   4096 2014-02-01 13:22 ..
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+-rwxr-xr-x 1 root root  13663 2012-09-01 20:31 install-sh
+-rw-r--r-- 1 root root  17992 2012-09-01 20:31 COPYING
+-rw-r--r-- 1 root root   2862 2013-07-10 12:00 README
+-rw-r--r-- 1 root root   6330 2013-07-10 12:00 miner.h
+-rw-r--r-- 1 root root  70827 2013-07-10 12:00 scrypt-x64.S
+-rw-r--r-- 1 root root    353 2013-06-13 19:50 compat.h
+-rw-r--r-- 1 root root  22874 2013-06-24 21:14 scrypt-arm.S
+-rw-r--r-- 1 root root   7060 2013-06-13 19:50 elist.h
+-rwxr-xr-x 1 root root  44643 2012-09-01 20:31 config.guess
+-rw-r--r-- 1 root root   8475 2013-07-10 13:49 NEWS
+-rw-r--r-- 1 root root  41830 2013-06-24 21:14 sha2-arm.S
+-rw-r--r-- 1 root root  30408 2013-07-04 13:21 util.c
+-rwxr-xr-x 1 root root  18615 2012-09-01 20:31 depcomp
+-rw-r--r-- 1 root root  24298 2013-07-10 12:00 scrypt.c
+-rwxr-xr-x 1 root root   1049 2012-09-01 20:31 nomacro.pl
+-rw-r--r-- 1 root root    257 2012-09-01 20:31 example-cfg.json
+-rw-r--r-- 1 root root  15578 2012-09-01 20:31 INSTALL
+-rw-r--r-- 1 root root   3237 2013-07-10 12:42 configure.ac
+-rwxr-xr-x 1 root root  11419 2012-09-01 20:31 missing
+-rwxr-xr-x 1 root root 214428 2013-07-10 13:56 configure
+-rw-r--r-- 1 root root  17069 2013-06-24 21:14 scrypt-x86.S
+-rw-r--r-- 1 root root  26497 2013-06-24 21:14 sha2-x86.S
+-rw-r--r-- 1 root root    555 2012-09-01 20:31 Makefile.am
+-rw-r--r-- 1 root root  95531 2013-07-10 12:00 sha2-x64.S
+-rw-r--r-- 1 root root     75 2012-09-01 20:31 AUTHORS
+-rw-r--r-- 1 root root   5101 2013-06-14 13:05 cpuminer-config.h.in
+-rw-r--r-- 1 root root     51 2012-09-01 20:31 ChangeLog
+-rw-r--r-- 1 root root  33646 2013-07-10 12:00 cpu-miner.c
+-rw-r--r-- 1 root root  15945 2013-07-10 12:00 sha2.c
+-rw-r--r-- 1 root root  48912 2013-07-10 13:56 aclocal.m4
+-rwxr-xr-x 1 root root  35165 2012-09-01 20:31 config.sub
+-rw-r--r-- 1 root root  46962 2013-07-10 13:56 Makefile.in
+-rwxr-xr-x 1 root root   3769 2012-09-01 20:31 compile
+[4hAWSWeb:~/cpuminer-2.3.2# install[1D[1Pl
+bash: install: command not found
+AWSWeb:~/cpuminer-2.3.2# cd ..
+[4l[4hAWSWeb:~# git clone https://github.com/pooler/cpuminer.git
+bash: git: command not found
+AWSWeb:~# 
+AWSWeb:~# ./makefiu[1D[1Ple.in
+bash: ./makefile.in: command not found
+AWSWeb:~# cd [1D[1P[1D[1P[1D[1P[K./makefile.in[13D[Kgit clone https://github.com/pooler/cpuminer.git[48D[Kcd ..[5D[Kgit clone https://github.com/pooler/cpuminer.git[48D[K./makefile.in[13D[Kgit clone https://github.com/pooler/cpuminer.git[48D[Kcd ..[5D[Kinstall[7D[Kls -la[6D[Kls la[5D[Kls pla[6D[Ksudo apt-get install make automake build-essential git[54D[Kuname -a[8D[Kuid[3D[K./autogen.sh[12D[Kcd cpuminer-2.3.2
+[4l[4hAWSWeb:~/cpuminer-2.3.2# ./install-sh
+[4lShall we play a game? y
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:~/cpuminer-2.3.2# y
+bash: y: command not found
+AWSWeb:~/cpuminer-2.3.2# help
+bash: help: command not found
+AWSWeb:~/cpuminer-2.3.2# ./miner.ha
+bash: ./miner.ha: command not found
+AWSWeb:~/cpuminer-2.3.2# ./c[1D[1Pcompile
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:~/cpuminer-2.3.2# ./install
+bash: ./install: command not found
+AWSWeb:~/cpuminer-2.3.2# ./c[1D[1Pcpu-miner.c
+[4l  ___ 
+ {o,o}
+ |)__)
+ -"-"-
+O RLY? y
+  ___
+ {o,o}
+ (__(|
+ -"-"-
+NO WAI!
+[4hAWSWeb:~/cpuminer-2.3.2# miner
+bash: miner: command not found
+AWSWeb:~/cpuminer-2.3.2# 
+AWSWeb:~/cpuminer-2.3.2# mi[1D[1P[1D[1P./minerd--url=stratum+tcp://rpc.pooljunkie.nl:3333 --userpass=adisky.adisky:Muse234[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[60D[K
+AWSWeb:~/cpuminer-2.3.2# ./minerd --url=stratum+tcp://rpc.pooljunkie.nl:3333 --userpass=adisky.adisky:Muse234
+bash: ./minerd: command not found
+AWSWeb:~/cpuminer-2.3.2# la[1D[1Ps -la
+[4ldrwxr-xr-x 1 root root   4096 2014-02-01 13:31 .
+drwxr-xr-x 1 root root   4096 2014-02-01 13:31 ..
+drwxr-xr-x 1 root root   4096 2013-07-10 13:56 compat
+-rwxr-xr-x 1 root root  13663 2012-09-01 20:31 install-sh
+-rw-r--r-- 1 root root  17992 2012-09-01 20:31 COPYING
+-rw-r--r-- 1 root root   2862 2013-07-10 12:00 README
+-rw-r--r-- 1 root root   6330 2013-07-10 12:00 miner.h
+-rw-r--r-- 1 root root  70827 2013-07-10 12:00 scrypt-x64.S
+-rw-r--r-- 1 root root    353 2013-06-13 19:50 compat.h
+-rw-r--r-- 1 root root  22874 2013-06-24 21:14 scrypt-arm.S
+-rw-r--r-- 1 root root   7060 2013-06-13 19:50 elist.h
+-rwxr-xr-x 1 root root  44643 2012-09-01 20:31 config.guess
+-rw-r--r-- 1 root root   8475 2013-07-10 13:49 NEWS
+-rw-r--r-- 1 root root  41830 2013-06-24 21:14 sha2-arm.S
+-rw-r--r-- 1 root root  30408 2013-07-04 13:21 util.c
+-rwxr-xr-x 1 root root  18615 2012-09-01 20:31 depcomp
+-rw-r--r-- 1 root root  24298 2013-07-10 12:00 scrypt.c
+-rwxr-xr-x 1 root root   1049 2012-09-01 20:31 nomacro.pl
+-rw-r--r-- 1 root root    257 2012-09-01 20:31 example-cfg.json
+-rw-r--r-- 1 root root  15578 2012-09-01 20:31 INSTALL
+-rw-r--r-- 1 root root   3237 2013-07-10 12:42 configure.ac
+-rwxr-xr-x 1 root root  11419 2012-09-01 20:31 missing
+-rwxr-xr-x 1 root root 214428 2013-07-10 13:56 configure
+-rw-r--r-- 1 root root  17069 2013-06-24 21:14 scrypt-x86.S
+-rw-r--r-- 1 root root  26497 2013-06-24 21:14 sha2-x86.S
+-rw-r--r-- 1 root root    555 2012-09-01 20:31 Makefile.am
+-rw-r--r-- 1 root root  95531 2013-07-10 12:00 sha2-x64.S
+-rw-r--r-- 1 root root     75 2012-09-01 20:31 AUTHORS
+-rw-r--r-- 1 root root   5101 2013-06-14 13:05 cpuminer-config.h.in
+-rw-r--r-- 1 root root     51 2012-09-01 20:31 ChangeLog
+-rw-r--r-- 1 root root  33646 2013-07-10 12:00 cpu-miner.c
+-rw-r--r-- 1 root root  15945 2013-07-10 12:00 sha2.c
+-rw-r--r-- 1 root root  48912 2013-07-10 13:56 aclocal.m4
+-rwxr-xr-x 1 root root  35165 2012-09-01 20:31 config.sub
+-rw-r--r-- 1 root root  46962 2013-07-10 13:56 Makefile.in
+-rwxr-xr-x 1 root root   3769 2012-09-01 20:31 compile
+[4hAWSWeb:~/cpuminer-2.3.2# help
+bash: help: command not found
+AWSWeb:~/cpuminer-2.3.2# ./[1D[1P[1D[1Pconfigure
+bash: configure: command not found
+AWSWeb:~/cpuminer-2.3.2# add[1D[1P[1D[1P[1D[1Pcd  [1D[1P..
+[4l[4hAWSWeb:~# 
+AWSWeb:~# adduser adisky
+[4lAdding user `adisky' ...
+Adding new group `adisky' (1001) ...
+Adding new user `adisky' (1001) with group `adisky' ...
+Creating home directory `/home/adisky' ...
+Copying files from `/etc/skel' ...
+Password: [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P

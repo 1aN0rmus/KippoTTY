@@ -1,0 +1,206 @@
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# apt-get install screen
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  screen 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 548.2kB of archives.
+After this operation, 1205.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main screen 1.31-3 [548.2kB]
+Fetched 548.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking screen (from .../archives/screen_1.31-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up screen (1.31-3) ...
+[4hAWSWeb:~# screen
+[4lscreen: Segmentation fault
+[4hAWSWeb:~# sudo dpkg clear-avail
+bash: sudo: command not found
+AWSWeb:~# dpkg clear-avail
+bash: dpkg: command not found
+AWSWeb:~# dpkg --configure -a
+bash: dpkg: command not found
+AWSWeb:~# apt-get -f install
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt-get --fix-missing install
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# sudo mv /var/lib/dpkg/status /var/lib/dpkg/status-old
+bash: sudo: command not found
+AWSWeb:~#  mv /var/lib/dpkg/status /var/lib/dpkg/status-old
+[4l[4hAWSWeb:~# cp /var/lib/dpkg/status-old /var/lib/dpkg/status-old
+[4lcp: target `/var/lib/dpkg/status-old' is not a directory
+[4hAWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# reboot
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Mon Dec 16 14:44:12 2013):
+
+The system is going down for reboot NOW!
+[Kreboot
+Connection to server closed.
+[4hlocalhost:~# [Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hlocalhost:~# ig[1D[1P[1D[1Pifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:~# [Kifconfig[8D[Kps x[4D[Kapt-get update[14D[Kreboot[6D[Kapt-get update[14D[Kcp /var/lib/dpkg/status-old /var/lib/dpkg/status-old[52D[K mv /var/lib/dpkg/status /var/lib/dpkg/status-old[49D[Ksudo mv /var/lib/dpkg/status /var/lib/dpkg/status-old[53D[Kapt-get --fix-missing install[29D[Kapt-get -f install[18D[Kdpkg --configure -a[19D[Kdpkg clear-avail[16D[Ksudo dpkg clear-avail[21D[Kscreen[6D[Kapt-get install screen[22D[Kps x[4D[Kapt-get update[14D[Kpasswd[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Phistory
+[4l    1  passwd
+    2  apt-get update
+    3  ps x
+    4  apt-get install screen
+    5  screen
+    6  sudo dpkg clear-avail
+    7  dpkg clear-avail
+    8  dpkg --configure -a
+    9  apt-get -f install
+   10  apt-get --fix-missing install
+   11  sudo mv /var/lib/dpkg/status /var/lib/dpkg/status-old
+   12   mv /var/lib/dpkg/status /var/lib/dpkg/status-old
+   13  cp /var/lib/dpkg/status-old /var/lib/dpkg/status-old
+   14  apt-get update
+   15  reboot
+   16  apt-get update
+   17  ps x
+   18  ifconfig
+   19  history
+[4hlocalhost:~# apt-cache search lib | grep dev
+bash: apt-cache: command not found
+localhost:~# cd ..
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hlocalhost:/# cd /etc/apt/sources.list[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hlocalhost:/etc/apt# ls
+[4ltrusted.gpg    sources.list~  trusted.gpg~   secring.gpg    sources.list   
+trustdb.gpg    apt.conf.d     sources.list.d 
+[4hlocalhost:/etc/apt# rm -rf *
+[4l[4hlocalhost:/etc/apt# apt-get is[1D[1Pnstall screen
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  screen 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 693.2kB of archives.
+After this operation, 1524.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main screen 1.25-10 [693.2kB]
+Fetched 693.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking screen (from .../archives/screen_1.25-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up screen (1.25-10) ...
+[4hlocalhost:/etc/apt# ls
+[4l[4hlocalhost:/etc/apt# cd ..
+[4l[4hlocalhost:/etc# ls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hlocalhost:/etc# cd
+[4l[4hlocalhost:~# \[1D[1Pls
+[4l[4hlocalhost:~# ssh -l root 69.165.155.244
+[4lThe authenticity of host '69.165.155.244 (69.165.155.244)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '69.165.155.244' (RSA) to the list of known hosts.
+root@69.165.155.244's password: 
+Linux localhost 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Sun Dec 15 04:55:39 2013 from 192.168.9.4
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hlocalhost:~# uname iz[1D[1P[1D[1P-a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# 

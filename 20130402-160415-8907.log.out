@@ -1,0 +1,85 @@
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# pwd
+[4l/
+[4hAWSWeb:/# ls -a
+[4l.          ..         sys        bin        mnt        media      vmlinuz    
+opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        
+boot       root       lost+found 
+[4hAWSWeb:/# cd /var/www/html
+[4lbash: cd: /var/www/html: No such file or directory
+[4hAWSWeb:/# [Kcd /var/www/html/
+[4lbash: cd: /var/www/html/: No such file or directory
+[4hAWSWeb:/# cd /var/
+[4l[4hAWSWeb:/var# ls -a
+[4l.       ..      backups run     mail    cache   log     opt     tmp     local   
+lib     lock    spool   
+[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# cd[1D[1Pd /etc/
+[4l[4hAWSWeb:/etc# ls -a
+[4l.                      ..                     services               
+magic.mime             network                python2.5              
+adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           
+passwd                 localtime              hosts                  
+rc4.d                  rcS.d                  logrotate.d            
+securetty              mtab                   mime.types             
+sysctl.d               .pwd.lock              environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# cd ..
+[4l[4hAWSWeb:/# cd /usr/
+[4l[4hAWSWeb:/usr# ls -a
+[4l.       ..      bin     src     include X11R6   sbin    local   lib     share   
+games   
+[4hAWSWeb:/usr# cd ..
+[4l[4hAWSWeb:/# ls -a
+[4l.          ..         sys        bin        mnt        media      vmlinuz    
+opt        cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        usr        
+boot       root       lost+found 
+[4hAWSWeb:/# cd /home/
+[4l[4hAWSWeb:/home# ls -a
+[4l.       ..      richard 
+[4hAWSWeb:/home# cd /[1D[1P./richard/
+[4l[4hAWSWeb:/home/richard# ls -a
+[4l.            ..           .bash_logout .profile     .bashrc      
+[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# cd /var/
+[4l[4hAWSWeb:/var# ls -a
+[4l.       ..      backups run     mail    cache   log     opt     tmp     local   
+lib     lock    spool   
+[4hAWSWeb:/var# cd /[1D[1P./log/
+[4l[4hAWSWeb:/var/log# ls -a
+[4l.            ..           kern.log.1   btmp         syslog       syslog.1     
+mail.info    lastlog      mail.err     news         dmesg        kern.log     
+daemon.log.1 fsck         messages     apt          auth.log     wtmp         
+messages.1   daemon.log   lpr.log      faillog      dmesg.1.gz   dpkg.log     
+debug        boot         dmesg.0      debug.1      user.log     mail.warn    
+mail.log     auth.log.1   
+[4hAWSWeb:/var/log# cd ..
+[4l[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# 

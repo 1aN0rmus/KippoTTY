@@ -1,0 +1,101 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hAWSWeb:~# ecoho[1D[1P[1D[1P[1D[1Pho ""[1DHello honey pot!
+[4lHello honey pot!
+[4hAWSWeb:~# ;)
+bash: ): command not found
+AWSWeb:~# ei[1D[1Pxit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# alias
+bash: alias: command not found
+localhost:~# set
+[4l[4hlocalhost:~# cat ~/
+localhost:~# ls ~/
+[4lls: cannot access /root/~: No such file or directory
+[4hlocalhost:~# ls /
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hlocalhost:~# ls /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls /home/
+[4lrichard 
+[4hlocalhost:~# ps -e
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -e
+[4hlocalhost:~# ps -aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Feb01   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Feb01   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb01   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb01   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Feb01   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Feb01   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Feb01   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Feb01   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Feb01   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Feb01   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Feb01   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Feb01   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Feb01   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Feb01   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Feb01   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Feb01   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Feb01   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Feb01   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Feb01   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Feb01   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Feb01   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Feb01   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Feb01   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Feb03   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   15:09   0:00 -bash
+root      5502  0.0  0.1   2341   937 pts/0    R+   15:09   0:00 ps -aux
+[4hlocalhost:~# ps [1D[1P[1D[1P[1D[1Puname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# cat /va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+log   local lock  
+localhost:~# cat /var/lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+log   local lock  
+localhost:~# cat /var/log[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+kern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+localhost:~# cat /var/log/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+kern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+localhost:~# cat /var/log/au[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log/auth.log
+[4lcat: /var/log/auth.log: No such file or directory
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# [Kid[2D[Kcat /var/log/auth.log.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log/auth.log.1 
+[4lcat: /var/log/auth.log.1: No such file or directory
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# x

@@ -1,0 +1,653 @@
+[4hAWSWeb:~# unset HISTFILE
+[4l[4hAWSWeb:~# w
+[4l 15:36:40 up 104 days, 17:40,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    80.90.198.43      15:36    0.09   0.05   0.05 w
+[4hAWSWeb:~# cc
+AWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt-get install mc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  mc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 742.2kB of archives.
+After this operation, 1632.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main mc 0.9-8 [742.2kB]
+Fetched 742.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking mc (from .../archives/mc_0.9-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up mc (0.9-8) ...
+[4hAWSWeb:~# mc
+[4lmc: Segmentation fault
+[4hAWSWeb:~# apt-get remove mc
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get remove mc[17D[Kmc[2D[Kapt-get install mc
+AWSWeb:~# 
+AWSWeb:~# ww
+bash: ww: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# apt-get install mc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  mc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 603.2kB of archives.
+After this operation, 1326.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main mc 0.35-1 [603.2kB]
+Fetched 603.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking mc (from .../archives/mc_0.35-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up mc (0.35-1) ...
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# [Kapt-get install mc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  mc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 168.2kB of archives.
+After this operation, 369.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main mc 1.1-6 [168.2kB]
+Fetched 168.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking mc (from .../archives/mc_1.1-6_i386.deb) ...
+Processing triggers for man-db ...
+Setting up mc (1.1-6) ...
+[4hAWSWeb:~# 
+AWSWeb:~# apt-get remove mc
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get remove mc[17Dsudo 
+bash: sudo: command not found
+AWSWeb:~# root
+bash: root: command not found
+AWSWeb:~# [Krootsh
+bash: rootsh: command not found
+AWSWeb:~# iptables
+bash: iptables: command not found
+AWSWeb:~# services
+bash: services: command not found
+AWSWeb:~# chk
+AWSWeb:~# ls -la /e[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /etc/
+[4ldrwxr-xr-x 1 root root  4096 2013-05-09 15:45 .
+drwxr-xr-x 1 root root  4096 2013-05-09 15:45 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+[4hAWSWeb:~# [Kls -la /etc/ |grep rc
+[4ldrwxr-xr-x 1 root root  4096 2013-05-09 15:46 .
+drwxr-xr-x 1 root root  4096 2013-05-09 15:46 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+ls: cannot access /root/|grep: No such file or directory
+ls: cannot access /root/rc: No such file or directory
+[4hAWSWeb:~# cd /etcrc[1D/[1D[1P[1D/[2C[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:~# cd /etc/rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:~# cd /etc/rc[1D[1P[1D[1P
+[4l[4hAWSWeb:/etc# cd rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rc`[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rc[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+rc4.d    rcS.d    rc6.d    rc5.d    rc.local rc1.d    rc3.d    rc0.d    rc2.d    
+AWSWeb:/etc# cd rcq
+AWSWeb:/etc# cat rc.local
+[4lcat: /etc/rc.local: No such file or directory
+[4hAWSWeb:/etc# cd rc.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd rc.local [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+services               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               .pwd.lock              
+environment            inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         
+rc6.d                  ld.so.cache            rc5.d                  apt                    networks               opt                    group                  
+inittab                issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              
+mke2fs.conf            rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  
+adduser.conf           init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               
+passwd-                rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              
+bash_completion.d      host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 terminfo               
+AWSWeb:/etc# cd rc.local 
+[4l-bash: cd: /etc/rc.local: Not a directory
+[4hAWSWeb:/etc# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/etc# ls -la *[1D[1Prc [1D[1P*
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  14 2009-11-06 11:10 S03udev -> /etc/init.d/udev
+lrwxrwxrwx 1 root root  24 2009-11-06 11:09 S02mountkernfs.sh -> /etc/init.d/mountkernfs.sh
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S05bootlogd -> /etc/init.d/bootlogd
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S35mountall.sh -> /etc/init.d/mountall.sh
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S02hostname.sh -> /etc/init.d/hostname.sh
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S39ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  30 2009-11-06 11:09 S99stop-bootlogd-single -> /etc/init.d/stop-bootlogd-single
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S55urandom -> /etc/init.d/urandom
+-rw-r--r-- 1 root root 783 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  27 2009-11-06 11:09 S20module-init-tools -> /etc/init.d/module-init-tools
+lrwxrwxrwx 1 root root  24 2009-11-06 11:10 S18ifupdown-clean -> /etc/init.d/ifupdown-clean
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S01glibc.sh -> /etc/init.d/glibc.sh
+lrwxrwxrwx 1 root root  25 2009-11-06 11:09 S08hwclockfirst.sh -> /etc/init.d/hwclockfirst.sh
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 S04mountdevsubfs.sh -> /etc/init.d/mountdevsubfs.sh
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 S37mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S30procps -> /etc/init.d/procps
+lrwxrwxrwx 1 root root  19 2009-11-06 11:10 S36udev-mtab -> /etc/init.d/udev-mtab
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S11hwclock.sh -> /etc/init.d/hwclock.sh
+lrwxrwxrwx 1 root root  31 2009-11-06 11:09 S46mountnfs-bootclean.sh -> /etc/init.d/mountnfs-bootclean.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S12mtab.sh -> /etc/init.d/mtab.sh
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S45mountnfs.sh -> /etc/init.d/mountnfs.sh
+lrwxrwxrwx 1 root root  20 2009-11-08 15:28 S70x11-common -> /etc/init.d/x11-common
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S55bootmisc.sh -> /etc/init.d/bootmisc.sh
+lrwxrwxrwx 1 root root  31 2009-11-06 11:09 S36mountall-bootclean.sh -> /etc/init.d/mountall-bootclean.sh
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S10checkroot.sh -> /etc/init.d/checkroot.sh
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S30checkfs.sh -> /etc/init.d/checkfs.sh
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S40networking -> /etc/init.d/networking
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S36ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S31umountnfs.sh -> /etc/init.d/umountnfs.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 K25hwclock.sh -> /etc/init.d/hwclock.sh
+-rw-r--r-- 1 root root 351 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S20sendsigs -> /etc/init.d/sendsigs
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 K63mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S35networking -> /etc/init.d/networking
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S40umountfs -> /etc/init.d/umountfs
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S30urandom -> /etc/init.d/urandom
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S90reboot -> /etc/init.d/reboot
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S60umountroot -> /etc/init.d/umountroot
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+-rw-r--r-- 1 root root 369 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S90single -> /etc/init.d/single
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 K84ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S30killprocs -> /etc/init.d/killprocs
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S36ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S31umountnfs.sh -> /etc/init.d/umountnfs.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 K25hwclock.sh -> /etc/init.d/hwclock.sh
+-rw-r--r-- 1 root root 353 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S20sendsigs -> /etc/init.d/sendsigs
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 K63mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  14 2009-11-06 11:09 S90halt -> /etc/init.d/halt
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S35networking -> /etc/init.d/networking
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S40umountfs -> /etc/init.d/umountfs
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S30urandom -> /etc/init.d/urandom
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S60umountroot -> /etc/init.d/umountroot
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:47 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+[4hAWSWeb:/etc# cat rc.local
+[4lcat: /etc/rc.local: No such file or directory
+[4hAWSWeb:/etc# cd rc.local
+[4l-bash: cd: /etc/rc.local: Not a directory
+[4hAWSWeb:/etc# ls -la rc.local
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:48 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:48 ..
+[4hAWSWeb:/etc# [Kls -la rc.local
+AWSWeb:/etc# ls
+[4lservices               magic.mime             network                python2.5              adjtime                mailcap                shadow-                
+modules                debian_version         ld.so.conf.d           passwd                 localtime              hosts                  rc4.d                  
+rcS.d                  logrotate.d            securetty              mtab                   mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             debconf.conf           security               vim                    ssh                    
+resolv.conf            skel                   gshadow-               dpkg                   udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    networks               opt                    group                  inittab                
+issue                  default                issue.net              mailcap.order          dhcp3                  pam.conf               hosts.deny             
+rc.local               python                 nsswitch.conf          rsyslog.conf           wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    ld.so.conf             group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                cron.daily             alternatives           hostname               bash.bashrc            
+rc0.d                  pam.d                  gai.conf               timezone               deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        motd                   shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                X11                    bindresvport.blacklist rsyslog.d              fstab                  
+login.defs             shells                 terminfo               
+[4hAWSWeb:/etc# 
+AWSWeb:/etc# pwd
+[4l/etc
+[4hAWSWeb:/etc# cd rc.local
+[4l-bash: cd: /etc/rc.local: Not a directory
+[4hAWSWeb:/etc# cat rc.local
+[4lcat: /etc/rc.local: No such file or directory
+[4hAWSWeb:/etc# bash -v
+[4l[4hAWSWeb:/etc# [Kbash -v[1D[1Ph
+[4l[4hAWSWeb:/etc# [Kbash -h[1D-[1Celp
+[4l[4hAWSWeb:/etc# dp[1D[1P[1D[1Pdpkg/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+dpkg.cfg origins  
+AWSWeb:/etc# dpkg/[1D[1P
+bash: dpkg: command not found
+AWSWeb:/etc# opkg
+bash: opkg: command not found
+AWSWeb:/etc# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/etc# cat /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/*iss*
+[4lDebian GNU/Linux 5.0 \n \l
+
+cat: /etc/issue.net: No such file or directory
+[4hAWSWeb:/etc# [Kcat /etc/*iss*[1D[1D[1P[1D[1P[1D[1Prel
+[4lcat: /etc/*rel*: No such file or directory
+[4hAWSWeb:/etc# cat ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat init
+[4lcat: init: No such file or directory
+[4hAWSWeb:/etc# [Kcat initt[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat inittab 
+[4lcat: /etc/inittab: No such file or directory
+[4hAWSWeb:/etc# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/etc# wmoa
+bash: wmoa: command not found
+AWSWeb:/etc# [Kwmoami
+bash: wmoami: command not found
+AWSWeb:/etc# [Kwmoami[6D[1Ch[1P
+[4lroot
+[4hAWSWeb:/etc# cd ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd init[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+initramfs-tools inittab         init.d          
+AWSWeb:/etc# cd init.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd init.d/
+[4l[4hAWSWeb:/etc/init.d# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-05-09 15:52 .
+drwxr-xr-x 1 root root  4096 2013-05-09 15:52 ..
+-rwxr-xr-x 1 root root  2330 2009-11-06 11:08 mountnfs.sh
+-rwxr-xr-x 1 root root  2283 2009-11-06 11:08 sendsigs
+-rwxr-xr-x 1 root root 10036 2009-11-06 11:09 rc
+-rwxr-xr-x 1 root root  1956 2009-11-06 11:08 mountall.sh
+-rwxr-xr-x 1 root root  3175 2009-11-06 11:08 umountfs
+-rwxr-xr-x 1 root root  1844 2009-11-06 11:09 networking
+-rwxr-xr-x 1 root root  2140 2009-11-06 11:08 umountnfs.sh
+-rwxr-xr-x 1 root root  9831 2009-11-06 11:08 checkroot.sh
+-rwxr-xr-x 1 root root  1793 2009-11-06 11:09 module-init-tools
+-rw-r--r-- 1 root root  4167 2009-11-06 11:09 skeleton
+-rwxr-xr-x 1 root root  1815 2009-11-06 11:08 urandom
+-rwxr-xr-x 1 root root  2155 2009-11-06 11:08 bootlogd
+-rwxr-xr-x 1 root root  2850 2009-11-06 11:10 rsyslog
+-rwxr-xr-x 1 root root  7195 2009-11-06 11:08 glibc.sh
+-rwxr-xr-x 1 root root  1988 2009-11-06 11:08 bootmisc.sh
+-rwxr-xr-x 1 root root  3710 2009-11-08 15:46 ssh
+-rwxr-xr-x 1 root root  3668 2009-11-06 11:08 mtab.sh
+-rwxr-xr-x 1 root root  4521 2009-11-06 11:08 hwclock.sh
+-rwxr-xr-x 1 root root  7473 2009-11-06 11:10 udev
+-rwxr-xr-x 1 root root  2194 2009-11-06 11:08 mountdevsubfs.sh
+-rwxr-xr-x 1 root root  3004 2009-11-06 11:08 checkfs.sh
+-rwxr-xr-x 1 root root  1456 2009-11-06 11:08 umountroot
+-rwxr-xr-x 1 root root  4528 2009-11-06 11:08 hwclockfirst.sh
+-rw-r--r-- 1 root root  1510 2009-11-06 11:09 README
+-rwxr-xr-x 1 root root  1046 2009-11-06 11:10 ifupdown-clean
+-rwxr-xr-x 1 root root  1329 2009-11-06 11:08 halt
+-rwxr-xr-x 1 root root  2518 2009-11-06 11:10 ifupdown
+-rwxr-xr-x 1 root root   788 2009-11-06 11:08 rc.local
+-rwxr-xr-x 1 root root  1287 2009-11-06 11:08 hostname.sh
+-rwxr-xr-x 1 root root   525 2009-11-06 11:08 stop-bootlogd
+-rwxr-xr-x 1 root root   639 2009-11-06 11:08 reboot
+-rwxr-xr-x 1 root root  1777 2009-11-08 15:28 x11-common
+-rwxr-xr-x 1 root root   941 2009-11-06 11:08 rmnologin
+-rwxr-xr-x 1 root root  2476 2009-11-06 11:08 mountkernfs.sh
+-rwxr-xr-x 1 root root   620 2009-11-06 11:08 mountall-bootclean.sh
+-rwxr-xr-x 1 root root  1096 2009-11-06 11:08 stop-bootlogd-single
+-rwxr-xr-x 1 root root  1321 2009-11-06 11:08 mountoverflowtmp
+-rwxr-xr-x 1 root root   590 2009-11-06 11:08 single
+-rwxr-xr-x 1 root root  1001 2009-11-06 11:10 udev-mtab
+-rwxr-xr-x 1 root root  1247 2009-11-06 11:08 procps
+-rwxr-xr-x 1 root root   618 2009-11-06 11:08 mountnfs-bootclean.sh
+-rwxr-xr-x 1 root root  1484 2009-11-06 11:08 killprocs
+-rwxr-xr-x 1 root root   117 2009-11-06 11:09 rcS
+[4hAWSWeb:/etc/init.d# cat ssh
+[4lcat: /etc/init.d/ssh: No such file or directory
+[4hAWSWeb:/etc/init.d# cat mtab.sh
+[4lcat: /etc/init.d/mtab.sh: No such file or directory
+[4hAWSWeb:/etc/init.d# tac
+bash: tac: command not found
+AWSWeb:/etc/init.d# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/etc/init.d# nano
+bash: nano: command not found
+AWSWeb:/etc/init.d# pico
+bash: pico: command not found
+AWSWeb:/etc/init.d# joe
+bash: joe: command not found
+AWSWeb:/etc/init.d# vim
+bash: vim: command not found
+AWSWeb:/etc/init.d# cat 
+AWSWeb:/etc/init.d# cd ~
+[4lbash: cd: ~: No such file or directory
+[4hAWSWeb:/etc/init.d# ls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-05-09 15:53 .
+drwxr-xr-x 1 root root  4096 2013-05-09 15:53 ..
+-rwxr-xr-x 1 root root  2330 2009-11-06 11:08 mountnfs.sh
+-rwxr-xr-x 1 root root  2283 2009-11-06 11:08 sendsigs
+-rwxr-xr-x 1 root root 10036 2009-11-06 11:09 rc
+-rwxr-xr-x 1 root root  1956 2009-11-06 11:08 mountall.sh
+-rwxr-xr-x 1 root root  3175 2009-11-06 11:08 umountfs
+-rwxr-xr-x 1 root root  1844 2009-11-06 11:09 networking
+-rwxr-xr-x 1 root root  2140 2009-11-06 11:08 umountnfs.sh
+-rwxr-xr-x 1 root root  9831 2009-11-06 11:08 checkroot.sh
+-rwxr-xr-x 1 root root  1793 2009-11-06 11:09 module-init-tools
+-rw-r--r-- 1 root root  4167 2009-11-06 11:09 skeleton
+-rwxr-xr-x 1 root root  1815 2009-11-06 11:08 urandom
+-rwxr-xr-x 1 root root  2155 2009-11-06 11:08 bootlogd
+-rwxr-xr-x 1 root root  2850 2009-11-06 11:10 rsyslog
+-rwxr-xr-x 1 root root  7195 2009-11-06 11:08 glibc.sh
+-rwxr-xr-x 1 root root  1988 2009-11-06 11:08 bootmisc.sh
+-rwxr-xr-x 1 root root  3710 2009-11-08 15:46 ssh
+-rwxr-xr-x 1 root root  3668 2009-11-06 11:08 mtab.sh
+-rwxr-xr-x 1 root root  4521 2009-11-06 11:08 hwclock.sh
+-rwxr-xr-x 1 root root  7473 2009-11-06 11:10 udev
+-rwxr-xr-x 1 root root  2194 2009-11-06 11:08 mountdevsubfs.sh
+-rwxr-xr-x 1 root root  3004 2009-11-06 11:08 checkfs.sh
+-rwxr-xr-x 1 root root  1456 2009-11-06 11:08 umountroot
+-rwxr-xr-x 1 root root  4528 2009-11-06 11:08 hwclockfirst.sh
+-rw-r--r-- 1 root root  1510 2009-11-06 11:09 README
+-rwxr-xr-x 1 root root  1046 2009-11-06 11:10 ifupdown-clean
+-rwxr-xr-x 1 root root  1329 2009-11-06 11:08 halt
+-rwxr-xr-x 1 root root  2518 2009-11-06 11:10 ifupdown
+-rwxr-xr-x 1 root root   788 2009-11-06 11:08 rc.local
+-rwxr-xr-x 1 root root  1287 2009-11-06 11:08 hostname.sh
+-rwxr-xr-x 1 root root   525 2009-11-06 11:08 stop-bootlogd
+-rwxr-xr-x 1 root root   639 2009-11-06 11:08 reboot
+-rwxr-xr-x 1 root root  1777 2009-11-08 15:28 x11-common
+-rwxr-xr-x 1 root root   941 2009-11-06 11:08 rmnologin
+-rwxr-xr-x 1 root root  2476 2009-11-06 11:08 mountkernfs.sh
+-rwxr-xr-x 1 root root   620 2009-11-06 11:08 mountall-bootclean.sh
+-rwxr-xr-x 1 root root  1096 2009-11-06 11:08 stop-bootlogd-single
+-rwxr-xr-x 1 root root  1321 2009-11-06 11:08 mountoverflowtmp
+-rwxr-xr-x 1 root root   590 2009-11-06 11:08 single
+-rwxr-xr-x 1 root root  1001 2009-11-06 11:10 udev-mtab
+-rwxr-xr-x 1 root root  1247 2009-11-06 11:08 procps
+-rwxr-xr-x 1 root root   618 2009-11-06 11:08 mountnfs-bootclean.sh
+-rwxr-xr-x 1 root root  1484 2009-11-06 11:08 killprocs
+-rwxr-xr-x 1 root root   117 2009-11-06 11:09 rcS
+[4hAWSWeb:/etc/init.d# cd /root
+[4l[4hAWSWeb:~# cat /e[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/init.d[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/init.d/README
+[4lcat: /etc/init.d/README: No such file or directory
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:54 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:54 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# [Kls -la /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:54 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:54 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:~# [Kls -la /home/r[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/richard/
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:54 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:54 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:~# [Kls -la /home/richard/.b[1D[1Pp[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/richard/.profile 
+[4ldrwxr-xr-x 1 root root 4096 2013-05-09 15:54 .
+drwxr-xr-x 1 root root 4096 2013-05-09 15:54 ..
+[4hAWSWeb:~# [Kls -la /home/richard/.profile [30D[1P[1P[1P[1Pcat [1P[1P[1P
+[4lcat: /home/richard/.profile: No such file or directory
+[4hAWSWeb:~# la -sl /[8D
+AWSWeb:~# ls -la /
+[4ldrwxr-xr-x 1 root root  4096 2013-05-09 15:55 .
+drwxr-xr-x 1 root root  4096 2013-05-09 15:55 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# `
+AWSWeb:~# 

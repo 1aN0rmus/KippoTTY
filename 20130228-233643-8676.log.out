@@ -1,0 +1,71 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-02-28 23:36 .
+drwxr-xr-x 1 root root 4096 2013-02-28 23:36 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd h[1D[1P[1D[1P[1D[1P[1D[1Pcd home/
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-02-28 23:38 .
+drwxr-xr-x 1 root root 4096 2013-02-28 23:38 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:/home/richard# cd var/
+[4lbash: cd: var/: No such file or directory
+[4hAWSWeb:/home/richard# cd v[1D[1P[1D[1P[1D[1P[1D[1Pd[1D[1Pcd ../
+[4l[4hAWSWeb:/home# cd ../
+[4l[4hAWSWeb:/# cd v[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:/# cd va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd var/
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd ../
+[4l[4hAWSWeb:/# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-28 23:39 .
+drwxr-xr-x 1 root root  4096 2013-02-28 23:39 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd .cd[1D[1P[1D[1P
+[4l[4hAWSWeb:/# 

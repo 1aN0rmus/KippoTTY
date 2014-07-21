@@ -1,0 +1,113 @@
+[4hAWSWeb:~# wget www.csservers.ro/csservers_redirecte_linux_hlds.tar.gz
+[4l--2013-01-31 12:35:16--  http://www.csservers.ro/csservers_redirecte_linux_hlds.tar.gz
+Connecting to www.csservers.ro:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20829391 (19M) [application/octet-stream]
+Saving to: `csservers_redirecte_linux_hlds.tar.gz
+
+ 0% [>                                      ] 4,156        14K/s  eta 24m 13s 0% [>                                      ] 43,252       52K/s  eta 6m 33s  1% [>                                      ] 225,700      166K/s  eta 2m 3s 3% [=>                                     ] 746,980      395K/s  eta 50s   8% [===>                                   ] 1,769,268    734K/s  eta 25s13% [=====>                                 ] 2,787,212    957K/s  eta 18s17% [======>                                ] 3,724,068    1090K/s  eta 15s22% [========>                              ] 4,737,668    1208K/s  eta 13s27% [==========>                            ] 5,720,860    1293K/s  eta 11s32% [============>                          ] 6,712,740    1362K/s  eta 10s36% [==============>                        ] 7,681,452    1414K/s  eta 9s 41% [================>                      ] 8,680,572    1459K/s  eta 8s46% [==================>                    ] 9,659,420    1497K/s  eta 7s51% [===================>                   ] 10,638,268   1530K/s  eta 6s55% [=====================>                 ] 11,608,428   1558K/s  eta 5s60% [=======================>               ] 12,591,620   1583K/s  eta 5s65% [=========================>             ] 13,564,676   1604K/s  eta 4s69% [===========================>           ] 14,547,868   1624K/s  eta 3s74% [=============================>         ] 15,520,924   1640K/s  eta 3s79% [==============================>        ] 16,509,908   1657K/s  eta 2s83% [================================>      ] 17,493,100   1671K/s  eta 1s88% [==================================>    ] 18,457,468   1683K/s  eta 1s93% [====================================>  ] 19,427,628   1694K/s  eta 0s98% [======================================>] 20,413,716   1706K/s  eta 0s100%[======================================>] 20,829,391   1706K/s
+
+2013-01-31 12:35:28 (1706 KB/s) - `csservers_redirecte_linux_hlds.tar.gz' saved [20829391/20829391]
+[4hAWSWeb:~# tar -pxzf csservers_redirecte_linux_hlds.tar.gz
+[4l[4hAWSWeb:~# cd csservers_redirecte_linux_hlds
+[4l[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start 3
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./stop
+[4lunable to open display ":0"
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start ":1'
+-bash: syntax error: unexpected end of file
+AWSWeb:~/csservers_redirecte_linux_hlds# ./start :1
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# command 
+bash: command: command not found
+AWSWeb:~/csservers_redirecte_linux_hlds# command_start1
+bash: command_start1: command not found
+AWSWeb:~/csservers_redirecte_linux_hlds# ./start_start2
+bash: ./start_start2: command not found
+AWSWeb:~/csservers_redirecte_linux_hlds# ./start 608
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start 170
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start 80
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# ./start 8080
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:~/csservers_redirecte_linux_hlds# cd...
+bash: cd...: command not found
+AWSWeb:~/csservers_redirecte_linux_hlds# cd
+[4l[4hAWSWeb:~# command_start3
+bash: command_start3: command not found
+AWSWeb:~# command_bash(
+bash: command_bash(: command not found
+AWSWeb:~# command_bash
+bash: command_bash: command not found
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# command_nop
+bash: command_nop: command not found
+AWSWeb:~# command
+bash: command: command not found
+AWSWeb:~# command_start1
+bash: command_start1: command not found
+AWSWeb:~# class command_start3
+bash: class: command not found
+AWSWeb:~# ping
+[4lUsage: ping [-LRUbdfnqrvVaA] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface or address]
+            [-M mtu discovery hint] [-S sndbuf]
+            [ -T timestamp option ] [ -Q tos ] [hop1 ...] destination
+[4hAWSWeb:~# ping www.google.com
+[4lPING www.google.com (10.19.123.55) 56(84) bytes of data.
+64 bytes from www.google.com (10.19.123.55): icmp_seq=1 ttl=50 time=43.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=2 ttl=50 time=41.2 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=3 ttl=50 time=49.4 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=4 ttl=50 time=44.5 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=5 ttl=50 time=43.2 ms
+--- www.google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:~# wgethttp://kippo.googlecode.com/svn/trunk/kippo/commands/adduser.py
+bash: wgethttp://kippo.googlecode.com/svn/trunk/kippo/commands/adduser.py: command not found
+AWSWeb:~# yum install screen
+bash: yum: command not found
+AWSWeb:~# apt-get install screen
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  screen 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 715.2kB of archives.
+After this operation, 1573.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main screen 0.6-5 [715.2kB]
+Fetched 715.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking screen (from .../archives/screen_0.6-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up screen (0.6-5) ...
+[4hAWSWeb:~# 

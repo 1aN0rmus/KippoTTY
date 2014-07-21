@@ -1,0 +1,114 @@
+[4hAWSWeb:~# w
+[4l 15:29:13 up 18 days, 17:33,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    147.175.187.150   15:29    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls -l /
+[4ldrwxr-xr-x 1 root root  4096 2013-02-12 15:29 .
+drwxr-xr-x 1 root root  4096 2013-02-12 15:29 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# ls -l /
+[4ldrwxr-xr-x 1 root root  4096 2013-02-12 15:29 .
+drwxr-xr-x 1 root root  4096 2013-02-12 15:29 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# df[1D[1P[1D[1Pls -l /
+[4ldrwxr-xr-x 1 root root  4096 2013-02-12 15:29 .
+drwxr-xr-x 1 root root  4096 2013-02-12 15:29 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# ps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Jan28   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Jan28   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan28   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Jan28   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Jan28   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Jan28   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Jan28   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Jan28   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Jan28   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Jan28   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Jan28   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Jan28   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Jan28   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Jan28   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Jan28   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Jan28   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Jan28   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Jan28   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Jan28   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Jan28   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Jan28   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Jan30   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   15:29   0:00 -bash
+root      5504  0.0  0.1   2341   937 pts/0    R+   15:29   0:00 ps aux
+[4hAWSWeb:~# 

@@ -1,0 +1,218 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# c[1D[1Ppwd
+[4l/
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cat /etc/shadow
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:/# adduser
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:/# adduser kimcil
+[4lAdding user `kimcil' ...
+Adding new group `kimcil' (1001) ...
+Adding new user `kimcil' (1001) with group `kimcil' ...
+Creating home directory `/home/kimcil' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+
+Must enter a value!
+        Username []:         Username []: kimcil
+        Full Name []: kimcil jahat
+        Room Number []: 69
+        Work Phone []: 123
+        Home Phone []: 123
+        Mobile Phone []: 123
+        Country []: CA
+        City []: LA
+        Language []: EN
+        Favorite movie []: Sex
+        Other []: 
+Must enter a value!
+        Other []: anu
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] y
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []: kimcil
+        Full Name []: kimcil jahat
+        Room Number []: 
+Must enter a value!
+        Room Number []:  
+        Work Phone []:  
+        Home Phone []: 
+Must enter a value!
+        Home Phone []:  
+        Mobile Phone []: 
+Must enter a value!
+        Mobile Phone []:  
+        Country []:  
+        City []:  
+        Language []:  
+        Favorite movie []:  
+        Other []:  
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] y
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []:  
+        Full Name []:  
+        Room Number []:  
+        Work Phone []:  
+        Home Phone []:  
+        Mobile Phone []:  
+         Country []: 
+        City []:  
+        Language []:  
+        Favorite movie []:  
+        Other []:  
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] n
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# 
+AWSWeb:/home# d[1D[1Pcd richard
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd //[1D[1P[1D[1P..
+[4l[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# adduser kimcil
+[4lAdding user `kimcil' ...
+Adding new group `kimcil' (1001) ...
+Adding new user `kimcil' (1001) with group `kimcil' ...
+Creating home directory `/home/kimcil' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []: Lisa Knock
+        Full Name []: Lisa Knock
+        Room Number []: 2
+        Work Phone []: 087[1D[1P1917035050
+        Home Phone []: 
+Must enter a value!
+        Home Phone []: 081917035050
+        Mobile Phone []: 081917035050
+        Country []: Indoneisa[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1PCalifornia
+        City []: Los Ag[1D[1Pngeles
+        Language []: English
+        Favorite movie []: Twilight Saga
+        Other []: i love orange
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] y
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []: kimcil
+        Full Name []: L[1D[1PLisa Dork
+        Room Number []: 2
+        Work Phone []: 04862362362475009[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P087796834698
+        Home Phone []: 087796834698
+        Mobile Phone []: 087796834698
+        Country []: California
+        City []: Los Angeles
+        Language []: English
+        Favorite movie []: Twilight Saga
+        Other []: i love u[1D[1Pyou
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] y[1D[1P
+Must enter a value!
+nTry again? [Y/n] n
+
+Changing the user information for kimcil
+Enter the new value, or press ENTER for the default
+        Username []: a
+a
+a
+        Work Phone []: a
+        Home Phone []: a
+a
+        Country []: a
+a        City []: 
+a        Language []:         Language []: 
+        Favorite movie []: a
+        Other []: a
+a
+Ok, starting over
+a
+aEnter the new value, or press ENTER for the default
+        Username []: 
+a        Full Name []: 
+        Room Number []: a        Room Number []:         Room Number []:         Room Number []:         Room Number []: a
+        Work Phone []: a
+        Home Phone []:  
+        Mobile Phone []:  
+        Country []:  
+        City []:  
+        Language []:  
+        Favorite movie []:  
+        Other []:  
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `kimcil' ...
+Deleting group `kimcil' (1001) ...
+Deleting home directory `/home/kimcil' ...
+Try again? [Y/n] n
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# whoami
+[4lroot
+[4hlocalhost:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# cleas[1D[1Pr
+[4lc[4hlocalhost:~# uname[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P

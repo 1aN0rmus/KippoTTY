@@ -1,0 +1,151 @@
+[4hAWSWeb:~# w
+[4l 23:34:20 up 150 days, 1:38,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    189.1.61.150      23:34    0.09   0.05   0.05 w
+[4hAWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppgrade
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# c[1D[1Pchmod 777 *
+[4l[4hAWSWeb:/# [Kchmod 777 *[1D[1D[1D[1P[1D[1P[1D[1P[1D[1P+x[1D[1P[1D[1P +x
+[4l[4hAWSWeb:/# [Kchmod +x *[10D[Kchmod 777 *[11D[Kcd ..[5D[Kclear[5D[Kapt-get upgrade
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/# cd AWSWeb:~# apt-get upgrade
+[4lbash: cd: AWSWeb:~#: No such file or directory
+[4hAWSWeb:/# E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+bash: E:: command not found
+AWSWeb:/# E: Unable to lock the list directory[36D[K[K[K[Kclear
+[4lc[4hAWSWeb:/# cd AWSWeb:~# apt-get upgrade
+[4lbash: cd: AWSWeb:~#: No such file or directory
+[4hAWSWeb:/# E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+bash: E:: command not found
+AWSWeb:/# E: Unable to lock the list directory[36D[K[Kcd /var/lib/apt/lists/lock
+[4l-bash: cd: /var/lib/apt/lists/lock: Not a directory
+[4hAWSWeb:/# [Kcd /var/lib/apt/lists/lock[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hAWSWeb:/var/lib/apt/lists# chmod 777 *
+[4l[4hAWSWeb:/var/lib/apt/lists# [Kchmod 777 *[1D[1D[1D[1C[1D[1P[1D[1P[1D[1P+x
+[4l[4hAWSWeb:/var/lib/apt/lists# [Kchmod +x *[10D[Kchmod 777 *[11D[Kcd /var/lib/apt/lists/[22D[Kcd /var/lib/apt/lists/lock[26D[KE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)[82D[Kcd AWSWeb:~# apt-get upgrade[28D[Kclear[5D[KE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)[82D[Kcd AWSWeb:~# apt-get upgrade[28D[Kapt-get upgrade[15D[Kchmod +x *[10D[Kchmod 777 *[11D[Kcd ..[5D[Kclear[5D[Kapt-get upgrade[15D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt/lists# htop
+bash: htop: command not found
+AWSWeb:/var/lib/apt/lists# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/var/lib/apt/lists# cel[1D[1P[1D[1Plear
+[4lc[4hAWSWeb:/var/lib/apt/lists# [Kclear[5D[Kifconfig[8D[Khtop[4D[Kapt-get update[14D[Kchmod +x *[10D[Kapt-get update[14D[Khtop[4D[Kifconfig[8D[Kclear[5D[K[K[K[K[K[K[K[K[K[Kapt-get install libwww-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libwwwperl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 317.2kB of archives.
+After this operation, 697.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libwwwperl 0.35-8 [317.2kB]
+Fetched 317.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libwwwperl (from .../archives/libwwwperl_0.35-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libwwwperl (0.35-8) ...
+[4hAWSWeb:/var/lib/apt/lists# [Kapt-get install libwww-perl[27D[Kclear[5D[Kifconfig[8D[Khtop[4D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt/lists# sudo apt-get -f install
+bash: sudo: command not found
+AWSWeb:/var/lib/apt/lists# [Ksudo apt-get -f install[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P[1P[1P[1P[1P
+bash: pt-get: command not found
+AWSWeb:/var/lib/apt/lists# [Kpt-get -f installa[1D[1P[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Da
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/var/lib/apt/lists# mv /var/lib/apt/lists{,july12}
+[4lmv: missing destination file operand after `/var/lib/apt/lists{,july12}'
+Try `mv --help' for more information.
+[4hAWSWeb:/var/lib/apt/lists# [Kmv /var/lib/apt/lists{,july12}[30D[K[Kmv /var/lib/apt/lists{,july12}[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4lmv: missing destination file operand after `/var/lib/apt/lists'
+Try `mv --help' for more information.
+[4hAWSWeb:/var/lib/apt/lists# [Kmv /var/lib/apt/lists list1
+[4l[4hAWSWeb:/var/lib/apt/lists# apt-get update
+
+AWSWeb:/var/lib/apt/lists# [Kapt-get update[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ppgrade
+
+AWSWeb:/var/lib/apt/lists# apt-get -f install
+
+AWSWeb:/var/lib/apt/lists# fuser -cuk /var/lib/dpkg/lock; sudo rm -f /var/lib/dpkg/lock
+
+AWSWeb:/var/lib/apt/lists# rm /var/cache/apt/archives/lock
+
+AWSWeb:/var/lib/apt/lists# cd /root
+[4l[4h[4l[4hAWSWeb:~# rm /var/cache/apt/archives/lock
+[4l[4hAWSWeb:~# [Krm /var/cache/apt/archives/lock[31D[Kcd /root[8D[Krm /var/cache/apt/archives/lock[31D[Kfuser -cuk /var/lib/dpkg/lock; sudo rm -f /var/lib/dpkg/lock[60D[Kapt-get -f install
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get -f install[18D[Krm /var/cache/apt/archives/lock[31D[Kcd /root[8D[Krm /var/cache/apt/archives/lock[31D[Kapt-get -f install[18D[K[K[Krm /var/lib/apt/lists/lock
+[4lrm: cannot remove `/var/lib/apt/lists/lock': No such file or directory
+[4hAWSWeb:~# [Krm /var/lib/apt/lists/lock[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P /var/lib/apt/lists/lock
+[4lrm: cannot remove `/var/lib/apt/lists/lock': No such file or directory
+[4hAWSWeb:~# apt-get install package
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  package 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 640.2kB of archives.
+After this operation, 1408.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main package 0.38-7 [640.2kB]
+Fetched 640.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking package (from .../archives/package_0.38-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up package (0.38-7) ...
+[4hAWSWeb:~# [Kapt-get install package[23D[K[Kapt-get install package[23D[Krm /var/lib/apt/lists/lock[26D[Krm /var/lib/apt/lists/lock[26D[Kapt-get -f install[18D[Krm /var/cache/apt/archives/lock[31D[Kcd /root[8D[Krm /var/cache/apt/archives/lock[31D[Kfuser -cuk /var/lib/dpkg/lock; sudo rm -f /var/lib/dpkg/lock[60D[Kapt-get -f install[18D[Kapt-get upgrade[15D[Kapt-get update[14D[Kmv /var/lib/apt/lists list1[27D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get update[14D[K[Krm /var/lib/dpkg/lock
+[4l[4hAWSWeb:~# [Krm /var/lib/dpkg/lock[21D[Kapt-get update[14D[Kapt-get install package[23D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# [Kapt-get update[14D[Krm /var/lib/dpkg/lock[21D[Kapt-get update[14D[Kapt-get install package
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  package 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 413.2kB of archives.
+After this operation, 908.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main package 1.33-2 [413.2kB]
+Fetched 413.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+^C
+[4hAWSWeb:~# [Kapt-get install packageUnpacking package (from .../archives/package_1.33-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up package (1.33-2) ...
+

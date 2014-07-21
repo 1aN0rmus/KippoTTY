@@ -1,0 +1,95 @@
+[4hAWSWeb:~# is[1D[1Pd
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# cat /etc/shadow
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:~# [Kcat /etc/shadow[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /
+[4l[4hAWSWeb:/# cd etc/shadow
+[4l-bash: cd: /etc/shadow: Not a directory
+[4hAWSWeb:/# [Kcd etc/shadow[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1Pcat
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:/# apt-get  install netdiscover
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  netdiscover 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 877.2kB of archives.
+After this operation, 1929.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main netdiscover 0.19-8 [877.2kB]
+Fetched 877.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking netdiscover (from .../archives/netdiscover_0.19-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up netdiscover (0.19-8) ...
+[4hAWSWeb:/# netdiscover -r 192.168.1.1/24
+[4lnetdiscover: Segmentation fault
+[4hAWSWeb:/# if [1D[1Pconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:/# [Kifconfig[8D[Knetdiscover -r 192.168.1.1/24[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P10.98.55.4
+[4lnetdiscover: Segmentation fault
+[4hAWSWeb:/# unmaae [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pame -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd ..
+[4l[4hAWSWeb:/# cd etx[1D[1Pc
+[4l[4hAWSWeb:/etc# ls
+[4lservices               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               environment            
+inputrc                initramfs-tools        modprobe.d             
+debconf.conf           security               vim                    
+ssh                    resolv.conf            skel                   
+gshadow-               dpkg                   udev                   
+scsi_id.config         rc6.d                  ld.so.cache            
+rc5.d                  apt                    networks               
+opt                    group                  inittab                
+issue                  default                issue.net              
+mailcap.order          dhcp3                  pam.conf               
+hosts.deny             rc.local               python                 
+nsswitch.conf          rsyslog.conf           wgetrc                 
+motd.tail              mke2fs.conf            rc1.d                  
+sysctl.conf            rmt                    ld.so.conf             
+group-                 rc3.d                  adduser.conf           
+init.d                 hosts.allow            gshadow                
+cron.daily             alternatives           hostname               
+bash.bashrc            rc0.d                  pam.d                  
+gai.conf               timezone               deluser.conf           
+lsb-base               passwd-                rpc                    
+magic                  kernel-img.conf        motd                   
+shadow                 protocols              bash_completion.d      
+host.conf              rc2.d                  profile                
+X11                    bindresvport.blacklist rsyslog.d              
+fstab                  login.defs             shells                 
+terminfo               
+[4hAWSWeb:/etc# cat shadow
+[4lcat: /etc/shadow: No such file or directory
+[4hAWSWeb:/etc# 

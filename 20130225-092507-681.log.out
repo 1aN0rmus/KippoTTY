@@ -1,0 +1,135 @@
+[4hAWSWeb:~# is[1D[1Pd
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# whoami
+[4lroot
+[4hAWSWeb:~# yum -y install kde
+bash: yum: command not found
+AWSWeb:~# apr[1D[1P[1D[1P[1D[1Papt [1D[1P-get install KDE
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  KDE 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 777.2kB of archives.
+After this operation, 1709.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main KDE 1.29-4 [777.2kB]
+Fetched 777.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking KDE (from .../archives/KDE_1.29-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up KDE (1.29-4) ...
+[4hAWSWeb:~# [Kapt-get install KDE[1D[1P[1D[1P[1D[1Pkde
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  kde 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 641.2kB of archives.
+After this operation, 1410.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main kde 1.11-9 [641.2kB]
+Fetched 641.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking kde (from .../archives/kde_1.11-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up kde (1.11-9) ...
+[4hAWSWeb:~# apt-get install vnc-server
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vncserver 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 509.2kB of archives.
+After this operation, 1119.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vncserver 0.40-7 [509.2kB]
+Fetched 509.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vncserver (from .../archives/vncserver_0.40-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vncserver (0.40-7) ...
+[4hAWSWeb:~# uname -o
+[4lLinux
+[4hAWSWeb:~# [Kuname -o[1D[1Pa
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# [Kuname -a[1D[1P[1D[1P
+[4lLinux
+[4hAWSWeb:~# vncserver
+[4lvncserver: Segmentation fault
+[4hAWSWeb:~# [Kvncserver[1D[1D[1D[1D[1D[1D[1D[1D[1Dlocate 
+bash: locate: command not found
+AWSWeb:~# [Klocate vncserver[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P[1P[1P[1P[1P[1Papt-get install 
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vncserver 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 170.2kB of archives.
+After this operation, 374.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vncserver 1.20-1 [170.2kB]
+Fetched 170.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vncserver (from .../archives/vncserver_1.20-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vncserver (1.20-1) ...
+[4hAWSWeb:~# [Kapt-get install vncserver[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pnmap
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  nmap 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 462.2kB of archives.
+After this operation, 1016.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main nmap 0.22-10 [462.2kB]
+Fetched 462.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking nmap (from .../archives/nmap_0.22-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up nmap (0.22-10) ...
+[4hAWSWeb:~# namp
+bash: namp: command not found
+AWSWeb:~# cd  /
+[4l[4hAWSWeb:/# ls -ln
+[4ldrwxr-xr-x 1 root root  4096 2013-02-25 09:30 .
+drwxr-xr-x 1 root root  4096 2013-02-25 09:30 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd home 
+[4l[4hAWSWeb:/home# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-02-25 09:30 .
+drwxr-xr-x 1 root root 4096 2013-02-25 09:30 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:/home# 

@@ -1,0 +1,184 @@
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# nc -v -l -p 21
+bash: nc: command not found
+AWSWeb:~# netcat
+bash: netcat: command not found
+AWSWeb:~# yum
+bash: yum: command not found
+AWSWeb:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l[4hAWSWeb:/tmp# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/tmp# wget http://ftp.mirrorservice.org/sites/ftp.wiretapped.net/pub/security/packet-construction/netcat/gnu-netcat/netcat-0.7.1.tar.gz
+[4l--2014-06-25 03:21:13--  http://ftp.mirrorservice.org/sites/ftp.wiretapped.net/pub/security/packet-construction/netcat/gnu-netcat/netcat-0.7.1.tar.gz
+Connecting to ftp.mirrorservice.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 398872 (389K) [application/x-gzip]
+Saving to: `netcat-0.7.1.tar.gz
+
+ 3% [=>                                     ] 14,209       49K/s  eta 7s43% [=================>                     ] 174,937      219K/s  eta 1s100%[======================================>] 398,872      219K/s
+
+2014-06-25 03:21:14 (219 KB/s) - `netcat-0.7.1.tar.gz' saved [398872/398872]
+[4hAWSWeb:/tmp# tar -zxpvf netcat-0.7.1.tar.gz
+[4lnetcat-0.7.1
+netcat-0.7.1/m4
+netcat-0.7.1/m4/lib-link.m4
+netcat-0.7.1/m4/inttypes_h.m4
+netcat-0.7.1/m4/lcmessage.m4
+netcat-0.7.1/m4/inttypes.m4
+netcat-0.7.1/m4/lib-ld.m4
+netcat-0.7.1/m4/inttypes-pri.m4
+netcat-0.7.1/m4/iconv.m4
+netcat-0.7.1/m4/gettext.m4
+netcat-0.7.1/m4/codeset.m4
+netcat-0.7.1/m4/Makefile.am
+netcat-0.7.1/m4/Makefile.in
+netcat-0.7.1/m4/stdint_h.m4
+netcat-0.7.1/m4/progtest.m4
+netcat-0.7.1/m4/isc-posix.m4
+netcat-0.7.1/m4/intdiv0.m4
+netcat-0.7.1/m4/ulonglong.m4
+netcat-0.7.1/m4/lbl-net.m4
+netcat-0.7.1/m4/lib-prefix.m4
+netcat-0.7.1/m4/uintmax_t.m4
+netcat-0.7.1/m4/glibc21.m4
+netcat-0.7.1/po
+netcat-0.7.1/po/Makevars
+netcat-0.7.1/po/it.po
+netcat-0.7.1/po/sk.po
+netcat-0.7.1/po/en@boldquot.header
+netcat-0.7.1/po/en@quot.header
+netcat-0.7.1/po/Rules-quot
+netcat-0.7.1/po/remove-potcdate.sin
+netcat-0.7.1/po/boldquot.sed
+netcat-0.7.1/po/POTFILES.in
+netcat-0.7.1/po/it.gmo
+netcat-0.7.1/po/insert-header.sin
+netcat-0.7.1/po/netcat.pot
+netcat-0.7.1/po/sk.gmo
+netcat-0.7.1/po/quot.sed
+netcat-0.7.1/po/Makefile.in.in
+netcat-0.7.1/doc
+netcat-0.7.1/doc/version.texi
+netcat-0.7.1/doc/migration
+netcat-0.7.1/doc/drafts
+netcat-0.7.1/doc/drafts/rfc2292.txt
+netcat-0.7.1/doc/drafts/README
+netcat-0.7.1/doc/drafts/Makefile.am
+netcat-0.7.1/doc/drafts/Makefile.in
+netcat-0.7.1/doc/drafts/rfc0768.txt
+netcat-0.7.1/doc/drafts/rfc0791.txt
+netcat-0.7.1/doc/drafts/rfc0854.txt
+netcat-0.7.1/doc/Makefile.am
+netcat-0.7.1/doc/Makefile.in
+netcat-0.7.1/doc/netcat.pod
+netcat-0.7.1/doc/netcat.1
+netcat-0.7.1/doc/texi2pod.pl.in
+netcat-0.7.1/doc/mdate-sh
+netcat-0.7.1/doc/stamp-vti
+netcat-0.7.1/doc/texinfo.tex
+netcat-0.7.1/doc/netcat.info
+netcat-0.7.1/doc/netcat.texi
+netcat-0.7.1/lib
+netcat-0.7.1/lib/contrib
+netcat-0.7.1/lib/contrib/getopt.c
+netcat-0.7.1/lib/contrib/getopt.h
+netcat-0.7.1/lib/contrib/Makefile.am
+netcat-0.7.1/lib/contrib/Makefile.in
+netcat-0.7.1/lib/contrib/getopt1.c
+netcat-0.7.1/lib/Makefile.am
+netcat-0.7.1/lib/Makefile.in
+netcat-0.7.1/src
+netcat-0.7.1/src/telnet.c
+netcat-0.7.1/src/flagset.c
+netcat-0.7.1/src/core.c
+netcat-0.7.1/src/Makefile.am
+netcat-0.7.1/src/Makefile.in
+netcat-0.7.1/src/intl.h
+netcat-0.7.1/src/misc.c
+netcat-0.7.1/src/misc.h
+netcat-0.7.1/src/network.c
+netcat-0.7.1/src/netcat.c
+netcat-0.7.1/src/netcat.h
+netcat-0.7.1/src/udphelper.c
+netcat-0.7.1/src/proto.h
+netcat-0.7.1/NEWS
+netcat-0.7.1/TODO
+netcat-0.7.1/aclocal.m4
+netcat-0.7.1/README
+netcat-0.7.1/configure
+netcat-0.7.1/configure.ac
+netcat-0.7.1/config.guess
+netcat-0.7.1/config.rpath
+netcat-0.7.1/install-sh
+netcat-0.7.1/config.sub
+netcat-0.7.1/missing
+netcat-0.7.1/mkinstalldirs
+netcat-0.7.1/Makefile.am
+netcat-0.7.1/Makefile.in
+netcat-0.7.1/config.h.in
+netcat-0.7.1/AUTHORS
+netcat-0.7.1/INSTALL
+netcat-0.7.1/ABOUT-NLS
+netcat-0.7.1/ChangeLog
+netcat-0.7.1/COPYING
+[4hAWSWeb:/tmp# cd ne[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd netcat-0.7.1
+[4l[4hAWSWeb:/tmp/netcat-0.7.1# ls
+[4lm4            po            doc           lib           src           
+NEWS          TODO          aclocal.m4    README        configure     
+configure.ac  config.guess  config.rpath  install-sh    config.sub    
+missing       mkinstalldirs Makefile.am   Makefile.in   config.h.in   
+AUTHORS       INSTALL       ABOUT-NLS     ChangeLog     COPYING       
+[4hAWSWeb:/tmp/netcat-0.7.1# .q/[1D[1P[1D[1P/configure
+[4lerror while loading shared libraries: libgnome.so.32: cannot open shared object file: No such file or directory
+[4hAWSWeb:/tmp/netcat-0.7.1# ls
+[4lm4            po            doc           lib           src           
+NEWS          TODO          aclocal.m4    README        configure     
+configure.ac  config.guess  config.rpath  install-sh    config.sub    
+missing       mkinstalldirs Makefile.am   Makefile.in   config.h.in   
+AUTHORS       INSTALL       ABOUT-NLS     ChangeLog     COPYING       
+[4hAWSWeb:/tmp/netcat-0.7.1# cd src
+[4l[4hAWSWeb:/tmp/netcat-0.7.1/src# ls
+[4ltelnet.c    flagset.c   core.c      Makefile.am Makefile.in intl.h      
+misc.c      misc.h      network.c   netcat.c    netcat.h    udphelper.c 
+proto.h     
+[4hAWSWeb:/tmp/netcat-0.7.1/src# .q[1D[1P/configure
+bash: ./configure: command not found
+AWSWeb:/tmp/netcat-0.7.1/src# cd ..
+[4l[4hAWSWeb:/tmp/netcat-0.7.1# ls
+[4lm4            po            doc           lib           src           
+NEWS          TODO          aclocal.m4    README        configure     
+configure.ac  config.guess  config.rpath  install-sh    config.sub    
+missing       mkinstalldirs Makefile.am   Makefile.in   config.h.in   
+AUTHORS       INSTALL       ABOUT-NLS     ChangeLog     COPYING       
+[4hAWSWeb:/tmp/netcat-0.7.1# make
+bash: make: command not found
+AWSWeb:/tmp/netcat-0.7.1# vi INS[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi INSTALL 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/tmp/netcat-0.7.1# cd lib
+[4l[4hAWSWeb:/tmp/netcat-0.7.1/lib# ls
+[4lcontrib     Makefile.am Makefile.in 
+[4hAWSWeb:/tmp/netcat-0.7.1/lib# cd ..
+[4l[4hAWSWeb:/tmp/netcat-0.7.1# ls
+[4lm4            po            doc           lib           src           
+NEWS          TODO          aclocal.m4    README        configure     
+configure.ac  config.guess  config.rpath  install-sh    config.sub    
+missing       mkinstalldirs Makefile.am   Makefile.in   config.h.in   
+AUTHORS       INSTALL       ABOUT-NLS     ChangeLog     COPYING       
+[4hAWSWeb:/tmp/netcat-0.7.1# cd ..
+[4l[4hAWSWeb:/tmp# ls
+[4lnetcat-0.7.1.tar.gz netcat-0.7.1        
+[4hAWSWeb:/tmp# wget netcat-0.7.1.tar.gz
+[4l--2014-06-25 03:26:56--  http:///tmp/netcat-0.7.1.tar.gz
+Connecting to :80... connected.
+HTTP request sent, awaiting response... Connection was refused by other side: 111: Connection refused.
+[4hAWSWeb:/tmp# php
+bash: php: command not found
+AWSWeb:/tmp# 

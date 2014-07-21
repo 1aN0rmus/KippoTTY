@@ -1,0 +1,93 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# w
+[4l 13:07:25 up 13 days, 15:11,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    93.112.58.212     13:07    0.09   0.05   0.05 w
+[4hAWSWeb:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hAWSWeb:~# ls -all
+[4ldrwxr-xr-x 1 root root 4096 2013-02-07 13:07 .
+drwxr-xr-x 1 root root 4096 2013-02-07 13:07 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# if[1D[1Pd
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# cat /e[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/iss[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /etc/issue
+[4lDebian GNU/Linux 5.0 \n \l
+
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /tmp
+[4l[4hAWSWeb:/tmp# ls
+[4l[4hAWSWeb:/tmp# cd /var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd m[1D[1P[1D[1P[1D[1P[1D[1Pcd mail/
+[4l[4hAWSWeb:/var/mail# ls
+[4l[4hAWSWeb:/var/mail# cd ..
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cat log
+[4lcat: /var/log: Is a directory
+[4hAWSWeb:/var# cd lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+log   local lock  
+AWSWeb:/var# cd lo
+[4lbash: cd: lo: No such file or directory
+[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# sudo
+bash: sudo: command not found
+AWSWeb:/var# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:/var# yum
+bash: yum: command not found
+AWSWeb:/var# apt-get install yum
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  yum 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 217.2kB of archives.
+After this operation, 477.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main yum 1.8-10 [217.2kB]
+Fetched 217.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking yum (from .../archives/yum_1.8-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up yum (1.8-10) ...
+[4hAWSWeb:/var# ym
+bash: ym: command not found
+AWSWeb:/var# yum
+[4lyum: Segmentation fault
+[4hAWSWeb:/var# php -v
+bash: php: command not found
+AWSWeb:/var# apt-get install php
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  php 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 786.2kB of archives.
+After this operation, 1729.2kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main php 0.38-4 [786.2kB]
+Fetched 786.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking php (from .../archives/php_0.38-4_i386.deb) ...
+Processing triggers for man-db ...
+Setting up php (0.38-4) ...
+[4hAWSWeb:/var# php -v
+[4lphp: Segmentation fault
+[4hAWSWeb:/var# 

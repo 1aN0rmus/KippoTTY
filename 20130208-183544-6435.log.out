@@ -1,0 +1,165 @@
+[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# home
+bash: home: command not found
+AWSWeb:~# root
+bash: root: command not found
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# getuid
+bash: getuid: command not found
+AWSWeb:~# shell
+bash: shell: command not found
+AWSWeb:~# ?
+bash: ?: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# run
+bash: run: command not found
+AWSWeb:~# background
+bash: background: command not found
+AWSWeb:~# ps
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps 
+[4hAWSWeb:~# migrate 5478
+bash: migrate: command not found
+AWSWeb:~# ./help
+bash: ./help: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# uname
+[4lLinux
+[4hAWSWeb:~# uname[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pid
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# bash
+[4l[4hAWSWeb:~# cd /home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# dir
+bash: dir: command not found
+AWSWeb:~# cd root
+[4lbash: cd: root: No such file or directory
+[4hAWSWeb:~# cd var
+[4lbash: cd: var: No such file or directory
+[4hAWSWeb:~# cd home
+[4lbash: cd: home: No such file or directory
+[4hAWSWeb:~# cd /var
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+[4hAWSWeb:/var# clear
+[4lc[4hAWSWeb:/var# cd /
+[4l[4hAWSWeb:/# cd root
+[4l[4hAWSWeb:~# cd /home
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd richard
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd public_html
+[4lbash: cd: public_html: No such file or directory
+[4hAWSWeb:/home/richard# cd www
+[4lbash: cd: www: No such file or directory
+[4hAWSWeb:/home/richard# dir
+bash: dir: command not found
+AWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd /
+[4l[4hAWSWeb:/# cd etc/passwwd
+[4lbash: cd: etc/passwwd: No such file or directory
+[4hAWSWeb:/# cd etc
+[4l[4hAWSWeb:/etc# cat passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/etc# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:/etc# cdc /
+bash: cdc: command not found
+AWSWeb:/etc# cd /
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd bin
+[4l[4hAWSWeb:/bin# ls
+[4lwhich         cp            sleep         cat           uname         gzip          
+pwd           dir           kill          zless         tailf         true          
+sed           zcat          mkdir         lsmod         mknod         znew          
+grep          mv            dmesg         gunzip        df            mountpoint    
+bash          rbash         fgrep         login         pidof         zdiff         
+chmod         echo          zcmp          netstat       run-parts     touch         
+readlink      chgrp         ps            chown         rmdir         egrep         
+vdir          sh            mount         zegrep        more          zgrep         
+false         zmore         gzexe         mt            tempfile      ls            
+hostname      zfgrep        su            ln            cpio          rm            
+zforce        ping          umount        dd            mt-gnu        tar           
+dnsdomainname uncompress    date          ping6         stty          sync          
+mktemp        
+[4hAWSWeb:/bin# cd 
+[4l[4hAWSWeb:~# cd /
+[4l[4hAWSWeb:/# su
+[4l[4hAWSWeb:/# stty
+bash: stty: command not found
+AWSWeb:/# uname[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Phelp
+bash: help: command not found
+AWSWeb:/# cd hos[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pclear
+[4lc[4hAWSWeb:/# dir
+bash: dir: command not found
+AWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      selinux    
+tmp        proc       sbin       etc        dev        srv        initrd.img lib        
+home       var        usr        boot       root       lost+found 
+[4hAWSWeb:/# cd var/www
+[4lbash: cd: var/www: No such file or directory
+[4hAWSWeb:/# cd var
+[4l[4hAWSWeb:/var# dir
+bash: dir: command not found
+AWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    spool   
+[4hAWSWeb:/var# cat etc/passwd
+[4l^C
+[4hAWSWeb:/var# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# dir
+bash: dir: command not found
+localhost:~# clear
+[4lc[4hlocalhost:~# quit
+bash: quit: command not found
+localhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# close
+bash: close: command not found
+localhost:~# help
+bash: help: command not found
+localhost:~# 

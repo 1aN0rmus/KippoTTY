@@ -1,0 +1,36 @@
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# wget http://downloads.metasploit.com/data/releases/archive/metasploit-4.9.2-linux-x64-installer.run
+[4l--2014-04-20 10:40:56--  http://downloads.metasploit.com/data/releases/archive/metasploit-4.9.2-linux-x64-installer.run
+Connecting to downloads.metasploit.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204194015 (194M) [text/plain]
+Saving to: `metasploit-4.9.2-linux-x64-installer.run
+
+ 0% [>                                      ] 924          8K/s  eta 6h 32m 47s 1% [>                                      ] 3,447,072    5643K/s  eta 35s     4% [=>                                     ] 8,388,608    7548K/s  eta 25s 4% [=>                                     ] 8,390,990    5094K/s  eta 38s 7% [==>                                    ] 14,686,789   6749K/s  eta 28s 9% [===>                                   ] 19,324,181   7217K/s  eta 25s12% [=====>                                 ] 26,230,334   8253K/s  eta 21s15% [======>                                ] 32,636,390   8860K/s  eta 19s19% [=======>                               ] 38,802,398   9269K/s  eta 17s22% [========>                              ] 45,418,416   9686K/s  eta 16s25% [=========>                             ] 51,657,392   9891K/s  eta 15s26% [==========>                            ] 54,530,296   9517K/s  eta 15s29% [===========>                           ] 60,312,432   9667K/s  eta 14s32% [============>                          ] 66,740,624   9903K/s  eta 13s34% [=============>                         ] 69,492,440   9582K/s  eta 14s37% [==============>                        ] 76,691,448   9890K/s  eta 12s39% [===============>                       ] 81,531,560   9876K/s  eta 12s43% [================>                      ] 87,863,454   10034K/s  eta 11s44% [=================>                     ] 90,950,236   9754K/s  eta 11s 47% [==================>                    ] 96,477,147   9790K/s  eta 11s49% [===================>                   ] 102,090,507  9859K/s  eta 10s53% [====================>                  ] 108,894,340  10031K/s  eta 9s55% [=====================>                 ] 112,464,640  9755K/s  eta 9s 57% [======================>                ] 117,443,408  9743K/s  eta 8s60% [=======================>               ] 122,830,580  9784K/s  eta 8s61% [========================>              ] 126,404,787  9682K/s  eta 8s63% [========================>              ] 130,297,896  9545K/s  eta 7s65% [=========================>             ] 132,785,436  9363K/s  eta 7s67% [==========================>            ] 138,649,952  9443K/s  eta 6s70% [===========================>           ] 142,935,963  9414K/s  eta 6s72% [============================>          ] 147,822,411  9423K/s  eta 5s74% [============================>          ] 151,677,883  9369K/s  eta 5s76% [=============================>         ] 155,197,936  9265K/s  eta 5s78% [==============================>        ] 159,390,792  9220K/s  eta 4s79% [===============================>       ] 163,100,379  9144K/s  eta 4s80% [===============================>       ] 164,774,817  8985K/s  eta 4s82% [================================>      ] 168,702,667  8953K/s  eta 3s84% [================================>      ] 172,454,888  8911K/s  eta 3s86% [=================================>     ] 176,166,560  8851K/s  eta 3s88% [==================================>    ] 180,103,508  8818K/s  eta 2s88% [==================================>    ] 181,638,771  8680K/s  eta 2s90% [===================================>   ] 185,646,443  8664K/s  eta 2s92% [====================================>  ] 188,977,739  8614K/s  eta 1s94% [====================================>  ] 192,859,060  8594K/s  eta 1s96% [=====================================> ] 197,140,441  8586K/s  eta 0s99% [======================================>] 202,800,668  8644K/s  eta 0s100%[======================================>] 204,194,015  8644K/s
+
+2014-04-20 10:41:20 (8644 KB/s) - `metasploit-4.9.2-linux-x64-installer.run' saved [204194015/204194015]
+[4hAWSWeb:~# wget 
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:~# wget http://nmap.org/dist/nmap-6.46-1.i386.rpm
+[4l--2014-04-20 10:43:25--  http://nmap.org/dist/nmap-6.46-1.i386.rpm
+Connecting to nmap.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5015368 (4M) [application/octet-stream]
+Saving to: `nmap-6.46-1.i386.rpm
+
+ 0% [>                                      ] 1,170        5K/s  eta 14m 8s10% [====>                                  ] 538,378      737K/s  eta 6s  52% [====================>                  ] 2,630,738    2083K/s  eta 1s96% [=====================================> ] 4,824,458    2683K/s  eta 0s100%[======================================>] 5,015,368    2683K/s
+
+2014-04-20 10:43:26 (2683 KB/s) - `nmap-6.46-1.i386.rpm' saved [5015368/5015368]
+[4hAWSWeb:~# cd /usr/share/nmap/scripts/
+[4lbash: cd: /usr/share/nmap/scripts/: No such file or directory
+[4hAWSWeb:~# sudo wget https://svn.nmap.org/nmap/scripts/ssl-heartbleed.nse
+bash: sudo: command not found
+AWSWeb:~# wget https://svn.nmap.org/nmap/scripts/ssl-heartbleed.nse
+[4lSorry, SSL not supported in this release
+[4hAWSWeb:~# wget https://svn.nmap.org/nmap/nselib/tls.lua
+[4lSorry, SSL not supported in this release
+[4hAWSWeb:~# 

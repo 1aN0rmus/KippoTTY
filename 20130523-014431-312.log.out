@@ -1,0 +1,123 @@
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# uptime
+[4l 01:44:45 up 118 days, 3:48,  1 users, load averages: 0.09 0.05 0.05
+[4hAWSWeb:~# last
+[4lroot	pts/0	66.11.228.110	Wed May 22 10:03 - 10:03 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:04 - 10:04 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:05 - 10:05 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:05 - 10:05 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:06 - 10:27 (21:13)
+root	pts/0	66.11.228.110	Wed May 22 10:28 - 10:28 (00:00)
+root	pts/0	86.111.12.38	Wed May 22 13:13 - 13:14 (00:17)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:08)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:06)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:05)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:06)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:36 (00:09)
+root	pts/0	110.234.117.53	Wed May 22 16:23 - 16:23 (00:00)
+root	pts/0	172.158.118.26	Wed May 22 16:32 - 16:34 (02:17)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:06)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:07)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:09)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:08)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:51 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:51 - 18:51 (00:09)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:04)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:04)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:01)
+
+[4hAWSWeb:~# [Klast[4D[Kuptime[6D[Kuname -a[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Padduser shake
+[4lAdding user `shake' ...
+Adding new group `shake' (1001) ...
+Adding new user `shake' (1001) with group `shake' ...
+Creating home directory `/home/shake' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for shake
+Enter the new value, or press ENTER for the default
+        Username []: shake
+        Full Name []: 
+Must enter a value!
+        Full Name []: shake
+        Room Number []: shake
+        Work Phone []: 000
+        Home Phone []: 989
+        Mobile Phone []: 
+Must enter a value!
+        Mobile Phone []: 09879
+        Country []: us
+        City []: ia
+        Language []: en
+        Favorite movie []: oiuy
+        Other []: o
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `shake' ...
+Deleting group `shake' (1001) ...
+Deleting home directory `/home/shake' ...
+Try again? [Y/n] n
+[4hAWSWeb:~# history -a
+[4l    1  uname -a
+    2  uptime
+    3  last
+    4  adduser shake
+    5  history -a
+[4hAWSWeb:~# [Khistory -a[10D[Kadduser shake[13D[Khistory -a $$ exit
+[4l    1  uname -a
+    2  uptime
+    3  last
+    4  adduser shake
+    5  history -a
+    6  history -a $$ exit
+[4hAWSWeb:~# clear
+[4lc[4hAWSWeb:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# power off
+bash: power: command not found
+localhost:~# reboot
+[4l
+Broadcast message from root@localhost (pts/0) (Thu May 23 01:49:34 2013):
+
+The system is going down for reboot NOW!
+Connection to server closed.
+[4hlocalhost:~# uptime
+[4l 01:49:44 up 118 days, 3:53,  1 users, load averages: 0.09 0.05 0.05
+[4hlocalhost:~# restart
+bash: restart: command not found
+localhost:~# last
+[4lroot	pts/0	66.11.228.110	Wed May 22 10:05 - 10:05 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:05 - 10:05 (00:00)
+root	pts/0	66.11.228.110	Wed May 22 10:06 - 10:27 (21:13)
+root	pts/0	66.11.228.110	Wed May 22 10:28 - 10:28 (00:00)
+root	pts/0	86.111.12.38	Wed May 22 13:13 - 13:14 (00:17)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:08)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:06)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:05)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:35 (00:06)
+root	pts/0	61.156.238.56	Wed May 22 13:35 - 13:36 (00:09)
+root	pts/0	110.234.117.53	Wed May 22 16:23 - 16:23 (00:00)
+root	pts/0	172.158.118.26	Wed May 22 16:32 - 16:34 (02:17)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:06)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:07)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:09)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:50 (00:08)
+root	pts/0	118.186.210.98	Wed May 22 18:50 - 18:51 (00:05)
+root	pts/0	118.186.210.98	Wed May 22 18:51 - 18:51 (00:09)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:04)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:04)
+root	pts/0	202.116.32.241	Wed May 22 23:41 - 23:41 (00:01)
+root	pts/0	223.255.227.9	Thu May 23 01:48 - 01:48 (00:00)
+root	pts/0	223.255.227.9	Thu May 23 01:49 - 01:49 (00:00)
+
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

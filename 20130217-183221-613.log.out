@@ -1,0 +1,162 @@
+[4hAWSWeb:~# w
+[4l 18:32:34 up 23 days, 20:36,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    190.139.14.102    18:32    0.09   0.05   0.05 w
+[4hAWSWeb:~# history 
+[4l    1  w
+    2  history 
+[4hAWSWeb:~# [Khistory -c 
+[4l[4hAWSWeb:~# pwd
+[4l/root
+[4hAWSWeb:~# cd --[1D[1P[1D[1P..
+[4l[4hAWSWeb:/# .ls
+bash: .ls: command not found
+AWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd [1D[1P[1D[1P[1D[1Pls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# cd ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd home/
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ric[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# cd ..
+[4l[4hAWSWeb:/# ho[1D[1P[1D[1Phome/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Phis[1D[1P[1D[1P[1D[1Phistory
+[4l    1  pwd
+    2  cd ..
+    3  .ls
+    4  ls
+    5  ls
+    6  cd home/
+    7  ls
+    8  cd richard/
+    9  ls
+   10  cd ..
+   11  cd ..
+   12  history
+[4hAWSWeb:/# [Khistory -c 
+[4l[4hAWSWeb:/# cd 7[1D[1P/var/
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cdn [1D[1P[1D[1P[1D[1P /w[1D[1P[1D[1P[1D[1P[1D[1Pd [1D[1P[1D[1Pcd /www
+[4lbash: cd: /www: No such file or directory
+[4hAWSWeb:/var# pwd
+[4l/var
+[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# cd /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /etc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pless /ca[1D[1P[1D[1Pet[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pless /etc/pass[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pless /etc/passwd
+bash: less: command not found
+AWSWeb:/# [Kless /etc/passwd[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P[1P[1P[1Pcat 
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/# ps -aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Feb02   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Feb02   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb02   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb02   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Feb02   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Feb02   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Feb02   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Feb02   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Feb02   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Feb02   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Feb02   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Feb02   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Feb02   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Feb02   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Feb02   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Feb02   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Feb02   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Feb02   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Feb02   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Feb02   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Feb02   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Feb02   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Feb02   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Feb04   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   18:32   0:00 -bash
+root      5512  0.0  0.1   2341   937 pts/0    R+   18:32   0:00 ps -aux
+[4hAWSWeb:/# w
+[4l 18:38:18 up 23 days, 20:42,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    190.139.14.102    18:32    0.09   0.05   0.05 w
+[4hAWSWeb:/# history -c
+[4l[4hAWSWeb:/# mys[1D[1P[1D[1P[1D[1Pping www.goole[1D[1P[1D[1P[1D[1Pgle[1D[1P[1D[1P[1D[1P[1D[1Poogle.com
+[4lPING www.google.com (10.19.123.55) 56(84) bytes of data.
+64 bytes from www.google.com (10.19.123.55): icmp_seq=1 ttl=50 time=43.0 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=2 ttl=50 time=45.3 ms
+64 bytes from www.google.com (10.19.123.55): icmp_seq=3 ttl=50 time=40.5 ms
+--- www.google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 907ms
+rtt min/avg/max/mdev = 48.264/50.352/52.441/2.100 ms
+[4hAWSWeb:/# clear
+[4lc[4hAWSWeb:/# hist[1D[1P[1D[1P[1D[1P[1D[1Pcat /va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log/au[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /var/log/auth.log
+[4lcat: /var/log/auth.log: No such file or directory
+[4hAWSWeb:/# [Kcat /var/log/auth.log[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1D[1P[1D[1P[1D[1Pless
+bash: less: command not found
+AWSWeb:/# [Kless /var/log/auth.log[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1P[1P[1P[1P[1Pcd [1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# cat mes[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat messagess
+[4lcat: messagess: No such file or directory
+[4hAWSWeb:/var/log# [Kcat messagess[13D[Kls[1D[1P[1D[1Pcat mess[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat messages
+[4lcat: /var/log/messages: No such file or directory
+[4hAWSWeb:/var/log# cat user[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat user.log 
+[4lcat: /var/log/user.log: No such file or directory
+[4hAWSWeb:/var/log# cd us[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd user.log 
+[4l-bash: cd: /var/log/user.log: Not a directory
+[4hAWSWeb:/var/log# vi us[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi user.log 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/log# history -c 
+[4l[4hAWSWeb:/var/log# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# pwd
+[4l/root
+[4hlocalhost:~# cd ..
+[4l[4hlocalhost:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hlocalhost:/# cd hom[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd home/
+[4l[4hlocalhost:/home# ls
+[4lrichard 
+[4hlocalhost:/home# cd 

@@ -1,0 +1,793 @@
+[4hAWSWeb:~# w
+[4l 13:01:46 up 22 days, 15:5,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    89.173.110.136    13:01    0.09   0.05   0.05 w
+[4hAWSWeb:~# 
+AWSWeb:~# w
+[4l 13:03:45 up 22 days, 15:7,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    89.173.110.136    13:01    0.09   0.05   0.05 w
+[4hAWSWeb:~# shutdow[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Phalt
+bash: halt: command not found
+AWSWeb:~# shu[1D[1P[1D[1P[1D[1Pfdisk -l
+bash: fdisk: command not found
+AWSWeb:~# cd /etc
+[4l[4hAWSWeb:/etc# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-16 13:04 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:04 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+[4hAWSWeb:/etc# cd /
+[4l[4hAWSWeb:/# s[1D[1Pls -la
+[4ldrwxr-xr-x 1 root root  4096 2013-02-16 13:04 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:04 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hAWSWeb:/# cd selinux
+[4l[4hAWSWeb:/selinux# ls -l
+[4ldrwxr-xr-x 1 root root 4096 2013-02-16 13:04 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:04 ..
+[4hAWSWeb:/selinux# shutdown
+[4lTry `shutdown --help' for more information.
+[4hAWSWeb:/selinux# [Kshutdown -h now
+[4l
+Broadcast message from root@AWSWeb (pts/0) (Sat Feb 16 13:05:09 2013):
+
+The system is going down for maintenance NOW!
+Connection to server closed.
+[4hlocalhost:~# [Kshutdown -h now[15D[Kw
+[4l 13:05:15 up 22 days, 15:9,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    89.173.110.136    13:01    0.09   0.05   0.05 w
+[4hlocalhost:~# w
+[4l 13:05:17 up 22 days, 15:9,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    89.173.110.136    13:01    0.09   0.05   0.05 w
+[4hlocalhost:~# ls -l /
+[4ldrwxr-xr-x 1 root root  4096 2013-02-16 13:05 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:05 ..
+drwxr-xr-x 1 root root     0 2009-11-20 08:19 sys
+drwxr-xr-x 1 root root  4096 2009-11-08 15:42 bin
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 mnt
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 media
+lrwxrwxrwx 1 root root    25 2009-11-06 11:16 vmlinuz -> /boot/vmlinuz-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+lrwxrwxrwx 1 root root    11 2009-11-06 11:08 cdrom -> /media/cdrom0
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 selinux
+drwxrwxrwx 1 root root  4096 2009-11-20 08:19 tmp
+dr-xr-xr-x 1 root root     0 2009-11-20 08:19 proc
+drwxr-xr-x 1 root root  4096 2009-11-08 15:41 sbin
+drwxr-xr-x 1 root root  4096 2009-11-20 08:20 etc
+drwxr-xr-x 1 root root  3200 2009-11-20 08:20 dev
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 srv
+lrwxrwxrwx 1 root root    28 2009-11-06 11:16 initrd.img -> /boot/initrd.img-2.6.26-2-686
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 lib
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 home
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 var
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 usr
+drwxr-xr-x 1 root root  4096 2009-11-08 15:39 boot
+drwxr-xr-x 1 root root  4096 2009-11-20 09:08 root
+drwx------ 1 root root 16384 2009-11-06 11:08 lost+found
+[4hlocalhost:~# cd /etc
+[4l[4hlocalhost:/etc# ls -l
+[4ldrwxr-xr-x 1 root root  4096 2013-02-16 13:05 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:05 ..
+-rw-r--r-- 1 root root 18480 2009-11-06 11:09 services
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic.mime
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 network
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python2.5
+-rw-r--r-- 1 root root    45 2009-11-20 08:19 adjtime
+-rw-r--r-- 1 root root  1724 2009-11-08 15:45 mailcap
+-rw------- 1 root root   625 2009-11-08 15:47 shadow-
+-rw-r--r-- 1 root root   253 2009-11-06 11:10 modules
+-rw-r--r-- 1 root root     6 2009-11-06 11:15 debian_version
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 ld.so.conf.d
+-rw-r--r-- 1 root root   866 2009-11-08 15:47 passwd
+-rw-r--r-- 1 root root  3519 2009-11-06 11:15 localtime
+-rw-r--r-- 1 root root   261 2009-11-06 11:10 hosts
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc4.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:35 rcS.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:32 logrotate.d
+-rw-r--r-- 1 root root  1287 2009-11-06 11:08 securetty
+-rw-r--r-- 1 root root   311 2009-11-20 08:19 mtab
+-rw-r--r-- 1 root root 21373 2009-11-08 15:45 mime.types
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 sysctl.d
+-rw------- 1 root root     0 2009-11-06 11:09 .pwd.lock
+-rw-r--r-- 1 root root     0 2009-11-06 11:09 environment
+-rw-r--r-- 1 root root  1723 2009-11-06 11:10 inputrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 initramfs-tools
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 modprobe.d
+-rw-r--r-- 1 root root  2969 2009-11-06 11:08 debconf.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:15 security
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 vim
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root    64 2009-11-20 08:20 resolv.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 skel
+-rw------- 1 root root   452 2009-11-08 15:46 gshadow-
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 dpkg
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 udev
+-rw-r--r-- 1 root root   666 2009-11-06 11:10 scsi_id.config
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc6.d
+-rw-r--r-- 1 root root  8416 2009-11-08 15:46 ld.so.cache
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc5.d
+drwxr-xr-x 1 root root  4096 2009-11-06 11:22 apt
+-rw-r--r-- 1 root root    60 2009-11-06 11:09 networks
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 opt
+-rw-r--r-- 1 root root   545 2009-11-08 15:46 group
+-rw-r--r-- 1 root root  2008 2009-11-06 11:09 inittab
+-rw-r--r-- 1 root root    28 2009-11-06 11:08 issue
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 default
+-rw-r--r-- 1 root root    21 2009-11-06 11:08 issue.net
+-rw-r--r-- 1 root root   449 2009-11-08 15:45 mailcap.order
+drwxr-xr-x 1 root root  4096 2009-11-06 11:16 dhcp3
+-rw-r--r-- 1 root root   552 2009-11-06 11:08 pam.conf
+-rw-r--r-- 1 root root   878 2009-11-06 11:10 hosts.deny
+-rwxr-xr-x 1 root root   306 2009-11-06 11:09 rc.local
+drwxr-xr-x 1 root root  4096 2009-11-08 15:45 python
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 nsswitch.conf
+-rw-r--r-- 1 root root  2565 2009-11-06 11:10 rsyslog.conf
+-rw-r--r-- 1 root root  4221 2009-11-06 11:10 wgetrc
+-rw-r--r-- 1 root root   286 2009-11-06 11:09 motd.tail
+-rw-r--r-- 1 root root   803 2009-11-06 11:08 mke2fs.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc1.d
+-rw-r--r-- 1 root root  2275 2009-11-06 11:08 sysctl.conf
+-rwxr-xr-x 1 root root   268 2009-11-06 11:08 rmt
+-rw-r--r-- 1 root root    34 2009-11-06 11:09 ld.so.conf
+-rw------- 1 root root   534 2009-11-08 15:46 group-
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc3.d
+-rw-r--r-- 1 root root  2986 2009-11-08 15:46 adduser.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 init.d
+-rw-r--r-- 1 root root   579 2009-11-06 11:10 hosts.allow
+-rw-r----- 1 root 42   460 2009-11-08 15:46 gshadow
+drwxr-xr-x 1 root root  4096 2009-11-08 15:33 cron.daily
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 alternatives
+-rw-r--r-- 1 root root     6 2009-11-06 11:10 hostname
+-rw-r--r-- 1 root root  1453 2009-11-06 11:08 bash.bashrc
+drwxr-xr-x 1 root root  4096 2009-11-06 11:10 rc0.d
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 pam.d
+-rw-r--r-- 1 root root  2689 2009-11-06 11:08 gai.conf
+-rw-r--r-- 1 root root    17 2009-11-06 11:15 timezone
+-rw-r--r-- 1 root root   600 2009-11-08 15:46 deluser.conf
+drwxr-xr-x 1 root root  4096 2009-11-06 11:08 lsb-base
+-rw------- 1 root root   866 2009-11-08 15:47 passwd-
+-rw-r--r-- 1 root root   887 2009-11-06 11:09 rpc
+-rw-r--r-- 1 root root   111 2009-11-08 15:45 magic
+-rw-r--r-- 1 root root   240 2009-11-06 11:22 kernel-img.conf
+lrwxrwxrwx 1 root root    13 2009-11-06 11:09 motd -> /var/run/motd
+-rw-r----- 1 root 42   625 2009-11-08 15:47 shadow
+-rw-r--r-- 1 root root  2626 2009-11-06 11:09 protocols
+drwxr-xr-x 1 root root  4096 2009-11-08 15:44 bash_completion.d
+-rw-r--r-- 1 root root     9 2009-11-06 11:08 host.conf
+drwxr-xr-x 1 root root  4096 2009-11-08 15:47 rc2.d
+-rw-r--r-- 1 root root   475 2009-11-06 11:09 profile
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 X11
+-rw-r--r-- 1 root root   332 2009-11-06 11:08 bindresvport.blacklist
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 rsyslog.d
+-rw-r--r-- 1 root root   455 2009-11-06 11:10 fstab
+-rw-r--r-- 1 root root 10879 2009-11-06 11:08 login.defs
+-rw-r--r-- 1 root root   155 2009-11-06 11:09 shells
+drwxr-xr-x 1 root root  4096 2009-11-06 11:09 terminfo
+[4hlocalhost:/etc# ls-l she[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls-l shells 
+bash: ls-l: command not found
+localhost:/etc# ls -l she[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls -l shells 
+[4ldrwxr-xr-x 1 root root 4096 2013-02-16 13:05 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:05 ..
+[4hlocalhost:/etc# ls -l *
+[4ldrwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2009-11-20 08:20 run
+drwxr-xr-x 1 root root 4096 2009-11-08 15:46 if-up.d
+-rw-r--r-- 1 root root  277 2009-11-06 11:10 interfaces
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 if-pre-up.d
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 if-post-down.d
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 if-down.d
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 155 2009-11-08 15:45 sitecustomize.py
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 64 2009-11-06 11:08 i486-linux-gnu.conf
+-rw-r--r-- 1 root root 44 2009-11-06 11:08 libc.conf
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  14 2009-11-06 11:10 S03udev -> /etc/init.d/udev
+lrwxrwxrwx 1 root root  24 2009-11-06 11:09 S02mountkernfs.sh -> /etc/init.d/mountkernfs.sh
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S05bootlogd -> /etc/init.d/bootlogd
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S35mountall.sh -> /etc/init.d/mountall.sh
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S02hostname.sh -> /etc/init.d/hostname.sh
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S39ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  30 2009-11-06 11:09 S99stop-bootlogd-single -> /etc/init.d/stop-bootlogd-single
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S55urandom -> /etc/init.d/urandom
+-rw-r--r-- 1 root root 783 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  27 2009-11-06 11:09 S20module-init-tools -> /etc/init.d/module-init-tools
+lrwxrwxrwx 1 root root  24 2009-11-06 11:10 S18ifupdown-clean -> /etc/init.d/ifupdown-clean
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S01glibc.sh -> /etc/init.d/glibc.sh
+lrwxrwxrwx 1 root root  25 2009-11-06 11:09 S08hwclockfirst.sh -> /etc/init.d/hwclockfirst.sh
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 S04mountdevsubfs.sh -> /etc/init.d/mountdevsubfs.sh
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 S37mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S30procps -> /etc/init.d/procps
+lrwxrwxrwx 1 root root  19 2009-11-06 11:10 S36udev-mtab -> /etc/init.d/udev-mtab
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S11hwclock.sh -> /etc/init.d/hwclock.sh
+lrwxrwxrwx 1 root root  31 2009-11-06 11:09 S46mountnfs-bootclean.sh -> /etc/init.d/mountnfs-bootclean.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S12mtab.sh -> /etc/init.d/mtab.sh
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S45mountnfs.sh -> /etc/init.d/mountnfs.sh
+lrwxrwxrwx 1 root root  20 2009-11-08 15:28 S70x11-common -> /etc/init.d/x11-common
+lrwxrwxrwx 1 root root  21 2009-11-06 11:09 S55bootmisc.sh -> /etc/init.d/bootmisc.sh
+lrwxrwxrwx 1 root root  31 2009-11-06 11:09 S36mountall-bootclean.sh -> /etc/init.d/mountall-bootclean.sh
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S10checkroot.sh -> /etc/init.d/checkroot.sh
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S30checkfs.sh -> /etc/init.d/checkfs.sh
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S40networking -> /etc/init.d/networking
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 515 2009-11-06 11:10 rsyslog
+-rw-r--r-- 1 root root 111 2009-11-06 11:08 dpkg
+-rw-r--r-- 1 root root  84 2009-11-06 11:10 apt
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 1014 2009-11-06 11:10 initramfs.conf
+-rw-r--r-- 1 root root  191 2009-11-06 11:10 modules
+drwxr-xr-x 1 root root 4096 2009-11-06 11:10 scripts
+-rw-r--r-- 1 root root  381 2009-11-06 11:10 update-initramfs.conf
+drwxr-xr-x 1 root root 4096 2009-11-06 11:10 conf.d
+drwxr-xr-x 1 root root 4096 2009-11-06 11:10 hooks
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root    9 2009-11-06 11:09 arch-aliases -> /etc/modprobe.d/arch/i386
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 arch
+-rw-r--r-- 1 root root  314 2009-11-06 11:10 pnp-hotplug
+-rw-r--r-- 1 root root  275 2009-11-06 11:10 display_class
+-rw-r--r-- 1 root root 1576 2009-11-06 11:16 blacklist
+-rw-r--r-- 1 root root 4619 2009-11-06 11:09 aliases
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw------- 1 root root    0 2009-11-06 11:09 opasswd
+-rw-r--r-- 1 root root 3456 2009-11-06 11:08 group.conf
+-rw-r--r-- 1 root root 4620 2009-11-06 11:08 access.conf
+-rw-r--r-- 1 root root 2180 2009-11-06 11:08 time.conf
+-rwxr-xr-x 1 root root 1003 2009-11-06 11:08 namespace.init
+-rw-r--r-- 1 root root 1934 2009-11-06 11:08 limits.conf
+-rw-r--r-- 1 root root 1442 2009-11-06 11:08 namespace.conf
+-rw-r--r-- 1 root root 2980 2009-11-06 11:08 pam_env.conf
+-rw-r--r-- 1 root root  419 2009-11-06 11:08 sepermit.conf
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root  662 2009-11-06 11:10 vimrc.tiny
+-rw-r--r-- 1 root root 2276 2009-11-06 11:09 vimrc
+drwxr-xr-x 1 root root   4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root   4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root   1874 2009-11-08 15:47 sshd_config
+-rw------- 1 root root    668 2009-11-08 15:47 ssh_host_dsa_key
+-rw-r--r-- 1 root root    600 2009-11-08 15:47 ssh_host_dsa_key.pub
+-rw-r--r-- 1 root root 125749 2009-11-08 15:46 moduli
+-rw-r--r-- 1 root root   1595 2009-11-08 15:46 ssh_config
+-rw------- 1 root root   1675 2009-11-08 15:47 ssh_host_rsa_key
+-rw-r--r-- 1 root root    392 2009-11-08 15:47 ssh_host_rsa_key.pub
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root  220 2009-11-06 11:08 .bash_logout
+-rw-r--r-- 1 root root  675 2009-11-06 11:08 .profile
+-rw-r--r-- 1 root root 3116 2009-11-06 11:08 .bashrc
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root  446 2009-11-06 11:08 dpkg.cfg
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 origins
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root  269 2009-11-06 11:10 udev.conf
+drwxr-xr-x 1 root root 4096 2009-11-06 11:10 .dev
+-rw-r--r-- 1 root root  397 2009-11-06 11:10 links.conf
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 rules.d
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S36ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S31umountnfs.sh -> /etc/init.d/umountnfs.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 K25hwclock.sh -> /etc/init.d/hwclock.sh
+-rw-r--r-- 1 root root 351 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S20sendsigs -> /etc/init.d/sendsigs
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 K63mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S35networking -> /etc/init.d/networking
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S40umountfs -> /etc/init.d/umountfs
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S30urandom -> /etc/init.d/urandom
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S90reboot -> /etc/init.d/reboot
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S60umountroot -> /etc/init.d/umountroot
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw------- 1 root root 5801 2009-11-06 11:10 trusted.gpg
+-rw-r--r-- 1 root root    0 2009-11-06 11:10 sources.list~
+-rw------- 1 root root 5801 2009-11-06 11:10 trusted.gpg~
+-rw------- 1 root root    0 2009-11-06 11:10 secring.gpg
+-rw-r--r-- 1 root root  560 2009-11-06 11:22 sources.list
+-rw------- 1 root root 1200 2009-11-06 11:10 trustdb.gpg
+drwxr-xr-x 1 root root 4096 2009-11-06 12:43 apt.conf.d
+drwxr-xr-x 1 root root 4096 2009-11-06 11:09 sources.list.d
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root   47 2009-11-06 11:08 bootlogd
+-rw-r--r-- 1 root root  321 2009-11-06 11:10 rsyslog
+-rw-r--r-- 1 root root   92 2009-11-06 11:08 devpts
+-rw-r--r-- 1 root root   19 2009-11-06 11:10 locale
+-rw-r--r-- 1 root root  381 2009-11-08 15:47 ssh
+-rw-r--r-- 1 root root   86 2009-11-06 11:08 halt
+-rw-r--r-- 1 root root  165 2009-11-06 11:10 ifupdown
+-rw-r--r-- 1 root root  289 2009-11-06 11:08 tmpfs
+-rw-r--r-- 1 root root 1118 2009-11-06 11:08 useradd
+-rw-r--r-- 1 root root  282 2009-11-06 11:23 rcS
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 dhclient-exit-hooks.d
+-rw-r--r-- 1 root root 1710 2009-11-06 11:10 dhclient.conf
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 dhclient-enter-hooks.d
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 94 2009-11-08 15:45 debian_config
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+-rw-r--r-- 1 root root 369 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  16 2009-11-06 11:09 S90single -> /etc/init.d/single
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 K84ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S30killprocs -> /etc/init.d/killprocs
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root  4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:06 ..
+-rwxr-xr-x 1 root root  2330 2009-11-06 11:08 mountnfs.sh
+-rwxr-xr-x 1 root root  2283 2009-11-06 11:08 sendsigs
+-rwxr-xr-x 1 root root 10036 2009-11-06 11:09 rc
+-rwxr-xr-x 1 root root  1956 2009-11-06 11:08 mountall.sh
+-rwxr-xr-x 1 root root  3175 2009-11-06 11:08 umountfs
+-rwxr-xr-x 1 root root  1844 2009-11-06 11:09 networking
+-rwxr-xr-x 1 root root  2140 2009-11-06 11:08 umountnfs.sh
+-rwxr-xr-x 1 root root  9831 2009-11-06 11:08 checkroot.sh
+-rwxr-xr-x 1 root root  1793 2009-11-06 11:09 module-init-tools
+-rw-r--r-- 1 root root  4167 2009-11-06 11:09 skeleton
+-rwxr-xr-x 1 root root  1815 2009-11-06 11:08 urandom
+-rwxr-xr-x 1 root root  2155 2009-11-06 11:08 bootlogd
+-rwxr-xr-x 1 root root  2850 2009-11-06 11:10 rsyslog
+-rwxr-xr-x 1 root root  7195 2009-11-06 11:08 glibc.sh
+-rwxr-xr-x 1 root root  1988 2009-11-06 11:08 bootmisc.sh
+-rwxr-xr-x 1 root root  3710 2009-11-08 15:46 ssh
+-rwxr-xr-x 1 root root  3668 2009-11-06 11:08 mtab.sh
+-rwxr-xr-x 1 root root  4521 2009-11-06 11:08 hwclock.sh
+-rwxr-xr-x 1 root root  7473 2009-11-06 11:10 udev
+-rwxr-xr-x 1 root root  2194 2009-11-06 11:08 mountdevsubfs.sh
+-rwxr-xr-x 1 root root  3004 2009-11-06 11:08 checkfs.sh
+-rwxr-xr-x 1 root root  1456 2009-11-06 11:08 umountroot
+-rwxr-xr-x 1 root root  4528 2009-11-06 11:08 hwclockfirst.sh
+-rw-r--r-- 1 root root  1510 2009-11-06 11:09 README
+-rwxr-xr-x 1 root root  1046 2009-11-06 11:10 ifupdown-clean
+-rwxr-xr-x 1 root root  1329 2009-11-06 11:08 halt
+-rwxr-xr-x 1 root root  2518 2009-11-06 11:10 ifupdown
+-rwxr-xr-x 1 root root   788 2009-11-06 11:08 rc.local
+-rwxr-xr-x 1 root root  1287 2009-11-06 11:08 hostname.sh
+-rwxr-xr-x 1 root root   525 2009-11-06 11:08 stop-bootlogd
+-rwxr-xr-x 1 root root   639 2009-11-06 11:08 reboot
+-rwxr-xr-x 1 root root  1777 2009-11-08 15:28 x11-common
+-rwxr-xr-x 1 root root   941 2009-11-06 11:08 rmnologin
+-rwxr-xr-x 1 root root  2476 2009-11-06 11:08 mountkernfs.sh
+-rwxr-xr-x 1 root root   620 2009-11-06 11:08 mountall-bootclean.sh
+-rwxr-xr-x 1 root root  1096 2009-11-06 11:08 stop-bootlogd-single
+-rwxr-xr-x 1 root root  1321 2009-11-06 11:08 mountoverflowtmp
+-rwxr-xr-x 1 root root   590 2009-11-06 11:08 single
+-rwxr-xr-x 1 root root  1001 2009-11-06 11:10 udev-mtab
+-rwxr-xr-x 1 root root  1247 2009-11-06 11:08 procps
+-rwxr-xr-x 1 root root   618 2009-11-06 11:08 mountnfs-bootclean.sh
+-rwxr-xr-x 1 root root  1484 2009-11-06 11:08 killprocs
+-rwxr-xr-x 1 root root   117 2009-11-06 11:09 rcS
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rwxr-xr-x 1 root root 7482 2009-11-06 11:15 apt
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  13 2009-11-06 11:09 nawk -> /usr/bin/mawk
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 vi -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  41 2009-11-08 15:45 view.it.ISO8859-1.1.gz -> /usr/share/man/it.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:45 view.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx 1 root root  38 2009-11-06 11:09 traceroute.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 ex.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:45 view.pl.ISO8859-2.1.gz -> /usr/share/man/pl.ISO8859-2/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 vi.it.ISO8859-1.1.gz -> /usr/share/man/it.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  12 2009-11-08 15:46 rsh -> /usr/bin/ssh
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 ex.pl.ISO8859-2.1.gz -> /usr/share/man/pl.ISO8859-2/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:45 view.fr.ISO8859-1.1.gz -> /usr/share/man/fr.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 ex.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 rview -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  32 2009-11-06 11:09 rmt.8.gz -> /usr/share/man/man8/rmt-tar.8.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:41 editor.it.ISO8859-1.1.gz -> /usr/share/man/it.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 rvim -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  28 2009-11-08 15:30 vi.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:45 view.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-06 11:09 tcptraceroute.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 ex -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 vi.fr.ISO8859-1.1.gz -> /usr/share/man/fr.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 vim -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  39 2009-11-06 11:09 traceroute6.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  13 2009-11-06 11:09 awk -> /usr/bin/mawk
+lrwxrwxrwx 1 root root  29 2009-11-06 11:09 pager.1.gz -> /usr/share/man/man1/more.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 ex.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 vi.fr.UTF-8.1.gz -> /usr/share/man/fr.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 ex.it.UTF-8.1.gz -> /usr/share/man/it.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  28 2009-11-08 15:41 editor.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 vi.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx 1 root root  33 2009-11-06 11:09 w.1.gz -> /usr/share/man/man1/w.procps.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:41 editor -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  31 2009-11-08 15:41 editor.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx 1 root root  38 2009-11-06 11:09 builtins.7.gz -> /usr/share/man/man7/bash-builtins.7.gz
+lrwxrwxrwx 1 root root  28 2009-11-06 11:10 traceroute-nanog -> /usr/bin/traceroute-nanog.db
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 ex.fr.UTF-8.1.gz -> /usr/share/man/fr.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:41 editor.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+-rw-r--r-- 1 root root 100 2009-11-06 11:08 README
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 w -> /usr/bin/w.procps
+lrwxrwxrwx 1 root root  31 2009-11-08 15:45 view.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 ex.it.ISO8859-1.1.gz -> /usr/share/man/it.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  22 2009-11-06 11:10 traceproto -> /usr/bin/traceproto.db
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 ex.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-06 11:10 mt.1.gz -> /usr/share/man/man1/mt-gnu.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:41 editor.pl.ISO8859-2.1.gz -> /usr/share/man/pl.ISO8859-2/man1/vim.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:45 view -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  44 2009-11-06 11:10 traceroute-nanog.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:45 view.fr.UTF-8.1.gz -> /usr/share/man/fr.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:41 editor.it.UTF-8.1.gz -> /usr/share/man/it.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  28 2009-11-08 15:46 rsh.1.gz -> /usr/share/man/man1/ssh.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:41 editor.fr.UTF-8.1.gz -> /usr/share/man/fr.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  25 2009-11-06 11:09 tcptraceroute -> /usr/bin/tcptraceroute.db
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 rmt -> /usr/sbin/rmt-tar
+lrwxrwxrwx 1 root root  28 2009-11-08 15:30 ex.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:45 view.it.UTF-8.1.gz -> /usr/share/man/it.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:41 editor.pl.UTF-8.1.gz -> /usr/share/man/pl.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 tracert -> /usr/bin/traceroute.db
+lrwxrwxrwx 1 root root  15 2009-11-06 11:09 lft -> /usr/bin/lft.db
+lrwxrwxrwx 1 root root  35 2009-11-06 11:09 tracert.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  11 2009-11-06 11:10 mt -> /bin/mt-gnu
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 ex.fr.ISO8859-1.1.gz -> /usr/share/man/fr.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root  15 2009-11-08 15:46 rlogin -> /usr/bin/ssh
+lrwxrwxrwx 1 root root  28 2009-11-08 15:45 view.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx 1 root root  12 2009-11-08 15:46 rcp -> /usr/bin/scp
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 vi.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 traceroute6 -> /usr/bin/traceroute.db
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 vi.it.UTF-8.1.gz -> /usr/share/man/it.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:45 view.pl.UTF-8.1.gz -> /usr/share/man/pl.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  29 2009-11-06 11:09 nawk.1.gz -> /usr/share/man/man1/mawk.1.gz
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 traceroute.sbin -> /usr/bin/traceroute.db
+lrwxrwxrwx 1 root root  31 2009-11-08 15:45 view.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:41 editor.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx 1 root root  38 2009-11-06 11:10 traceproto.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 traceroute -> /usr/bin/traceroute.db
+lrwxrwxrwx 1 root root  41 2009-11-08 15:30 vi.pl.ISO8859-2.1.gz -> /usr/share/man/pl.ISO8859-2/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 vi.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx 1 root root  41 2009-11-08 15:41 editor.fr.ISO8859-1.1.gz -> /usr/share/man/fr.ISO8859-1/man1/vim.1.gz
+lrwxrwxrwx 1 root root   9 2009-11-06 11:09 pager -> /bin/more
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 ex.pl.UTF-8.1.gz -> /usr/share/man/pl.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:30 vi.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx 1 root root  37 2009-11-08 15:30 vi.pl.UTF-8.1.gz -> /usr/share/man/pl.UTF-8/man1/vim.1.gz
+lrwxrwxrwx 1 root root  28 2009-11-08 15:46 rcp.1.gz -> /usr/share/man/man1/scp.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-08 15:41 editor.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx 1 root root  18 2009-11-08 15:30 vimdiff -> /usr/bin/vim.basic
+lrwxrwxrwx 1 root root  31 2009-11-08 15:46 rlogin.1.gz -> /usr/share/man/man1/ssh.1.gz
+lrwxrwxrwx 1 root root  29 2009-11-06 11:09 awk.1.gz -> /usr/share/man/man1/mawk.1.gz
+lrwxrwxrwx 1 root root  31 2009-11-06 11:09 lft.8.gz -> /usr/share/man/man8/traceroute.db.8.gz
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  18 2009-11-06 11:10 S36ifupdown -> /etc/init.d/ifupdown
+lrwxrwxrwx 1 root root  22 2009-11-06 11:09 S31umountnfs.sh -> /etc/init.d/umountnfs.sh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 K90rsyslog -> /etc/init.d/rsyslog
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 K25hwclock.sh -> /etc/init.d/hwclock.sh
+-rw-r--r-- 1 root root 353 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S20sendsigs -> /etc/init.d/sendsigs
+lrwxrwxrwx 1 root root  26 2009-11-06 11:09 K63mountoverflowtmp -> /etc/init.d/mountoverflowtmp
+lrwxrwxrwx 1 root root  14 2009-11-06 11:09 S90halt -> /etc/init.d/halt
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S35networking -> /etc/init.d/networking
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S40umountfs -> /etc/init.d/umountfs
+lrwxrwxrwx 1 root root  17 2009-11-06 11:09 S30urandom -> /etc/init.d/urandom
+lrwxrwxrwx 1 root root  20 2009-11-06 11:09 S60umountroot -> /etc/init.d/umountroot
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 1212 2009-11-06 11:09 common-password
+-rw-r--r-- 1 root root   92 2009-11-06 11:08 passwd
+-rw-r--r-- 1 root root 1272 2009-11-08 15:46 sshd
+-rw-r--r-- 1 root root 3217 2009-11-06 11:08 login
+-rw-r--r-- 1 root root  372 2009-11-06 11:09 common-session
+-rw-r--r-- 1 root root  384 2009-11-06 11:08 chfn
+-rw-r--r-- 1 root root  436 2009-11-06 11:09 common-auth
+-rw-r--r-- 1 root root 2305 2009-11-06 11:08 su
+-rw-r--r-- 1 root root  392 2009-11-06 11:09 common-account
+-rw-r--r-- 1 root root  520 2009-11-06 11:08 other
+-rw-r--r-- 1 root root  581 2009-11-06 11:08 chsh
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 293 2009-11-06 11:08 debconf
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+lrwxrwxrwx 1 root root  23 2009-11-06 11:09 S99stop-bootlogd -> /etc/init.d/stop-bootlogd
+lrwxrwxrwx 1 root root  18 2009-11-06 11:09 S99rc.local -> /etc/init.d/rc.local
+-rw-r--r-- 1 root root 556 2009-11-06 11:09 README
+lrwxrwxrwx 1 root root  19 2009-11-06 11:09 S99rmnologin -> /etc/init.d/rmnologin
+lrwxrwxrwx 1 root root  13 2009-11-08 15:47 S16ssh -> /etc/init.d/ssh
+lrwxrwxrwx 1 root root  17 2009-11-06 11:10 S10rsyslog -> /etc/init.d/rsyslog
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root  4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root  4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root   265 2009-11-08 15:28 Xsession.options
+-rwxr-xr-x 1 root root  3517 2009-11-08 15:28 Xsession
+-rw-r--r-- 1 root root 17394 2009-11-08 15:28 rgb.txt
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 Xresources
+drwxr-xr-x 1 root root  4096 2009-11-08 15:46 Xsession.d
+-rw------- 1 root root   614 2009-11-08 15:28 Xwrapper.config
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+-rw-r--r-- 1 root root 158 2009-11-06 11:08 README
+[4hlocalhost:/etc# cat /etc/init.d/halt
+[4lcat: /etc/init.d/halt: No such file or directory
+[4hlocalhost:/etc# ls -l /etc/init.d/halt
+[4ldrwxr-xr-x 1 root root 4096 2013-02-16 13:06 .
+drwxr-xr-x 1 root root 4096 2013-02-16 13:06 ..
+[4hlocalhost:/etc# cat rules.d
+[4lcat: rules.d: No such file or directory
+[4hlocalhost:/etc# ls -l rules.d
+[4lls: cannot access /etc/rules.d: No such file or directory
+[4hlocalhost:/etc# htop
+bash: htop: command not found
+localhost:/etc# 

@@ -1,0 +1,123 @@
+[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        
+cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+AWSWeb:~# cd /[1D[1P[1D[1P[1D[1P[1D[1P
+sys        bin        mnt        media      vmlinuz    opt        
+cdrom      selinux    tmp        proc       sbin       etc        
+dev        srv        initrd.img lib        home       var        
+usr        boot       root       lost+found 
+AWSWeb:~# cd /[1D[1P[1D[1P[1D[1P[1D[1P
+.debtags  .viminfo  .aptitude .profile  .bashrc   
+AWSWeb:~# cd /ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /home/
+[4l[4hAWSWeb:/home# ls
+[4lrichard 
+[4hAWSWeb:/home# cd ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd richard/
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# whoami
+[4lroot
+[4hAWSWeb:/home/richard# who
+[4l 16:15:15 up 6 days, 18:19,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    62.196.64.20      16:14    0.09   0.05   0.05 w
+[4hAWSWeb:/home/richard# cd ..
+[4l[4hAWSWeb:/home# cd [1D[1P /va[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd /var/ww[1D[1P[1D[1P
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd cac[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd cache/
+[4l[4hAWSWeb:/var/cache# cd ../ba[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd ../backups/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+dpkg.status.0        group.bak            gshadow.bak          
+passwd.bak           infodir.bak          aptitude.pkgstates.0 
+shadow.bak           
+AWSWeb:/var/cache# cd ../backups/
+[4l[4hAWSWeb:/var/backups# ls
+[4ldpkg.status.0        group.bak            gshadow.bak          
+passwd.bak           infodir.bak          aptitude.pkgstates.0 
+shadow.bak           
+[4hAWSWeb:/var/backups# vim pass[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvim passwd.bak 
+bash: vim: command not found
+AWSWeb:/var/backups# cat pass[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat passwd.bak 
+[4lcat: /var/backups/passwd.bak: No such file or directory
+[4hAWSWeb:/var/backups# sudo apt-get installa[1D[1P vim
+bash: sudo: command not found
+AWSWeb:/var/backups# [Ksudo apt-get install vim[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1D[1D[1P[1P[1P[1P[1P
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vim 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 639.2kB of archives.
+After this operation, 1405.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vim 1.25-7 [639.2kB]
+Fetched 639.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vim (from .../archives/vim_1.25-7_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vim (1.25-7) ...
+[4hAWSWeb:/var/backups# [Kapt-get install vim[19D[Ksudo apt-get install vim[24D[Kcat passwd.bak [15D[Kvim passwd.bak 
+[4lvim: Segmentation fault
+[4hAWSWeb:/var/backups# cd ..
+[4l[4hAWSWeb:/var# ls
+[4lbackups run     mail    cache   log     opt     tmp     local   lib     lock    
+spool   
+[4hAWSWeb:/var# cd lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+log   local lock  
+AWSWeb:/var# cd lo
+[4lbash: cd: lo: No such file or directory
+[4hAWSWeb:/var# cd log[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd log/
+[4l[4hAWSWeb:/var/log# ls
+[4lkern.log.1   btmp         syslog       syslog.1     mail.info    lastlog      
+mail.err     news         dmesg        kern.log     daemon.log.1 fsck         
+messages     apt          auth.log     wtmp         messages.1   daemon.log   
+lpr.log      faillog      dmesg.1.gz   dpkg.log     debug        boot         
+dmesg.0      debug.1      user.log     mail.warn    mail.log     auth.log.1   
+[4hAWSWeb:/var/log# cd ..
+[4l[4hAWSWeb:/var# cd ..
+[4l[4hAWSWeb:/# cd ..
+[4l[4hAWSWeb:/# ls
+[4lsys        bin        mnt        media      vmlinuz    opt        cdrom      
+selinux    tmp        proc       sbin       etc        dev        srv        
+initrd.img lib        home       var        usr        boot       root       
+lost+found 
+[4hAWSWeb:/# ls[1D[1P[1D[1Pcd ho[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd home/ri[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd home/richard/S[1D[1P
+[4l[4hAWSWeb:/home/richard# ls
+[4l[4hAWSWeb:/home/richard# cd ../u[1D[1P[1D[1P/../us[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd ../../usr/
+[4l[4hAWSWeb:/usr# ls
+[4lbin     src     include X11R6   sbin    local   lib     share   games   
+[4hAWSWeb:/usr# cd lo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd local/
+[4l[4hAWSWeb:/usr/local# ls
+[4lbin     src     include sbin    etc     lib     man     share   games   
+[4hAWSWeb:/usr/local# cd in[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd include/
+[4l[4hAWSWeb:/usr/local/include# ls
+[4l[4hAWSWeb:/usr/local/include# cd ..
+[4l[4hAWSWeb:/usr/local# cd s[1D[1P[1D[1P[1D[1P[1D[1P
+src   sbin  share 
+AWSWeb:/usr/local# cd st[1D[1Pr[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd src/
+[4l[4hAWSWeb:/usr/local/src# ls
+[4l[4hAWSWeb:/usr/local/src# cd..
+bash: cd..: command not found
+AWSWeb:/usr/local/src# cd ..
+[4l[4hAWSWeb:/usr/local# cd ..
+[4l[4hAWSWeb:/usr# cd ..
+[4l[4hAWSWeb:/# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# cd
+[4l[4hlocalhost:~# ls
+[4l[4hlocalhost:~# whoami
+[4lroot
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 

